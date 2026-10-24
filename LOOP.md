@@ -24,18 +24,34 @@ Starting point is honest: **0 users, deployed today.**
 
 ---
 
+## What the product is, briefly
+
+Tens of millions of people can sing a BTS song from memory and understand none
+of it. They install a language app, get taught how to buy apples, and quit. The
+motivation already exists; nothing connects it to the language.
+
+Sing Korean puts all 35 songs on screen with three things attached to every one
+of the 2,250 lines: the Korean, a romanization of how it is actually pronounced
+(국물 is gungmul, not the gukmul every lyrics site prints), and the English.
+Tap any word and it comes apart into its pieces with the grammar named, so
+보고 싶다 stops being one lump meaning "I miss you" and becomes 보 see, 고 and,
+싶 want to. Mark a word you do not know and it is highlighted in every other
+song it appears in, queued into a quiz, and counted toward your progress.
+
+And because the whole catalogue was counted, the app knows which 1,323 words
+BTS actually sings and how often. The first 100 cover half of every song. That
+turns a reference site into a path a beginner can walk from number one.
+
 ## Why the loop is shaped the way it is
 
-Most GTM loops are: pick a channel, write a post, measure, repeat. The content
-is an input a human supplies and the loop just distributes it.
+A normal GTM loop runs: pick a channel, write a post, publish, measure, repeat.
+The hard part, **what the post should be about**, is a decision a human makes
+fresh every time. The loop distributes content; it does not choose it.
 
-This product has something unusual: **it already contains a ranked list of what
-its own content should be about.** The corpus analysis ranks all 1,323 Korean
-words BTS sings by frequency, each with the real lyric lines it appears in, and
-each with a note on anything a non-Korean listener would miss.
-
-So the loop reads its own product data to decide what to make next. Content
-selection is not a creative decision taken each week; it is a query.
+This product already contains the answer. The word ranking is a list of what is
+worth explaining, in order of how much it pays off, each entry carrying the real
+lyric lines it appears in and a note on anything a non-Korean listener would
+miss. So the loop does not brainstorm a subject. It queries one.
 
 ```
           ┌─────────────────────────────────────────────┐
@@ -81,8 +97,8 @@ selection is not a creative decision taken each week; it is a query.
                    └──────────────► back to step 1, reweighted
 ```
 
-**The feedback edge is the point.** Step 7 does not just report a number, it
-changes the scoring function in step 1. If words that carry a cultural
+**The last arrow is the point.** Step 7 does not end in a report. It changes
+what step 1 picks next. If words that carry a cultural
 double meaning convert better than high-frequency plain words, the selector
 shifts toward them next cycle. The loop learns which *kind of subject* works,
 which is a product-specific question no generic GTM loop can ask.

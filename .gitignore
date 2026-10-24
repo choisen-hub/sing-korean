@@ -3,3 +3,5 @@ work/*.raw.json
 node_modules/
 .vercel
 .DS_Store
+media/_tmp/
+media/shots/.raw*

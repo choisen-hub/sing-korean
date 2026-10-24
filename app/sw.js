@@ -3,7 +3,7 @@
  * so they are worth caching hard; the shell and the index are checked against
  * the network first so a new build reaches people on their next visit.
  * Bump VERSION on every deploy. */
-const VERSION = 'sk-v3-20261024';
+const VERSION = 'sk-v9-20261024';
 const CORE = [
   './',
   './index.html',
@@ -32,9 +32,12 @@ self.addEventListener('activate', (e) => {
 self.addEventListener('fetch', (e) => {
   const url = new URL(e.request.url);
   if (e.request.method !== 'GET' || url.origin !== location.origin) return;
+  // 빌드 태그가 붙은 데이터 요청은 항상 네트워크를 먼저 본다. 캐시 우선으로
+  // 두었더니 새 번역을 배포해도 기존 방문자에게 옛 가사가 계속 나왔다.
   const shell = e.request.mode === 'navigate'
     || url.pathname === '/'
     || /\.(html|webmanifest)$/.test(url.pathname)
+    || url.search.includes('b=')
     || url.pathname.endsWith('/data/index.json');
   e.respondWith(
     caches.open(VERSION).then(async (cache) => {

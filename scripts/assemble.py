@@ -24,7 +24,7 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from kotoken import tokenize, content_lemmas
-from romanize import romanize, romanize_words
+from romanize import romanize, romanize_words, HANGUL
 
 
 def line_rom(line):
@@ -119,6 +119,10 @@ def main():
                     "r": line_rom(line),
                     "tk": tokenize(line, vmap),
                 }
+                # 원문이 통째로 영어인 줄. BTS 가사는 영어 비중이 커서
+                # 이걸 한국어 줄과 같은 무게로 두면 배울 줄이 묻힌다.
+                if not HANGUL.search(line):
+                    e["x"] = 1
                 t = tr.get(str(i))
                 if t:
                     e["en"] = t
@@ -204,6 +208,14 @@ def main():
                 e["note"] = g["note"]
             e["c"] = 1  # curated
             hit += 1
+    # 누적 커버리지. 1번부터 이 단어까지 외우면 전체 가사의 몇 퍼센트를
+    # 듣게 되는지. 초심자에게 개수보다 이쪽이 훨씬 잘 읽힌다.
+    tot = sum(e["n"] for e in freq) or 1
+    run = 0
+    for e in freq:
+        run += e["n"]
+        e["cum"] = round(run / tot * 100, 1)
+
     with open(os.path.join(OUT, "freq.json"), "w", encoding="utf-8") as f:
         json.dump(freq, f, ensure_ascii=False, separators=(",", ":"))
 

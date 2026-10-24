@@ -106,10 +106,77 @@ input[type=search],input[type=text]{background:rgba(18,11,34,.6);border:1px soli
 body.hide-rom .rom{display:none}
 body.hide-en .en{filter:blur(6px);cursor:pointer;user-select:none;transition:filter .15s}
 body.hide-en .line.peek .en{filter:none}
+/* 형광펜은 단어에 친다. 같은 단어는 모든 곡에서 같이 칠해진다.
+   어휘는 곡이 아니라 단어 단위로 쌓이기 때문이다 */
+.w.mk1{background:linear-gradient(transparent 14%,rgba(179,136,255,.38) 14%)}
+.w.mk2{background:linear-gradient(transparent 14%,rgba(255,209,102,.40) 14%)}
+.w.mk3{background:linear-gradient(transparent 14%,rgba(127,219,142,.36) 14%)}
+.w.mk1,.w.mk2,.w.mk3{border-radius:5px}
+body.pen-on .w{cursor:crosshair}
+body.pen-on .w:hover{outline:2px dashed var(--line2);outline-offset:1px}
+.swatch{display:inline-block;width:13px;height:13px;border-radius:4px;vertical-align:-1px;margin-right:7px}
+.swatch.s1{background:rgba(179,136,255,.75)}.swatch.s2{background:rgba(255,209,102,.8)}
+.swatch.s3{background:rgba(127,219,142,.7)}
+/* 아미밤 물결. 공연장을 메운 응원봉 바다를 히어로 아래쪽에 깐다.
+   팬이 1초 만에 알아보는 BTS 고유의 이미지이고, 상표 자산을 쓰지 않는다 */
+.sky{position:absolute;left:0;right:0;bottom:0;height:62%;overflow:hidden;pointer-events:none}
+.sky i{position:absolute;bottom:0;width:7px;height:7px;border-radius:99px;
+  background:radial-gradient(circle,#EADBFF 0%,#B388FF 42%,rgba(124,77,255,0) 72%);
+  box-shadow:0 0 14px 5px rgba(179,136,255,.45);
+  transform-origin:50% 320%;animation:sway ease-in-out infinite alternate,glow ease-in-out infinite}
+@keyframes sway{from{transform:rotate(-7deg)}to{transform:rotate(7deg)}}
+@keyframes glow{0%,100%{opacity:.30}50%{opacity:.95}}
+@media (prefers-reduced-motion:reduce){.sky i{animation:none;opacity:.5}}
+/* 오늘의 가사 */
+.today{position:relative;overflow:hidden;border:1px solid var(--line2);border-radius:18px;
+  padding:26px 24px;background:linear-gradient(150deg,#2A1850,#1A1036)}
+.today .tko{font-size:28px;line-height:1.45;font-weight:700;position:relative}
+.today .trom{font-size:16px;color:var(--pur2);font-style:italic;margin-top:7px;position:relative}
+.today .ten{font-size:17px;color:var(--mut);margin-top:11px;position:relative}
+/* 단어 카드 */
+.wcard{display:flex;gap:14px;align-items:flex-start;padding:12px 14px;border:1px solid var(--line);
+  border-radius:14px;background:linear-gradient(180deg,rgba(36,21,70,.55),rgba(27,16,51,.4));margin-bottom:7px}
+.wcard .rk{font-family:var(--serif);font-size:13px;color:var(--dim);min-width:3.1em;text-align:right;padding-top:9px}
+.wcard .mid{min-width:0;flex:1}
+.wcard .kw{font-size:26px;font-weight:700;letter-spacing:-.01em}
+.wcard .kr{font-size:13.5px;color:var(--pur2);font-style:italic;margin-left:9px}
+.wcard .ke{font-size:14.5px;color:var(--ink);margin-top:3px}
+.wcard .kn2{font-size:12.5px;color:var(--dim);margin-top:3px;line-height:1.5}
+.wcard .cnt{font-family:var(--serif);font-size:19px;color:var(--pur2);min-width:3.2em;text-align:right;padding-top:4px}
+.wcard .cnt small{display:block;font-family:var(--sans);font-size:10px;color:var(--dim);letter-spacing:.06em}
+.wcard.m1{border-color:rgba(179,136,255,.55)}.wcard.m2{border-color:rgba(255,209,102,.5)}
+.wcard.m3{border-color:rgba(127,219,142,.45)}
+.tierbar{display:flex;gap:7px;flex-wrap:wrap;margin:10px 0 14px}
+.tier{border:1px solid var(--line2);border-radius:12px;padding:8px 13px;background:transparent;
+  color:var(--mut);font-size:12.5px;text-align:left;line-height:1.35}
+.tier b{display:block;font-size:14px;color:var(--ink)}
+.tier.on{border-color:var(--purd);background:rgba(179,136,255,.13)}
+.tier.on b{color:var(--pur2)}
+.penbar{display:flex;gap:7px;align-items:center}
+.pendot{width:26px;height:26px;border-radius:99px;border:2px solid var(--line2);cursor:pointer;padding:0}
+.pendot.c1{background:rgba(179,136,255,.55)}.pendot.c2{background:rgba(255,209,102,.5)}
+.pendot.c3{background:rgba(127,219,142,.45)}.pendot.c0{background:transparent;color:var(--dim);font-size:14px}
+.pendot.on{border-color:var(--ink);transform:scale(1.12)}
+/* 앨범 시대별 강조색. 팬은 앨범 단위로 기억하므로 색이 곧 길잡이가 된다 */
+.era{width:4px;align-self:stretch;border-radius:99px;flex:none}
+.erachip{font-size:11px;border-radius:99px;padding:2px 10px;border:1px solid currentColor}
 .w{cursor:pointer;border-radius:4px;padding:0 1px}
+/* 원문이 영어인 줄은 배울 것이 없다. 한국어 줄이 먼저 읽히도록 뒤로 보낸다 */
+.line.eng .ko{font-size:calc(var(--kz) - 5px);color:var(--dim);font-weight:400}
+.line.eng{padding-top:3px;padding-bottom:4px}
+/* 한 줄 안에 섞인 라틴 문자도 한 톤 내린다 */
+.w.lat{color:var(--dim)}
+body.hide-eng .line.eng{display:none}
+/* 줄별 듣기. 토글 뒤에 숨기지 않는다. 노래를 따라 부르려고 온 사람에게
+   발음은 부가기능이 아니라 본 기능이다 */
+.lsp{position:absolute;left:-30px;top:4px;background:none;border:0;font-size:15px;
+  opacity:.45;padding:3px;line-height:1;color:var(--pur2)}
+.lsp:hover{opacity:1}
+.line.speaking{background:rgba(179,136,255,.12);border-left-color:var(--pur)}
+.lyrics{padding-left:30px}
+@media (max-width:640px){.lsp{left:-27px}.lyrics{padding-left:27px}}
 .w:hover,.w.sel{background:rgba(179,136,255,.2)}
-.w.kn{color:var(--ok)}
-.w.core{border-bottom:2px solid rgba(179,136,255,.5)}
+.w.core{border-bottom:2px solid rgba(179,136,255,.38)}
 /* popup */
 #wpop{position:fixed;z-index:90;max-width:340px;min-width:230px;background:linear-gradient(180deg,var(--bg2),var(--bg1));border:1px solid var(--line2);border-radius:13px;padding:13px 15px;box-shadow:0 14px 38px rgba(0,0,0,.6);display:none}
 #wpop.on{display:block}
@@ -133,7 +200,7 @@ body.hide-en .line.peek .en{filter:none}
 .wrow .we{font-size:13.5px;color:var(--mut)}
 .wrow .wn{font-size:12px;color:var(--dim);margin-top:2px;line-height:1.5}
 .wrow .wf{font-size:11px;color:var(--dim);margin-top:3px}
-.wrow .kbtn{margin-left:auto;background:none;border:1.5px solid var(--line2);border-radius:99px;width:30px;height:30px;color:var(--dim);font-size:14px;flex:none}
+.wrow .kbtn,.wcard .kbtn{margin-left:0;background:none;border:1.5px solid var(--line2);border-radius:99px;width:30px;height:30px;color:var(--dim);font-size:15px;line-height:1;flex:none;padding:0;margin-top:4px}
 .wrow .kbtn.on{color:var(--ok);border-color:var(--ok)}
 .opt{text-align:left;border:1px solid var(--line2);background:rgba(36,21,70,.55);color:var(--ink);border-radius:10px;padding:11px 14px;font-size:15px}
 .opt:hover:not(:disabled){border-color:var(--purd)}
@@ -153,7 +220,7 @@ footer .fm{font-family:var(--serif);font-size:15px;color:var(--mut);margin-botto
 <header><div class="hwrap">
   <a class="brand" href="#/">Sing <b>Korean</b></a>
   <nav id="nav">
-    <a href="#/" data-r="home">Home</a><a href="#/songs" data-r="songs">Songs</a><a href="#/words" data-r="words">Core words</a><a href="#/quiz" data-r="quiz">Quiz</a><a href="#/me" data-r="me">Progress</a><a href="#/search" data-r="search">Search</a>
+    <a href="#/" data-r="home">Home</a><a href="#/songs" data-r="songs">Songs</a><a href="#/words" data-r="words">Core words</a><a href="#/quiz" data-r="quiz">Quiz</a><a href="#/highlights" data-r="hl">Highlights</a><a href="#/me" data-r="me">Progress</a><a href="#/search" data-r="search">Search</a>
   </nav>
 </div></header>
 <main id="app"><div class="empty">Loading…</div></main>
@@ -169,25 +236,26 @@ footer .fm{font-family:var(--serif);font-size:15px;color:var(--mut);margin-botto
    No accounts and no server copy. A public site means one shared state file
    would collide across visitors, so progress lives in this browser. */
 const LKEY='singko';
-let ST={known:{}, wrong:{}, songst:{}, last:null, set:{rom:1,en:1,fs:0}, seen:0};
+let ST={mark:{}, known:{}, wrong:{}, hl:{}, songst:{}, last:null, set:{rom:1,en:1,fs:0,pen:0,pc:1,eng:1}, seen:0};
 function load(){ try{ const v=localStorage.getItem(LKEY); if(v) ST=Object.assign(ST,JSON.parse(v)); }catch(e){}
-  ST.known=ST.known||{}; ST.wrong=ST.wrong||{}; ST.songst=ST.songst||{}; ST.set=Object.assign({rom:1,en:1,fs:0},ST.set||{}); }
+  ST.mark=ST.mark||{}; ST.known=ST.known||{}; ST.wrong=ST.wrong||{}; ST.hl=ST.hl||{}; ST.songst=ST.songst||{}; ST.set=Object.assign({rom:1,en:1,fs:0,pen:0,pc:1,eng:1},ST.set||{}); }
 function save(){ try{ localStorage.setItem(LKEY,JSON.stringify(ST)); }catch(e){} }
 
 /* ───────── data ───────── */
+const BUILD='20261024m';   /* 배포할 때마다 올린다. 데이터 URL에 붙어 옛 캐시를 비켜 간다 */
 let INDEX=[], FREQ=[], FBY={}, byId={}, SONG={};
 const CORE=400;
 async function boot(){
   const [ix,fq]=await Promise.all([
-    fetch('./data/index.json').then(r=>r.json()),
-    fetch('./data/freq.json').then(r=>r.json())
+    fetch('./data/index.json?b='+BUILD).then(r=>r.json()),
+    fetch('./data/freq.json?b='+BUILD).then(r=>r.json())
   ]);
   INDEX=ix; FREQ=fq; byId={}; INDEX.forEach(s=>byId[s.id]=s);
   FBY={}; FREQ.forEach(e=>{ FBY[e.w]=e; });
 }
 async function song(id){
   if(SONG[id]) return SONG[id];
-  const r=await fetch('./data/song/'+encodeURIComponent(id)+'.json');
+  const r=await fetch('./data/song/'+encodeURIComponent(id)+'.json?b='+BUILD);
   if(!r.ok) throw new Error('not found');
   return SONG[id]=await r.json();
 }
@@ -196,12 +264,35 @@ async function song(id){
 const $=s=>document.querySelector(s);
 const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const app=$('#app');
+/* 응원봉 n개. 높이와 속도를 흩어 놓아야 군중처럼 보이고, 줄이 맞으면 죽는다 */
+function sky(n){ let o=''; for(let i=0;i<n;i++){
+  const l=(i/n*100+Math.random()*4-2).toFixed(1);
+  const b=(Math.random()*54).toFixed(0);
+  const sw=(2.6+Math.random()*2.2).toFixed(2), gl=(1.8+Math.random()*2.4).toFixed(2);
+  const dl=(-Math.random()*4).toFixed(2), sc=(.55+Math.random()*.85).toFixed(2);
+  o+=`<i style="left:${l}%;bottom:${b}%;scale:${sc};`
+   + `animation-duration:${sw}s,${gl}s;animation-delay:${dl}s,${dl}s"></i>`; }
+  return o; }
 const shuffle=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;};
+/* 앨범을 시대로 묶고 색을 준다. 보라는 팬덤의 색이라 가장 최근 시대에 둔다 */
+const ERA=[
+  {to:2014, nm:'School trilogy', c:'#FF9F7D'},
+  {to:2016, nm:'화양연화', c:'#E2788F'},
+  {to:2017, nm:'Wings · You Never Walk Alone', c:'#5FC9BC'},
+  {to:2018, nm:'Love Yourself', c:'#FFD166'},
+  {to:2019, nm:'Map of the Soul', c:'#74A8FF'},
+  {to:9999, nm:'BE and after', c:'#B388FF'}
+];
+const era=y=>ERA.find(e=>(y||9999)<=e.to)||ERA[ERA.length-1];
 const SST=[{ic:'○',nm:'New'},{ic:'◔',nm:'Heard it'},{ic:'◑',nm:'Read it'},{ic:'●',nm:'Can sing it'}];
 const sst=id=>ST.songst[id]||0;
 const knownN=()=>Object.keys(ST.known).length;
-function coreKnown(){ let k=0; for(let i=0;i<Math.min(CORE,FREQ.length);i++) if(ST.known[FREQ[i].w]) k++; return k; }
-function coverage(k){ /* 상위 k단어가 덮는 토큰 비율 */
+function markedN(){ return Object.keys(ST.mark||{}).length; }
+function clearedN(){ return Object.keys(ST.known||{}).length; }
+function coreMarked(){ let k=0; for(let i=0;i<Math.min(CORE,FREQ.length);i++) if(ST.mark[FREQ[i].w]) k++; return k; }
+/* 퀴즈로 넘긴 단어가 가사 전체에서 차지하는 비율. 외운 단어가
+   실제로 몇 번 들리는지를 보여 주는 쪽이 개수보다 와닿는다 */
+function coverage(){
   const tot=FREQ.reduce((a,e)=>a+e.n,0)||1; let c=0;
   FREQ.forEach(e=>{ if(ST.known[e.w]) c+=e.n; });
   return Math.round(c/tot*100);
@@ -209,27 +300,59 @@ function coverage(k){ /* 상위 k단어가 덮는 토큰 비율 */
 function applyFlags(){
   document.body.classList.toggle('hide-rom',!ST.set.rom);
   document.body.classList.toggle('hide-en',!ST.set.en);
+  document.body.classList.toggle('pen-on',!!ST.set.pen);
+  document.body.classList.toggle('hide-eng',!ST.set.eng);
   document.documentElement.style.setProperty('--kz',(21+(ST.set.fs||0))+'px');
 }
 function setNav(r){ document.querySelectorAll('#nav a').forEach(a=>a.classList.toggle('on',a.dataset.r===r)); }
 
+/* ───────── 한국어 읽어주기 ─────────
+   브라우저 음성합성을 쓴다. 한국어 음성이 없는 기기도 있어서, 없으면
+   버튼을 아예 내보내지 않는다. 눌러도 아무 일 없는 버튼보다 낫다. */
+let KOV=null;
+function initTTS(){
+  if(!('speechSynthesis' in window)) return;
+  const pick=()=>{ try{
+    const vs=speechSynthesis.getVoices()||[];
+    KOV=vs.find(v=>/^ko([-_]KR)?$/i.test(v.lang)&&/premium|enhanced|yuna|siri/i.test(v.name))
+      ||vs.find(v=>/^ko/i.test(v.lang))||null;
+    document.body.classList.toggle('tts-ready',!!KOV);
+  }catch(e){} };
+  pick(); setTimeout(pick,400);
+  try{ speechSynthesis.onvoiceschanged=pick; }catch(e){}
+}
+function speakLine(text, el){
+  if(!KOV) return;
+  try{
+    speechSynthesis.cancel();
+    document.querySelectorAll('.line.speaking').forEach(x=>x.classList.remove('speaking'));
+    const u=new SpeechSynthesisUtterance(text);
+    u.voice=KOV; u.lang=KOV.lang; u.rate=.82;
+    if(el){ el.classList.add('speaking');
+      u.onend=u.onerror=()=>el.classList.remove('speaking'); }
+    setTimeout(()=>speechSynthesis.speak(u),20);
+  }catch(e){}
+}
+
 /* ───────── lyric rendering ─────────
    One span per 어절. The morpheme data rides along in a lookup table rather
    than the DOM so a 90 line song does not ship 400 data attributes. */
-let TK={}, TKN=0;
+let TK={}, CURSONG=null;
 function renderLine(e){
   TK[e.i]=e.tk;
   const ko=e.tk.map((t,j)=>{
     const head=(t.m||[]).find(m=>m.en)||null;
     const lem=head&&(head.l||head.t);
-    const kn=lem&&ST.known[lem];
+    const mk=lem?(ST.mark[lem]||0):0;
     const core=lem&&FBY[lem]&&FBY[lem].rank<=CORE;
-    return `<span class="w${kn?' kn':''}${core?' core':''}" data-l="${e.i}" data-j="${j}">${esc(t.s)}</span>`;
+    const lat=!(t.m||[]).length;
+    return `<span class="w${mk?' mk'+mk:''}${core?' core':''}${lat?' lat':''}" data-l="${e.i}" data-j="${j}">${esc(t.s)}</span>`;
   }).join(' ');
-  return `<div class="line" data-li="${e.i}">
+  return `<div class="line${e.x?' eng':''}" data-li="${e.i}">
+    ${e.x?'':`<button class="lsp" data-say="${esc(e.ko)}" title="Listen">🔊</button>`}
     <div class="ko">${ko}</div>
-    <div class="rom">${esc(e.r)}</div>
-    ${e.en?`<div class="en">${esc(e.en)}</div>`:''}
+    ${e.x?'':`<div class="rom">${esc(e.r)}</div>`}
+    ${(e.en&&!e.x)?`<div class="en">${esc(e.en)}</div>`:''}
   </div>`;
 }
 
@@ -242,8 +365,10 @@ function vHome(){
   const top=FREQ.slice(0,6);
   app.innerHTML=`
   <section class="hero">
+    <div class="sky">${sky(46)}</div>
     <h1>You already know the song.<br><span class="y">Now understand it.</span></h1>
-    <div class="sub">Tap any word in a BTS lyric and see exactly what it is built from. 보고 싶다 is not one word for "I miss you" — it is 보 (see) plus 고 (and) plus 싶 (want to). Learn how it is put together and you can read the next line on your own.</div>
+    <div class="sub">Tap any word in a BTS lyric and see exactly what it is built from. 보고 싶다 is not one word for "I miss you". It is 보 (see) plus 고 (and) plus 싶 (want to). Learn how it is put together and you can read the next line on your own.</div>
+    <div class="row" style="margin-top:18px">${ERA.map(e=>`<span class="erachip" style="color:${e.c}">${esc(e.nm)}</span>`).join('')}</div>
   </section>
   <div class="statline">
     <div class="stat"><b>${INDEX.length}</b><span>songs</span></div>
@@ -266,7 +391,8 @@ function vHome(){
 }
 function songRow(s){
   const st=sst(s.id);
-  return `<a class="songrow" href="#/song/${s.id}"><span class="num">${s.n}</span>
+  const E=era(s.year);
+  return `<a class="songrow" href="#/song/${s.id}"><span class="era" style="background:${E.c}"></span><span class="num">${s.n}</span>
     <span style="min-width:0"><span class="tt">${esc(s.title_en)}</span>
       <div class="ko">${esc(s.title_ko)}</div>
       <div class="meta">${esc(s.album||'')} · ${s.year||''} · ${s.lines} lines</div></span>
@@ -289,37 +415,40 @@ async function vSong(id, li, pop0){
   setNav('songs');
   app.innerHTML='<div class="empty">Loading…</div>';
   let s; try{ s=await song(id); }catch(e){ app.innerHTML='<div class="empty">Song not found.</div>'; return; }
-  ST.last=id; save(); TK={};
+  ST.last=id; CURSONG=id; save(); TK={};
   const n=s.notes||{};
   const body=s.items.map(it=>it.gap?'<div class="gap"></div>':renderLine(it)).join('');
   const ls=s.items.filter(it=>!it.gap);
   const enPct=ls.length?Math.round(ls.filter(it=>it.en).length/ls.length*100):0;
   app.innerHTML=`<div class="songhead"><a class="small" href="#/songs">← All songs</a>
-    <h1>${esc(s.title_en)}<small>${esc(s.title_ko)} · ${esc(s.album||'')} · ${s.year||''}</small></h1></div>
+    <h1>${esc(s.title_en)}<small>${esc(s.title_ko)} · ${esc(s.album||'')} · ${s.year||''}</small></h1>
+    <div class="row" style="margin-top:10px"><span class="erachip" style="color:${era(s.year).c}">${esc(era(s.year).nm)}</span></div>
+    <div class="row" style="margin-top:12px">${SST.map((o,i)=>`<button class="btn sm ${sst(id)===i?'primary':'ghost'}" data-seg="${i}" title="${o.d||''}">${o.ic} ${o.nm}</button>`).join('')}</div></div>
   ${s.yt?`<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/${esc(s.yt)}" title="official video" loading="lazy" allow="encrypted-media; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>`
     :`<div class="novideo">No official video linked for this track. <a href="https://www.youtube.com/results?search_query=${encodeURIComponent('BTS '+s.title_en)}" target="_blank" rel="noopener">Search YouTube ↗</a></div>`}
-  ${n.s?`<details class="notecard" open><summary>What this song is about <span class="vbadge">context</span></summary>
+  ${n.s?`<details class="notecard"><summary>What this song is about <span class="vbadge">context</span></summary>
     <div class="nbody"><div class="notesum">${esc(n.s)}</div>${n.t?`<div class="notetxt">${esc(n.t)}</div>`:''}
     ${(n.k||[]).length?`<div class="kexp">${n.k.map(k=>`<div class="kx"><div class="ken">${esc(k[0])}</div><div class="kko">${esc(k[1])}</div></div>`).join('')}</div>`:''}</div></details>`:''}
   <div class="toolbar">
     <label class="tg ${ST.set.rom?'on':''}" data-set="rom"><i></i>Romanization</label>
     <label class="tg ${ST.set.en?'on':''}" data-set="en"><i></i>English</label>
+    <label class="tg ${ST.set.eng?'on':''}" data-set="eng"><i></i>English-only lines</label>
+    <label class="tg ${ST.set.pen?'on':''}" data-set="pen"><i></i>Highlighter</label>
+    <div class="penbar">${[1,2,3].map(c=>`<button class="pendot c${c} ${ST.set.pc===c?'on':''}" data-pc="${c}" title="colour ${c}"></button>`).join('')}<button class="pendot c0" data-pc="0" title="erase">✕</button></div>
     <div class="fsz"><button data-fs="-1">A−</button><button data-fs="1">A+</button></div>
   </div>
   ${enPct<60?`<div class="card" style="border-color:var(--line2)"><div class="small mut"><b style="color:var(--pur2)">This song is read word by word, not line by line.</b><br>
     Full English lines are in place for the chorus and the lines the notes discuss. Everywhere else, tap a word and it breaks into its pieces with the grammar spelled out, which is how you read a line yourself rather than being handed it. Complete line translations arrive once the lyrics are licensed.</div></div>`:''}
-  <p class="small dim">Tap a word to break it into pieces. Underlined words are in the core ${CORE}. Green means you marked it known. With English off, tap a line to peek.</p>
+  <p class="small dim">Tap a word to break it into pieces. Turn on the highlighter and tapping paints the word instead, in every song it appears in. Underlined words are in the core ${CORE}. With English off, tap a line to peek.</p>
   <div class="lyrics">${body}</div>
-  <div class="card" style="margin-top:18px"><div class="row" style="justify-content:space-between">
-    <div class="small mut">Know this one now?</div>
-    <div class="row">${SST.map((o,i)=>`<button class="btn sm ${sst(id)===i?'primary':'ghost'}" data-seg="${i}">${o.ic} ${o.nm}</button>`).join('')}</div>
-  </div></div>
   <div class="card"><div class="row" style="justify-content:space-between">
     <div class="small mut">Send this to someone who sings along without knowing the words</div>
     <button class="btn sm" id="sharebtn">Share</button></div></div>`;
   document.querySelectorAll('[data-seg]').forEach(b=>b.onclick=()=>{ ST.songst[id]=+b.dataset.seg; save(); vSong(id); });
   document.querySelectorAll('.tg').forEach(t=>t.onclick=()=>{ const k=t.dataset.set; ST.set[k]=ST.set[k]?0:1; save(); applyFlags(); t.classList.toggle('on',!!ST.set[k]); });
   document.querySelectorAll('[data-fs]').forEach(b=>b.onclick=()=>{ ST.set.fs=Math.max(-4,Math.min(10,(ST.set.fs||0)+ +b.dataset.fs)); save(); applyFlags(); });
+  document.querySelectorAll('[data-pc]').forEach(b=>b.onclick=()=>{ ST.set.pc=+b.dataset.pc; if(!ST.set.pen){ST.set.pen=1;applyFlags();document.querySelector('[data-set=pen]').classList.add('on');} save();
+    document.querySelectorAll('[data-pc]').forEach(x=>x.classList.toggle('on',+x.dataset.pc===ST.set.pc)); });
   $('#sharebtn').onclick=()=>share(s);
   if(li!=null){ const el=document.querySelector(`.line[data-li="${li}"]`); if(el){ el.classList.add('hl'); setTimeout(()=>el.scrollIntoView({block:'center'}),80); } }
   window.scrollTo(0,0);
@@ -339,49 +468,72 @@ function share(s){
 
 /* ───────── core word list ───────── */
 function vWords(q, filt){
-  setNav('words'); q=(q||'').toLowerCase(); filt=filt||'core';
-  let list=FREQ;
-  if(filt==='core') list=FREQ.slice(0,CORE);
-  else if(filt==='wide') list=FREQ.filter(e=>e.ns>=8);
-  else if(filt==='todo') list=FREQ.slice(0,CORE).filter(e=>!ST.known[e.w]);
-  else if(filt==='known') list=FREQ.filter(e=>ST.known[e.w]);
+  setNav('words'); q=(q||'').toLowerCase(); filt=filt||'t100';
+  const TIERS=[
+    {k:'t50',  lo:0,   hi:50,   nm:'First 50',    sub:'start here'},
+    {k:'t100', lo:0,   hi:100,  nm:'Top 100',     sub:'half of every song'},
+    {k:'t400', lo:0,   hi:400,  nm:'Top 400',     sub:'78% of every song'},
+    {k:'t800', lo:0,   hi:800,  nm:'Top 800',     sub:'90%'},
+    {k:'all',  lo:0,   hi:1e9,  nm:'Everything',  sub:FREQ.length+' words'},
+    {k:'mine', lo:0,   hi:1e9,  nm:'My list',     sub:'highlighted'}
+  ];
+  const T=TIERS.find(t=>t.k===filt)||TIERS[1];
+  let list = T.k==='mine' ? FREQ.filter(e=>ST.mark[e.w]) : FREQ.slice(T.lo,T.hi);
   if(q) list=list.filter(e=>e.w.includes(q)||(e.r||'').includes(q)||(e.en||[]).join(' ').toLowerCase().includes(q));
-  const ck=coreKnown();
-  app.innerHTML=`<h2 class="sec">Core words</h2>
-  <div class="card"><div class="row" style="justify-content:space-between">
-    <div><b style="font-size:16px">${ck} of ${CORE}</b> <span class="small mut">core words marked known</span>
-    <div class="small dim" style="margin-top:3px">That is ${coverage()}% of every content word across all ${INDEX.length} songs.</div></div></div>
-    <div class="progbar" style="margin-top:11px"><i style="width:${ck/CORE*100}%"></i></div></div>
-  <input type="search" id="wq" placeholder="Search Korean, romanization or English" value="${esc(q)}">
-  <div class="fchips">
-    <button class="fchip ${filt==='core'?'on':''}" data-f="core">Top ${CORE}</button>
-    <button class="fchip ${filt==='todo'?'on':''}" data-f="todo">Not yet known</button>
-    <button class="fchip ${filt==='wide'?'on':''}" data-f="wide">In 8+ songs</button>
-    <button class="fchip ${filt==='known'?'on':''}" data-f="known">Known</button>
-    <button class="fchip ${filt==='all'?'on':''}" data-f="all">All ${FREQ.length}</button>
+  const cov = (T.k==='mine'||T.k==='all') ? (FREQ.length?FREQ[FREQ.length-1].cum:100)
+            : (FREQ[Math.min(T.hi,FREQ.length)-1]||{}).cum||0;
+  PAGE=150;
+
+  app.innerHTML=`<h2 class="sec">Every word BTS sings</h2>
+  <div class="card">
+    <div>
+      <b style="font-size:17px">${FREQ.length.toLocaleString()} words, counted and ranked</b>
+      <div class="small mut" style="margin-top:5px;line-height:1.6">
+        Never studied Korean? Start at number 1 and go down. These are ranked by how often
+        they actually appear across all ${INDEX.length} songs, so the early ones pay off immediately.
+        The number on the right is how many times it is sung.</div>
+      <div class="row" style="margin-top:12px">
+        <div class="stat" style="flex:1"><b>${markedN()}</b><span>words highlighted</span></div>
+        <div class="stat" style="flex:1"><b>${clearedN()}</b><span>cleared in quiz</span></div>
+        <div class="stat" style="flex:1"><b>${coverage()}%</b><span>of all lyrics covered</span></div>
+      </div>
+    </div>
   </div>
-  <div id="wlist">${list.slice(0,300).map(wRow).join('')||'<div class="empty">Nothing here yet.</div>'}
-  ${list.length>300?`<div class="empty">Showing 300 of ${list.length}. Search to narrow.</div>`:''}</div>`;
+  <div class="tierbar">${TIERS.map(t=>`<button class="tier ${t.k===filt?'on':''}" data-f="${t.k}"><b>${t.nm}</b>${t.sub}</button>`).join('')}</div>
+  <input type="search" id="wq" placeholder="Search Korean, romanization or English" value="${esc(q)}">
+  <div class="row small dim" style="margin:12px 0 10px;justify-content:space-between">
+    <span>${list.length.toLocaleString()} words${T.k!=='mine'&&T.k!=='all'?` · knowing all of them covers ${cov}% of the lyrics`:''}</span>
+    <span><span class="swatch s1"></span><span class="swatch s2"></span><span class="swatch s3"></span>highlight to build your list</span>
+  </div>
+  <div id="wlist">${list.slice(0,PAGE).map(wRow).join('')||'<div class="empty">Nothing here yet.</div>'}</div>
+  ${list.length>PAGE?`<div class="row" style="justify-content:center;margin-top:10px"><button class="btn" id="more">Show 150 more</button></div>`:''}`;
+
+  let shown=PAGE;
+  const more=$('#more');
+  if(more) more.onclick=()=>{
+    const next=list.slice(shown,shown+PAGE);
+    $('#wlist').insertAdjacentHTML('beforeend', next.map(wRow).join(''));
+    shown+=PAGE; bindKnown(null);
+    if(shown>=list.length) more.remove(); else more.textContent='Show 150 more';
+  };
   let t; $('#wq').oninput=e=>{ clearTimeout(t); t=setTimeout(()=>vWords(e.target.value,filt),250); };
   document.querySelectorAll('[data-f]').forEach(b=>b.onclick=()=>vWords(q,b.dataset.f));
-  bindKnown(()=>vWords(q,filt));
+  bindKnown(null);
 }
+let PAGE=150;
 function wRow(e){
-  const kn=!!ST.known[e.w];
-  const songs=(e.in||[]).filter(id=>byId[id]).slice(0,3);
-  return `<div class="wrow"><div class="rk">${e.rank}</div>
-    <div style="min-width:0;flex:1">
-      <div><a href="#/word/${encodeURIComponent(e.w)}" style="color:inherit"><span class="ww">${esc(e.w)}</span><span class="wr">${esc(e.r)}</span></a>${(e.ex||[]).length?' <span class="chip" style="font-size:10.5px">examples</span>':''}</div>
-      <div class="we">${e.en?esc(e.en.join(', ')):'<span class="dim">no gloss yet</span>'} <span class="dim small">${esc(e.p||'')}</span></div>
-      ${e.note?`<div class="wn">${esc(e.note)}</div>`:''}
-      <div class="wf">${e.n} times in ${e.ns} song${e.ns>1?'s':''}${songs.length?' · ':''}${songs.map(id=>`<a href="#/song/${id}">${esc(byId[id].title_en)}</a>`).join(', ')}</div>
+  const c=ST.mark[e.w]||0;
+  return `<div class="wcard${c?' m'+c:''}">
+    <div class="rk">${e.rank}</div>
+    <div class="mid">
+      <a href="#/word/${encodeURIComponent(e.w)}" style="color:inherit">
+        <span class="kw">${esc(e.w)}</span><span class="kr">${esc(e.r)}</span></a>
+      <div class="ke">${e.en?esc(e.en.join(', ')):'<span class="dim">no gloss yet</span>'}</div>
+      ${e.note?`<div class="kn2">${esc(e.note)}</div>`:''}
     </div>
-    <button class="kbtn ${kn?'on':''}" data-known="${esc(e.w)}" title="I know this">✓</button></div>`;
+    <div class="cnt">${e.n}<small>${e.ns} SONG${e.ns>1?'S':''}</small></div>
+    <button class="kbtn ${c?'on':''}" data-known="${esc(e.w)}" title="highlight">${c?'✓':'+'}</button></div>`;
 }
-function bindKnown(re){ document.querySelectorAll('[data-known]').forEach(b=>b.onclick=()=>{
-  const w=b.dataset.known;
-  if(ST.known[w]) delete ST.known[w]; else ST.known[w]=1;
-  save(); b.classList.toggle('on',!!ST.known[w]); }); }
 
 /* ───────── one word, with the lines it actually appears in ───────── */
 function vWord(w){
@@ -476,6 +628,41 @@ function vQuiz(){
   $('#qnext').onclick=vQuiz;
 }
 
+/* 형광펜으로 칠한 줄을 곡을 넘나들며 모아 본다. 칠하기만 하고 다시
+   못 보면 형광펜은 장식이다. 여기가 그 기능의 절반이다. */
+async function vHighlights(){
+  setNav('hl');
+  const ids=Object.keys(ST.hl||{}).filter(id=>byId[id]&&Object.keys(ST.hl[id]).length);
+  if(!ids.length){
+    app.innerHTML=`<h2 class="sec">Highlights</h2><div class="card"><div class="empty">
+      Nothing highlighted yet.<br><br>Open a song, turn on the highlighter in the toolbar,
+      and tap any line that you want to keep.</div></div>`;
+    return;
+  }
+  app.innerHTML='<div class="empty">Loading…</div>';
+  const blocks=[];
+  let total=0;
+  for(const id of ids){
+    let doc; try{ doc=await song(id); }catch(e){ continue; }
+    const marks=ST.hl[id];
+    const rows=doc.items.filter(it=>!it.gap&&marks[it.i]);
+    if(!rows.length) continue;
+    total+=rows.length;
+    const E=era(byId[id].year);
+    blocks.push(`<div class="row" style="margin:20px 0 8px"><span class="erachip" style="color:${E.c}">${esc(E.nm)}</span>
+      <a href="#/song/${id}" style="font-family:var(--serif);font-size:19px">${esc(byId[id].title_en)}</a>
+      <span class="small dim">${esc(byId[id].title_ko)}</span></div>
+      ${rows.map(it=>`<a class="songrow h${marks[it.i]}" style="align-items:flex-start" href="#/song/${id}/${it.i}">
+        <span style="min-width:0"><div class="ko" style="font-size:18px">${esc(it.ko)}</div>
+        <div class="rom">${esc(it.r)}</div>
+        ${it.en?`<div class="en">${esc(it.en)}</div>`:''}</span></a>`).join('')}`);
+  }
+  app.innerHTML=`<h2 class="sec">Highlights</h2>
+    <div class="card"><div class="row"><div class="stat" style="flex:1"><b>${total}</b><span>lines kept</span></div>
+    <div class="stat" style="flex:1"><b>${blocks.length}</b><span>songs</span></div></div></div>
+    ${blocks.join('')}`;
+}
+
 function vMe(){
   setNav('me');
   const ck=coreKnown(), cov=coverage();
@@ -561,25 +748,48 @@ function showPop(el){
     <div class="mchain">${chain}</div>
     ${fe?`<div class="md" style="margin-top:10px;border-top:1px dashed var(--line);padding-top:7px">
       <b>${esc(lem)}</b> is word #${fe.rank} in these songs, ${fe.n} times across ${fe.ns}${fe.note?`<br>${esc(fe.note)}`:''}</div>`:''}
-    <div class="prow">${lem?`<button class="pbtn ${ST.known[lem]?'on':''}" data-pk="${esc(lem)}">✓ ${ST.known[lem]?'Known':'I know this'}</button>`:''}
+    <div class="prow">${lem?`<button class="pbtn ${ST.mark[lem]?'on':''}" data-pk="${esc(lem)}">${ST.mark[lem]?'✓ In my list':'+ Highlight this'}</button>`:''}
       ${lem&&FBY[lem]?`<a class="pbtn" href="#/word/${encodeURIComponent(lem)}" style="text-decoration:none">In other songs</a>`:''}</div>`;
   place(el);
   pop.querySelectorAll('[data-pk]').forEach(b=>b.onclick=()=>{
-    const w=b.dataset.pk; if(ST.known[w]) delete ST.known[w]; else ST.known[w]=1;
+    const w=b.dataset.pk; if(ST.mark[w]) delete ST.mark[w]; else ST.mark[w]=1;
     save(); showPop(el);
     document.querySelectorAll('.w').forEach(x=>{ const tt=(TK[x.dataset.l]||[])[+x.dataset.j];
       const h=tt&&(tt.m||[]).find(m=>m.en); const l=h&&(h.l||h.t);
-      x.classList.toggle('kn',!!(l&&ST.known[l])); });
+      x.classList.toggle('mk',!!(l&&ST.mark[l])); });
   });
 }
 document.addEventListener('click',e=>{
+  const sp=e.target.closest('[data-say]');
+  if(sp){ speakLine(sp.dataset.say, sp.closest('.line')); e.stopPropagation(); return; }
   const w=e.target.closest('.w');
-  if(w){ showPop(w); e.stopPropagation(); return; }
+  if(w){
+    if(ST.set.pen){ paintWord(w); e.stopPropagation(); return; }
+    showPop(w); e.stopPropagation(); return;
+  }
   if(!e.target.closest('#wpop')){ pop.classList.remove('on'); document.querySelectorAll('.w.sel').forEach(x=>x.classList.remove('sel')); }
   const ln=e.target.closest('.line');
   if(ln&&document.body.classList.contains('hide-en')) ln.classList.toggle('peek');
 });
 document.addEventListener('keydown',e=>{ if(e.key==='Escape') pop.classList.remove('on'); });
+
+/* 펜 모드에서 단어를 칠한다. 같은 사전형이면 화면의 다른 자리도 함께 바뀐다 */
+function lemmaOf(el){
+  const t=(TK[el.dataset.l]||[])[+el.dataset.j]; if(!t) return null;
+  const h=(t.m||[]).find(m=>m.en); return h?(h.l||h.t):null;
+}
+function repaint(){
+  document.querySelectorAll('.w').forEach(x=>{
+    const l=lemmaOf(x); const c=l?(ST.mark[l]||0):0;
+    x.classList.remove('mk1','mk2','mk3'); if(c) x.classList.add('mk'+c);
+  });
+}
+function paintWord(el){
+  const l=lemmaOf(el); if(!l) return;
+  if(ST.set.pc===0||ST.mark[l]===ST.set.pc) delete ST.mark[l];
+  else ST.mark[l]=ST.set.pc;
+  save(); repaint();
+}
 
 /* ───────── router ───────── */
 function route(){
@@ -592,6 +802,7 @@ function route(){
     case 'words': vWords(p[1]||'', p[2]||'core'); break;
     case 'word': vWord(p[1]||''); break;
     case 'quiz': vQuiz(); break;
+    case 'highlights': vHighlights(); break;
     case 'me': vMe(); break;
     case 'search': vSearch(p[1]||''); break;
     default: vHome();
@@ -603,7 +814,7 @@ window.addEventListener('hashchange',route);
 (async function(){
   load(); ST.seen=(ST.seen||0)+1; save(); applyFlags();
   try{ await boot(); }catch(e){ app.innerHTML='<div class="empty">Could not load the song data.</div>'; return; }
-  route();
+  initTTS(); route();
   if('serviceWorker' in navigator && /^https?:$/.test(location.protocol))
     window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
 })();

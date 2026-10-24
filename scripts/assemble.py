@@ -23,8 +23,23 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from kotoken import tokenize
-from romanize import romanize
+from kotoken import tokenize, content_lemmas
+from romanize import romanize, romanize_words
+
+
+def line_rom(line):
+    """줄 로마자는 어절마다 따로 변환해 붙인다.
+
+    줄을 한 덩어리로 넣으면 어절 경계를 넘어 연음이 적용돼서
+    너를 너무가 neoreul reomu로 나온다. 노래는 어절에서 끊어 부르고,
+    화면에서도 한국어 어절과 짝이 맞아야 한다.
+    """
+    return " ".join(romanize_words(line))
+
+# 예문을 붙일 범위. 전체에 2개씩 달면 payload가 커지고, 꼬리 단어는
+# 어차피 한 곡에 한 번만 나와서 예문이 목록의 빈도 정보와 겹친다.
+EXAMPLE_TOP = 600
+EXAMPLES_PER_WORD = 3
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
@@ -66,6 +81,8 @@ def main():
     os.makedirs(os.path.join(OUT, "song"), exist_ok=True)
     index = []
     stats = {"songs": 0, "lines": 0, "translated": 0, "vocab": 0, "notes": 0}
+    # 사전형 -> 그 단어가 실제로 나온 가사 줄들. 빈도표에 예문으로 붙인다.
+    sightings = {}
 
     for n, s in enumerate(songs, 1):
         sid = s["id"]
@@ -99,13 +116,17 @@ def main():
                 e = {
                     "i": i,
                     "ko": line,
-                    "r": romanize(line),
+                    "r": line_rom(line),
                     "tk": tokenize(line, vmap),
                 }
                 t = tr.get(str(i))
                 if t:
                     e["en"] = t
                     stats["translated"] += 1
+                for lem, _pos in content_lemmas(line):
+                    sightings.setdefault(lem, []).append(
+                        {"s": sid, "i": i, "ko": line, "r": e["r"], "en": t or None}
+                    )
                 items.append(e)
                 i += 1
         while items and items[-1].get("gap"):
@@ -151,7 +172,31 @@ def main():
     # 빈도표에 손으로 쓴 뜻을 얹는다. 역변환 사전 값은 뒤로 밀린다.
     freq = load_json(os.path.join(DATA, "freq.json"), []) or []
     hit = 0
+    exn = 0
     for e in freq:
+        if e["rank"] <= EXAMPLE_TOP:
+            seen = sightings.get(e["w"]) or []
+            # 번역이 붙은 줄을 먼저. 퀴즈가 뜻을 보여줄 수 있어야 한다.
+            # 같은 곡에서 몰리지 않게 곡별로 하나씩 돌아가며 집는다.
+            by_song = {}
+            for s in seen:
+                by_song.setdefault(s["s"], []).append(s)
+            picked, round_ = [], 0
+            while len(picked) < EXAMPLES_PER_WORD:
+                added = False
+                for sid in sorted(by_song):
+                    rows = sorted(by_song[sid], key=lambda r: (r["en"] is None, len(r["ko"])))
+                    if round_ < len(rows):
+                        picked.append(rows[round_])
+                        added = True
+                        if len(picked) >= EXAMPLES_PER_WORD:
+                            break
+                if not added:
+                    break
+                round_ += 1
+            if picked:
+                e["ex"] = picked
+                exn += 1
         g = gloss.get(e["w"])
         if g:
             e["en"] = [x.strip() for x in g["en"].split(",")][:3]
@@ -166,7 +211,8 @@ def main():
     print(f"songs {stats['songs']}  lines {stats['lines']:,}  "
           f"translated {stats['translated']:,} ({stats['translated']*100//total_lines}%)")
     print(f"vocab entries {stats['vocab']}  culture notes {stats['notes']}")
-    print(f"frequency list {len(freq):,} words, {hit} with a hand written gloss")
+    print(f"frequency list {len(freq):,} words, {hit} with a hand written gloss, "
+          f"{exn} with lyric examples")
     nd = [e["id"] for e in index if not e["done"]]
     if nd:
         print(f"awaiting translation: {' '.join(nd)}")

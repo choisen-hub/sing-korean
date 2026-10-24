@@ -3,7 +3,7 @@
  * so they are worth caching hard; the shell and the index are checked against
  * the network first so a new build reaches people on their next visit.
  * Bump VERSION on every deploy. */
-const VERSION = 'sk-v1-20261024';
+const VERSION = 'sk-v2-20261024';
 const CORE = [
   './',
   './index.html',

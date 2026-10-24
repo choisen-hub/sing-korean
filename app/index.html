@@ -135,6 +135,11 @@ body.hide-en .line.peek .en{filter:none}
 .wrow .wf{font-size:11px;color:var(--dim);margin-top:3px}
 .wrow .kbtn{margin-left:auto;background:none;border:1.5px solid var(--line2);border-radius:99px;width:30px;height:30px;color:var(--dim);font-size:14px;flex:none}
 .wrow .kbtn.on{color:var(--ok);border-color:var(--ok)}
+.opt{text-align:left;border:1px solid var(--line2);background:rgba(36,21,70,.55);color:var(--ink);border-radius:10px;padding:11px 14px;font-size:15px}
+.opt:hover:not(:disabled){border-color:var(--purd)}
+.opt:disabled{cursor:default;opacity:.85}
+.opt.ok{border-color:var(--ok);background:rgba(127,219,142,.14)}
+.opt.ng{border-color:var(--bad);background:rgba(255,131,125,.14)}
 .progbar{height:9px;border-radius:99px;background:var(--line);overflow:hidden}
 .progbar i{display:block;height:100%;background:linear-gradient(90deg,var(--purd),var(--pur))}
 footer{text-align:center;color:var(--dim);font-size:11.5px;padding:34px 16px;line-height:1.8}
@@ -148,7 +153,7 @@ footer .fm{font-family:var(--serif);font-size:15px;color:var(--mut);margin-botto
 <header><div class="hwrap">
   <a class="brand" href="#/">Sing <b>Korean</b></a>
   <nav id="nav">
-    <a href="#/" data-r="home">Home</a><a href="#/songs" data-r="songs">Songs</a><a href="#/words" data-r="words">Core words</a><a href="#/me" data-r="me">Progress</a><a href="#/search" data-r="search">Search</a>
+    <a href="#/" data-r="home">Home</a><a href="#/songs" data-r="songs">Songs</a><a href="#/words" data-r="words">Core words</a><a href="#/quiz" data-r="quiz">Quiz</a><a href="#/me" data-r="me">Progress</a><a href="#/search" data-r="search">Search</a>
   </nav>
 </div></header>
 <main id="app"><div class="empty">Loading…</div></main>
@@ -164,9 +169,9 @@ footer .fm{font-family:var(--serif);font-size:15px;color:var(--mut);margin-botto
    No accounts and no server copy. A public site means one shared state file
    would collide across visitors, so progress lives in this browser. */
 const LKEY='singko';
-let ST={known:{}, songst:{}, last:null, set:{rom:1,en:1,fs:0}, seen:0};
+let ST={known:{}, wrong:{}, songst:{}, last:null, set:{rom:1,en:1,fs:0}, seen:0};
 function load(){ try{ const v=localStorage.getItem(LKEY); if(v) ST=Object.assign(ST,JSON.parse(v)); }catch(e){}
-  ST.known=ST.known||{}; ST.songst=ST.songst||{}; ST.set=Object.assign({rom:1,en:1,fs:0},ST.set||{}); }
+  ST.known=ST.known||{}; ST.wrong=ST.wrong||{}; ST.songst=ST.songst||{}; ST.set=Object.assign({rom:1,en:1,fs:0},ST.set||{}); }
 function save(){ try{ localStorage.setItem(LKEY,JSON.stringify(ST)); }catch(e){} }
 
 /* ───────── data ───────── */
@@ -191,6 +196,7 @@ async function song(id){
 const $=s=>document.querySelector(s);
 const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const app=$('#app');
+const shuffle=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;};
 const SST=[{ic:'○',nm:'New'},{ic:'◔',nm:'Heard it'},{ic:'◑',nm:'Read it'},{ic:'●',nm:'Can sing it'}];
 const sst=id=>ST.songst[id]||0;
 const knownN=()=>Object.keys(ST.known).length;
@@ -286,7 +292,8 @@ async function vSong(id, li){
   ST.last=id; save(); TK={};
   const n=s.notes||{};
   const body=s.items.map(it=>it.gap?'<div class="gap"></div>':renderLine(it)).join('');
-  const hook=(s.hook||[]).length?s.hook:null;
+  const ls=s.items.filter(it=>!it.gap);
+  const enPct=ls.length?Math.round(ls.filter(it=>it.en).length/ls.length*100):0;
   app.innerHTML=`<div class="songhead"><a class="small" href="#/songs">← All songs</a>
     <h1>${esc(s.title_en)}<small>${esc(s.title_ko)} · ${esc(s.album||'')} · ${s.year||''}</small></h1></div>
   ${s.yt?`<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/${esc(s.yt)}" title="official video" loading="lazy" allow="encrypted-media; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>`
@@ -299,6 +306,8 @@ async function vSong(id, li){
     <label class="tg ${ST.set.en?'on':''}" data-set="en"><i></i>English</label>
     <div class="fsz"><button data-fs="-1">A−</button><button data-fs="1">A+</button></div>
   </div>
+  ${enPct<60?`<div class="card" style="border-color:var(--line2)"><div class="small mut"><b style="color:var(--pur2)">This song is read word by word, not line by line.</b><br>
+    Full English lines are in place for the chorus and the lines the notes discuss. Everywhere else, tap a word and it breaks into its pieces with the grammar spelled out, which is how you read a line yourself rather than being handed it. Complete line translations arrive once the lyrics are licensed.</div></div>`:''}
   <p class="small dim">Tap a word to break it into pieces. Underlined words are in the core ${CORE}. Green means you marked it known. With English off, tap a line to peek.</p>
   <div class="lyrics">${body}</div>
   <div class="card" style="margin-top:18px"><div class="row" style="justify-content:space-between">
@@ -356,7 +365,7 @@ function wRow(e){
   const songs=(e.in||[]).filter(id=>byId[id]).slice(0,3);
   return `<div class="wrow"><div class="rk">${e.rank}</div>
     <div style="min-width:0;flex:1">
-      <div><span class="ww">${esc(e.w)}</span><span class="wr">${esc(e.r)}</span></div>
+      <div><a href="#/word/${encodeURIComponent(e.w)}" style="color:inherit"><span class="ww">${esc(e.w)}</span><span class="wr">${esc(e.r)}</span></a>${(e.ex||[]).length?' <span class="chip" style="font-size:10.5px">examples</span>':''}</div>
       <div class="we">${e.en?esc(e.en.join(', ')):'<span class="dim">no gloss yet</span>'} <span class="dim small">${esc(e.p||'')}</span></div>
       ${e.note?`<div class="wn">${esc(e.note)}</div>`:''}
       <div class="wf">${e.n} times in ${e.ns} song${e.ns>1?'s':''}${songs.length?' · ':''}${songs.map(id=>`<a href="#/song/${id}">${esc(byId[id].title_en)}</a>`).join(', ')}</div>
@@ -367,6 +376,99 @@ function bindKnown(re){ document.querySelectorAll('[data-known]').forEach(b=>b.o
   const w=b.dataset.known;
   if(ST.known[w]) delete ST.known[w]; else ST.known[w]=1;
   save(); b.classList.toggle('on',!!ST.known[w]); }); }
+
+/* ───────── one word, with the lines it actually appears in ───────── */
+function vWord(w){
+  setNav('words');
+  const e=FBY[w];
+  if(!e){ app.innerHTML='<div class="empty">That word is not in the corpus.</div>'; return; }
+  const kn=!!ST.known[e.w];
+  const ex=e.ex||[];
+  app.innerHTML=`<a class="small" href="#/words">← Core words</a>
+  <div class="card" style="margin-top:10px">
+    <div class="row" style="align-items:flex-start;justify-content:space-between">
+      <div><div style="font-size:34px;line-height:1.2">${esc(e.w)}</div>
+        <div class="rom" style="font-size:16px">${esc(e.r)}</div>
+        <div style="font-size:16px;color:var(--pur2);margin-top:7px">${e.en?esc(e.en.join(', ')):'<span class="dim">no gloss yet</span>'}</div>
+        <div class="small dim" style="margin-top:3px">${esc(e.p||'')}</div>
+        ${e.note?`<div class="small mut" style="margin-top:8px;line-height:1.6">${esc(e.note)}</div>`:''}</div>
+      <button class="kbtn ${kn?'on':''}" data-known="${esc(e.w)}" title="I know this" style="width:40px;height:40px;font-size:17px">✓</button>
+    </div>
+    <div class="row" style="margin-top:12px">
+      <span class="chip">#${e.rank} most frequent</span>
+      <span class="chip">${e.n} times</span>
+      <span class="chip">${e.ns} of ${INDEX.length} songs</span>
+    </div>
+  </div>
+  <h2 class="sec">In the lyrics</h2>
+  ${ex.length?ex.map(x=>{
+    const s=byId[x.s];
+    return `<a class="songrow" style="align-items:flex-start" href="#/song/${x.s}/${x.i}">
+      <span style="min-width:0">
+        <div class="ko" style="font-size:18px">${hl(x.ko,e.w)}</div>
+        <div class="rom">${esc(x.r)}</div>
+        ${x.en?`<div class="en">${esc(x.en)}</div>`:'<div class="meta">tap through to break this line down</div>'}
+        <div class="meta" style="margin-top:4px">${s?esc(s.title_en):esc(x.s)}</div>
+      </span></a>`;
+  }).join(''):'<div class="empty">No example lines stored for this word.</div>'}
+  ${(e.in||[]).length?`<h2 class="sec">Every song it appears in</h2>
+    <div class="row">${e.in.filter(id=>byId[id]).map(id=>`<a class="chip" style="font-size:13px;padding:5px 12px" href="#/song/${id}">${esc(byId[id].title_en)}</a>`).join('')}</div>`:''}
+  <div class="row" style="margin-top:18px"><a class="btn ghost sm" href="#/quiz">Quiz me on words like this →</a></div>`;
+  bindKnown(()=>vWord(w));
+}
+
+/* ───────── quiz: meaning recognition, with a real line as context ─────────
+   Priority goes to words you got wrong before, then unknown core words, so the
+   deck drifts toward what you actually do not know. */
+function quizPool(){
+  return FREQ.filter(e=>e.rank<=CORE && e.en && e.en.length && (e.ex||[]).length);
+}
+function pickQuiz(){
+  const pool=quizPool(); if(pool.length<5) return null;
+  const wrong=pool.filter(e=>ST.wrong&&ST.wrong[e.w]);
+  const unknown=pool.filter(e=>!ST.known[e.w]);
+  const bag=wrong.length&&Math.random()<.4?wrong:(unknown.length?unknown:pool);
+  const q=bag[Math.floor(Math.random()*bag.length)];
+  const others=shuffle(pool.filter(e=>e.w!==q.w&&e.p===q.p&&e.en&&e.en[0]!==q.en[0]));
+  const alt=(others.length>=3?others:shuffle(pool.filter(e=>e.w!==q.w))).slice(0,3);
+  const ex=q.ex[Math.floor(Math.random()*q.ex.length)];
+  return {q, ex, opts:shuffle([q, ...alt])};
+}
+function vQuiz(){
+  setNav('quiz');
+  const k=pickQuiz();
+  if(!k){ app.innerHTML='<div class="empty">Not enough glossed words with examples yet.</div>'; return; }
+  const {q,ex,opts}=k; const s=byId[ex.s];
+  const done=Object.keys(ST.known).length, wrongN=Object.keys(ST.wrong||{}).length;
+  app.innerHTML=`<h2 class="sec">Quiz</h2>
+  <div class="card">
+    <div class="small dim">${s?esc(s.title_en):''} · word #${q.rank} in the corpus</div>
+    <div class="ko" style="font-size:20px;margin-top:8px">${hl(ex.ko,q.w)}</div>
+    <div class="rom" style="font-size:14px">${esc(ex.r)}</div>
+    <div style="margin-top:16px;font-size:15px;color:var(--mut)">What does <b style="color:var(--pur2);font-size:19px">${esc(q.w)}</b> <span class="dim">(${esc(q.r)})</span> mean here?</div>
+    <div style="display:grid;gap:8px;margin-top:12px" id="opts">
+      ${opts.map(o=>`<button class="opt" data-w="${esc(o.w)}">${esc(o.en.join(', '))}</button>`).join('')}
+    </div>
+    <div class="row" style="margin-top:14px;justify-content:space-between">
+      <span class="small dim" id="qres"></span>
+      <button class="btn sm ghost" id="qnext">Next →</button>
+    </div>
+  </div>
+  <div class="row"><div class="stat" style="flex:1"><b>${done}</b><span>words marked known</span></div>
+    <div class="stat" style="flex:1"><b>${wrongN}</b><span>words you have missed</span></div></div>`;
+  document.querySelectorAll('#opts .opt').forEach(b=>b.onclick=()=>{
+    const ok=b.dataset.w===q.w;
+    document.querySelectorAll('#opts .opt').forEach(x=>{ x.disabled=true; if(x.dataset.w===q.w) x.classList.add('ok'); });
+    ST.wrong=ST.wrong||{};
+    if(ok){ ST.known[q.w]=1; delete ST.wrong[q.w]; }
+    else { b.classList.add('ng'); ST.wrong[q.w]=(ST.wrong[q.w]||0)+1; delete ST.known[q.w]; }
+    save();
+    $('#qres').innerHTML=ok
+      ? `Right. <a href="#/word/${encodeURIComponent(q.w)}">${esc(q.w)}</a> marked known.`
+      : `${esc(q.w)} is ${esc(q.en.join(', '))}. <a href="#/word/${encodeURIComponent(q.w)}">See it in the lyrics →</a>`;
+  });
+  $('#qnext').onclick=vQuiz;
+}
 
 function vMe(){
   setNav('me');
@@ -454,7 +556,7 @@ function showPop(el){
     ${fe?`<div class="md" style="margin-top:10px;border-top:1px dashed var(--line);padding-top:7px">
       <b>${esc(lem)}</b> is word #${fe.rank} in these songs, ${fe.n} times across ${fe.ns}${fe.note?`<br>${esc(fe.note)}`:''}</div>`:''}
     <div class="prow">${lem?`<button class="pbtn ${ST.known[lem]?'on':''}" data-pk="${esc(lem)}">✓ ${ST.known[lem]?'Known':'I know this'}</button>`:''}
-      <a class="pbtn" href="#/words" style="text-decoration:none">Core list</a></div>`;
+      ${lem&&FBY[lem]?`<a class="pbtn" href="#/word/${encodeURIComponent(lem)}" style="text-decoration:none">In other songs</a>`:''}</div>`;
   place(el);
   pop.querySelectorAll('[data-pk]').forEach(b=>b.onclick=()=>{
     const w=b.dataset.pk; if(ST.known[w]) delete ST.known[w]; else ST.known[w]=1;
@@ -482,6 +584,8 @@ function route(){
     case 'songs': vSongs(); break;
     case 'song': vSong(p[1], p[2]!=null&&p[2]!==''?+p[2]:null); break;
     case 'words': vWords(p[1]||'', p[2]||'core'); break;
+    case 'word': vWord(p[1]||''); break;
+    case 'quiz': vQuiz(); break;
     case 'me': vMe(); break;
     case 'search': vSearch(p[1]||''); break;
     default: vHome();

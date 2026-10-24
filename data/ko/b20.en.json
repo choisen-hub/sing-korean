@@ -1,0 +1,163 @@
+{
+ "id": "b20",
+ "hook": [
+  24,
+  25,
+  26,
+  27
+ ],
+ "notes": {
+  "s": "A boy performing tough-guy swagger while visibly having no idea what he is doing.",
+  "t": "Second single from Skool Luv Affair in February 2014, the one with the school hallway and the water. The Korean title is the joke the English title drops: 상남자 is early-2010s slang for a he-man who does everything head-on. What the verses actually show is a kid asking his father how he confessed to his mother, refreshing her profile photo and watching a read receipt vanish. The distance between the pose and the behaviour is the song, and Korean fans now talk openly about how badly the grab-me hook has aged.",
+  "k": [
+   [
+    "상남자",
+    "The 상 is the 上 of upper or top grade, so 상남자 is a top-tier man, the sort who does not deal in hints. The word was internet slang of the period, half admiring and half mocking, and it is the boast the title makes before the verses undercut it. Boy In Luv keeps none of that."
+   ],
+   [
+    "되고파 너의 오빠",
+    "오빠 is what a woman calls an older male she is close to, so asking to become her 오빠 is asking for a position, not a nickname. 되고파 is a compressed poetic 되고 싶어, and it exists mainly so that 고파 can land twice, first as want to become and then as hungry in the next line. That rhyme is the hook."
+   ],
+   [
+    "일 자리 없어, 짐과 동시에 속만 타지",
+    "KakaoTalk marks a sent message with the number of people who have not read it yet. In a one-to-one chat that number is 1, and the instant she opens the message the 1 disappears. So the line is: the 1 is gone, and the second it goes my insides burn. 속이 타다 is the idiom for exactly that burn, used for worry and impatience. This is 2014 messenger life, and nothing in the English hints at it."
+   ],
+   [
+    "괜히 틱틱대고 씩씩대고 징징대게 돼",
+    "-대다 bolts onto a sound or manner root and means to keep behaving that way. 틱틱 is snapping at someone, 씩씩 is huffing, 징징 is whining, and stacking three in a row is a tantrum rendered as a list. The -게 되다 on the end means he ends up like that rather than choosing it. Learn that pair and a large chunk of Korean mimetic vocabulary opens up."
+   ]
+  ]
+ },
+ "lines": {
+  "0": "I want to be your oppa",
+  "1": "I'm so hungry for your love",
+  "3": "I'm going to have you, just watch (oppa)",
+  "8": "Dad, how on earth did you",
+  "9": "confess to Mom",
+  "12": "I end up snapping and huffing and whining for no reason",
+  "15": "I'll flip it around, turn the connection into a couple",
+  "20": "I'm antsy, I'm so antsy",
+  "24": "Hold on tight, before I jump at you",
+  "25": "before my heart lets you slip away",
+  "26": "Say what you want, say what you want",
+  "27": "What is it you really want",
+  "36": "A bad, bad girl outside, worse inside",
+  "39": "The 1 is gone, and the moment it goes my insides burn",
+  "45": "Push and pull? Stringing people along? I don't get any of that",
+  "46": "If you're hurting, call me instead of 119"
+ },
+ "vocab": [
+  {
+   "w": "고프다",
+   "en": "be hungry",
+   "note": "Normally only ever used with 배, stomach, as 배고파; using it for love is a stretch the song makes on purpose",
+   "i": 1
+  },
+  {
+   "w": "흔들다",
+   "en": "shake, sway something",
+   "note": "맘을 흔들다 is to move someone, to unsettle their feelings",
+   "i": 4
+  },
+  {
+   "w": "고백하다",
+   "en": "confess, declare one's feelings",
+   "note": "The standard word for telling someone you like them",
+   "i": 9
+  },
+  {
+   "w": "먼지",
+   "en": "dust",
+   "note": "Chosen to rhyme with 뭔지, and the sense is I am dust in front of you",
+   "i": 11
+  },
+  {
+   "w": "진지하다",
+   "en": "be serious, be earnest",
+   "i": 13
+  },
+  {
+   "w": "시비",
+   "en": "a quarrel, picking a fight",
+   "note": "시비를 걸다 is to start something with someone",
+   "i": 13
+  },
+  {
+   "w": "신경",
+   "en": "nerve, attention",
+   "note": "신경 쓰이다 is it bothers me, I keep noticing it",
+   "i": 14
+  },
+  {
+   "w": "거꾸로",
+   "en": "backwards, upside down",
+   "i": 15
+  },
+  {
+   "w": "뒤집다",
+   "en": "flip over, turn inside out",
+   "i": 15
+  },
+  {
+   "w": "인연",
+   "en": "a tie, a connection by fate",
+   "note": "Reverse the two syllables and you get 연인, lovers, which is the whole move in that line",
+   "i": 15
+  },
+  {
+   "w": "착각하다",
+   "en": "be mistaken, get the wrong idea",
+   "i": 19
+  },
+  {
+   "w": "안달",
+   "en": "fretting, impatience",
+   "note": "안달 나다 is to be antsy with wanting something",
+   "i": 20
+  },
+  {
+   "w": "놀리다",
+   "en": "tease, make fun of",
+   "i": 22
+  },
+  {
+   "w": "덮치다",
+   "en": "pounce on, descend on",
+   "note": "Used of predators and disasters, which is why the hook reads as aggressive now",
+   "i": 24
+  },
+  {
+   "w": "놓치다",
+   "en": "miss, let slip",
+   "i": 25
+  },
+  {
+   "w": "후회하다",
+   "en": "regret",
+   "i": 37
+  },
+  {
+   "w": "밀당",
+   "en": "push and pull",
+   "note": "Clipped from 밀고 당기기, the dating game of keeping someone unsure",
+   "i": 45
+  },
+  {
+   "w": "어장",
+   "en": "fishery, fishing ground",
+   "note": "어장 관리 is keeping several interested people on the hook like fish in a pond",
+   "i": 45
+  },
+  {
+   "w": "부르다",
+   "en": "call, summon",
+   "note": "The line sets it against 119, the emergency number, so the offer is call me, not an ambulance",
+   "i": 46
+  },
+  {
+   "w": "닿다",
+   "en": "reach, touch",
+   "i": 66
+  }
+ ]
+}

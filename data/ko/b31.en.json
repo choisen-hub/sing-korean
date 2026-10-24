@@ -1,0 +1,181 @@
+{
+  "id": "b31",
+  "hook": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "notes": {
+    "s": "Two members sing the story of their own friendship, to each other.",
+    "t": "Jimin and V, both born in 1995, both moved to Seoul as teenagers to train, and this is the only song in the catalogue where two members narrate how they met and what it cost. The first verse is one of them describing the other as an alien he could not read; the second swaps to V naming Jimin out loud and counting seven years. The dumpling incident and the bus home from school are real shared history rather than imagery, which is why fan reaction to the song was so disproportionate to its position as an album track. The chorus asks for the friendship to outlast the noise, not the career.",
+    "k": [
+      [
+        "하루는 베프 하루는 웬수",
+        "하루는 A 하루는 B is the frame for one day this, the next day that. 웬수 is a deliberate misspelling of 원수, a sworn enemy or blood foe, and in the misspelt form it is what Koreans call family and close friends they cannot get along with or without. Translating it as enemy loses the affection."
+      ],
+      [
+        "네 작은 새끼손가락처럼",
+        "Promises in Korea are sealed by hooking little fingers, often with thumbs stamped on top. The pinky is not an anatomical detail, it is the promise itself, which is why the next lines measure time against promises."
+      ],
+      [
+        "만두 사건은 코미디 영화",
+        "An in-joke the fandom can date and a translation cannot carry: a trainee-era argument over dumplings that the two of them have retold on camera. Korean uses 사건, incident or case, for this kind of private legend the way English says the great whatever."
+      ],
+      [
+        "한결같애",
+        "Standard spelling is 한결같아, meaning constant throughout. Stretching the final 아 to 애 is a lyric and texting habit that reads as warm and spoken rather than careless."
+      ]
+    ]
+  },
+  "lines": {
+    "0": "Seoul, lit up brighter than usual",
+    "1": "another world I was seeing for the first time",
+    "2": "You, who I met soaked through with sweat",
+    "3": "were a kid who was somehow odd",
+    "4": "Me from the moon, you from a star",
+    "5": "Our conversations felt like homework",
+    "6": "One day best friends, the next day sworn enemies",
+    "8": "Hello my alien",
+    "9": "We're each other's mystery",
+    "10": "Maybe that's what makes it more special",
+    "11": "Someday when this cheering goes quiet, stay, hey",
+    "12": "Stay here next to me",
+    "13": "Forever, right here, stay, hey",
+    "14": "like your little pinky finger",
+    "15": "Longer than seven summers and cold winters",
+    "16": "longer",
+    "17": "longer than all those promises and memories",
+    "18": "longer",
+    "19": "I remember the two of us in school uniforms",
+    "20": "Our memories, scene by scene, a film",
+    "21": "The dumpling incident is the comedy one",
+    "22": "The private talk that filled the bus home from school",
+    "23": "Now we drive out together instead",
+    "24": "Just the same, those two of us from then",
+    "26": "the dreamcatcher in my room",
+    "27": "Seven years of history",
+    "40": "We have to trust each other, that's the deal",
+    "42": "Rather than that obvious word, thank you",
+    "44": "let's agree not to fight tomorrow, really",
+    "46": "You are my soulmate"
+  },
+  "vocab": [
+    {
+      "w": "반짝이다",
+      "en": "to sparkle, to glitter",
+      "i": 0
+    },
+    {
+      "w": "땀",
+      "en": "sweat",
+      "note": "땀에 배다, to be soaked in sweat, is the set phrase",
+      "i": 2
+    },
+    {
+      "w": "이상하다",
+      "en": "to be strange, to be off",
+      "note": "Covers both odd and wrong, as in 뭔가 이상해, something's not right",
+      "i": 3
+    },
+    {
+      "w": "대화",
+      "en": "conversation, dialogue",
+      "i": 5
+    },
+    {
+      "w": "숙제",
+      "en": "homework, an unresolved problem",
+      "note": "Also used for an issue still waiting to be solved",
+      "i": 5
+    },
+    {
+      "w": "원수",
+      "en": "sworn enemy, nemesis",
+      "note": "The lyric spells it 웬수, the colloquial form used half-fondly for family and close friends",
+      "i": 6
+    },
+    {
+      "w": "특별하다",
+      "en": "to be special",
+      "i": 10
+    },
+    {
+      "w": "함성",
+      "en": "cheering, a roar from a crowd",
+      "note": "Specifically the sound of many people shouting at once, as in a stadium",
+      "i": 11
+    },
+    {
+      "w": "멎다",
+      "en": "to cease, to let up",
+      "note": "Used of rain, bleeding, sound; people and vehicles 멈추다 instead",
+      "i": 11
+    },
+    {
+      "w": "영원히",
+      "en": "forever, eternally",
+      "i": 13
+    },
+    {
+      "w": "새끼손가락",
+      "en": "little finger, pinky",
+      "note": "새끼 is the young of an animal, so this is the baby finger; 엄지 is the thumb",
+      "i": 14
+    },
+    {
+      "w": "추억",
+      "en": "memory you look back on fondly",
+      "note": "기억 is the act of remembering; 추억 is the keepsake",
+      "i": 17
+    },
+    {
+      "w": "약속",
+      "en": "promise, an arrangement to meet",
+      "note": "Also what you call plans with someone, 약속 있어요",
+      "i": 17
+    },
+    {
+      "w": "교복",
+      "en": "school uniform",
+      "i": 19
+    },
+    {
+      "w": "사건",
+      "en": "incident, case, affair",
+      "i": 21
+    },
+    {
+      "w": "하교",
+      "en": "going home from school",
+      "note": "Pairs with 등교, going to school; both nouns take 하다",
+      "i": 22
+    },
+    {
+      "w": "한결같다",
+      "en": "to be unchanging, steady",
+      "note": "Praise for a person who stays the same through everything",
+      "i": 24
+    },
+    {
+      "w": "믿다",
+      "en": "to believe, to trust",
+      "i": 40
+    },
+    {
+      "w": "뻔하다",
+      "en": "to be obvious, predictable",
+      "note": "Mildly dismissive; 뻔한 영화 is a film you can see coming",
+      "i": 42
+    },
+    {
+      "w": "싸우다",
+      "en": "to fight, to argue",
+      "i": 44
+    }
+  ]
+}

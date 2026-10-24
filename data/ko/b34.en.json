@@ -1,0 +1,186 @@
+{
+  "id": "b34",
+  "hook": [
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+  ],
+  "notes": {
+    "s": "Blowing the whole paycheque on purpose, because saving it changes nothing.",
+    "t": "A 2017 single the group has described as a parody rather than an endorsement, sung from inside the mindset it is parodying. The engine of it is 탕진잼, the fun of spending until nothing is left, which was a genuine Korean youth slang term that year, not a lyric invention. It landed at a point when deposits on Seoul apartments had moved out of reach of a normal salary and the standard savings account was starting to look like a joke, so a generation that could not save its way to an asset decided the return on money was the afternoon you spent it. The choreography was simple enough to become a children's playground dance, which left a song about despair as the group's most cheerful-sounding hit.",
+    "k": [
+      [
+        "티끌 모아 티끌 탕진잼 다 지불해",
+        "탕진잼 is 탕진, squandering, plus 잼, a clipped 재미, fun: the pleasure of blowing the lot. The line in front of it rewrites the proverb 티끌 모아 태산, specks of dust pile into a great mountain, which is the Korean look after the pennies. Replacing the mountain with more dust is the song's actual argument: compounding does nothing when the monthly surplus is this small, so the only yield left is the spending itself."
+      ],
+      [
+        "내 통장은 밑 빠진 독이야",
+        "밑 빠진 독에 물 붓기, pouring water into a jar with no bottom, is the fixed phrase for effort that drains away as fast as you supply it. A 독 is the waist-high earthenware crock Korean households keep kimchi and soy sauce in, so the image is domestic and heavy rather than abstract. The next line proposing to smash it rather than keep filling it is the point where the joke turns."
+      ],
+      [
+        "쥐구멍 볕들 때까지",
+        "쥐구멍에도 볕들 날 있다, even a rat hole gets a day of sunlight, is the proverb for your luck turning eventually. Cutting it down to until leaves the party running up against a day that may never come, and pairs it with until sunrise so the two deadlines sit on top of each other."
+      ],
+      [
+        "내 일주일 월화수목, 금, 금, 금, 금",
+        "월화수목금 are the weekday syllables. 월화수목금금금, Friday repeated where Saturday and Sunday belong, is established Korean office shorthand for a week with no days off, and the pun is that 금 is also the character for gold. A week of nothing but gold, worked straight through."
+      ]
+    ]
+  },
+  "lines": {
+    "1": "Blew the lot in a single morning",
+    "2": "Run, run, I earn it and I waste it",
+    "5": "I want cruisin' on the bay",
+    "7": "No money, but I want to leave, somewhere far",
+    "8": "No money, but I want the tiredness worked out of me",
+    "9": "No money, but I want to eat Ono Jiro",
+    "10": "My pay, earned working myself flat",
+    "11": "all of it, into my belly",
+    "12": "Dust gathers into dust, blow-it-all fun, pay out the lot",
+    "13": "Leave me alone, even if I overspend",
+    "14": "even if tomorrow morning, like a lunatic",
+    "15": "I break open my savings account",
+    "16": "Ooh, there is no tomorrow",
+    "17": "My future's already been put up as collateral",
+    "18": "Ooh, spend more of my money",
+    "22": "Blew the lot in a single morning",
+    "23": "Run, run, man, I spend it like some party",
+    "24": "Dollar, dollar",
+    "25": "Until the sun gets into the rat hole",
+    "26": "until the sun comes up",
+    "27": "Yolo, yolo, yolo, yo",
+    "28": "Yolo, yolo, yo",
+    "29": "Blow-it-all fun, blow-it-all fun, blow-it-all fun",
+    "41": "My week is Mon Tue Wed Thu, Fri, Fri, Fri, Fri",
+    "42": "My bank account, yah",
+    "43": "it's a jar with the bottom gone",
+    "44": "and I'm the one pouring water in every day",
+    "45": "Might as well just smash it",
+    "46": "We're a fair bit too young to spend it all worrying",
+    "47": "Today at least, go instead of agonising",
+    "48": "Hold back out of fear and it turns to dirt",
+    "68": "Go instead of agonising"
+  },
+  "vocab": [
+    {
+      "w": "하루아침",
+      "en": "a single morning, overnight",
+      "note": "하루아침에 means suddenly, nearly always about losing something",
+      "i": 1
+    },
+    {
+      "w": "탕진",
+      "en": "squandering, blowing through",
+      "note": "탕진하다 to squander; 탕진잼 welds it to 재미, fun",
+      "i": 1
+    },
+    {
+      "w": "사치",
+      "en": "luxury, extravagance",
+      "note": "사치하다 to live extravagantly, 사치품 a luxury good",
+      "i": 2
+    },
+    {
+      "w": "떠나다",
+      "en": "to leave, to set off",
+      "i": 7
+    },
+    {
+      "w": "피로",
+      "en": "fatigue, tiredness",
+      "note": "피로를 풀다, to loosen the tiredness, is the standard pairing for resting it off",
+      "i": 8
+    },
+    {
+      "w": "배",
+      "en": "belly, stomach",
+      "note": "Also boat and pear, identically spelled; the cruise in the earlier line keeps the boat audible here",
+      "i": 11
+    },
+    {
+      "w": "티끌",
+      "en": "speck of dust, mote",
+      "i": 12
+    },
+    {
+      "w": "지불하다",
+      "en": "to pay, to settle up",
+      "note": "Formal, the word on receipts; 내다 is what you say out loud",
+      "i": 12
+    },
+    {
+      "w": "과소비",
+      "en": "overspending, excessive consumption",
+      "i": 13
+    },
+    {
+      "w": "적금",
+      "en": "instalment savings account",
+      "note": "A fixed amount paid in monthly for a set term, the normal Korean way to save, so 적금을 깨다 means closing it early and losing the interest",
+      "i": 15
+    },
+    {
+      "w": "저당",
+      "en": "mortgage, collateral",
+      "note": "저당 잡히다 is to have something held against a debt",
+      "i": 17
+    },
+    {
+      "w": "통장",
+      "en": "bank account, bankbook",
+      "i": 42
+    },
+    {
+      "w": "독",
+      "en": "earthenware jar, crock",
+      "note": "The large glazed pot used for kimchi and soy sauce; a different 독 means poison",
+      "i": 43
+    },
+    {
+      "w": "붓다",
+      "en": "to pour",
+      "note": "Also to swell up, as of a face or an ankle",
+      "i": 44
+    },
+    {
+      "w": "깨다",
+      "en": "to break, to smash",
+      "note": "Also to wake up and, of alcohol, to wear off",
+      "i": 45
+    },
+    {
+      "w": "걱정",
+      "en": "worry, anxiety about an outcome",
+      "i": 46
+    },
+    {
+      "w": "젊다",
+      "en": "to be young",
+      "note": "Young in years without the immaturity 어리다 implies",
+      "i": 46
+    },
+    {
+      "w": "고민",
+      "en": "agonising over something, being torn",
+      "note": "고민 is deliberation you are stuck inside; 걱정 is dread of what happens",
+      "i": 47
+    },
+    {
+      "w": "쫄다",
+      "en": "to get scared, to chicken out",
+      "note": "Slang, written 쫄다 though strictly 졸다 in spelling rules, and unrelated to 졸다 meaning to doze",
+      "i": 48
+    },
+    {
+      "w": "아끼다",
+      "en": "to save, to spare, to treasure",
+      "note": "One verb for using less of something and for holding someone dear",
+      "i": 48
+    }
+  ]
+}

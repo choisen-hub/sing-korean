@@ -1,0 +1,161 @@
+{
+ "id": "b17",
+ "hook": [
+  16,
+  17,
+  18,
+  19,
+  20,
+  21
+ ],
+ "notes": {
+  "s": "He hates her and needs her, and cannot work out which one is worse.",
+  "t": "Lead single from 화양연화 pt.1 in April 2015, and the pivot in the group's sound away from school-trilogy hip-hop toward something closer to pop. It gave them their first real chart win at home and the first video people built theories around for years, later extended into the longer cut with the fire and the hospital. The writing swings from insult to plea inside one breath, and ARMY treats the line about loving alone and breaking up alone as the one that did the damage.",
+  "k": [
+   [
+    "네가 한 모든 말은 안대",
+    "안대 is a blindfold, and it sounds exactly like the 안 돼 that ends the line before it, and like a clipped reported-speech 안 대. The primary reading is that everything she said is a blindfold, which the next line confirms by saying it covers the truth, since covering is what a blindfold does. Fan translations tend to pick one reading and lose the chain."
+   ],
+   [
+    "날 찢어, 날 찍어",
+    "찢다 is to tear and 찍다 is to stab or stamp, one vowel apart, and the run keeps going into 다 싫어. Korean rap gets a lot of its drive from minimal pairs like this. Hearing them as one set rather than four separate complaints is most of what makes the verse land."
+   ],
+   [
+    "못하겠어, 뭣 같아서",
+    "뭣 is a swerve. 뭣 같다 stands in for a word that would not survive a radio edit, and it means roughly this is garbage. Korean lyrics dodge censors this way all the time, so when a vague 뭣 or 거 turns up in a hostile line, assume the rude version was meant."
+   ],
+   [
+    "왜 하필 너인지?",
+    "하필 means of all the possible ones, and it only ever shows up when the speaker resents the answer. So this is not asking why you, it is complaining that it had to be you. Drop it into any question where you want that sting."
+   ]
+  ]
+ },
+ "lines": {
+  "6": "I can't do this, it's all garbage",
+  "9": "Every word you said is a blindfold",
+  "10": "It covers the truth and tears me, stabs me, I'm losing it, I hate all of it",
+  "11": "Take all of it, I just hate you",
+  "16": "I need you, girl",
+  "17": "Why do I love alone and break up all by myself",
+  "18": "I need you, girl",
+  "19": "Why do I keep needing you when I know it will hurt",
+  "20": "I need you, girl, you're beautiful",
+  "21": "I need you, girl, you're so cold",
+  "37": "Why is it you, why did it have to be you",
+  "47": "Girl, I'd rather, I'd rather",
+  "48": "you just tell me to break up",
+  "51": "I don't have the nerve for that myself"
+ },
+ "vocab": [
+  {
+   "w": "흩어지다",
+   "en": "scatter, disperse",
+   "i": 1
+  },
+  {
+   "w": "떨어지다",
+   "en": "fall, drop",
+   "i": 3
+  },
+  {
+   "w": "망가지다",
+   "en": "break down, get wrecked",
+   "note": "Intransitive, it happens to you; 망가뜨리다 is to wreck something yourself",
+   "i": 4
+  },
+  {
+   "w": "삼가다",
+   "en": "refrain from, abstain",
+   "note": "Stiff and formal, the register of a public notice, which is what makes it cutting here",
+   "i": 7
+  },
+  {
+   "w": "가리다",
+   "en": "cover, block, screen",
+   "i": 10
+  },
+  {
+   "w": "찢다",
+   "en": "tear, rip",
+   "i": 10
+  },
+  {
+   "w": "밉다",
+   "en": "be hateful, be detestable",
+   "note": "Describes how someone strikes you, so 네가 밉다 is you are hateful to me, not I hate you",
+   "i": 11
+  },
+  {
+   "w": "꺼지다",
+   "en": "get lost, piss off",
+   "note": "Literally to go out like a flame; as a command it is a real insult, not banter",
+   "i": 13
+  },
+  {
+   "w": "용서하다",
+   "en": "forgive",
+   "i": 15
+  },
+  {
+   "w": "이별하다",
+   "en": "part, break up",
+   "note": "More literary than 헤어지다, which is what people say",
+   "i": 17
+  },
+  {
+   "w": "다치다",
+   "en": "get hurt",
+   "i": 19
+  },
+  {
+   "w": "차갑다",
+   "en": "be cold",
+   "note": "Works for temperature and for personality, same as English",
+   "i": 21
+  },
+  {
+   "w": "바보",
+   "en": "idiot, fool",
+   "note": "Soft enough to be affectionate between couples",
+   "i": 28
+  },
+  {
+   "w": "심장",
+   "en": "heart, the organ",
+   "note": "The 마음 and 가슴 in the same line are the feeling heart; 심장 is the pump",
+   "i": 30
+  },
+  {
+   "w": "혼잣말",
+   "en": "talking to oneself",
+   "i": 31
+  },
+  {
+   "w": "햇살",
+   "en": "sunlight, rays",
+   "note": "The warmth and slant of it, where 햇빛 is just the light",
+   "i": 35
+  },
+  {
+   "w": "하필",
+   "en": "of all things, of all people",
+   "i": 37
+  },
+  {
+   "w": "차라리",
+   "en": "rather, if anything",
+   "note": "Picks the lesser of two bad options: I would rather this than that",
+   "i": 47
+  },
+  {
+   "w": "용기",
+   "en": "courage, nerve",
+   "i": 51
+  },
+  {
+   "w": "선물",
+   "en": "gift, present",
+   "i": 52
+  }
+ ]
+}

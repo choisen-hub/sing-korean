@@ -1,0 +1,149 @@
+{
+ "id": "b04",
+ "hook": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "notes": {
+  "s": "He knows the sweetness is poison and drinks it anyway.",
+  "t": "Title track of WINGS, October 2016, the album where BTS stopped writing about school and started writing out of a book. The frame is Hermann Hesse's Demian, and the video layers it with the Pieta, Bruegel's Fall of the Rebel Angels and a statue of a fallen angel. The song is sung from inside a temptation the narrator has already said yes to, so there is no struggle in it, only accounting. Musically it was their first big moombahton record, and the whispered hook made it the group's most imitated choreography in Korea that year. Fans treat it as the pivot from being told what to want to choosing something harmful on purpose.",
+  "k": [
+   [
+    "피 땀 눈물",
+    "A set phrase in Korean, as in English, for everything a person pours into something, usually said of honest labour. The song hands all of it over to a lover instead, so the title is doing a swap before the first line arrives. Note that Korean drops the and: the three nouns just stack."
+   ],
+   [
+    "He too was a tempter",
+    "The spoken English passage near the end is lifted from Hesse's Demian, where the narrator recognizes a friend as a door into a second, forbidden world. The devil's wings, the poisoned chalice and the kiss that must not be refused are all running off that one scene, which is why the song never argues about whether the thing is wrong."
+   ],
+   [
+    "알면서도 삼켜버린 독이 든 성배",
+    "독이 든 성배, a chalice with poison in it, is a stock Korean expression for a prize that destroys whoever accepts it, with 든 from 들다, to contain. The grammar carries the meaning: -면서도 means even while doing, so 알면서도 is knowing full well. Attach it to any verb for acting against your own knowledge."
+   ],
+   [
+    "아파도 돼, 취해도 돼",
+    "-아/어도 돼 is the permission pattern a textbook teaches for asking whether you may sit or may leave, literally even if you do it, it is fine. Here it is turned on pain and intoxication, which is the song's whole trick: the politest grammar in the language used to invite harm."
+   ]
+  ]
+ },
+ "lines": {
+  "0": "My blood, my sweat, my tears, my last dance,",
+  "1": "take it all, take it",
+  "2": "My blood, my sweat, my tears, my cold breath,",
+  "3": "take it all, take it",
+  "4": "My blood, my sweat, my tears"
+ },
+ "vocab": [
+  {
+   "w": "피",
+   "en": "blood",
+   "i": 0
+  },
+  {
+   "w": "땀",
+   "en": "sweat",
+   "i": 0
+  },
+  {
+   "w": "눈물",
+   "en": "tear, tears",
+   "note": "눈 eye plus 물 water. To cry is 눈물이 나다, the tears come out",
+   "i": 0
+  },
+  {
+   "w": "마지막",
+   "en": "last, final",
+   "i": 0
+  },
+  {
+   "w": "숨",
+   "en": "breath",
+   "note": "To breathe is 숨을 쉬다, literally to rest a breath",
+   "i": 2
+  },
+  {
+   "w": "영혼",
+   "en": "soul, spirit",
+   "i": 6
+  },
+  {
+   "w": "주문",
+   "en": "spell, incantation",
+   "note": "Identical in spelling to 주문, an order of food or goods. Context is the only clue",
+   "i": 8
+  },
+  {
+   "w": "날개",
+   "en": "wing",
+   "i": 11
+  },
+  {
+   "w": "악마",
+   "en": "devil, demon",
+   "i": 11
+  },
+  {
+   "w": "조이다",
+   "en": "to tighten, to squeeze",
+   "i": 13
+  },
+  {
+   "w": "취하다",
+   "en": "to get drunk, to be intoxicated",
+   "note": "A separate verb with the same spelling means to take or adopt, as in 조치를 취하다, take measures",
+   "i": 15
+  },
+  {
+   "w": "들이켜다",
+   "en": "to gulp down, to drain",
+   "i": 15
+  },
+  {
+   "w": "묶다",
+   "en": "to tie, to bind",
+   "note": "머리를 묶다 is to tie your hair. 묵다, to lodge somewhere, is a different verb that sounds the same",
+   "i": 29
+  },
+  {
+   "w": "도망치다",
+   "en": "to run away, to flee",
+   "i": 30
+  },
+  {
+   "w": "흔들다",
+   "en": "to shake, to rock",
+   "i": 31
+  },
+  {
+   "w": "감옥",
+   "en": "prison",
+   "i": 34
+  },
+  {
+   "w": "중독되다",
+   "en": "to become addicted",
+   "note": "독 here is poison, so the word is literally to be poisoned through. Also used for food poisoning, 식중독",
+   "i": 34
+  },
+  {
+   "w": "섬기다",
+   "en": "to serve, to worship",
+   "note": "For gods, parents and masters. Serving food or customers is a different verb",
+   "i": 35
+  },
+  {
+   "w": "삼키다",
+   "en": "to swallow",
+   "i": 36
+  },
+  {
+   "w": "달콤하다",
+   "en": "to be sweet",
+   "note": "For taste and for sweet talk. Plain sweetness is 달다",
+   "i": 52
+  }
+ ]
+}

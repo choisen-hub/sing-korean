@@ -1,0 +1,150 @@
+{
+ "id": "b06",
+ "hook": [
+  9,
+  10,
+  11,
+  12,
+  13
+ ],
+ "notes": {
+  "s": "After the stadiums, he wants the small facts of one person's ordinary day.",
+  "t": "Lead single of Map of the Soul: Persona, April 2019, with Halsey. The Korean title means a poem for small things, and the song is a direct answer to the scale of their own earlier records: world peace and grand order get waved off in the rap verse so he can ask what made your day good. It entered the Hot 100 at number eight and they performed it on Saturday Night Live the same month. The pastel sixties-musical staging made it the most mainstream-looking thing they had released, and ARMY reads the line about lowering his eyes to meet hers as addressed to the fandom rather than to a girlfriend.",
+  "k": [
+   [
+    "내 눈에 널 맞추고 싶어",
+    "맞추다 is to align one thing to another, and 눈을 맞추다 on its own is to make eye contact. The lyric bends it: he is high up now and wants to bring himself down to where her eyes are. Fans translate it both as wanting to look her in the eye and as wanting to lower himself to her level, and the song supports both at once."
+   ],
+   [
+    "이카루스의 날개",
+    "Icarus's wings, inverted. In the myth the wings melt because he flies at the sun; here the wings are a gift from her and he aims away from the sun and toward the person. It answers the WINGS album era, where flight was always a fall waiting to happen."
+   ],
+   [
+    "사소한 게 사소하지 않게 만들어버린",
+    "The same adjective twice, once plain and once negated, with -게 만들다, to make something become a certain way. The template is portable: A를 B하지 않게 만들다, to make A stop being B. The -버리다 on the end marks it as done irreversibly, so she did not just change his view, she finished it."
+   ],
+   [
+    "툭 까놓고 말할게 / 힘이 들어가기도 했어",
+    "Two idioms in one breath. 툭 까놓고 말하다 is to peel the thing open and say it flat out, from 까다 to peel, and it signals a confession is coming. 힘이 들어가다 is literally strength entering, used for tensing up or overdoing it, the thing a coach tells an athlete to stop doing."
+   ]
+  ]
+ },
+ "lines": {
+  "9": "Listen, my, my baby, I'm",
+  "10": "flying high up in that sky",
+  "11": "it's too high up here now",
+  "12": "I want to bring my eyes down to meet you",
+  "13": "Yeah, you're makin' me a boy with love"
+ },
+ "vocab": [
+  {
+   "w": "궁금하다",
+   "en": "to be curious, to wonder",
+   "note": "The thing you wonder about is the subject, not the object: 그게 궁금해, I wonder about that",
+   "i": 0
+  },
+  {
+   "w": "머리맡",
+   "en": "bedside, the spot by one's pillow",
+   "note": "머리 head plus 맡, the area right beside. Where you put what you want to see on waking",
+   "i": 5
+  },
+  {
+   "w": "가르치다",
+   "en": "to teach",
+   "note": "가리키다, to point at, is a near twin that natives mix up constantly",
+   "i": 7
+  },
+  {
+   "w": "맞추다",
+   "en": "to align, to match, to adjust to",
+   "note": "맞히다, to get right or hit the target, is a different verb with the same root feel",
+   "i": 12
+  },
+  {
+   "w": "전부",
+   "en": "all of it, the whole thing",
+   "i": 16
+  },
+  {
+   "w": "함께하다",
+   "en": "to share in, to be together in",
+   "i": 16
+  },
+  {
+   "w": "삶",
+   "en": "life",
+   "note": "Noun built off 살다, to live. 인생 is the other common word and leans toward a life as a story",
+   "i": 25
+  },
+  {
+   "w": "온통",
+   "en": "entirely, nothing but",
+   "i": 25
+  },
+  {
+   "w": "사소하다",
+   "en": "to be trivial, minor",
+   "i": 26
+  },
+  {
+   "w": "별",
+   "en": "star",
+   "i": 26
+  },
+  {
+   "w": "특별하다",
+   "en": "to be special",
+   "i": 28
+  },
+  {
+   "w": "관심사",
+   "en": "one's interests, what one cares about",
+   "note": "관심 interest plus 사, matter or affair",
+   "i": 29
+  },
+  {
+   "w": "걸음걸이",
+   "en": "gait, the way one walks",
+   "note": "From 걸음, a step. 말투 is the matching word for how someone talks",
+   "i": 29
+  },
+  {
+   "w": "말투",
+   "en": "way of speaking, tone",
+   "i": 29
+  },
+  {
+   "w": "습관",
+   "en": "habit",
+   "i": 29
+  },
+  {
+   "w": "영웅",
+   "en": "hero",
+   "i": 30
+  },
+  {
+   "w": "질서",
+   "en": "order, the way things are arranged",
+   "i": 33
+  },
+  {
+   "w": "지키다",
+   "en": "to protect, to keep",
+   "note": "Covers guarding a person and keeping a promise, a rule or a schedule",
+   "i": 34
+  },
+  {
+   "w": "깨닫다",
+   "en": "to realize, to come to understand",
+   "note": "ㄷ-irregular, so it becomes 깨달아 and 깨달았어",
+   "i": 55
+  },
+  {
+   "w": "다짐하다",
+   "en": "to resolve, to vow to oneself",
+   "i": 55
+  }
+ ]
+}

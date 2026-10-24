@@ -1,0 +1,5 @@
+corpus/
+work/*.raw.json
+node_modules/
+.vercel
+.DS_Store

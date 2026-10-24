@@ -1,0 +1,148 @@
+{
+ "id": "b27",
+ "hook": [
+  15,
+  16,
+  17,
+  18,
+  19
+ ],
+ "notes": {
+  "s": "Every lit window is a person, and the song counts seven billion of them as stars.",
+  "t": "Track three of Map of the Soul: Persona in 2019. The Korean title 소우주 is the Sino-Korean word for microcosm, the idea that a single person contains an entire universe, and the German spelling on the cover is also the title of Bartok's piano cycle. It became the designated encore, played while the arena holds up lightsticks so the crowd turns into the city lights the lyrics are describing, which is why it reads as a stadium song rather than a ballad. The seven billion figure was the world population when it was written, so the central claim is meant literally rather than poetically. The line about the light each saw in the other is the one fans read as the group and ARMY, not as romance.",
+  "k": [
+   [
+    "소우주",
+    "小宇宙, small universe, the standard Sino-Korean for microcosm. Korean builds compounds freely with 소- for small and 대- for large, so the word sounds as ordinary as little cosmos while carrying the whole philosophical idea. 우주 alone is space or the universe."
+   ],
+   [
+    "칠십억",
+    "Seven billion. Korean counts in units of 만 for ten thousand and 억 for a hundred million, so this is literally seventy 억, and English billions never line up with Korean 억 cleanly. Expect to do arithmetic rather than substitution whenever lyrics give you a big number."
+   ],
+   [
+    "밤이 깊을수록 더 빛나는 별빛",
+    "-을수록 means the more X, the more Y. The chorus states the idea twice, first as a plain superlative at the deepest night, then as this comparative, so the melody climbs on the same sentence twice. A high-frequency pattern worth stealing: 보면 볼수록, the more you look."
+   ],
+   [
+    "각자의 방 각자의 별에서",
+    "각자 means each separately, with apartness built into it rather than added. Each in their own room, each on their own star keeps the isolation alive inside a line that is otherwise about everyone shining together, which is the tension the whole song runs on."
+   ]
+  ]
+ },
+ "lines": {},
+ "vocab": [
+  {
+   "w": "반짝이다",
+   "en": "to twinkle, sparkle, glint",
+   "i": 0
+  },
+  {
+   "w": "별빛",
+   "en": "starlight",
+   "i": 0
+  },
+  {
+   "w": "깜빡이다",
+   "en": "to blink, flicker",
+   "note": "Also what you do when you forget something, 깜빡했다, I blanked",
+   "i": 1
+  },
+  {
+   "w": "건물",
+   "en": "building",
+   "i": 1
+  },
+  {
+   "w": "빛나다",
+   "en": "to shine, glow",
+   "i": 2
+  },
+  {
+   "w": "각자",
+   "en": "each, each one separately",
+   "i": 3
+  },
+  {
+   "w": "야망",
+   "en": "ambition",
+   "note": "Bigger and more self-serving than 꿈; 야망 있다 can be a compliment or a warning",
+   "i": 4
+  },
+  {
+   "w": "방황",
+   "en": "wandering, drifting, being lost",
+   "note": "Mental drifting more than physical; used for aimless years of life",
+   "i": 5
+  },
+  {
+   "w": "불빛",
+   "en": "lamplight, the glow of a light",
+   "i": 6
+  },
+  {
+   "w": "소중하다",
+   "en": "precious, dear, to be treasured",
+   "i": 7
+  },
+  {
+   "w": "사라지다",
+   "en": "to disappear, vanish",
+   "i": 10
+  },
+  {
+   "w": "존재",
+   "en": "existence, a being",
+   "i": 11
+  },
+  {
+   "w": "표정",
+   "en": "facial expression, look",
+   "note": "Giving the night a 표정 is the song's one odd image, a face rather than a mood",
+   "i": 13
+  },
+  {
+   "w": "칠흑",
+   "en": "pitch black, jet black",
+   "note": "Literally lacquer-black; almost always in 칠흑 같은, pitch dark",
+   "i": 16
+  },
+  {
+   "w": "역사",
+   "en": "history",
+   "i": 22
+  },
+  {
+   "w": "삶",
+   "en": "life, a life lived",
+   "note": "Noun from 살다; 인생 is the span of a life, 생명 is life as biology",
+   "i": 26
+  },
+  {
+   "w": "야경",
+   "en": "night view, a city at night",
+   "note": "A tourist word, what you go up a tower to see",
+   "i": 26
+  },
+  {
+   "w": "어둠",
+   "en": "darkness",
+   "i": 31
+  },
+  {
+   "w": "달빛",
+   "en": "moonlight",
+   "i": 31
+  },
+  {
+   "w": "떠올리다",
+   "en": "to recall, bring to mind",
+   "note": "Transitive, you do it on purpose; 떠오르다 is a thought surfacing on its own",
+   "i": 40
+  },
+  {
+   "w": "가득하다",
+   "en": "to be full of, packed with",
+   "i": 42
+  }
+ ]
+}

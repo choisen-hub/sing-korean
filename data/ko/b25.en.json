@@ -1,0 +1,153 @@
+{
+ "id": "b25",
+ "hook": [
+  20,
+  21,
+  22,
+  23,
+  24
+ ],
+ "notes": {
+  "s": "The closing answer of the Love Yourself series: the person you were told to love is you.",
+  "t": "Final track of Love Yourself 結 Answer in 2018, the end of a four-part arc running 起承轉結 across Wonder, Her, Tear and Answer, released weeks before RM took the UNICEF Love Myself campaign to the UN. Almost every image is a reply to something earlier in the series: the mirror that Singularity refuses to look into gets looked into, the arrows that drew blood become a target that was chosen, and the line about no longer wanting to die answers the despair the arc opened with. Suga's verse carries the most quoted pun in the catalogue. It closes the album rather than leading it, which is the point, and fans treat it as the group's thesis statement rather than a song.",
+  "k": [
+   [
+    "슬프던 me, 아프던 me / 더 아름다울 美",
+    "English me and the hanja 美, mi, meaning beauty, are identical in Korean pronunciation. The sad me and the hurting me become beauty itself without the sound changing at all, and the series title Love Myself lands on that one syllable. Untranslatable, which is why fans learned the line phonetically."
+   ],
+   [
+    "저 수많은 별을 맞기 위해 난 떨어졌던가",
+    "떨어지다 is both a star falling and a person failing, and the next line turns thousands of arrows into a target that is only him. Arrows at a target is the ordinary Korean figure for taking public criticism, so the pair rewrites having been shot at as having been aimed for."
+   ],
+   [
+    "나이테",
+    "Tree rings. The thick ones are the hard years, and since you cannot cut a ring out without killing the tree, the argument for forgiving yourself is structural rather than sentimental. Korean uses 나이 (age) plus 테 (ring, hoop), so the word itself says year-ring."
+   ],
+   [
+    "인정하자 / 용서하자",
+    "The plain -자 ending is let's do this. Suga aims it at himself rather than at the listener, which is why the verse reads as self-talk you are overhearing instead of advice being handed to you. Same ending as 꽃길만 걷자 in 둘! 셋!, pointed inward."
+   ]
+  ]
+ },
+ "lines": {},
+ "vocab": [
+  {
+   "w": "어둠",
+   "en": "darkness, the dark",
+   "i": 0
+  },
+  {
+   "w": "심장",
+   "en": "heart (the organ)",
+   "note": "The physical heart; 가슴 is the chest and the seat of feeling",
+   "i": 1
+  },
+  {
+   "w": "낯설다",
+   "en": "unfamiliar, strange to one",
+   "note": "Opposite of 낯익다; about recognition, not weirdness",
+   "i": 1
+  },
+  {
+   "w": "거울",
+   "en": "mirror",
+   "i": 2
+  },
+  {
+   "w": "겁먹다",
+   "en": "to get scared, be frightened",
+   "i": 3
+  },
+  {
+   "w": "해묵다",
+   "en": "to be long-standing, stale from age",
+   "note": "Only for problems, grudges and questions left sitting for years",
+   "i": 3
+  },
+  {
+   "w": "인정하다",
+   "en": "to admit, acknowledge, recognize",
+   "i": 6
+  },
+  {
+   "w": "잣대",
+   "en": "yardstick, measuring standard",
+   "note": "Literally a ruler; used almost only for standards you judge people by",
+   "i": 7
+  },
+  {
+   "w": "엄격하다",
+   "en": "strict, rigorous",
+   "i": 7
+  },
+  {
+   "w": "나이테",
+   "en": "tree rings, growth rings",
+   "i": 8
+  },
+  {
+   "w": "일부",
+   "en": "a part, a portion",
+   "i": 9
+  },
+  {
+   "w": "용서하다",
+   "en": "to forgive, pardon",
+   "i": 10
+  },
+  {
+   "w": "미로",
+   "en": "maze, labyrinth",
+   "i": 11
+  },
+  {
+   "w": "초라하다",
+   "en": "shabby, pitiful, sorry-looking",
+   "note": "Appearance that invites pity; the key word of 전하지 못한 진심 too",
+   "i": 14
+  },
+  {
+   "w": "뒤척이다",
+   "en": "to toss and turn",
+   "i": 15
+  },
+  {
+   "w": "찬란하다",
+   "en": "brilliant, radiant, splendid",
+   "i": 18
+  },
+  {
+   "w": "과녁",
+   "en": "target (for arrows)",
+   "i": 19
+  },
+  {
+   "w": "정답",
+   "en": "the correct answer",
+   "note": "The right answer on a test; 해답 is the worked solution",
+   "i": 25
+  },
+  {
+   "w": "허락",
+   "en": "permission, consent",
+   "i": 28
+  },
+  {
+   "w": "행보",
+   "en": "steps taken, one's course of action",
+   "note": "Journalistic word for a public figure's moves, which is why it sounds deliberate here",
+   "i": 37
+  },
+  {
+   "w": "별자리",
+   "en": "constellation",
+   "note": "Literally star-seat; also the word for a zodiac sign",
+   "i": 48
+  },
+  {
+   "w": "서툴다",
+   "en": "clumsy, unpracticed",
+   "i": 53
+  }
+ ]
+}

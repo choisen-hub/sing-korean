@@ -1,0 +1,157 @@
+{
+ "id": "b26",
+ "hook": [
+  13,
+  14,
+  15,
+  16,
+  17,
+  18
+ ],
+ "notes": {
+  "s": "He grows a flower that resembles her because he cannot let her see his real face.",
+  "t": "Track three of Love Yourself 轉 Tear in 2018, a vocal-line ballad produced with Steve Aoki. The garden and the blue flower are the smeraldo, a plant BTS invented for a tie-in blog in 2017 whose made-up flower meaning was the truth that could not be delivered, which is where the title comes from. It sits as the mirror of Serendipity, where meeting someone is a blooming, and as the confession Singularity declines to make. The mask passes straight through the era, hidden here, worn as love in Fake Love, named as a self in Persona, and the sandcastle supplies the arc its collapse image. In the fictional BTS Universe storyline the voice belongs to the Jin character, which is why the regret is retrospective.",
+  "k": [
+   [
+    "푸른 꽃",
+    "The smeraldo, a flower that does not exist. BTS invented it for a promotional blog and assigned it the meaning a sincerity that could not be delivered, which is the song's Korean title. Fans had to decode the blog to get the song, so the flower is fandom knowledge, not botany."
+   ],
+   [
+    "가면",
+    "가면을 쓰다 is closer to putting on a front than wearing a costume, since 가면 covers the social face as well as the object. Track by track the era does hidden mask here, mask mistaken for love in Fake Love, mask admitted as a self in Persona."
+   ],
+   [
+    "용길 내서",
+    "용기를 내다, to work up courage, squeezed to 용길 내서 so it fits the melody. Lyrics routinely collapse 를 onto the previous syllable as ㄹ, which is also how 나를 becomes 날 and 너를 becomes 널. Once you see the pattern, half of sung Korean stops looking irregular."
+   ],
+   [
+    "이 모래성에 난 날 매었어",
+    "매다 is to tie or to moor a boat. He has moored himself to the sandcastle, the one structure guaranteed to wash out, so the tragedy is the choice rather than the eventual collapse. The same sandcastle returns in the last verse, already gone."
+   ]
+  ]
+ },
+ "lines": {},
+ "vocab": [
+  {
+   "w": "외로움",
+   "en": "loneliness",
+   "note": "Noun from 외롭다; 고독 is the loftier, more literary version",
+   "i": 0
+  },
+  {
+   "w": "가득히",
+   "en": "fully, brimming, in abundance",
+   "i": 0
+  },
+  {
+   "w": "피다",
+   "en": "to bloom, blossom",
+   "note": "Intransitive; 피우다 is to make something bloom, as in the later verse",
+   "i": 1
+  },
+  {
+   "w": "가시",
+   "en": "thorn, spine",
+   "note": "-투성이 attached to a noun means covered all over in it, so 가시투성이 is thorns everywhere",
+   "i": 2
+  },
+  {
+   "w": "모래성",
+   "en": "sandcastle",
+   "i": 3
+  },
+  {
+   "w": "매다",
+   "en": "to tie, fasten, moor",
+   "note": "Do not confuse with 메다, to carry on the shoulder; the two are pronounced alike now",
+   "i": 3
+  },
+  {
+   "w": "숨어들다",
+   "en": "to slip in, sneak in and hide",
+   "i": 7
+  },
+  {
+   "w": "온기",
+   "en": "warmth, body heat",
+   "note": "Sung as 온긴, which is 온기는 with the topic particle swallowed",
+   "i": 9
+  },
+  {
+   "w": "꺾다",
+   "en": "to break off, snap, pluck",
+   "note": "Also to break someone's spirit, 기를 꺾다",
+   "i": 10
+  },
+  {
+   "w": "운명",
+   "en": "fate, destiny",
+   "i": 12
+  },
+  {
+   "w": "다가서다",
+   "en": "to step closer, approach",
+   "note": "다가오다 is them coming to you, 다가가다 and 다가서다 are you going to them",
+   "i": 14
+  },
+  {
+   "w": "초라하다",
+   "en": "shabby, pitiful, wretched-looking",
+   "i": 18
+  },
+  {
+   "w": "가면",
+   "en": "mask, a front",
+   "i": 19
+  },
+  {
+   "w": "벗다",
+   "en": "to take off, remove",
+   "note": "The general verb for removing anything worn, including masks, shoes and glasses",
+   "i": 24
+  },
+  {
+   "w": "영원히",
+   "en": "forever, eternally",
+   "i": 26
+  },
+  {
+   "w": "추하다",
+   "en": "ugly, unseemly, disgraceful",
+   "note": "Harsher than 못생기다; implies something shameful rather than merely unattractive",
+   "i": 28
+  },
+  {
+   "w": "두렵다",
+   "en": "to be afraid, fearful",
+   "note": "Weightier and more inward than 무섭다, which is for things that scare you",
+   "i": 29
+  },
+  {
+   "w": "떠나다",
+   "en": "to leave, depart",
+   "i": 31
+  },
+  {
+   "w": "용기",
+   "en": "courage, nerve",
+   "i": 43
+  },
+  {
+   "w": "무너지다",
+   "en": "to collapse, crumble",
+   "i": 46
+  },
+  {
+   "w": "부서지다",
+   "en": "to shatter, break to pieces",
+   "i": 48
+  },
+  {
+   "w": "바라보다",
+   "en": "to gaze at, look toward",
+   "note": "Looking from a distance, with the distance implied, unlike plain 보다",
+   "i": 48
+  }
+ ]
+}

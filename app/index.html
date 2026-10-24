@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#120B22">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Sing Korean">
+<link rel="manifest" href="./manifest.webmanifest">
+<title>Sing Korean — learn Korean from the songs you already know</title>
+<meta name="description" content="Tap any word in a BTS lyric and see what it is made of. Real pronunciation in romanization, line by line English, and the 400 words that cover 78% of every song.">
+<meta property="og:title" content="Sing Korean">
+<meta property="og:description" content="You already know the song by heart. Now understand it.">
+<meta property="og:type" content="website">
+<style>
+:root{
+  --bg:#120B22; --bg1:#1B1033; --bg2:#241546; --bg3:#2F1C5C;
+  --line:#33215E; --line2:#452C7D;
+  --ink:#F4EFFF; --mut:#B5A3DC; --dim:#7D6AA8;
+  --pur:#B388FF; --pur2:#D7BFFF; --purd:#7C4DFF;
+  --ok:#7FDB8E; --bad:#FF837D; --gold:#FFD166;
+  --serif:"Iowan Old Style",Palatino,Georgia,serif;
+  --sans:-apple-system,"Segoe UI","Helvetica Neue","Pretendard","Apple SD Gothic Neo",sans-serif;
+  --kz:21px; --rad:14px; --maxw:880px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);line-height:1.55;
+  background-image:radial-gradient(1100px 560px at 78% -10%,#2A1850 0%,transparent 60%),radial-gradient(760px 480px at -12% 0%,#1D1138 0%,transparent 55%);background-attachment:fixed}
+a{color:var(--pur2);text-decoration:none}a:hover{text-decoration:underline}
+button{font-family:inherit;cursor:pointer}
+:focus-visible{outline:2px solid var(--pur);outline-offset:2px;border-radius:4px}
+::selection{background:rgba(179,136,255,.34)}
+mark{background:rgba(179,136,255,.3);color:var(--pur2);padding:0 2px;border-radius:3px}
+header{position:sticky;top:0;z-index:40;background:rgba(18,11,34,.88);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.hwrap{max-width:var(--maxw);margin:0 auto;padding:10px 16px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.brand{font-family:var(--serif);font-size:20px;white-space:nowrap}.brand b{color:var(--pur)}
+nav{display:flex;gap:2px;flex-wrap:wrap;margin-left:auto}
+nav a{padding:6px 10px;border-radius:8px;font-size:13.5px;color:var(--mut)}
+nav a.on{background:rgba(179,136,255,.16);color:var(--pur2)}
+main{max-width:var(--maxw);margin:0 auto;padding:18px 16px 70px}
+.hero{position:relative;overflow:hidden;border:1px solid var(--line);border-radius:18px;padding:32px 24px 26px;background:linear-gradient(160deg,#241546 0%,#170E2D 70%);margin-bottom:16px}
+.hero h1{font-family:var(--serif);font-size:36px;line-height:1.12}
+.hero h1 .y{color:var(--pur)}
+.hero .sub{color:var(--mut);margin-top:11px;font-size:15px;max-width:46em}
+.statline{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0}
+.stat{flex:1;min-width:116px;border:1px solid var(--line);border-radius:var(--rad);padding:12px 14px;background:rgba(27,16,51,.55)}
+.stat b{display:block;font-size:23px;font-family:var(--serif);color:var(--pur2)}
+.stat span{font-size:12px;color:var(--mut)}
+h2.sec{font-size:12.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--dim);margin:22px 0 10px;font-weight:650}
+.card{border:1px solid var(--line);border-radius:var(--rad);padding:14px 16px;background:linear-gradient(180deg,rgba(36,21,70,.6),rgba(27,16,51,.42));margin-bottom:12px}
+.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.small{font-size:12.5px}.dim{color:var(--dim)}.mut{color:var(--mut)}
+.btn{border:1px solid var(--line2);background:rgba(36,21,70,.65);color:var(--ink);border-radius:10px;padding:8px 14px;font-size:13.5px}
+.btn:hover{border-color:var(--purd)}.btn.sm{padding:5px 10px;font-size:12.5px}.btn.ghost{background:transparent}
+.btn.primary{background:var(--pur);color:#1a0d33;border-color:var(--pur);font-weight:700}
+.chip{display:inline-block;font-size:11.5px;border:1px solid var(--line2);color:var(--mut);border-radius:99px;padding:2px 10px}
+.fchip{display:inline-block;font-size:12.5px;border:1px solid var(--line2);color:var(--mut);border-radius:99px;padding:4px 12px;cursor:pointer;background:transparent}
+.fchip.on{border-color:var(--purd);color:var(--pur2);background:rgba(179,136,255,.12)}
+.fchips{display:flex;flex-wrap:wrap;gap:7px;margin:8px 0 12px}
+input[type=search],input[type=text]{background:rgba(18,11,34,.6);border:1px solid var(--line2);border-radius:10px;color:var(--ink);padding:9px 12px;font-family:inherit;font-size:14px;width:100%}
+.empty{color:var(--dim);text-align:center;padding:30px 10px;font-size:14px}
+/* song rows */
+.songrow{display:flex;align-items:center;gap:12px;padding:10px 12px;border:1px solid var(--line);border-radius:12px;background:rgba(27,16,51,.5);margin-bottom:6px;color:var(--ink)}
+.songrow:hover{border-color:var(--purd);text-decoration:none}
+.songrow .num{font-family:var(--serif);color:var(--dim);width:26px;text-align:right;font-size:13px}
+.songrow .tt{font-family:var(--serif);font-size:17px}
+.songrow .ko{font-size:12.5px;color:var(--mut)}
+.songrow .meta{font-size:11.5px;color:var(--dim)}
+.songrow .right{margin-left:auto;display:flex;align-items:center;gap:8px}
+.sstbtn{min-width:30px;height:30px;border-radius:99px;border:1.5px solid var(--line2);background:transparent;font-size:14px;line-height:1;color:var(--dim);padding:0 7px}
+.sstbtn.s1{color:var(--pur)}.sstbtn.s2{color:var(--gold)}.sstbtn.s3{color:var(--ok);border-color:var(--ok)}
+/* song page */
+.songhead h1{font-family:var(--serif);font-size:32px;line-height:1.15;margin-top:6px}
+.songhead h1 small{display:block;font-family:var(--sans);font-size:15px;color:var(--mut);margin-top:4px;font-weight:400}
+.video{position:relative;border-radius:var(--rad);overflow:hidden;border:1px solid var(--line);background:#000;aspect-ratio:16/9;margin:14px 0 6px}
+.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.novideo{border:1px dashed var(--line2);border-radius:var(--rad);padding:18px;background:var(--bg1);margin:14px 0 6px;font-size:14px}
+.toolbar{position:sticky;top:52px;z-index:30;display:flex;gap:4px 14px;flex-wrap:wrap;align-items:center;padding:8px 12px;border:1px solid var(--line);border-radius:12px;background:rgba(18,11,34,.93);backdrop-filter:blur(10px);margin:12px 0}
+.tg{display:flex;align-items:center;gap:6px;font-size:12.5px;color:var(--mut);cursor:pointer;user-select:none}
+.tg i{width:34px;height:20px;border-radius:99px;background:var(--line2);position:relative;transition:.15s;flex:none}
+.tg i::after{content:"";position:absolute;top:3px;left:3px;width:14px;height:14px;border-radius:99px;background:#fff;transition:.15s}
+.tg.on i{background:var(--pur)}.tg.on i::after{left:17px}
+.notecard{border:1px solid var(--line);border-radius:var(--rad);background:linear-gradient(180deg,rgba(36,21,70,.6),rgba(27,16,51,.42));margin:14px 0}
+.notecard summary{cursor:pointer;list-style:none;padding:13px 16px;font-weight:650;display:flex;align-items:center;gap:9px;flex-wrap:wrap;font-size:14.5px}
+.notecard summary::-webkit-details-marker{display:none}
+.notecard[open] summary{border-bottom:1px solid var(--line)}
+.nbody{padding:13px 16px 15px}
+.vbadge{font-size:11px;border:1px solid var(--line2);color:var(--mut);border-radius:99px;padding:2px 9px;font-weight:500}
+.notesum{font-size:15px;font-weight:650;color:var(--pur2);line-height:1.5}
+.notetxt{font-size:14px;color:var(--mut);margin-top:8px;line-height:1.72}
+.kexp{margin-top:12px;display:grid;gap:7px}
+.kx{border-left:3px solid var(--purd);padding:6px 11px;background:rgba(179,136,255,.07);border-radius:0 8px 8px 0}
+.kx .ken{font-size:16px;color:var(--ink)}
+.kx .kko{font-size:13px;color:var(--mut);line-height:1.6;margin-top:2px}
+/* lyrics */
+.lyrics{margin-top:10px}
+.gap{height:15px}
+.line{position:relative;padding:6px 0 7px 11px;border-left:2px solid transparent;border-radius:4px}
+.line:hover{border-left-color:var(--line2)}
+.line.hl{background:rgba(179,136,255,.09);border-left-color:var(--pur)}
+.ko{font-size:var(--kz);line-height:1.5;color:var(--ink);word-break:keep-all}
+.rom{font-size:calc(var(--kz) - 7px);color:var(--pur2);opacity:.78;margin-top:1px;font-style:italic}
+.en{font-size:calc(var(--kz) - 6px);color:var(--mut);margin-top:3px;line-height:1.5}
+body.hide-rom .rom{display:none}
+body.hide-en .en{filter:blur(6px);cursor:pointer;user-select:none;transition:filter .15s}
+body.hide-en .line.peek .en{filter:none}
+.w{cursor:pointer;border-radius:4px;padding:0 1px}
+.w:hover,.w.sel{background:rgba(179,136,255,.2)}
+.w.kn{color:var(--ok)}
+.w.core{border-bottom:2px solid rgba(179,136,255,.5)}
+/* popup */
+#wpop{position:fixed;z-index:90;max-width:340px;min-width:230px;background:linear-gradient(180deg,var(--bg2),var(--bg1));border:1px solid var(--line2);border-radius:13px;padding:13px 15px;box-shadow:0 14px 38px rgba(0,0,0,.6);display:none}
+#wpop.on{display:block}
+#wpop .pw{font-size:22px;line-height:1.25}
+#wpop .pr{font-size:13px;color:var(--pur2);font-style:italic;margin-top:1px}
+#wpop .mchain{margin-top:11px;display:grid;gap:6px}
+#wpop .mo{display:flex;gap:9px;align-items:baseline;border-top:1px dashed var(--line);padding-top:6px}
+#wpop .mo:first-child{border-top:0;padding-top:0}
+#wpop .mt{font-size:16px;min-width:2.2em;color:var(--ink)}
+#wpop .md{font-size:12.6px;color:var(--mut);line-height:1.5}
+#wpop .md b{color:var(--pur2);font-weight:600}
+#wpop .mp{font-size:10.5px;color:var(--dim);text-transform:uppercase;letter-spacing:.06em}
+#wpop .prow{display:flex;align-items:center;gap:8px;margin-top:11px;flex-wrap:wrap}
+#wpop .pbtn{font-size:12.5px;background:none;border:1px solid var(--line2);border-radius:8px;padding:4px 10px;color:var(--mut)}
+#wpop .pbtn.on{color:var(--ok);border-color:var(--ok)}
+/* word list */
+.wrow{display:flex;gap:11px;align-items:flex-start;padding:10px 12px;border:1px solid var(--line);border-radius:12px;background:rgba(27,16,51,.5);margin-bottom:6px}
+.wrow .rk{font-family:var(--serif);color:var(--dim);font-size:13px;min-width:2.4em;text-align:right;padding-top:3px}
+.wrow .ww{font-size:19px}
+.wrow .wr{font-size:12px;color:var(--pur2);font-style:italic;margin-left:7px}
+.wrow .we{font-size:13.5px;color:var(--mut)}
+.wrow .wn{font-size:12px;color:var(--dim);margin-top:2px;line-height:1.5}
+.wrow .wf{font-size:11px;color:var(--dim);margin-top:3px}
+.wrow .kbtn{margin-left:auto;background:none;border:1.5px solid var(--line2);border-radius:99px;width:30px;height:30px;color:var(--dim);font-size:14px;flex:none}
+.wrow .kbtn.on{color:var(--ok);border-color:var(--ok)}
+.progbar{height:9px;border-radius:99px;background:var(--line);overflow:hidden}
+.progbar i{display:block;height:100%;background:linear-gradient(90deg,var(--purd),var(--pur))}
+footer{text-align:center;color:var(--dim);font-size:11.5px;padding:34px 16px;line-height:1.8}
+footer .fm{font-family:var(--serif);font-size:15px;color:var(--mut);margin-bottom:6px}
+.fsz{display:flex;gap:4px;margin-left:auto}
+.fsz button{border:1px solid var(--line2);background:transparent;color:var(--mut);border-radius:8px;padding:3px 8px;font-size:12px}
+@media (max-width:640px){.hero h1{font-size:28px}.songhead h1{font-size:25px}.toolbar{top:48px}:root{--kz:19px}}
+</style>
+</head>
+<body>
+<header><div class="hwrap">
+  <a class="brand" href="#/">Sing <b>Korean</b></a>
+  <nav id="nav">
+    <a href="#/" data-r="home">Home</a><a href="#/songs" data-r="songs">Songs</a><a href="#/words" data-r="words">Core words</a><a href="#/me" data-r="me">Progress</a><a href="#/search" data-r="search">Search</a>
+  </nav>
+</div></header>
+<main id="app"><div class="empty">Loading…</div></main>
+<footer>
+  <div class="fm">You already know the song by heart.</div>
+  Translations, romanization and grammar notes written for this site. Lyrics remain the property of their respective rights holders.<br>
+  Takedown requests and corrections: <a href="mailto:cshsteven0205@gmail.com">cshsteven0205@gmail.com</a> — handled same day.
+</footer>
+<div id="wpop" role="dialog" aria-label="word"></div>
+<script>
+"use strict";
+/* ───────── state, device local only ─────────
+   No accounts and no server copy. A public site means one shared state file
+   would collide across visitors, so progress lives in this browser. */
+const LKEY='singko';
+let ST={known:{}, songst:{}, last:null, set:{rom:1,en:1,fs:0}, seen:0};
+function load(){ try{ const v=localStorage.getItem(LKEY); if(v) ST=Object.assign(ST,JSON.parse(v)); }catch(e){}
+  ST.known=ST.known||{}; ST.songst=ST.songst||{}; ST.set=Object.assign({rom:1,en:1,fs:0},ST.set||{}); }
+function save(){ try{ localStorage.setItem(LKEY,JSON.stringify(ST)); }catch(e){} }
+
+/* ───────── data ───────── */
+let INDEX=[], FREQ=[], FBY={}, byId={}, SONG={};
+const CORE=400;
+async function boot(){
+  const [ix,fq]=await Promise.all([
+    fetch('./data/index.json').then(r=>r.json()),
+    fetch('./data/freq.json').then(r=>r.json())
+  ]);
+  INDEX=ix; FREQ=fq; byId={}; INDEX.forEach(s=>byId[s.id]=s);
+  FBY={}; FREQ.forEach(e=>{ FBY[e.w]=e; });
+}
+async function song(id){
+  if(SONG[id]) return SONG[id];
+  const r=await fetch('./data/song/'+encodeURIComponent(id)+'.json');
+  if(!r.ok) throw new Error('not found');
+  return SONG[id]=await r.json();
+}
+
+/* ───────── utils ───────── */
+const $=s=>document.querySelector(s);
+const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const app=$('#app');
+const SST=[{ic:'○',nm:'New'},{ic:'◔',nm:'Heard it'},{ic:'◑',nm:'Read it'},{ic:'●',nm:'Can sing it'}];
+const sst=id=>ST.songst[id]||0;
+const knownN=()=>Object.keys(ST.known).length;
+function coreKnown(){ let k=0; for(let i=0;i<Math.min(CORE,FREQ.length);i++) if(ST.known[FREQ[i].w]) k++; return k; }
+function coverage(k){ /* 상위 k단어가 덮는 토큰 비율 */
+  const tot=FREQ.reduce((a,e)=>a+e.n,0)||1; let c=0;
+  FREQ.forEach(e=>{ if(ST.known[e.w]) c+=e.n; });
+  return Math.round(c/tot*100);
+}
+function applyFlags(){
+  document.body.classList.toggle('hide-rom',!ST.set.rom);
+  document.body.classList.toggle('hide-en',!ST.set.en);
+  document.documentElement.style.setProperty('--kz',(21+(ST.set.fs||0))+'px');
+}
+function setNav(r){ document.querySelectorAll('#nav a').forEach(a=>a.classList.toggle('on',a.dataset.r===r)); }
+
+/* ───────── lyric rendering ─────────
+   One span per 어절. The morpheme data rides along in a lookup table rather
+   than the DOM so a 90 line song does not ship 400 data attributes. */
+let TK={}, TKN=0;
+function renderLine(e){
+  TK[e.i]=e.tk;
+  const ko=e.tk.map((t,j)=>{
+    const head=(t.m||[]).find(m=>m.en)||null;
+    const lem=head&&(head.l||head.t);
+    const kn=lem&&ST.known[lem];
+    const core=lem&&FBY[lem]&&FBY[lem].rank<=CORE;
+    return `<span class="w${kn?' kn':''}${core?' core':''}" data-l="${e.i}" data-j="${j}">${esc(t.s)}</span>`;
+  }).join(' ');
+  return `<div class="line" data-li="${e.i}">
+    <div class="ko">${ko}</div>
+    <div class="rom">${esc(e.r)}</div>
+    ${e.en?`<div class="en">${esc(e.en)}</div>`:''}
+  </div>`;
+}
+
+/* ───────── views ───────── */
+function vHome(){
+  setNav('home');
+  const done=INDEX.filter(s=>s.done).length;
+  const lines=INDEX.reduce((a,s)=>a+s.lines,0);
+  const ck=coreKnown();
+  const top=FREQ.slice(0,6);
+  app.innerHTML=`
+  <section class="hero">
+    <h1>You already know the song.<br><span class="y">Now understand it.</span></h1>
+    <div class="sub">Tap any word in a BTS lyric and see exactly what it is built from. 보고 싶다 is not one word for "I miss you" — it is 보 (see) plus 고 (and) plus 싶 (want to). Learn how it is put together and you can read the next line on your own.</div>
+  </section>
+  <div class="statline">
+    <div class="stat"><b>${INDEX.length}</b><span>songs</span></div>
+    <div class="stat"><b>${lines.toLocaleString()}</b><span>lines, word by word</span></div>
+    <div class="stat"><b>51%</b><span>of all lyrics = top 100 words</span></div>
+    <div class="stat"><b>${ck}/${CORE}</b><span>core words you know</span></div>
+  </div>
+  <div class="card">
+    <div class="row" style="justify-content:space-between">
+      <div><b style="font-size:16px">Start with the words that pay off fastest</b>
+      <div class="small mut" style="margin-top:4px">Every word in all ${INDEX.length} songs, counted and ranked. The top 100 cover half of everything they sing. The top 400 cover 78%.</div></div>
+    </div>
+    <div class="row" style="margin-top:12px">${top.map(e=>`<a class="chip" href="#/words" style="font-size:13px;padding:5px 12px">${esc(e.w)} <span class="dim">${esc(e.r)}</span></a>`).join('')}</div>
+    <div class="row" style="margin-top:12px"><a class="btn primary" href="#/words">Open the core word list →</a></div>
+  </div>
+  <h2 class="sec">Songs</h2>
+  ${INDEX.slice(0,8).map(songRow).join('')}
+  <div class="row" style="margin-top:8px"><a class="btn ghost sm" href="#/songs">All ${INDEX.length} songs →</a></div>`;
+  bindSst(vHome);
+}
+function songRow(s){
+  const st=sst(s.id);
+  return `<a class="songrow" href="#/song/${s.id}"><span class="num">${s.n}</span>
+    <span style="min-width:0"><span class="tt">${esc(s.title_en)}</span>
+      <div class="ko">${esc(s.title_ko)}</div>
+      <div class="meta">${esc(s.album||'')} · ${s.year||''} · ${s.lines} lines</div></span>
+    <span class="right">${s.yt?'<span style="color:var(--pur);font-size:11px">▶</span>':''}
+      <button class="sstbtn s${st}" data-sst="${s.id}" title="${SST[st].nm}">${SST[st].ic}</button></span></a>`;
+}
+function bindSst(re){ document.querySelectorAll('[data-sst]').forEach(b=>b.onclick=e=>{
+  e.preventDefault(); e.stopPropagation(); const id=b.dataset.sst;
+  ST.songst[id]=(sst(id)+1)%4; save(); re(); }); }
+
+function vSongs(){
+  setNav('songs');
+  const eras=[...new Set(INDEX.map(s=>s.year))].sort();
+  app.innerHTML=`<h2 class="sec">All songs</h2>
+  ${eras.map(y=>`<div class="small dim" style="margin:16px 0 6px;letter-spacing:.1em">${y}</div>${INDEX.filter(s=>s.year===y).map(songRow).join('')}`).join('')}`;
+  bindSst(vSongs);
+}
+
+async function vSong(id, li){
+  setNav('songs');
+  app.innerHTML='<div class="empty">Loading…</div>';
+  let s; try{ s=await song(id); }catch(e){ app.innerHTML='<div class="empty">Song not found.</div>'; return; }
+  ST.last=id; save(); TK={};
+  const n=s.notes||{};
+  const body=s.items.map(it=>it.gap?'<div class="gap"></div>':renderLine(it)).join('');
+  const hook=(s.hook||[]).length?s.hook:null;
+  app.innerHTML=`<div class="songhead"><a class="small" href="#/songs">← All songs</a>
+    <h1>${esc(s.title_en)}<small>${esc(s.title_ko)} · ${esc(s.album||'')} · ${s.year||''}</small></h1></div>
+  ${s.yt?`<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/${esc(s.yt)}" title="official video" loading="lazy" allow="encrypted-media; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>`
+    :`<div class="novideo">No official video linked for this track. <a href="https://www.youtube.com/results?search_query=${encodeURIComponent('BTS '+s.title_en)}" target="_blank" rel="noopener">Search YouTube ↗</a></div>`}
+  ${n.s?`<details class="notecard" open><summary>What this song is about <span class="vbadge">context</span></summary>
+    <div class="nbody"><div class="notesum">${esc(n.s)}</div>${n.t?`<div class="notetxt">${esc(n.t)}</div>`:''}
+    ${(n.k||[]).length?`<div class="kexp">${n.k.map(k=>`<div class="kx"><div class="ken">${esc(k[0])}</div><div class="kko">${esc(k[1])}</div></div>`).join('')}</div>`:''}</div></details>`:''}
+  <div class="toolbar">
+    <label class="tg ${ST.set.rom?'on':''}" data-set="rom"><i></i>Romanization</label>
+    <label class="tg ${ST.set.en?'on':''}" data-set="en"><i></i>English</label>
+    <div class="fsz"><button data-fs="-1">A−</button><button data-fs="1">A+</button></div>
+  </div>
+  <p class="small dim">Tap a word to break it into pieces. Underlined words are in the core ${CORE}. Green means you marked it known. With English off, tap a line to peek.</p>
+  <div class="lyrics">${body}</div>
+  <div class="card" style="margin-top:18px"><div class="row" style="justify-content:space-between">
+    <div class="small mut">Know this one now?</div>
+    <div class="row">${SST.map((o,i)=>`<button class="btn sm ${sst(id)===i?'primary':'ghost'}" data-seg="${i}">${o.ic} ${o.nm}</button>`).join('')}</div>
+  </div></div>
+  <div class="card"><div class="row" style="justify-content:space-between">
+    <div class="small mut">Send this to someone who sings along without knowing the words</div>
+    <button class="btn sm" id="sharebtn">Share</button></div></div>`;
+  document.querySelectorAll('[data-seg]').forEach(b=>b.onclick=()=>{ ST.songst[id]=+b.dataset.seg; save(); vSong(id); });
+  document.querySelectorAll('.tg').forEach(t=>t.onclick=()=>{ const k=t.dataset.set; ST.set[k]=ST.set[k]?0:1; save(); applyFlags(); t.classList.toggle('on',!!ST.set[k]); });
+  document.querySelectorAll('[data-fs]').forEach(b=>b.onclick=()=>{ ST.set.fs=Math.max(-4,Math.min(10,(ST.set.fs||0)+ +b.dataset.fs)); save(); applyFlags(); });
+  $('#sharebtn').onclick=()=>share(s);
+  if(li!=null){ const el=document.querySelector(`.line[data-li="${li}"]`); if(el){ el.classList.add('hl'); setTimeout(()=>el.scrollIntoView({block:'center'}),80); } }
+  window.scrollTo(0,0);
+}
+function share(s){
+  const url=location.origin+location.pathname+'#/song/'+s.id;
+  const text=`I finally know what ${s.title_en} actually says. Tap any word and it breaks into pieces.`;
+  if(navigator.share){ navigator.share({title:'Sing Korean',text,url}).catch(()=>{}); return; }
+  window.open('https://twitter.com/intent/tweet?text='+encodeURIComponent(text)+'&url='+encodeURIComponent(url),'_blank','noopener');
+}
+
+/* ───────── core word list ───────── */
+function vWords(q, filt){
+  setNav('words'); q=(q||'').toLowerCase(); filt=filt||'core';
+  let list=FREQ;
+  if(filt==='core') list=FREQ.slice(0,CORE);
+  else if(filt==='wide') list=FREQ.filter(e=>e.ns>=8);
+  else if(filt==='todo') list=FREQ.slice(0,CORE).filter(e=>!ST.known[e.w]);
+  else if(filt==='known') list=FREQ.filter(e=>ST.known[e.w]);
+  if(q) list=list.filter(e=>e.w.includes(q)||(e.r||'').includes(q)||(e.en||[]).join(' ').toLowerCase().includes(q));
+  const ck=coreKnown();
+  app.innerHTML=`<h2 class="sec">Core words</h2>
+  <div class="card"><div class="row" style="justify-content:space-between">
+    <div><b style="font-size:16px">${ck} of ${CORE}</b> <span class="small mut">core words marked known</span>
+    <div class="small dim" style="margin-top:3px">That is ${coverage()}% of every content word across all ${INDEX.length} songs.</div></div></div>
+    <div class="progbar" style="margin-top:11px"><i style="width:${ck/CORE*100}%"></i></div></div>
+  <input type="search" id="wq" placeholder="Search Korean, romanization or English" value="${esc(q)}">
+  <div class="fchips">
+    <button class="fchip ${filt==='core'?'on':''}" data-f="core">Top ${CORE}</button>
+    <button class="fchip ${filt==='todo'?'on':''}" data-f="todo">Not yet known</button>
+    <button class="fchip ${filt==='wide'?'on':''}" data-f="wide">In 8+ songs</button>
+    <button class="fchip ${filt==='known'?'on':''}" data-f="known">Known</button>
+    <button class="fchip ${filt==='all'?'on':''}" data-f="all">All ${FREQ.length}</button>
+  </div>
+  <div id="wlist">${list.slice(0,300).map(wRow).join('')||'<div class="empty">Nothing here yet.</div>'}
+  ${list.length>300?`<div class="empty">Showing 300 of ${list.length}. Search to narrow.</div>`:''}</div>`;
+  let t; $('#wq').oninput=e=>{ clearTimeout(t); t=setTimeout(()=>vWords(e.target.value,filt),250); };
+  document.querySelectorAll('[data-f]').forEach(b=>b.onclick=()=>vWords(q,b.dataset.f));
+  bindKnown(()=>vWords(q,filt));
+}
+function wRow(e){
+  const kn=!!ST.known[e.w];
+  const songs=(e.in||[]).filter(id=>byId[id]).slice(0,3);
+  return `<div class="wrow"><div class="rk">${e.rank}</div>
+    <div style="min-width:0;flex:1">
+      <div><span class="ww">${esc(e.w)}</span><span class="wr">${esc(e.r)}</span></div>
+      <div class="we">${e.en?esc(e.en.join(', ')):'<span class="dim">no gloss yet</span>'} <span class="dim small">${esc(e.p||'')}</span></div>
+      ${e.note?`<div class="wn">${esc(e.note)}</div>`:''}
+      <div class="wf">${e.n} times in ${e.ns} song${e.ns>1?'s':''}${songs.length?' · ':''}${songs.map(id=>`<a href="#/song/${id}">${esc(byId[id].title_en)}</a>`).join(', ')}</div>
+    </div>
+    <button class="kbtn ${kn?'on':''}" data-known="${esc(e.w)}" title="I know this">✓</button></div>`;
+}
+function bindKnown(re){ document.querySelectorAll('[data-known]').forEach(b=>b.onclick=()=>{
+  const w=b.dataset.known;
+  if(ST.known[w]) delete ST.known[w]; else ST.known[w]=1;
+  save(); b.classList.toggle('on',!!ST.known[w]); }); }
+
+function vMe(){
+  setNav('me');
+  const ck=coreKnown(), cov=coverage();
+  const dist={0:0,1:0,2:0,3:0}; INDEX.forEach(s=>dist[sst(s.id)]++);
+  app.innerHTML=`<h2 class="sec">Progress</h2>
+  <div class="card">
+    <div class="row"><div class="stat" style="flex:1"><b>${ck}</b><span>of ${CORE} core words</span></div>
+    <div class="stat" style="flex:1"><b>${cov}%</b><span>of all lyrics covered</span></div>
+    <div class="stat" style="flex:1"><b>${dist[3]}</b><span>songs you can sing</span></div></div>
+    <div class="progbar" style="margin-top:12px"><i style="width:${ck/CORE*100}%"></i></div>
+    <div class="small dim" style="margin-top:7px">Coverage counts every word you marked known against how often it appears across all ${INDEX.length} songs.</div>
+  </div>
+  <h2 class="sec">Songs by status</h2>
+  ${[3,2,1,0].map(l=>{ const ss=INDEX.filter(s=>sst(s.id)===l); if(!ss.length) return '';
+    return `<div class="small dim" style="margin:14px 0 6px">${SST[l].ic} ${SST[l].nm} · ${ss.length}</div>${ss.map(songRow).join('')}`; }).join('')}
+  <h2 class="sec">Your data</h2>
+  <div class="card"><div class="row">
+    <button class="btn sm ghost" id="exp">Export progress</button>
+    <button class="btn sm ghost" id="imp">Import</button>
+    <input type="file" id="impf" accept="application/json,.json" hidden></div>
+    <p class="small dim" style="margin-top:8px">No account, nothing sent anywhere. Progress is stored in this browser, so export it before switching devices.</p></div>`;
+  bindSst(vMe);
+  $('#exp').onclick=()=>{ const b=new Blob([JSON.stringify(ST,null,1)],{type:'application/json'});
+    const a=document.createElement('a'); a.href=URL.createObjectURL(b); a.download='sing-korean-progress.json'; a.click(); };
+  $('#imp').onclick=()=>$('#impf').click();
+  $('#impf').onchange=async ev=>{ const f=ev.target.files[0]; if(!f) return;
+    try{ const j=JSON.parse(await f.text()); if(!j||!j.set) throw 0; ST=Object.assign(ST,j); save(); applyFlags(); vMe(); }
+    catch(_){ alert('That is not a Sing Korean export file.'); } };
+}
+
+function vSearch(q){
+  setNav('search'); q=(q||'').trim();
+  app.innerHTML=`<h2 class="sec">Search</h2>
+  <input type="search" id="sq" placeholder="A Korean phrase, romanization or English line (2+ characters)" value="${esc(q)}">
+  <div id="sres" style="margin-top:12px">${q.length>=2?'<div class="empty">Searching…</div>':'<div class="empty">Type at least two characters.</div>'}</div>`;
+  let t; const inp=$('#sq');
+  inp.oninput=()=>{ clearTimeout(t); t=setTimeout(()=>{ location.hash='#/search/'+encodeURIComponent(inp.value); },320); };
+  if(!q) inp.focus();
+  if(q.length>=2) runSearch(q);
+}
+async function runSearch(q){
+  const ql=q.toLowerCase(); const hits=[];
+  for(const s of INDEX){
+    let doc; try{ doc=await song(s.id); }catch(e){ continue; }
+    for(const it of doc.items){
+      if(it.gap) continue;
+      if(it.ko.includes(q)||(it.r||'').toLowerCase().includes(ql)||(it.en||'').toLowerCase().includes(ql)){
+        hits.push({s,it}); if(hits.length>=120) break;
+      }
+    }
+    if(hits.length>=120) break;
+  }
+  const el=$('#sres'); if(!el) return;
+  el.innerHTML=hits.length?hits.map(h=>`<a class="songrow" href="#/song/${h.s.id}/${h.it.i}">
+    <span style="min-width:0"><span class="ko" style="font-size:17px">${hl(h.it.ko,q)}</span>
+    <div class="meta">${esc(h.it.r||'')}</div>
+    ${h.it.en?`<div class="meta">${hl(h.it.en,q)}</div>`:''}
+    <div class="meta">${esc(h.s.title_en)}</div></span></a>`).join(''):'<div class="empty">No matches.</div>';
+}
+function hl(text,q){ const t=esc(text); const i=t.toLowerCase().indexOf(q.toLowerCase());
+  if(i<0) return t; return t.slice(0,i)+'<mark>'+t.slice(i,i+q.length)+'</mark>'+t.slice(i+q.length); }
+
+/* ───────── word popup ───────── */
+const pop=$('#wpop');
+function place(el){ const r=el.getBoundingClientRect(); pop.classList.add('on');
+  const pw=pop.offsetWidth, ph=pop.offsetHeight;
+  let x=Math.min(window.innerWidth-pw-10,Math.max(10,r.left));
+  let y=r.bottom+8; if(y+ph>window.innerHeight-10) y=r.top-ph-8;
+  pop.style.left=x+'px'; pop.style.top=Math.max(10,y)+'px'; }
+function showPop(el){
+  const li=el.dataset.l, j=+el.dataset.j;
+  const t=(TK[li]||[])[j]; if(!t) return;
+  document.querySelectorAll('.w.sel').forEach(x=>x.classList.remove('sel')); el.classList.add('sel');
+  const head=(t.m||[]).find(m=>m.en);
+  const lem=head&&(head.l||head.t);
+  const fe=lem&&FBY[lem];
+  const chain=(t.m||[]).map(m=>{
+    const d=m.en?`<b>${esc(m.en.join(', '))}</b>`:(m.g?esc(m.g):'<span class="dim">part of the word</span>');
+    const dict=m.l&&m.l!==m.t?`<span class="dim"> from ${esc(m.l)}</span>`:'';
+    return `<div class="mo"><div class="mt">${esc(m.t)}</div><div><div class="md">${d}${dict}</div><div class="mp">${esc(m.pl||'')}</div></div></div>`;
+  }).join('');
+  pop.innerHTML=`<div class="pw">${esc(t.s)}</div><div class="pr">${esc(t.r)}</div>
+    <div class="mchain">${chain}</div>
+    ${fe?`<div class="md" style="margin-top:10px;border-top:1px dashed var(--line);padding-top:7px">
+      <b>${esc(lem)}</b> is word #${fe.rank} in these songs, ${fe.n} times across ${fe.ns}${fe.note?`<br>${esc(fe.note)}`:''}</div>`:''}
+    <div class="prow">${lem?`<button class="pbtn ${ST.known[lem]?'on':''}" data-pk="${esc(lem)}">✓ ${ST.known[lem]?'Known':'I know this'}</button>`:''}
+      <a class="pbtn" href="#/words" style="text-decoration:none">Core list</a></div>`;
+  place(el);
+  pop.querySelectorAll('[data-pk]').forEach(b=>b.onclick=()=>{
+    const w=b.dataset.pk; if(ST.known[w]) delete ST.known[w]; else ST.known[w]=1;
+    save(); showPop(el);
+    document.querySelectorAll('.w').forEach(x=>{ const tt=(TK[x.dataset.l]||[])[+x.dataset.j];
+      const h=tt&&(tt.m||[]).find(m=>m.en); const l=h&&(h.l||h.t);
+      x.classList.toggle('kn',!!(l&&ST.known[l])); });
+  });
+}
+document.addEventListener('click',e=>{
+  const w=e.target.closest('.w');
+  if(w){ showPop(w); e.stopPropagation(); return; }
+  if(!e.target.closest('#wpop')){ pop.classList.remove('on'); document.querySelectorAll('.w.sel').forEach(x=>x.classList.remove('sel')); }
+  const ln=e.target.closest('.line');
+  if(ln&&document.body.classList.contains('hide-en')) ln.classList.toggle('peek');
+});
+document.addEventListener('keydown',e=>{ if(e.key==='Escape') pop.classList.remove('on'); });
+
+/* ───────── router ───────── */
+function route(){
+  const h=location.hash||'#/'; const p=h.slice(2).split('/').map(decodeURIComponent);
+  pop.classList.remove('on');
+  switch(p[0]){
+    case '': case undefined: vHome(); break;
+    case 'songs': vSongs(); break;
+    case 'song': vSong(p[1], p[2]!=null&&p[2]!==''?+p[2]:null); break;
+    case 'words': vWords(p[1]||'', p[2]||'core'); break;
+    case 'me': vMe(); break;
+    case 'search': vSearch(p[1]||''); break;
+    default: vHome();
+  }
+}
+window.addEventListener('hashchange',route);
+
+/* ───────── start ───────── */
+(async function(){
+  load(); ST.seen=(ST.seen||0)+1; save(); applyFlags();
+  try{ await boot(); }catch(e){ app.innerHTML='<div class="empty">Could not load the song data.</div>'; return; }
+  route();
+  if('serviceWorker' in navigator && /^https?:$/.test(location.protocol))
+    window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
+})();
+</script>
+</body>
+</html>

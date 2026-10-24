@@ -1,0 +1,3754 @@
+[
+ {
+  "w": "내",
+  "r": "nae",
+  "p": "pronoun",
+  "n": 219,
+  "ns": 32,
+  "dict_guess": [
+   "inside"
+  ]
+ },
+ {
+  "w": "너",
+  "r": "neo",
+  "p": "pronoun",
+  "n": 150,
+  "ns": 27,
+  "dict_guess": [
+   "you"
+  ]
+ },
+ {
+  "w": "나",
+  "r": "na",
+  "p": "pronoun",
+  "n": 129,
+  "ns": 31,
+  "dict_guess": [
+   "me"
+  ]
+ },
+ {
+  "w": "날",
+  "r": "nal",
+  "p": "noun",
+  "n": 83,
+  "ns": 23,
+  "dict_guess": [
+   "day"
+  ]
+ },
+ {
+  "w": "말",
+  "r": "mal",
+  "p": "noun",
+  "n": 62,
+  "ns": 22,
+  "dict_guess": [
+   "end",
+   "man",
+   "speak",
+   "horse"
+  ]
+ },
+ {
+  "w": "더",
+  "r": "deo",
+  "p": "adverb",
+  "n": 57,
+  "ns": 21,
+  "dict_guess": [
+   "more",
+   "get worse"
+  ]
+ },
+ {
+  "w": "둘",
+  "r": "dul",
+  "p": "number",
+  "n": 52,
+  "ns": 5,
+  "dict_guess": null
+ },
+ {
+  "w": "하나",
+  "r": "hana",
+  "p": "number",
+  "n": 52,
+  "ns": 9,
+  "dict_guess": null
+ },
+ {
+  "w": "꿈",
+  "r": "kkum",
+  "p": "noun",
+  "n": 50,
+  "ns": 9,
+  "dict_guess": [
+   "a dream"
+  ]
+ },
+ {
+  "w": "뭐",
+  "r": "mwo",
+  "p": "pronoun",
+  "n": 50,
+  "ns": 9,
+  "dict_guess": null
+ },
+ {
+  "w": "하루",
+  "r": "haru",
+  "p": "noun",
+  "n": 46,
+  "ns": 10,
+  "dict_guess": [
+   "a day"
+  ]
+ },
+ {
+  "w": "또",
+  "r": "tto",
+  "p": "adverb",
+  "n": 45,
+  "ns": 15,
+  "dict_guess": [
+   "again"
+  ]
+ },
+ {
+  "w": "보다",
+  "r": "boda",
+  "p": "verb",
+  "n": 44,
+  "ns": 12,
+  "dict_guess": [
+   "than",
+   "to try",
+   "to see"
+  ]
+ },
+ {
+  "w": "싶다",
+  "r": "sipta",
+  "p": "auxiliary verb",
+  "n": 44,
+  "ns": 10,
+  "dict_guess": null
+ },
+ {
+  "w": "많이",
+  "r": "mani",
+  "p": "adverb",
+  "n": 43,
+  "ns": 3,
+  "dict_guess": [
+   "a lot"
+  ]
+ },
+ {
+  "w": "셋",
+  "r": "set",
+  "p": "number",
+  "n": 40,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "손",
+  "r": "son",
+  "p": "noun",
+  "n": 37,
+  "ns": 13,
+  "dict_guess": [
+   "donny",
+   "the hand"
+  ]
+ },
+ {
+  "w": "네",
+  "r": "ne",
+  "p": "pronoun",
+  "n": 35,
+  "ns": 12,
+  "dict_guess": [
+   "yes",
+   "your"
+  ]
+ },
+ {
+  "w": "않다",
+  "r": "anta",
+  "p": "auxiliary verb",
+  "n": 35,
+  "ns": 14,
+  "dict_guess": null
+ },
+ {
+  "w": "속",
+  "r": "sok",
+  "p": "noun",
+  "n": 34,
+  "ns": 15,
+  "dict_guess": [
+   "the inside"
+  ]
+ },
+ {
+  "w": "왜",
+  "r": "wae",
+  "p": "adverb",
+  "n": 33,
+  "ns": 8,
+  "dict_guess": null
+ },
+ {
+  "w": "탕진",
+  "r": "tangjin",
+  "p": "noun",
+  "n": 32,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "못",
+  "r": "mot",
+  "p": "adverb",
+  "n": 31,
+  "ns": 14,
+  "dict_guess": [
+   "cannot",
+   "a nail",
+   "to go wrong",
+   "a small pool"
+  ]
+ },
+ {
+  "w": "쩔다",
+  "r": "jjeolda",
+  "p": "adjective",
+  "n": 31,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "안",
+  "r": "an",
+  "p": "noun",
+  "n": 30,
+  "ns": 15,
+  "dict_guess": null
+ },
+ {
+  "w": "너무",
+  "r": "neomu",
+  "p": "adverb",
+  "n": 29,
+  "ns": 12,
+  "dict_guess": [
+   "too much"
+  ]
+ },
+ {
+  "w": "모든",
+  "r": "modeun",
+  "p": "determiner",
+  "n": 29,
+  "ns": 13,
+  "dict_guess": [
+   "every one"
+  ]
+ },
+ {
+  "w": "같다",
+  "r": "gatta",
+  "p": "adjective",
+  "n": 29,
+  "ns": 17,
+  "dict_guess": [
+   "to be similar"
+  ]
+ },
+ {
+  "w": "잼",
+  "r": "jaem",
+  "p": "noun",
+  "n": 29,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "사랑",
+  "r": "sarang",
+  "p": "noun",
+  "n": 28,
+  "ns": 7,
+  "dict_guess": [
+   "love",
+   "to love"
+  ]
+ },
+ {
+  "w": "좀",
+  "r": "jom",
+  "p": "adverb",
+  "n": 27,
+  "ns": 11,
+  "dict_guess": [
+   "a trifle",
+   "a little"
+  ]
+ },
+ {
+  "w": "밤",
+  "r": "bam",
+  "p": "noun",
+  "n": 26,
+  "ns": 7,
+  "dict_guess": [
+   "chestnut"
+  ]
+ },
+ {
+  "w": "함께",
+  "r": "hamkke",
+  "p": "adverb",
+  "n": 26,
+  "ns": 9,
+  "dict_guess": null
+ },
+ {
+  "w": "괜찮다",
+  "r": "gwaenchanta",
+  "p": "adjective",
+  "n": 26,
+  "ns": 8,
+  "dict_guess": [
+   "to be okay"
+  ]
+ },
+ {
+  "w": "믿다",
+  "r": "mitta",
+  "p": "verb",
+  "n": 26,
+  "ns": 6,
+  "dict_guess": [
+   "believe"
+  ]
+ },
+ {
+  "w": "우리",
+  "r": "uri",
+  "p": "pronoun",
+  "n": 25,
+  "ns": 14,
+  "dict_guess": null
+ },
+ {
+  "w": "모두",
+  "r": "modu",
+  "p": "adverb",
+  "n": 25,
+  "ns": 10,
+  "dict_guess": [
+   "everybody",
+   "everything"
+  ]
+ },
+ {
+  "w": "웃다",
+  "r": "utta",
+  "p": "verb",
+  "n": 25,
+  "ns": 9,
+  "dict_guess": [
+   "laugh",
+   "laughably"
+  ]
+ },
+ {
+  "w": "잡다",
+  "r": "japta",
+  "p": "verb",
+  "n": 24,
+  "ns": 9,
+  "dict_guess": null
+ },
+ {
+  "w": "나의",
+  "r": "naui",
+  "p": "noun",
+  "n": 24,
+  "ns": 15,
+  "dict_guess": [
+   "my"
+  ]
+ },
+ {
+  "w": "다시",
+  "r": "dasi",
+  "p": "adverb",
+  "n": 23,
+  "ns": 10,
+  "dict_guess": [
+   "again",
+   "redo"
+  ]
+ },
+ {
+  "w": "좋다",
+  "r": "jota",
+  "p": "adjective",
+  "n": 23,
+  "ns": 8,
+  "dict_guess": [
+   "to be good"
+  ]
+ },
+ {
+  "w": "거야",
+  "r": "geoya",
+  "p": "noun",
+  "n": 22,
+  "ns": 10,
+  "dict_guess": null
+ },
+ {
+  "w": "노력",
+  "r": "noryeok",
+  "p": "noun",
+  "n": 22,
+  "ns": 2,
+  "dict_guess": [
+   "hump",
+   "effort"
+  ]
+ },
+ {
+  "w": "숨",
+  "r": "sum",
+  "p": "noun",
+  "n": 21,
+  "ns": 13,
+  "dict_guess": [
+   "a breath"
+  ]
+ },
+ {
+  "w": "알다",
+  "r": "alda",
+  "p": "verb",
+  "n": 21,
+  "ns": 12,
+  "dict_guess": [
+   "wise",
+   "to know"
+  ]
+ },
+ {
+  "w": "눈",
+  "r": "nun",
+  "p": "noun",
+  "n": 20,
+  "ns": 13,
+  "dict_guess": [
+   "snow",
+   "eyes"
+  ]
+ },
+ {
+  "w": "잘",
+  "r": "jal",
+  "p": "adverb",
+  "n": 20,
+  "ns": 10,
+  "dict_guess": [
+   "to do well"
+  ]
+ },
+ {
+  "w": "고민",
+  "r": "gomin",
+  "p": "noun",
+  "n": 20,
+  "ns": 2,
+  "dict_guess": [
+   "worry or anguish"
+  ]
+ },
+ {
+  "w": "마",
+  "r": "ma",
+  "p": "noun",
+  "n": 20,
+  "ns": 9,
+  "dict_guess": null
+ },
+ {
+  "w": "길",
+  "r": "gil",
+  "p": "noun",
+  "n": 20,
+  "ns": 9,
+  "dict_guess": [
+   "road"
+  ]
+ },
+ {
+  "w": "빛나다",
+  "r": "binnada",
+  "p": "verb",
+  "n": 20,
+  "ns": 4,
+  "dict_guess": null
+ },
+ {
+  "w": "자꾸",
+  "r": "jakku",
+  "p": "adverb",
+  "n": 19,
+  "ns": 10,
+  "dict_guess": null
+ },
+ {
+  "w": "전부",
+  "r": "jeonbu",
+  "p": "noun",
+  "n": 19,
+  "ns": 10,
+  "dict_guess": [
+   "to fall down"
+  ]
+ },
+ {
+  "w": "이제",
+  "r": "ije",
+  "p": "adverb",
+  "n": 19,
+  "ns": 10,
+  "dict_guess": null
+ },
+ {
+  "w": "니",
+  "r": "ni",
+  "p": "pronoun",
+  "n": 19,
+  "ns": 11,
+  "dict_guess": null
+ },
+ {
+  "w": "일",
+  "r": "il",
+  "p": "noun",
+  "n": 19,
+  "ns": 10,
+  "dict_guess": [
+   "one",
+   "task",
+   "one day"
+  ]
+ },
+ {
+  "w": "끝",
+  "r": "kkeut",
+  "p": "noun",
+  "n": 18,
+  "ns": 9,
+  "dict_guess": [
+   "foreend",
+   "the end"
+  ]
+ },
+ {
+  "w": "계속",
+  "r": "gyesok",
+  "p": "noun",
+  "n": 18,
+  "ns": 6,
+  "dict_guess": [
+   "continuously",
+   "to continue",
+   "come to stay"
+  ]
+ },
+ {
+  "w": "맘",
+  "r": "mam",
+  "p": "noun",
+  "n": 18,
+  "ns": 5,
+  "dict_guess": [
+   "heart"
+  ]
+ },
+ {
+  "w": "많다",
+  "r": "manta",
+  "p": "adjective",
+  "n": 18,
+  "ns": 6,
+  "dict_guess": null
+ },
+ {
+  "w": "뱁새",
+  "r": "baepsae",
+  "p": "noun",
+  "n": 18,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "노",
+  "r": "no",
+  "p": "proper noun",
+  "n": 18,
+  "ns": 1,
+  "dict_guess": [
+   "an oar"
+  ]
+ },
+ {
+  "w": "세상",
+  "r": "sesang",
+  "p": "noun",
+  "n": 17,
+  "ns": 10,
+  "dict_guess": null
+ },
+ {
+  "w": "두",
+  "r": "du",
+  "p": "determiner",
+  "n": 17,
+  "ns": 8,
+  "dict_guess": null
+ },
+ {
+  "w": "전",
+  "r": "jeon",
+  "p": "noun",
+  "n": 17,
+  "ns": 3,
+  "dict_guess": [
+   "before"
+  ]
+ },
+ {
+  "w": "잊어",
+  "r": "ijeo",
+  "p": "proper noun",
+  "n": 17,
+  "ns": 2,
+  "dict_guess": null
+ },
+ {
+  "w": "한",
+  "r": "han",
+  "p": "determiner",
+  "n": 16,
+  "ns": 9,
+  "dict_guess": [
+   "a limit"
+  ]
+ },
+ {
+  "w": "심장",
+  "r": "simjang",
+  "p": "noun",
+  "n": 16,
+  "ns": 10,
+  "dict_guess": [
+   "the heart"
+  ]
+ },
+ {
+  "w": "뛰다",
+  "r": "ttwida",
+  "p": "verb",
+  "n": 16,
+  "ns": 7,
+  "dict_guess": null
+ },
+ {
+  "w": "발",
+  "r": "bal",
+  "p": "noun",
+  "n": 16,
+  "ns": 5,
+  "dict_guess": [
+   "foot",
+   "publish",
+   "locomotive"
+  ]
+ },
+ {
+  "w": "가다",
+  "r": "gada",
+  "p": "verb",
+  "n": 16,
+  "ns": 8,
+  "dict_guess": [
+   "to go"
+  ]
+ },
+ {
+  "w": "세대",
+  "r": "sedae",
+  "p": "noun",
+  "n": 16,
+  "ns": 2,
+  "dict_guess": [
+   "generation"
+  ]
+ },
+ {
+  "w": "수가",
+  "r": "suga",
+  "p": "noun",
+  "n": 15,
+  "ns": 3,
+  "dict_guess": null
+ },
+ {
+  "w": "황새",
+  "r": "hwangsae",
+  "p": "noun",
+  "n": 15,
+  "ns": 1,
+  "dict_guess": [
+   "stork"
+  ]
+ },
+ {
+  "w": "겨울",
+  "r": "gyeoul",
+  "p": "noun",
+  "n": 14,
+  "ns": 6,
+  "dict_guess": [
+   "winter"
+  ]
+ },
+ {
+  "w": "곳",
+  "r": "got",
+  "p": "noun",
+  "n": 14,
+  "ns": 7,
+  "dict_guess": [
+   "place"
+  ]
+ },
+ {
+  "w": "자",
+  "r": "ja",
+  "p": "noun",
+  "n": 14,
+  "ns": 5,
+  "dict_guess": [
+   "a person"
+  ]
+ },
+ {
+  "w": "조금",
+  "r": "jogeum",
+  "p": "noun",
+  "n": 13,
+  "ns": 8,
+  "dict_guess": [
+   "a little"
+  ]
+ },
+ {
+  "w": "운명",
+  "r": "unmyeong",
+  "p": "noun",
+  "n": 13,
+  "ns": 6,
+  "dict_guess": null
+ },
+ {
+  "w": "눈물",
+  "r": "nunmul",
+  "p": "noun",
+  "n": 13,
+  "ns": 4,
+  "dict_guess": [
+   "a tear"
+  ]
+ },
+ {
+  "w": "사람",
+  "r": "saram",
+  "p": "noun",
+  "n": 13,
+  "ns": 6,
+  "dict_guess": [
+   "person",
+   "oracle"
+  ]
+ },
+ {
+  "w": "소리",
+  "r": "sori",
+  "p": "noun",
+  "n": 13,
+  "ns": 5,
+  "dict_guess": [
+   "tum",
+   "cadence",
+   "a person's voice"
+  ]
+ },
+ {
+  "w": "불",
+  "r": "bul",
+  "p": "noun",
+  "n": 13,
+  "ns": 3,
+  "dict_guess": null
+ },
+ {
+  "w": "벼",
+  "r": "byeo",
+  "p": "noun",
+  "n": 13,
+  "ns": 1,
+  "dict_guess": [
+   "a rice plant"
+  ]
+ },
+ {
+  "w": "시간",
+  "r": "sigan",
+  "p": "noun",
+  "n": 12,
+  "ns": 9,
+  "dict_guess": [
+   "time"
+  ]
+ },
+ {
+  "w": "꽃",
+  "r": "kkot",
+  "p": "noun",
+  "n": 12,
+  "ns": 7,
+  "dict_guess": [
+   "flower"
+  ]
+ },
+ {
+  "w": "영원히",
+  "r": "yeongwonhi",
+  "p": "adverb",
+  "n": 12,
+  "ns": 3,
+  "dict_guess": [
+   "forever"
+  ]
+ },
+ {
+  "w": "말다",
+  "r": "malda",
+  "p": "verb",
+  "n": 12,
+  "ns": 9,
+  "dict_guess": [
+   "cease"
+  ]
+ },
+ {
+  "w": "땀",
+  "r": "ttam",
+  "p": "noun",
+  "n": 12,
+  "ns": 3,
+  "dict_guess": null
+ },
+ {
+  "w": "오늘",
+  "r": "oneul",
+  "p": "noun",
+  "n": 12,
+  "ns": 10,
+  "dict_guess": [
+   "today"
+  ]
+ },
+ {
+  "w": "살다",
+  "r": "salda",
+  "p": "verb",
+  "n": 12,
+  "ns": 7,
+  "dict_guess": [
+   "to live"
+  ]
+ },
+ {
+  "w": "피",
+  "r": "pi",
+  "p": "noun",
+  "n": 11,
+  "ns": 2,
+  "dict_guess": [
+   "help"
+  ]
+ },
+ {
+  "w": "행복",
+  "r": "haengbok",
+  "p": "noun",
+  "n": 11,
+  "ns": 10,
+  "dict_guess": [
+   "happiness",
+   "to be happy"
+  ]
+ },
+ {
+  "w": "빛",
+  "r": "bit",
+  "p": "noun",
+  "n": 11,
+  "ns": 6,
+  "dict_guess": null
+ },
+ {
+  "w": "지금",
+  "r": "jigeum",
+  "p": "noun",
+  "n": 11,
+  "ns": 8,
+  "dict_guess": null
+ },
+ {
+  "w": "깊다",
+  "r": "gipta",
+  "p": "adjective",
+  "n": 11,
+  "ns": 5,
+  "dict_guess": [
+   "deep"
+  ]
+ },
+ {
+  "w": "서로",
+  "r": "seoro",
+  "p": "adverb",
+  "n": 11,
+  "ns": 4,
+  "dict_guess": null
+ },
+ {
+  "w": "그런",
+  "r": "geureon",
+  "p": "determiner",
+  "n": 10,
+  "ns": 5,
+  "dict_guess": [
+   "such a"
+  ]
+ },
+ {
+  "w": "참",
+  "r": "cham",
+  "p": "noun",
+  "n": 10,
+  "ns": 7,
+  "dict_guess": [
+   "in reality"
+  ]
+ },
+ {
+  "w": "몸",
+  "r": "mom",
+  "p": "noun",
+  "n": 10,
+  "ns": 6,
+  "dict_guess": null
+ },
+ {
+  "w": "여기",
+  "r": "yeogi",
+  "p": "pronoun",
+  "n": 10,
+  "ns": 5,
+  "dict_guess": [
+   "here"
+  ]
+ },
+ {
+  "w": "그냥",
+  "r": "geunyang",
+  "p": "adverb",
+  "n": 10,
+  "ns": 6,
+  "dict_guess": null
+ },
+ {
+  "w": "들다",
+  "r": "deulda",
+  "p": "verb",
+  "n": 10,
+  "ns": 6,
+  "dict_guess": null
+ },
+ {
+  "w": "싫다",
+  "r": "silta",
+  "p": "adjective",
+  "n": 10,
+  "ns": 6,
+  "dict_guess": null
+ },
+ {
+  "w": "내밀다",
+  "r": "naemilda",
+  "p": "verb",
+  "n": 10,
+  "ns": 1,
+  "dict_guess": [
+   "to push out"
+  ]
+ },
+ {
+  "w": "기억",
+  "r": "gieok",
+  "p": "noun",
+  "n": 10,
+  "ns": 3,
+  "dict_guess": [
+   "store",
+   "a memory",
+   "to be remembered"
+  ]
+ },
+ {
+  "w": "겁",
+  "r": "geop",
+  "p": "noun",
+  "n": 10,
+  "ns": 2,
+  "dict_guess": [
+   "fear or fright"
+  ]
+ },
+ {
+  "w": "흔드다",
+  "r": "heundeuda",
+  "p": "verb",
+  "n": 10,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "건데",
+  "r": "geonde",
+  "p": "conjunctive adverb",
+  "n": 10,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "마음",
+  "r": "maeum",
+  "p": "noun",
+  "n": 9,
+  "ns": 7,
+  "dict_guess": [
+   "heart"
+  ]
+ },
+ {
+  "w": "만나다",
+  "r": "mannada",
+  "p": "verb",
+  "n": 9,
+  "ns": 3,
+  "dict_guess": [
+   "meet"
+  ]
+ },
+ {
+  "w": "단",
+  "r": "dan",
+  "p": "determiner",
+  "n": 9,
+  "ns": 3,
+  "dict_guess": [
+   "terrace",
+   "a column"
+  ]
+ },
+ {
+  "w": "어떤",
+  "r": "eotteon",
+  "p": "determiner",
+  "n": 9,
+  "ns": 5,
+  "dict_guess": null
+ },
+ {
+  "w": "어둠",
+  "r": "eodum",
+  "p": "noun",
+  "n": 9,
+  "ns": 8,
+  "dict_guess": [
+   "darkness"
+  ]
+ },
+ {
+  "w": "지다",
+  "r": "jida",
+  "p": "auxiliary verb",
+  "n": 9,
+  "ns": 5,
+  "dict_guess": null
+ },
+ {
+  "w": "거부",
+  "r": "geobu",
+  "p": "noun",
+  "n": 9,
+  "ns": 2,
+  "dict_guess": null
+ },
+ {
+  "w": "별",
+  "r": "byeol",
+  "p": "noun",
+  "n": 9,
+  "ns": 5,
+  "dict_guess": [
+   "a star",
+   "classified by"
+  ]
+ },
+ {
+  "w": "제발",
+  "r": "jebal",
+  "p": "noun",
+  "n": 9,
+  "ns": 4,
+  "dict_guess": null
+ },
+ {
+  "w": "진짜",
+  "r": "jinjja",
+  "p": "adverb",
+  "n": 9,
+  "ns": 3,
+  "dict_guess": null
+ },
+ {
+  "w": "싹",
+  "r": "ssak",
+  "p": "noun",
+  "n": 9,
+  "ns": 2,
+  "dict_guess": null
+ },
+ {
+  "w": "놓치다",
+  "r": "nochida",
+  "p": "verb",
+  "n": 9,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "얌",
+  "r": "yam",
+  "p": "proper noun",
+  "n": 9,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "병",
+  "r": "byeong",
+  "p": "noun",
+  "n": 9,
+  "ns": 1,
+  "dict_guess": [
+   "sickness",
+   "a bottle"
+  ]
+ },
+ {
+  "w": "작다",
+  "r": "jakta",
+  "p": "adjective",
+  "n": 8,
+  "ns": 4,
+  "dict_guess": null
+ },
+ {
+  "w": "빨리",
+  "r": "ppalli",
+  "p": "adverb",
+  "n": 8,
+  "ns": 3,
+  "dict_guess": [
+   "quickly",
+   "accelerate"
+  ]
+ },
+ {
+  "w": "순간",
+  "r": "sungan",
+  "p": "noun",
+  "n": 8,
+  "ns": 6,
+  "dict_guess": null
+ },
+ {
+  "w": "우연이",
+  "r": "uyeoni",
+  "p": "proper noun",
+  "n": 8,
+  "ns": 2,
+  "dict_guess": null
+ },
+ {
+  "w": "원",
+  "r": "won",
+  "p": "noun",
+  "n": 8,
+  "ns": 3,
+  "dict_guess": [
+   "to want",
+   "a circle"
+  ]
+ },
+ {
+  "w": "척",
+  "r": "cheok",
+  "p": "noun",
+  "n": 8,
+  "ns": 2,
+  "dict_guess": null
+ },
+ {
+  "w": "마지막",
+  "r": "majimak",
+  "p": "noun",
+  "n": 8,
+  "ns": 5,
+  "dict_guess": null
+ },
+ {
+  "w": "춤",
+  "r": "chum",
+  "p": "noun",
+  "n": 8,
+  "ns": 4,
+  "dict_guess": [
+   "dance",
+   "nautch"
+  ]
+ },
+ {
+  "w": "어차피",
+  "r": "eochapi",
+  "p": "adverb",
+  "n": 8,
+  "ns": 5,
+  "dict_guess": [
+   "at any rate"
+  ]
+ },
+ {
+  "w": "처음",
+  "r": "cheoeum",
+  "p": "noun",
+  "n": 8,
+  "ns": 7,
+  "dict_guess": null
+ },
+ {
+  "w": "쉬다",
+  "r": "swida",
+  "p": "verb",
+  "n": 8,
+  "ns": 7,
+  "dict_guess": [
+   "to breathe"
+  ]
+ },
+ {
+  "w": "혼자",
+  "r": "honja",
+  "p": "noun",
+  "n": 8,
+  "ns": 3,
+  "dict_guess": [
+   "alone"
+  ]
+ },
+ {
+  "w": "필요",
+  "r": "piryo",
+  "p": "noun",
+  "n": 8,
+  "ns": 4,
+  "dict_guess": [
+   "to need"
+  ]
+ },
+ {
+  "w": "수저",
+  "r": "sujeo",
+  "p": "noun",
+  "n": 8,
+  "ns": 3,
+  "dict_guess": [
+   "a spoon"
+  ]
+ },
+ {
+  "w": "금",
+  "r": "geum",
+  "p": "noun",
+  "n": 8,
+  "ns": 3,
+  "dict_guess": [
+   "gold"
+  ]
+ },
+ {
+  "w": "조심",
+  "r": "josim",
+  "p": "noun",
+  "n": 8,
+  "ns": 1,
+  "dict_guess": [
+   "watch",
+   "to be careful"
+  ]
+ },
+ {
+  "w": "이거",
+  "r": "igeo",
+  "p": "pronoun",
+  "n": 8,
+  "ns": 2,
+  "dict_guess": [
+   "this thing"
+  ]
+ },
+ {
+  "w": "수많다",
+  "r": "sumanta",
+  "p": "adjective",
+  "n": 8,
+  "ns": 4,
+  "dict_guess": [
+   "many and many"
+  ]
+ },
+ {
+  "w": "괜찮아",
+  "r": "gwaenchana",
+  "p": "proper noun",
+  "n": 8,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "오래",
+  "r": "orae",
+  "p": "adverb",
+  "n": 8,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "역시",
+  "r": "yeoksi",
+  "p": "noun",
+  "n": 8,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "이렇다",
+  "r": "ireota",
+  "p": "adjective",
+  "n": 7,
+  "ns": 6,
+  "dict_guess": [
+   "like this"
+  ]
+ },
+ {
+  "w": "아프다",
+  "r": "apeuda",
+  "p": "adjective",
+  "n": 7,
+  "ns": 7,
+  "dict_guess": [
+   "to hurt"
+  ]
+ },
+ {
+  "w": "아직",
+  "r": "ajik",
+  "p": "adverb",
+  "n": 7,
+  "ns": 5,
+  "dict_guess": [
+   "still"
+  ]
+ },
+ {
+  "w": "아침",
+  "r": "achim",
+  "p": "noun",
+  "n": 7,
+  "ns": 4,
+  "dict_guess": [
+   "morning"
+  ]
+ },
+ {
+  "w": "우주",
+  "r": "uju",
+  "p": "noun",
+  "n": 7,
+  "ns": 2,
+  "dict_guess": [
+   "outer space",
+   "the universe"
+  ]
+ },
+ {
+  "w": "모르다",
+  "r": "moreuda",
+  "p": "verb",
+  "n": 7,
+  "ns": 4,
+  "dict_guess": [
+   "to not know"
+  ]
+ },
+ {
+  "w": "꽉",
+  "r": "kkwak",
+  "p": "adverb",
+  "n": 7,
+  "ns": 2,
+  "dict_guess": [
+   "tightly or fast"
+  ]
+ },
+ {
+  "w": "다른",
+  "r": "dareun",
+  "p": "determiner",
+  "n": 7,
+  "ns": 5,
+  "dict_guess": null
+ },
+ {
+  "w": "어쩜",
+  "r": "eojjeom",
+  "p": "conjunctive adverb",
+  "n": 7,
+  "ns": 5,
+  "dict_guess": null
+ },
+ {
+  "w": "늘",
+  "r": "neul",
+  "p": "adverb",
+  "n": 7,
+  "ns": 4,
+  "dict_guess": [
+   "always",
+   "once"
+  ]
+ },
+ {
+  "w": "위로",
+  "r": "wiro",
+  "p": "noun",
+  "n": 7,
+  "ns": 4,
+  "dict_guess": null
+ },
+ {
+  "w": "생각",
+  "r": "saenggak",
+  "p": "noun",
+  "n": 7,
+  "ns": 5,
+  "dict_guess": [
+   "thought",
+   "to think"
+  ]
+ },
+ {
+  "w": "매일",
+  "r": "maeil",
+  "p": "noun",
+  "n": 7,
+  "ns": 5,
+  "dict_guess": [
+   "every day"
+  ]
+ },
+ {
+  "w": "거짓말",
+  "r": "geojinmal",
+  "p": "noun",
+  "n": 7,
+  "ns": 4,
+  "dict_guess": [
+   "fable"
+  ]
+ },
+ {
+  "w": "어떻다",
+  "r": "eotteota",
+  "p": "adjective",
+  "n": 7,
+  "ns": 3,
+  "dict_guess": null
+ },
+ {
+  "w": "덮치기",
+  "r": "deopchigi",
+  "p": "noun",
+  "n": 7,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "별빛",
+  "r": "byeolbit",
+  "p": "noun",
+  "n": 7,
+  "ns": 1,
+  "dict_guess": [
+   "starlight"
+  ]
+ },
+ {
+  "w": "몇",
+  "r": "myeot",
+  "p": "determiner",
+  "n": 6,
+  "ns": 4,
+  "dict_guess": [
+   "a few"
+  ]
+ },
+ {
+  "w": "변한",
+  "r": "byeonhan",
+  "p": "noun",
+  "n": 6,
+  "ns": 2,
+  "dict_guess": [
+   "varied"
+  ]
+ },
+ {
+  "w": "아마",
+  "r": "ama",
+  "p": "adverb",
+  "n": 6,
+  "ns": 3,
+  "dict_guess": [
+   "probably"
+  ]
+ },
+ {
+  "w": "앞",
+  "r": "ap",
+  "p": "noun",
+  "n": 6,
+  "ns": 4,
+  "dict_guess": null
+ },
+ {
+  "w": "덩",
+  "r": "deong",
+  "p": "adverb",
+  "n": 6,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "기덕",
+  "r": "gideok",
+  "p": "noun",
+  "n": 6,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "쿵",
+  "r": "kung",
+  "p": "adverb",
+  "n": 6,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "더러러",
+  "r": "deoreoreo",
+  "p": "noun",
+  "n": 6,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "얼쑤",
+  "r": "eolssu",
+  "p": "adverb",
+  "n": 6,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "멀리",
+  "r": "meolli",
+  "p": "adverb",
+  "n": 6,
+  "ns": 4,
+  "dict_guess": [
+   "refrain",
+   "estrange",
+   "far away"
+  ]
+ },
+ {
+  "w": "하늘",
+  "r": "haneul",
+  "p": "noun",
+  "n": 6,
+  "ns": 3,
+  "dict_guess": [
+   "the sky"
+  ]
+ },
+ {
+  "w": "버리다",
+  "r": "beorida",
+  "p": "auxiliary verb",
+  "n": 6,
+  "ns": 5,
+  "dict_guess": [
+   "throw away"
+  ]
+ },
+ {
+  "w": "없이",
+  "r": "eopsi",
+  "p": "adverb",
+  "n": 6,
+  "ns": 4,
+  "dict_guess": null
+ },
+ {
+  "w": "가득",
+  "r": "gadeuk",
+  "p": "adverb",
+  "n": 6,
+  "ns": 4,
+  "dict_guess": [
+   "full",
+   "to fill"
+  ]
+ },
+ {
+  "w": "속의",
+  "r": "sogui",
+  "p": "noun",
+  "n": 6,
+  "ns": 4,
+  "dict_guess": null
+ },
+ {
+  "w": "모습",
+  "r": "moseup",
+  "p": "noun",
+  "n": 6,
+  "ns": 4,
+  "dict_guess": null
+ },
+ {
+  "w": "깨다",
+  "r": "kkaeda",
+  "p": "verb",
+  "n": 6,
+  "ns": 3,
+  "dict_guess": [
+   "chip",
+   "break or crack"
+  ]
+ },
+ {
+  "w": "개",
+  "r": "gae",
+  "p": "noun",
+  "n": 6,
+  "ns": 4,
+  "dict_guess": [
+   "a dog",
+   "to open",
+   "unit or piece"
+  ]
+ },
+ {
+  "w": "추억",
+  "r": "chueok",
+  "p": "noun",
+  "n": 6,
+  "ns": 2,
+  "dict_guess": [
+   "memory",
+   "reminisce"
+  ]
+ },
+ {
+  "w": "칠",
+  "r": "chil",
+  "p": "noun",
+  "n": 6,
+  "ns": 2,
+  "dict_guess": [
+   "seven"
+  ]
+ },
+ {
+  "w": "혼잣말",
+  "r": "honjanmal",
+  "p": "noun",
+  "n": 6,
+  "ns": 3,
+  "dict_guess": [
+   "soliloquy",
+   "monologize",
+   "talking to oneself"
+  ]
+ },
+ {
+  "w": "딴",
+  "r": "ttan",
+  "p": "determiner",
+  "n": 6,
+  "ns": 2,
+  "dict_guess": [
+   "pulled"
+  ]
+ },
+ {
+  "w": "답",
+  "r": "dap",
+  "p": "noun",
+  "n": 6,
+  "ns": 3,
+  "dict_guess": [
+   "answer"
+  ]
+ },
+ {
+  "w": "포",
+  "r": "po",
+  "p": "number",
+  "n": 6,
+  "ns": 3,
+  "dict_guess": null
+ },
+ {
+  "w": "벌써",
+  "r": "beolsseo",
+  "p": "adverb",
+  "n": 6,
+  "ns": 5,
+  "dict_guess": [
+   "already"
+  ]
+ },
+ {
+  "w": "고작",
+  "r": "gojak",
+  "p": "adverb",
+  "n": 6,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "가장",
+  "r": "gajang",
+  "p": "adverb",
+  "n": 6,
+  "ns": 3,
+  "dict_guess": [
+   "most"
+  ]
+ },
+ {
+  "w": "거거",
+  "r": "geogeo",
+  "p": "noun",
+  "n": 6,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "타령",
+  "r": "taryeong",
+  "p": "noun",
+  "n": 6,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "오그라들다",
+  "r": "ogeuradeulda",
+  "p": "verb",
+  "n": 6,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "손발",
+  "r": "sonbal",
+  "p": "noun",
+  "n": 6,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "노랗다",
+  "r": "norata",
+  "p": "adjective",
+  "n": 6,
+  "ns": 1,
+  "dict_guess": [
+   "be yellow"
+  ]
+ },
+ {
+  "w": "싹수",
+  "r": "ssaksu",
+  "p": "noun",
+  "n": 6,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "먼지",
+  "r": "meonji",
+  "p": "noun",
+  "n": 5,
+  "ns": 4,
+  "dict_guess": [
+   "dust"
+  ]
+ },
+ {
+  "w": "닿다",
+  "r": "data",
+  "p": "verb",
+  "n": 5,
+  "ns": 5,
+  "dict_guess": null
+ },
+ {
+  "w": "보내다",
+  "r": "bonaeda",
+  "p": "verb",
+  "n": 5,
+  "ns": 2,
+  "dict_guess": [
+   "send"
+  ]
+ },
+ {
+  "w": "찾다",
+  "r": "chatta",
+  "p": "verb",
+  "n": 5,
+  "ns": 5,
+  "dict_guess": [
+   "search"
+  ]
+ },
+ {
+  "w": "걱정",
+  "r": "geokjeong",
+  "p": "noun",
+  "n": 5,
+  "ns": 3,
+  "dict_guess": [
+   "worry"
+  ]
+ },
+ {
+  "w": "다음",
+  "r": "daeum",
+  "p": "noun",
+  "n": 5,
+  "ns": 2,
+  "dict_guess": [
+   "next"
+  ]
+ },
+ {
+  "w": "볼",
+  "r": "bol",
+  "p": "noun",
+  "n": 5,
+  "ns": 3,
+  "dict_guess": [
+   "the cheek"
+  ]
+ },
+ {
+  "w": "이상",
+  "r": "isang",
+  "p": "noun",
+  "n": 5,
+  "ns": 5,
+  "dict_guess": null
+ },
+ {
+  "w": "이런",
+  "r": "ireon",
+  "p": "determiner",
+  "n": 5,
+  "ns": 4,
+  "dict_guess": null
+ },
+ {
+  "w": "거울",
+  "r": "geoul",
+  "p": "noun",
+  "n": 5,
+  "ns": 4,
+  "dict_guess": null
+ },
+ {
+  "w": "영혼",
+  "r": "yeonghon",
+  "p": "noun",
+  "n": 5,
+  "ns": 2,
+  "dict_guess": null
+ },
+ {
+  "w": "십",
+  "r": "sip",
+  "p": "number",
+  "n": 5,
+  "ns": 2,
+  "dict_guess": null
+ },
+ {
+  "w": "삶",
+  "r": "sam",
+  "p": "noun",
+  "n": 5,
+  "ns": 5,
+  "dict_guess": [
+   "life"
+  ]
+ },
+ {
+  "w": "그저",
+  "r": "geujeo",
+  "p": "adverb",
+  "n": 5,
+  "ns": 5,
+  "dict_guess": null
+ },
+ {
+  "w": "상처",
+  "r": "sangcheo",
+  "p": "noun",
+  "n": 5,
+  "ns": 3,
+  "dict_guess": [
+   "wound"
+  ]
+ },
+ {
+  "w": "이것",
+  "r": "igeot",
+  "p": "pronoun",
+  "n": 5,
+  "ns": 3,
+  "dict_guess": [
+   "this thing"
+  ]
+ },
+ {
+  "w": "도시",
+  "r": "dosi",
+  "p": "noun",
+  "n": 5,
+  "ns": 2,
+  "dict_guess": [
+   "city",
+   "graph"
+  ]
+ },
+ {
+  "w": "미안",
+  "r": "mian",
+  "p": "noun",
+  "n": 5,
+  "ns": 3,
+  "dict_guess": [
+   "to be sorry"
+  ]
+ },
+ {
+  "w": "아무",
+  "r": "amu",
+  "p": "pronoun",
+  "n": 5,
+  "ns": 4,
+  "dict_guess": null
+ },
+ {
+  "w": "시작",
+  "r": "sijak",
+  "p": "noun",
+  "n": 5,
+  "ns": 4,
+  "dict_guess": [
+   "the beginning"
+  ]
+ },
+ {
+  "w": "내일",
+  "r": "naeil",
+  "p": "noun",
+  "n": 5,
+  "ns": 4,
+  "dict_guess": [
+   "tomorrow"
+  ]
+ },
+ {
+  "w": "바다",
+  "r": "bada",
+  "p": "proper noun",
+  "n": 5,
+  "ns": 2,
+  "dict_guess": [
+   "sea"
+  ]
+ },
+ {
+  "w": "어쩌면",
+  "r": "eojjeomyeon",
+  "p": "adverb",
+  "n": 5,
+  "ns": 5,
+  "dict_guess": null
+ },
+ {
+  "w": "결국",
+  "r": "gyeolguk",
+  "p": "noun",
+  "n": 5,
+  "ns": 4,
+  "dict_guess": null
+ },
+ {
+  "w": "소중",
+  "r": "sojung",
+  "p": "root",
+  "n": 5,
+  "ns": 2,
+  "dict_guess": null
+ },
+ {
+  "w": "부족",
+  "r": "bujok",
+  "p": "noun",
+  "n": 5,
+  "ns": 2,
+  "dict_guess": [
+   "a tribe"
+  ]
+ },
+ {
+  "w": "죽다",
+  "r": "jukta",
+  "p": "verb",
+  "n": 5,
+  "ns": 4,
+  "dict_guess": [
+   "to die",
+   "lose your spirit"
+  ]
+ },
+ {
+  "w": "같이",
+  "r": "gachi",
+  "p": "adverb",
+  "n": 5,
+  "ns": 5,
+  "dict_guess": [
+   "together"
+  ]
+ },
+ {
+  "w": "바보",
+  "r": "babo",
+  "p": "noun",
+  "n": 5,
+  "ns": 3,
+  "dict_guess": [
+   "ignorant"
+  ]
+ },
+ {
+  "w": "차라리",
+  "r": "charari",
+  "p": "adverb",
+  "n": 5,
+  "ns": 4,
+  "dict_guess": null
+ },
+ {
+  "w": "트로피",
+  "r": "teuropi",
+  "p": "noun",
+  "n": 5,
+  "ns": 2,
+  "dict_guess": null
+ },
+ {
+  "w": "오빠",
+  "r": "oppa",
+  "p": "noun",
+  "n": 5,
+  "ns": 1,
+  "dict_guess": [
+   "older brother"
+  ]
+ },
+ {
+  "w": "똑같다",
+  "r": "ttokkatta",
+  "p": "adjective",
+  "n": 5,
+  "ns": 3,
+  "dict_guess": null
+ },
+ {
+  "w": "자신",
+  "r": "jasin",
+  "p": "noun",
+  "n": 5,
+  "ns": 3,
+  "dict_guess": [
+   "self-confidence"
+  ]
+ },
+ {
+  "w": "인생",
+  "r": "insaeng",
+  "p": "noun",
+  "n": 5,
+  "ns": 4,
+  "dict_guess": null
+ },
+ {
+  "w": "기회",
+  "r": "gihoe",
+  "p": "noun",
+  "n": 5,
+  "ns": 2,
+  "dict_guess": [
+   "an opportunity"
+  ]
+ },
+ {
+  "w": "손잡다",
+  "r": "sonjapta",
+  "p": "verb",
+  "n": 5,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "주다",
+  "r": "juda",
+  "p": "auxiliary verb",
+  "n": 5,
+  "ns": 4,
+  "dict_guess": null
+ },
+ {
+  "w": "최고",
+  "r": "choego",
+  "p": "noun",
+  "n": 5,
+  "ns": 2,
+  "dict_guess": [
+   "the best",
+   "the oldest"
+  ]
+ },
+ {
+  "w": "노래",
+  "r": "norae",
+  "p": "noun",
+  "n": 5,
+  "ns": 4,
+  "dict_guess": [
+   "troll",
+   "to sing"
+  ]
+ },
+ {
+  "w": "얼굴",
+  "r": "eolgul",
+  "p": "noun",
+  "n": 4,
+  "ns": 3,
+  "dict_guess": null
+ },
+ {
+  "w": "얼마나",
+  "r": "eolmana",
+  "p": "adverb",
+  "n": 4,
+  "ns": 2,
+  "dict_guess": null
+ },
+ {
+  "w": "영원",
+  "r": "yeongwon",
+  "p": "noun",
+  "n": 4,
+  "ns": 3,
+  "dict_guess": [
+   "to be eternal"
+  ]
+ },
+ {
+  "w": "완전",
+  "r": "wanjeon",
+  "p": "noun",
+  "n": 4,
+  "ns": 2,
+  "dict_guess": null
+ },
+ {
+  "w": "전생",
+  "r": "jeonsaeng",
+  "p": "noun",
+  "n": 4,
+  "ns": 1,
+  "dict_guess": [
+   "transmigration"
+  ]
+ },
+ {
+  "w": "생",
+  "r": "saeng",
+  "p": "noun",
+  "n": 4,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "완벽",
+  "r": "wanbyeok",
+  "p": "noun",
+  "n": 4,
+  "ns": 2,
+  "dict_guess": [
+   "perfect",
+   "allness"
+  ]
+ },
+ {
+  "w": "누구",
+  "r": "nugu",
+  "p": "pronoun",
+  "n": 4,
+  "ns": 3,
+  "dict_guess": [
+   "who"
+  ]
+ },
+ {
+  "w": "거짓",
+  "r": "geojit",
+  "p": "noun",
+  "n": 4,
+  "ns": 1,
+  "dict_guess": [
+   "fabrication or fiction"
+  ]
+ },
+ {
+  "w": "인형",
+  "r": "inhyeong",
+  "p": "noun",
+  "n": 4,
+  "ns": 1,
+  "dict_guess": [
+   "a doll"
+  ]
+ },
+ {
+  "w": "받다",
+  "r": "batta",
+  "p": "verb",
+  "n": 4,
+  "ns": 4,
+  "dict_guess": [
+   "catch",
+   "receive"
+  ]
+ },
+ {
+  "w": "도망",
+  "r": "domang",
+  "p": "noun",
+  "n": 4,
+  "ns": 3,
+  "dict_guess": [
+   "escape"
+  ]
+ },
+ {
+  "w": "달콤",
+  "r": "dalkom",
+  "p": "root",
+  "n": 4,
+  "ns": 2,
+  "dict_guess": [
+   "sweet"
+  ]
+ },
+ {
+  "w": "이유",
+  "r": "iyu",
+  "p": "noun",
+  "n": 4,
+  "ns": 4,
+  "dict_guess": null
+ },
+ {
+  "w": "대다",
+  "r": "daeda",
+  "p": "auxiliary verb",
+  "n": 4,
+  "ns": 3,
+  "dict_guess": null
+ },
+ {
+  "w": "마치",
+  "r": "machi",
+  "p": "adverb",
+  "n": 4,
+  "ns": 4,
+  "dict_guess": null
+ },
+ {
+  "w": "두다",
+  "r": "duda",
+  "p": "verb",
+  "n": 4,
+  "ns": 3,
+  "dict_guess": null
+ },
+ {
+  "w": "날다",
+  "r": "nalda",
+  "p": "verb",
+  "n": 4,
+  "ns": 3,
+  "dict_guess": [
+   "to fly"
+  ]
+ },
+ {
+  "w": "만들다",
+  "r": "mandeulda",
+  "p": "verb",
+  "n": 4,
+  "ns": 3,
+  "dict_guess": [
+   "make",
+   "found",
+   "to make"
+  ]
+ },
+ {
+  "w": "특별",
+  "r": "teukpyeol",
+  "p": "noun",
+  "n": 4,
+  "ns": 3,
+  "dict_guess": null
+ },
+ {
+  "w": "힘",
+  "r": "him",
+  "p": "noun",
+  "n": 4,
+  "ns": 4,
+  "dict_guess": null
+ },
+ {
+  "w": "깨달다",
+  "r": "kkaedalda",
+  "p": "verb",
+  "n": 4,
+  "ns": 2,
+  "dict_guess": null
+ },
+ {
+  "w": "그림자",
+  "r": "geurimja",
+  "p": "noun",
+  "n": 4,
+  "ns": 4,
+  "dict_guess": null
+ },
+ {
+  "w": "그래서",
+  "r": "geuraeseo",
+  "p": "conjunctive adverb",
+  "n": 4,
+  "ns": 3,
+  "dict_guess": [
+   "so or therefore",
+   "and so accordingly"
+  ]
+ },
+ {
+  "w": "뒤",
+  "r": "dwi",
+  "p": "noun",
+  "n": 4,
+  "ns": 4,
+  "dict_guess": null
+ },
+ {
+  "w": "여전히",
+  "r": "yeojeonhi",
+  "p": "adverb",
+  "n": 4,
+  "ns": 3,
+  "dict_guess": null
+ },
+ {
+  "w": "정말",
+  "r": "jeongmal",
+  "p": "adverb",
+  "n": 4,
+  "ns": 4,
+  "dict_guess": null
+ },
+ {
+  "w": "겨우",
+  "r": "gyeou",
+  "p": "adverb",
+  "n": 4,
+  "ns": 2,
+  "dict_guess": null
+ },
+ {
+  "w": "보이다",
+  "r": "boida",
+  "p": "verb",
+  "n": 4,
+  "ns": 3,
+  "dict_guess": null
+ },
+ {
+  "w": "감다",
+  "r": "gamtta",
+  "p": "verb",
+  "n": 4,
+  "ns": 2,
+  "dict_guess": [
+   "wind",
+   "close",
+   "wind up"
+  ]
+ },
+ {
+  "w": "돌아오다",
+  "r": "doraoda",
+  "p": "verb",
+  "n": 4,
+  "ns": 3,
+  "dict_guess": [
+   "come back"
+  ]
+ },
+ {
+  "w": "모래",
+  "r": "morae",
+  "p": "noun",
+  "n": 4,
+  "ns": 2,
+  "dict_guess": [
+   "sand"
+  ]
+ },
+ {
+  "w": "절대",
+  "r": "jeoldae",
+  "p": "noun",
+  "n": 4,
+  "ns": 4,
+  "dict_guess": [
+   "absoluteness"
+  ]
+ },
+ {
+  "w": "구원",
+  "r": "guwon",
+  "p": "noun",
+  "n": 4,
+  "ns": 3,
+  "dict_guess": [
+   "relief",
+   "rescue",
+   "relieve",
+   "redemption"
+  ]
+ },
+ {
+  "w": "문득",
+  "r": "mundeuk",
+  "p": "adverb",
+  "n": 4,
+  "ns": 2,
+  "dict_guess": [
+   "suddenly"
+  ]
+ },
+ {
+  "w": "호수",
+  "r": "hosu",
+  "p": "noun",
+  "n": 4,
+  "ns": 1,
+  "dict_guess": [
+   "a lake"
+  ]
+ },
+ {
+  "w": "여전",
+  "r": "yeojeon",
+  "p": "root",
+  "n": 4,
+  "ns": 3,
+  "dict_guess": null
+ },
+ {
+  "w": "잃다",
+  "r": "ilta",
+  "p": "verb",
+  "n": 4,
+  "ns": 2,
+  "dict_guess": null
+ },
+ {
+  "w": "다리",
+  "r": "dari",
+  "p": "noun",
+  "n": 4,
+  "ns": 2,
+  "dict_guess": [
+   "leg",
+   "bridge",
+   "forelimb"
+  ]
+ },
+ {
+  "w": "치다",
+  "r": "chida",
+  "p": "verb",
+  "n": 4,
+  "ns": 3,
+  "dict_guess": [
+   "maul",
+   "to build",
+   "to scream"
+  ]
+ },
+ {
+  "w": "아픔",
+  "r": "apeum",
+  "p": "noun",
+  "n": 4,
+  "ns": 4,
+  "dict_guess": [
+   "pain"
+  ]
+ },
+ {
+  "w": "그만",
+  "r": "geuman",
+  "p": "adverb",
+  "n": 4,
+  "ns": 3,
+  "dict_guess": null
+ },
+ {
+  "w": "쩌렁",
+  "r": "jjeoreong",
+  "p": "adverb",
+  "n": 4,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "성공",
+  "r": "seonggong",
+  "p": "noun",
+  "n": 4,
+  "ns": 3,
+  "dict_guess": [
+   "get there",
+   "to succeed"
+  ]
+ },
+ {
+  "w": "어른",
+  "r": "eoreun",
+  "p": "noun",
+  "n": 4,
+  "ns": 3,
+  "dict_guess": null
+ },
+ {
+  "w": "황금빛",
+  "r": "hwanggeumbit",
+  "p": "noun",
+  "n": 4,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "황급히",
+  "r": "hwanggeupi",
+  "p": "adverb",
+  "n": 4,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "안달",
+  "r": "andal",
+  "p": "noun",
+  "n": 4,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "진심",
+  "r": "jinsim",
+  "p": "noun",
+  "n": 4,
+  "ns": 2,
+  "dict_guess": null
+ },
+ {
+  "w": "가지다",
+  "r": "gajida",
+  "p": "auxiliary verb",
+  "n": 4,
+  "ns": 3,
+  "dict_guess": null
+ },
+ {
+  "w": "법",
+  "r": "beop",
+  "p": "noun",
+  "n": 4,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "길다",
+  "r": "gilda",
+  "p": "adjective",
+  "n": 4,
+  "ns": 3,
+  "dict_guess": [
+   "to grow",
+   "to be long"
+  ]
+ },
+ {
+  "w": "이름",
+  "r": "ireum",
+  "p": "noun",
+  "n": 4,
+  "ns": 3,
+  "dict_guess": [
+   "name",
+   "forename",
+   "front name"
+  ]
+ },
+ {
+  "w": "먹다",
+  "r": "meokta",
+  "p": "verb",
+  "n": 4,
+  "ns": 4,
+  "dict_guess": [
+   "go deaf"
+  ]
+ },
+ {
+  "w": "문",
+  "r": "mun",
+  "p": "noun",
+  "n": 4,
+  "ns": 1,
+  "dict_guess": [
+   "door"
+  ]
+ },
+ {
+  "w": "은하수",
+  "r": "eunhasu",
+  "p": "noun",
+  "n": 4,
+  "ns": 1,
+  "dict_guess": [
+   "galaxy"
+  ]
+ },
+ {
+  "w": "가면",
+  "r": "gamyeon",
+  "p": "noun",
+  "n": 4,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "그때",
+  "r": "geuttae",
+  "p": "noun",
+  "n": 4,
+  "ns": 3,
+  "dict_guess": null
+ },
+ {
+  "w": "별로",
+  "r": "byeollo",
+  "p": "adverb",
+  "n": 4,
+  "ns": 3,
+  "dict_guess": null
+ },
+ {
+  "w": "새끼",
+  "r": "saekki",
+  "p": "noun",
+  "n": 4,
+  "ns": 2,
+  "dict_guess": null
+ },
+ {
+  "w": "탓",
+  "r": "tat",
+  "p": "noun",
+  "n": 4,
+  "ns": 3,
+  "dict_guess": [
+   "inculpate"
+  ]
+ },
+ {
+  "w": "함성",
+  "r": "hamseong",
+  "p": "noun",
+  "n": 4,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "멎",
+  "r": "meot",
+  "p": "noun",
+  "n": 4,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "이곳",
+  "r": "igot",
+  "p": "pronoun",
+  "n": 4,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "일곱",
+  "r": "ilgop",
+  "p": "number",
+  "n": 4,
+  "ns": 1,
+  "dict_guess": [
+   "seven"
+  ]
+ },
+ {
+  "w": "번의",
+  "r": "beonui",
+  "p": "noun",
+  "n": 4,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "여름",
+  "r": "yeoreum",
+  "p": "noun",
+  "n": 4,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "약속",
+  "r": "yaksok",
+  "p": "noun",
+  "n": 4,
+  "ns": 1,
+  "dict_guess": [
+   "a promise"
+  ]
+ },
+ {
+  "w": "선생",
+  "r": "seonsaeng",
+  "p": "noun",
+  "n": 4,
+  "ns": 1,
+  "dict_guess": [
+   "teacher"
+  ]
+ },
+ {
+  "w": "정상",
+  "r": "jeongsang",
+  "p": "noun",
+  "n": 4,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "돈",
+  "r": "don",
+  "p": "noun",
+  "n": 4,
+  "ns": 1,
+  "dict_guess": [
+   "money"
+  ]
+ },
+ {
+  "w": "번",
+  "r": "beon",
+  "p": "proper noun",
+  "n": 3,
+  "ns": 3,
+  "dict_guess": null
+ },
+ {
+  "w": "온통",
+  "r": "ontong",
+  "p": "adverb",
+  "n": 3,
+  "ns": 3,
+  "dict_guess": null
+ },
+ {
+  "w": "봄날",
+  "r": "bomnal",
+  "p": "noun",
+  "n": 3,
+  "ns": 1,
+  "dict_guess": [
+   "a spring day"
+  ]
+ },
+ {
+  "w": "멀다",
+  "r": "meolda",
+  "p": "adjective",
+  "n": 3,
+  "ns": 2,
+  "dict_guess": [
+   "to be far"
+  ]
+ },
+ {
+  "w": "올",
+  "r": "ol",
+  "p": "noun",
+  "n": 3,
+  "ns": 1,
+  "dict_guess": [
+   "this year",
+   "to be precocious"
+  ]
+ },
+ {
+  "w": "잊다",
+  "r": "itta",
+  "p": "verb",
+  "n": 3,
+  "ns": 3,
+  "dict_guess": [
+   "to forget"
+  ]
+ },
+ {
+  "w": "사실",
+  "r": "sasil",
+  "p": "noun",
+  "n": 3,
+  "ns": 3,
+  "dict_guess": null
+ },
+ {
+  "w": "순",
+  "r": "sun",
+  "p": "noun",
+  "n": 3,
+  "ns": 3,
+  "dict_guess": null
+ },
+ {
+  "w": "벚꽃",
+  "r": "beotkot",
+  "p": "noun",
+  "n": 3,
+  "ns": 2,
+  "dict_guess": [
+   "cherry blossom"
+  ]
+ },
+ {
+  "w": "섭리",
+  "r": "seomni",
+  "p": "noun",
+  "n": 3,
+  "ns": 2,
+  "dict_guess": null
+ },
+ {
+  "w": "듣다",
+  "r": "deutta",
+  "p": "verb",
+  "n": 3,
+  "ns": 3,
+  "dict_guess": null
+ },
+ {
+  "w": "약점",
+  "r": "yakjeom",
+  "p": "noun",
+  "n": 3,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "만의",
+  "r": "manui",
+  "p": "noun",
+  "n": 3,
+  "ns": 3,
+  "dict_guess": [
+   "myriad"
+  ]
+ },
+ {
+  "w": "숲",
+  "r": "sup",
+  "p": "noun",
+  "n": 3,
+  "ns": 3,
+  "dict_guess": [
+   "forest"
+  ]
+ },
+ {
+  "w": "날개",
+  "r": "nalgae",
+  "p": "noun",
+  "n": 3,
+  "ns": 3,
+  "dict_guess": [
+   "wings",
+   "the wings"
+  ]
+ },
+ {
+  "w": "감옥",
+  "r": "gamok",
+  "p": "noun",
+  "n": 3,
+  "ns": 2,
+  "dict_guess": [
+   "prison"
+  ]
+ },
+ {
+  "w": "쓰다",
+  "r": "sseuda",
+  "p": "verb",
+  "n": 3,
+  "ns": 2,
+  "dict_guess": [
+   "write",
+   "to write"
+  ]
+ },
+ {
+  "w": "지화자",
+  "r": "jihwaja",
+  "p": "noun",
+  "n": 3,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "달리",
+  "r": "dalli",
+  "p": "adverb",
+  "n": 3,
+  "ns": 2,
+  "dict_guess": [
+   "differently"
+  ]
+ },
+ {
+  "w": "높다",
+  "r": "nopta",
+  "p": "adjective",
+  "n": 3,
+  "ns": 1,
+  "dict_guess": [
+   "high"
+  ]
+ },
+ {
+  "w": "맞추다",
+  "r": "matchuda",
+  "p": "verb",
+  "n": 3,
+  "ns": 2,
+  "dict_guess": null
+ },
+ {
+  "w": "사소",
+  "r": "saso",
+  "p": "root",
+  "n": 3,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "세",
+  "r": "se",
+  "p": "determiner",
+  "n": 3,
+  "ns": 3,
+  "dict_guess": [
+   "tax",
+   "three",
+   "age in years"
+  ]
+ },
+ {
+  "w": "들어가다",
+  "r": "deureogada",
+  "p": "verb",
+  "n": 3,
+  "ns": 2,
+  "dict_guess": [
+   "walk"
+  ]
+ },
+ {
+  "w": "준",
+  "r": "jun",
+  "p": "proper noun",
+  "n": 3,
+  "ns": 3,
+  "dict_guess": [
+   "quasi"
+  ]
+ },
+ {
+  "w": "어느",
+  "r": "eoneu",
+  "p": "determiner",
+  "n": 3,
+  "ns": 3,
+  "dict_guess": null
+ },
+ {
+  "w": "발자국",
+  "r": "baljaguk",
+  "p": "noun",
+  "n": 3,
+  "ns": 2,
+  "dict_guess": [
+   "footprint"
+  ]
+ },
+ {
+  "w": "떼다",
+  "r": "tteda",
+  "p": "verb",
+  "n": 3,
+  "ns": 2,
+  "dict_guess": [
+   "unyoke"
+  ]
+ },
+ {
+  "w": "잠",
+  "r": "jam",
+  "p": "noun",
+  "n": 3,
+  "ns": 2,
+  "dict_guess": null
+ },
+ {
+  "w": "닮다",
+  "r": "damtta",
+  "p": "verb",
+  "n": 3,
+  "ns": 2,
+  "dict_guess": [
+   "resemble"
+  ]
+ },
+ {
+  "w": "살",
+  "r": "sal",
+  "p": "noun",
+  "n": 3,
+  "ns": 3,
+  "dict_guess": [
+   "tine",
+   "years old"
+  ]
+ },
+ {
+  "w": "거란",
+  "r": "georan",
+  "p": "noun",
+  "n": 3,
+  "ns": 2,
+  "dict_guess": null
+ },
+ {
+  "w": "깜깜",
+  "r": "kkamkkam",
+  "p": "root",
+  "n": 3,
+  "ns": 3,
+  "dict_guess": null
+ },
+ {
+  "w": "잘못",
+  "r": "jalmot",
+  "p": "adverb",
+  "n": 3,
+  "ns": 2,
+  "dict_guess": [
+   "misplay"
+  ]
+ },
+ {
+  "w": "외로움",
+  "r": "oeroum",
+  "p": "noun",
+  "n": 3,
+  "ns": 2,
+  "dict_guess": [
+   "loneliness"
+  ]
+ },
+ {
+  "w": "출구",
+  "r": "chulgu",
+  "p": "noun",
+  "n": 3,
+  "ns": 2,
+  "dict_guess": [
+   "an exit"
+  ]
+ },
+ {
+  "w": "거리",
+  "r": "geori",
+  "p": "noun",
+  "n": 3,
+  "ns": 3,
+  "dict_guess": [
+   "distance",
+   "materials"
+  ]
+ },
+ {
+  "w": "걷다",
+  "r": "geotta",
+  "p": "verb",
+  "n": 3,
+  "ns": 3,
+  "dict_guess": [
+   "leg",
+   "to walk",
+   "a cloud vanishes"
+  ]
+ },
+ {
+  "w": "무겁다",
+  "r": "mugeopta",
+  "p": "adjective",
+  "n": 3,
+  "ns": 3,
+  "dict_guess": null
+ },
+ {
+  "w": "가지",
+  "r": "gaji",
+  "p": "noun",
+  "n": 3,
+  "ns": 3,
+  "dict_guess": [
+   "tine",
+   "eggplant",
+   "a tree branch"
+  ]
+ },
+ {
+  "w": "오다",
+  "r": "oda",
+  "p": "verb",
+  "n": 3,
+  "ns": 3,
+  "dict_guess": [
+   "to come"
+  ]
+ },
+ {
+  "w": "온",
+  "r": "on",
+  "p": "determiner",
+  "n": 3,
+  "ns": 3,
+  "dict_guess": null
+ },
+ {
+  "w": "따뜻",
+  "r": "ttatteut",
+  "p": "root",
+  "n": 3,
+  "ns": 2,
+  "dict_guess": null
+ },
+ {
+  "w": "담다",
+  "r": "damtta",
+  "p": "verb",
+  "n": 3,
+  "ns": 2,
+  "dict_guess": null
+ },
+ {
+  "w": "봄",
+  "r": "bom",
+  "p": "noun",
+  "n": 3,
+  "ns": 3,
+  "dict_guess": [
+   "spring"
+  ]
+ },
+ {
+  "w": "멈추다",
+  "r": "meomchuda",
+  "p": "verb",
+  "n": 3,
+  "ns": 2,
+  "dict_guess": [
+   "stop"
+  ]
+ },
+ {
+  "w": "그럼",
+  "r": "geureom",
+  "p": "conjunctive adverb",
+  "n": 3,
+  "ns": 3,
+  "dict_guess": null
+ },
+ {
+  "w": "덕분",
+  "r": "deokpun",
+  "p": "noun",
+  "n": 3,
+  "ns": 3,
+  "dict_guess": [
+   "indebtedness"
+  ]
+ },
+ {
+  "w": "잠시",
+  "r": "jamsi",
+  "p": "noun",
+  "n": 3,
+  "ns": 2,
+  "dict_guess": [
+   "some"
+  ]
+ },
+ {
+  "w": "날아가다",
+  "r": "naragada",
+  "p": "verb",
+  "n": 3,
+  "ns": 2,
+  "dict_guess": [
+   "wing",
+   "to fly away"
+  ]
+ },
+ {
+  "w": "음악",
+  "r": "eumak",
+  "p": "noun",
+  "n": 3,
+  "ns": 3,
+  "dict_guess": [
+   "music"
+  ]
+ },
+ {
+  "w": "숨다",
+  "r": "sumtta",
+  "p": "verb",
+  "n": 3,
+  "ns": 2,
+  "dict_guess": [
+   "hide"
+  ]
+ },
+ {
+  "w": "꿈속",
+  "r": "kkumsok",
+  "p": "noun",
+  "n": 3,
+  "ns": 2,
+  "dict_guess": [
+   "in a dream"
+  ]
+ },
+ {
+  "w": "저기",
+  "r": "jeogi",
+  "p": "pronoun",
+  "n": 3,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "건너다",
+  "r": "geonneoda",
+  "p": "verb",
+  "n": 3,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "수풀",
+  "r": "supul",
+  "p": "noun",
+  "n": 3,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "너머",
+  "r": "neomeo",
+  "p": "noun",
+  "n": 3,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "선명",
+  "r": "seonmyeong",
+  "p": "noun",
+  "n": 3,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "바닥",
+  "r": "badak",
+  "p": "noun",
+  "n": 3,
+  "ns": 2,
+  "dict_guess": [
+   "floor",
+   "floorboard"
+  ]
+ },
+ {
+  "w": "놓다",
+  "r": "nota",
+  "p": "verb",
+  "n": 3,
+  "ns": 3,
+  "dict_guess": null
+ },
+ {
+  "w": "피다",
+  "r": "pida",
+  "p": "verb",
+  "n": 3,
+  "ns": 3,
+  "dict_guess": null
+ },
+ {
+  "w": "목소리",
+  "r": "moksori",
+  "p": "noun",
+  "n": 3,
+  "ns": 2,
+  "dict_guess": [
+   "voice"
+  ]
+ },
+ {
+  "w": "붙다",
+  "r": "butta",
+  "p": "verb",
+  "n": 3,
+  "ns": 3,
+  "dict_guess": null
+ },
+ {
+  "w": "입",
+  "r": "ip",
+  "p": "noun",
+  "n": 3,
+  "ns": 3,
+  "dict_guess": [
+   "mouth"
+  ]
+ },
+ {
+  "w": "뻗다",
+  "r": "ppeotta",
+  "p": "verb",
+  "n": 3,
+  "ns": 2,
+  "dict_guess": null
+ },
+ {
+  "w": "이제야",
+  "r": "ijeya",
+  "p": "adverb",
+  "n": 3,
+  "ns": 1,
+  "dict_guess": [
+   "these days"
+  ]
+ },
+ {
+  "w": "곧",
+  "r": "got",
+  "p": "adverb",
+  "n": 3,
+  "ns": 2,
+  "dict_guess": [
+   "soon"
+  ]
+ },
+ {
+  "w": "나인",
+  "r": "nain",
+  "p": "noun",
+  "n": 3,
+  "ns": 2,
+  "dict_guess": [
+   "court lady"
+  ]
+ },
+ {
+  "w": "달",
+  "r": "dal",
+  "p": "noun",
+  "n": 3,
+  "ns": 3,
+  "dict_guess": [
+   "a month",
+   "the moon"
+  ]
+ },
+ {
+  "w": "불타오르다",
+  "r": "bultaoreuda",
+  "p": "verb",
+  "n": 3,
+  "ns": 1,
+  "dict_guess": [
+   "inflame"
+  ]
+ },
+ {
+  "w": "해",
+  "r": "hae",
+  "p": "noun",
+  "n": 3,
+  "ns": 2,
+  "dict_guess": [
+   "prey",
+   "a year",
+   "the sun"
+  ]
+ },
+ {
+  "w": "막",
+  "r": "mak",
+  "p": "noun",
+  "n": 3,
+  "ns": 2,
+  "dict_guess": [
+   "just now"
+  ]
+ },
+ {
+  "w": "용서",
+  "r": "yongseo",
+  "p": "noun",
+  "n": 3,
+  "ns": 3,
+  "dict_guess": null
+ },
+ {
+  "w": "늦다",
+  "r": "neutta",
+  "p": "adjective",
+  "n": 3,
+  "ns": 2,
+  "dict_guess": [
+   "lose"
+  ]
+ },
+ {
+  "w": "밖",
+  "r": "bak",
+  "p": "noun",
+  "n": 3,
+  "ns": 1,
+  "dict_guess": [
+   "the outside"
+  ]
+ },
+ {
+  "w": "가질",
+  "r": "gajil",
+  "p": "noun",
+  "n": 3,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "족",
+  "r": "jok",
+  "p": "noun",
+  "n": 3,
+  "ns": 1,
+  "dict_guess": [
+   "tribe",
+   "suffice"
+  ]
+ },
+ {
+  "w": "떨어지다",
+  "r": "tteoreojida",
+  "p": "verb",
+  "n": 3,
+  "ns": 3,
+  "dict_guess": null
+ },
+ {
+  "w": "이별",
+  "r": "ibyeol",
+  "p": "noun",
+  "n": 3,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "방탄",
+  "r": "bangtan",
+  "p": "noun",
+  "n": 3,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "다르다",
+  "r": "dareuda",
+  "p": "adjective",
+  "n": 3,
+  "ns": 1,
+  "dict_guess": [
+   "be different"
+  ]
+ },
+ {
+  "w": "스타일",
+  "r": "seutail",
+  "p": "noun",
+  "n": 3,
+  "ns": 1,
+  "dict_guess": [
+   "style"
+  ]
+ },
+ {
+  "w": "밤새",
+  "r": "bamsae",
+  "p": "noun",
+  "n": 3,
+  "ns": 1,
+  "dict_guess": [
+   "all night"
+  ]
+ },
+ {
+  "w": "클럽",
+  "r": "keulleop",
+  "p": "noun",
+  "n": 3,
+  "ns": 1,
+  "dict_guess": [
+   "club"
+  ]
+ },
+ {
+  "w": "놀",
+  "r": "nol",
+  "p": "noun",
+  "n": 3,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "머리",
+  "r": "meori",
+  "p": "noun",
+  "n": 3,
+  "ns": 3,
+  "dict_guess": [
+   "head",
+   "acrolith"
+  ]
+ },
+ {
+  "w": "쩌",
+  "r": "jjeo",
+  "p": "adverb",
+  "n": 3,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "엄마",
+  "r": "eomma",
+  "p": "noun",
+  "n": 3,
+  "ns": 3,
+  "dict_guess": [
+   "ma",
+   "mamma"
+  ]
+ },
+ {
+  "w": "꽤",
+  "r": "kkwae",
+  "p": "adverb",
+  "n": 3,
+  "ns": 2,
+  "dict_guess": [
+   "fairly or considerably"
+  ]
+ },
+ {
+  "w": "빠름",
+  "r": "ppareum",
+  "p": "noun",
+  "n": 3,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "울다",
+  "r": "ulda",
+  "p": "verb",
+  "n": 3,
+  "ns": 2,
+  "dict_guess": null
+ },
+ {
+  "w": "그거",
+  "r": "geugeo",
+  "p": "pronoun",
+  "n": 3,
+  "ns": 1,
+  "dict_guess": [
+   "that thing"
+  ]
+ },
+ {
+  "w": "위선",
+  "r": "wiseon",
+  "p": "adverb",
+  "n": 3,
+  "ns": 1,
+  "dict_guess": null
+ },
+ {
+  "w": "자다",
+  "r": "jada",
+  "p": "verb",
+  "n": 3,
+  "ns": 1,
+  "dict_guess": [
+   "to sleep"
+  ]
+ }
+]

@@ -1,0 +1,152 @@
+{
+ "id": "b02",
+ "hook": [
+  12,
+  13,
+  14,
+  15,
+  16,
+  17
+ ],
+ "notes": {
+  "s": "Love at first sight argued as physical law, as if the meeting were written into the body.",
+  "t": "Lead single of Love Yourself 承 Her, September 2017, and the song that put BTS on the Billboard Hot 100 for the first time and carried them to the American Music Awards stage that November. The conceit is a legal brief for a crush: the narrator calls mathematics, scripture, cosmology and rebirth as witnesses that the relationship was decided before either person existed. The whistle hook and the Jungkook high note made it the group's first mass-market pop record after years of harder material. It opens the Love Yourself arc, which matters later because FAKE LOVE and Epiphany are both answers to the certainty this song claims.",
+  "k": [
+   [
+    "...니까",
+    "Every line of the chorus ends in -(으)니까, because. Korean lets you stop on a because-clause and never state the conclusion, so the hook is a stack of reasons with the sentence it supports left hanging in the air. Learners taught that a sentence needs a main clause should notice this is normal and very common in speech."
+   ],
+   [
+    "첫눈에",
+    "First plus 눈 plus 에, at first glance. The written form is identical to 첫눈, the first snowfall of the year, which is a loaded romantic image in Korean, so the line is often misquoted that way. Here the 에 and the verb 알아보다 fix it as sight, not snow."
+   ],
+   [
+    "운명 / 숙명 / 필연 / 섭리",
+    "The song cycles four near-synonyms a dictionary will flatten into fate. 운명 is the destiny you walk into, 숙명 is the one assigned to you that cannot be refused, 필연 is logical inevitability as opposed to coincidence, and 섭리 is providence in the religious sense. The escalation is the argument."
+   ],
+   [
+    "전생 / 다음 생",
+    "Previous life and next life. Buddhist rebirth vocabulary is ordinary romantic Korean, not a statement of belief, and turns up constantly in love songs and in the stock phrase 전생에 나라를 구했나, did I save a nation in a past life."
+   ]
+  ]
+ },
+ "lines": {
+  "12": "Don't worry, love",
+  "13": "because none of this is coincidence",
+  "14": "We're completely different, baby",
+  "15": "because we're the two who found their destiny",
+  "16": "From the day the universe began, on and on (on and on)",
+  "17": "past infinite centuries, on and on (on and on, on and on, yah)"
+ },
+ "vocab": [
+  {
+   "w": "알아보다",
+   "en": "to recognize",
+   "note": "Also to look into or check out something, as in 가격을 알아보다, check the price",
+   "i": 0
+  },
+  {
+   "w": "혈관",
+   "en": "blood vessel",
+   "i": 2
+  },
+  {
+   "w": "헤매다",
+   "en": "to wander, to search in vain",
+   "note": "Usually paired as 찾아 헤매다, to search desperately without finding",
+   "i": 3
+  },
+  {
+   "w": "만남",
+   "en": "meeting, encounter",
+   "note": "Noun from 만나다. Also the normal word for a romantic meeting or a set-up date",
+   "i": 4
+  },
+  {
+   "w": "공식",
+   "en": "formula, equation",
+   "note": "The same word as a prefix means official, as in 공식 발표, official announcement",
+   "i": 5
+  },
+  {
+   "w": "율법",
+   "en": "religious law, commandments",
+   "i": 6
+  },
+  {
+   "w": "섭리",
+   "en": "providence",
+   "i": 7
+  },
+  {
+   "w": "운명",
+   "en": "destiny, fate",
+   "i": 8
+  },
+  {
+   "w": "증거",
+   "en": "evidence, proof",
+   "i": 8
+  },
+  {
+   "w": "출처",
+   "en": "source, origin",
+   "note": "The everyday word for a citation or where information came from",
+   "i": 9
+  },
+  {
+   "w": "숙명",
+   "en": "predestined fate",
+   "note": "Heavier than 운명. Something assigned to you that you cannot decline",
+   "i": 11
+  },
+  {
+   "w": "우연",
+   "en": "coincidence, chance",
+   "i": 13
+  },
+  {
+   "w": "완전",
+   "en": "completely, totally",
+   "note": "Strictly a noun meaning perfection, but in speech it sits in front of adjectives as an intensifier",
+   "i": 14
+  },
+  {
+   "w": "태초",
+   "en": "the beginning of time",
+   "i": 26
+  },
+  {
+   "w": "필연",
+   "en": "inevitability, necessity",
+   "i": 28
+  },
+  {
+   "w": "소스라치다",
+   "en": "to flinch, to start in shock",
+   "i": 30
+  },
+  {
+   "w": "멎다",
+   "en": "to stop, to cease",
+   "note": "For breath, rain and bleeding. You cannot use it to stop an object, which is 멈추다",
+   "i": 31
+  },
+  {
+   "w": "애초",
+   "en": "the very start",
+   "note": "Nearly always 애초부터 or 애초에, meaning from the outset and implying it was never otherwise",
+   "i": 33
+  },
+  {
+   "w": "향하다",
+   "en": "to face, to head toward",
+   "i": 33
+  },
+  {
+   "w": "후회하다",
+   "en": "to regret",
+   "i": 47
+  }
+ ]
+}

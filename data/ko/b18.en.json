@@ -1,0 +1,160 @@
+{
+ "id": "b18",
+ "hook": [
+  27,
+  28,
+  29,
+  30,
+  31
+ ],
+ "notes": {
+  "s": "A night-shift brag from kids who were told their whole generation had given up.",
+  "t": "Fifth track on 화양연화 pt.1, and the song that broke the group in the United States before any label push did, mostly on the strength of the one-take corridor choreography. The verses answer a specific Korean media habit of the mid 2010s, where newspapers kept calling people in their twenties the generation that stopped wanting things. Suga and RM take the accusation and flip it into a work ethic. The saxophone and the uniform concept are what casual listeners remember; the giving-up-generation verse is what Korean listeners remember.",
+  "k": [
+   [
+    "난 좀 쩔어",
+    "쩔다 in the dictionary means soaked through, the way clothes go 땀에 쩔다 and reek of old sweat. Around 2013 teenagers flipped it into praise, so 쩔어 meant sick or killer. Both senses run at once here: the practice room soaked in sweat in line 10, then hope on full blast in line 13. The slang has aged, so to a Korean now it sounds unmistakably like 2015."
+   ],
+   [
+    "3포세대? 5포세대?",
+    "포 here is 포기, giving up. 삼포세대 labelled a generation said to have given up courtship, marriage and children, and 오포세대 added a home and a career to the list. Newspapers aimed these words at exactly the people singing. The comeback is a pun: 육포 is both six-포 and beef jerky, so he says he likes jerky, so make it six."
+   ],
+   [
+    "우릴 싹 주식처럼 매도해",
+    "매도하다 is two different words wearing one spelling. One is 賣渡, to sell off, as with stock; the other is 罵倒, to denounce someone. Putting 주식처럼 in front fires both, so the press is dumping us and slandering us in the same motion. Sino-Korean homophones are where this kind of wordplay lives, and a dictionary will show you only one of the two."
+   ],
+   [
+    "모로 가도 달리는 성공가도",
+    "모로 가도 is the first half of a proverb, 모로 가도 서울만 가면 된다: go sideways if you like, as long as you get to Seoul. Any Korean listener finishes it silently. 성공가도 is the road to success, so the route is crooked but the destination holds, and 가도 is doing double duty as that road and as even if you go."
+   ]
+  ]
+ },
+ "lines": {
+  "9": "I'm kind of sick",
+  "10": "Ah, soaked, soaked, soaked, the sweat smell of our practice room",
+  "12": "All the weaklings, losers, whiners, dimwits",
+  "13": "have nothing to do with me, 'cause my hope is sick, ha ha",
+  "27": "Sick",
+  "28": "I refuse to be refused",
+  "29": "I'm too much by nature",
+  "30": "Everybody copies me",
+  "31": "Sick, sick, sick, sick",
+  "36": "Three-give-up generation? Five-give-up generation?",
+  "37": "Well, I like beef jerky, so six-give-up generation?",
+  "38": "The press and the grown-ups say we have no will and dump us like a stock",
+  "41": "Never give up, you know you not lonely",
+  "44": "Wake the sleeping youth, go"
+ },
+ "vocab": [
+  {
+   "w": "쩔다",
+   "en": "be soaked through; be awesome",
+   "note": "The second sense is 2010s youth slang and now sounds dated",
+   "i": 9
+  },
+  {
+   "w": "땀",
+   "en": "sweat",
+   "note": "땀내 is the smell of it; the suffix -내 means odour",
+   "i": 10
+  },
+  {
+   "w": "답하다",
+   "en": "answer, respond",
+   "i": 11
+  },
+  {
+   "w": "찌질이",
+   "en": "loser, pathetic sort",
+   "note": "The -이 suffix turns a mimetic root into a mocking noun: 비실이 a weakling, 띨띨이 a dimwit",
+   "i": 12
+  },
+  {
+   "w": "상관",
+   "en": "relation, concern",
+   "note": "상관없다 is the useful one, it has nothing to do with me",
+   "i": 13
+  },
+  {
+   "w": "희망",
+   "en": "hope",
+   "i": 13
+  },
+  {
+   "w": "발끝",
+   "en": "tiptoe, the tips of the toes",
+   "note": "머리부터 발끝까지 is the set phrase for head to toe",
+   "i": 14
+  },
+  {
+   "w": "절반",
+   "en": "a half",
+   "i": 15
+  },
+  {
+   "w": "작업",
+   "en": "work, a work session",
+   "note": "Studio work here, though 작업하다 also means to hit on someone",
+   "i": 15
+  },
+  {
+   "w": "썩다",
+   "en": "rot, go bad",
+   "i": 16
+  },
+  {
+   "w": "청춘",
+   "en": "youth, one's prime years",
+   "note": "Lofty and a little nostalgic, where 젊음 is plain youngness",
+   "i": 16
+  },
+  {
+   "w": "거부하다",
+   "en": "refuse, reject",
+   "i": 28
+  },
+  {
+   "w": "노예",
+   "en": "slave",
+   "i": 33
+  },
+  {
+   "w": "포기",
+   "en": "giving up, abandonment",
+   "i": 41
+  },
+  {
+   "w": "언론",
+   "en": "the press, the media",
+   "i": 38
+  },
+  {
+   "w": "어른",
+   "en": "adult, grown-up",
+   "i": 38
+  },
+  {
+   "w": "의지",
+   "en": "will, resolve",
+   "note": "A different word from 의지하다, to lean on someone",
+   "i": 38
+  },
+  {
+   "w": "고개",
+   "en": "the head; a hill pass",
+   "note": "고개를 숙이다 is to bow, and by extension to submit",
+   "i": 40
+  },
+  {
+   "w": "숙이다",
+   "en": "bow, lower",
+   "i": 40
+  },
+  {
+   "w": "깨우다",
+   "en": "wake someone up",
+   "note": "Causative of 깨다; 깨다 is you waking, 깨우다 is you waking another person",
+   "i": 44
+  }
+ ]
+}

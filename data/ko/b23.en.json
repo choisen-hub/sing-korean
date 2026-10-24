@@ -1,0 +1,153 @@
+{
+ "id": "b23",
+ "hook": [
+  19,
+  20,
+  21,
+  22,
+  23,
+  24
+ ],
+ "notes": {
+  "s": "The first fan song: no promise of a perfect road, only a wish for more good days.",
+  "t": "BTS's first official fan song, on 화양연화 Young Forever in 2016, written at the hinge where years of being dismissed turned into their first award wins. The opening refuses the standard idol promise outright, and the second verse answers critics in their own voice before thanking them for the proof. The bridge is the group admitting they hid the ugly parts because they were too inexperienced to show them, and thanking ARMY for carrying the tears anyway. The subtitle is the line fans quote, and the 하나 둘 셋 count is the live chant, so in concert the crowd supplies the numbers. It is the traditional last song of a BTS show.",
+  "k": [
+   [
+    "꽃길만 걷자",
+    "A fixed Korean blessing, walk only on the flower path, meaning may you have nothing but good times ahead. Fans say it to idols constantly and idols say it back. Opening the fandom's own song by refusing to say it is the entire thesis of the song."
+   ],
+   [
+    "그래도 좋은 날이 더 많기를",
+    "A sentence that stops at -기를 and never supplies a verb is a wish left deliberately hanging, the shape of a prayer or a toast. The missing ending is roughly 바란다, I hope. This is why the subtitle feels cut off in English and why it cannot be fixed in translation."
+   ],
+   [
+    "자격지심",
+    "The specific insecurity that makes a person belittle someone else. Not envy, which sits in the envier quietly; this word names the smallness in the one doing the sneering, which is what makes thanking them for it a put-down rather than grace."
+   ],
+   [
+    "화양연화",
+    "花樣年華, the time of life in fullest bloom, the title of the album era this song closes and borrowed from the Wong Kar-wai film known in English as In the Mood for Love. Calling ARMY the flower of 화양연화 hands the fans the thing the era was named after."
+   ]
+  ]
+ },
+ "lines": {},
+ "vocab": [
+  {
+   "w": "꽃길",
+   "en": "flower path, an easy road ahead",
+   "i": 3
+  },
+  {
+   "w": "거짓말",
+   "en": "a lie",
+   "note": "거짓말하다 to lie; the noun is far more common than any verb form",
+   "i": 10
+  },
+  {
+   "w": "가사",
+   "en": "lyrics",
+   "i": 12
+  },
+  {
+   "w": "구리다",
+   "en": "to suck, be lousy, be shady",
+   "note": "Slang. Literally of a bad smell, so it also implies something fishy, which is the reading in the next line",
+   "i": 11
+  },
+  {
+   "w": "망하다",
+   "en": "to flop, go under, be ruined",
+   "note": "Everyday and blunt; 망했다 is what you say when you bomb a test",
+   "i": 14
+  },
+  {
+   "w": "자격지심",
+   "en": "inferiority complex that lashes out",
+   "i": 15
+  },
+  {
+   "w": "덕분에",
+   "en": "thanks to, owing to",
+   "note": "Normally for genuine gratitude; 때문에 is neutral and 탓에 is for blame, so using 덕분에 sarcastically is the joke here",
+   "i": 16
+  },
+  {
+   "w": "증명",
+   "en": "proof, proving",
+   "i": 16
+  },
+  {
+   "w": "박수",
+   "en": "applause, clapping",
+   "i": 17
+  },
+  {
+   "w": "괜찮다",
+   "en": "to be okay, fine, all right",
+   "i": 19
+  },
+  {
+   "w": "잊다",
+   "en": "to forget",
+   "i": 19
+  },
+  {
+   "w": "지우다",
+   "en": "to erase, wipe out",
+   "i": 20
+  },
+  {
+   "w": "기억",
+   "en": "memory, recollection",
+   "i": 20
+  },
+  {
+   "w": "믿다",
+   "en": "to believe, trust",
+   "i": 24
+  },
+  {
+   "w": "바뀌다",
+   "en": "to change, be changed",
+   "note": "Passive counterpart of 바꾸다, to change something",
+   "i": 30
+  },
+  {
+   "w": "그림자",
+   "en": "shadow",
+   "i": 33
+  },
+  {
+   "w": "어둠",
+   "en": "darkness, the dark",
+   "i": 33
+  },
+  {
+   "w": "아픔",
+   "en": "pain, hurt",
+   "note": "Noun from 아프다; covers emotional pain more readily than 고통, which is severe physical suffering",
+   "i": 34
+  },
+  {
+   "w": "서툴다",
+   "en": "to be clumsy, unpracticed, bad at something",
+   "i": 35
+  },
+  {
+   "w": "상처",
+   "en": "wound, scar, hurt",
+   "i": 38
+  },
+  {
+   "w": "감당하다",
+   "en": "to handle, bear, cope with",
+   "note": "Implies the load is heavy enough that handling it is an achievement",
+   "i": 38
+  },
+  {
+   "w": "빛",
+   "en": "light",
+   "i": 39
+  }
+ ]
+}

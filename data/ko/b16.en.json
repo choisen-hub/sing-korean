@@ -1,0 +1,153 @@
+{
+ "id": "b16",
+ "hook": [
+  12,
+  13,
+  14,
+  15,
+  16,
+  17
+ ],
+ "notes": {
+  "s": "Chasing a love he already knows he cannot keep, and refusing to stop.",
+  "t": "Title track of 화양연화 pt.2 from November 2015, the middle panel of the trilogy that made the group. Its video is the one fans still argue over, since it seeded the story of seven boys and a summer that goes wrong. In 2015 the word run read as the band's own position, still sprinting with nothing guaranteed, and the members name this one when asked which song defines the era.",
+  "k": [
+   [
+    "나를 더 뛰게 해줘",
+    "뛰다 is to run and, of a heart, to beat. That double sense carries the song: the plea asks to be made to run harder and to be made to feel more, and line 28 sets it beside 심장 so both senses fire at once. The pattern worth stealing is verb stem plus 게 하다, to make or let someone do something, with 주다 added to mean do it for my sake."
+   ],
+   [
+    "어차피 이것밖에 난 못해",
+    "밖에 means outside of, and it refuses to sit in a sentence without a negative later on. So this is I can do nothing but this. Learners reach for 이것밖에 할 수 있어 and it is simply ungrammatical; the negative is compulsory, every time."
+   ],
+   [
+    "바보 같은 운명아, 나를 욕해",
+    "The -아 on the end is the vocative you hang on a name to call someone over, and sticking it on 운명 turns fate into a person standing there taking abuse. 나를 욕해 is a command rather than a statement, so: go on, curse me. Shouting at abstractions like this is a stock move in Korean lyric writing."
+   ],
+   [
+    "그냥 날 태워줘",
+    "태우다 means burn, and it also means give someone a ride. Both read after a line about a branch drying out, though burn me is the primary sense. The clause after it, 더 밀쳐내줘, push me away harder, keeps the song's habit of requesting its own injuries."
+   ]
+  ]
+ },
+ "lines": {
+  "6": "Just burn me up, yes, shove me away harder",
+  "7": "This is the sprint of an idiot who's crazy in love",
+  "8": "Make me run more",
+  "12": "Again run, run, run, I can't stop",
+  "13": "Again run, run, run, there's nothing I can do",
+  "14": "This is all I can do anyway",
+  "15": "Loving you is all I can do",
+  "16": "Again run, run, run, it's fine if I trip",
+  "17": "Again run, run, run, it's fine if I get a little hurt",
+  "18": "Even if I can't have you, it's enough for me",
+  "19": "Stupid fate, go ahead and curse me",
+  "28": "only make me run harder, along with my heart",
+  "47": "Show me the way, somebody stop me",
+  "48": "Let me breathe"
+ },
+ "vocab": [
+  {
+   "w": "태양",
+   "en": "the sun",
+   "note": "The celestial body; 해 is the everyday word for the same thing",
+   "i": 0
+  },
+  {
+   "w": "목마르다",
+   "en": "be thirsty",
+   "note": "Literally the throat drying, and used for craving anything",
+   "i": 1
+  },
+  {
+   "w": "뻗다",
+   "en": "stretch out, extend",
+   "i": 3
+  },
+  {
+   "w": "제자리",
+   "en": "the same spot, where you started",
+   "note": "제자리걸음 is marching in place, the standard image for getting nowhere",
+   "i": 5
+  },
+  {
+   "w": "태우다",
+   "en": "burn; give a ride",
+   "i": 6
+  },
+  {
+   "w": "밀쳐내다",
+   "en": "shove away, push off",
+   "i": 6
+  },
+  {
+   "w": "뜀박질",
+   "en": "running, a dash",
+   "note": "Noun built from 뛰다, slightly childlike, which is the point here",
+   "i": 7
+  },
+  {
+   "w": "상처",
+   "en": "wound, scar",
+   "note": "Used for physical and emotional damage alike",
+   "i": 10
+  },
+  {
+   "w": "멈추다",
+   "en": "stop, halt",
+   "i": 12
+  },
+  {
+   "w": "넘어지다",
+   "en": "fall over, trip",
+   "i": 16
+  },
+  {
+   "w": "다치다",
+   "en": "get hurt, be injured",
+   "i": 17
+  },
+  {
+   "w": "족하다",
+   "en": "be enough, suffice",
+   "note": "Bookish; 충분하다 is what you would actually say out loud",
+   "i": 18
+  },
+  {
+   "w": "운명",
+   "en": "fate, destiny",
+   "i": 19
+  },
+  {
+   "w": "분간하다",
+   "en": "tell apart, distinguish",
+   "i": 26
+  },
+  {
+   "w": "거칠다",
+   "en": "be rough, be harsh",
+   "i": 27
+  },
+  {
+   "w": "태풍",
+   "en": "typhoon",
+   "i": 27
+  },
+  {
+   "w": "추억",
+   "en": "memory, recollection",
+   "note": "A remembered scene you look back on, where 기억 is the faculty of remembering",
+   "i": 41
+  },
+  {
+   "w": "흔적",
+   "en": "trace, trail, mark",
+   "i": 46
+  },
+  {
+   "w": "헤매다",
+   "en": "wander, grope around lost",
+   "i": 45
+  }
+ ]
+}

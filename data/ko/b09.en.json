@@ -1,0 +1,147 @@
+{
+ "id": "b09",
+ "hook": [
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33
+ ],
+ "notes": {
+  "s": "Time kept moving through the pandemic without waiting for anyone.",
+  "t": "BE's lead single, November 2020, written and recorded while touring was impossible. RM, SUGA and j-hope wrote their own verses and Jungkook directed the video. It became the first mostly Korean-language song to enter the Hot 100 at number one. What the fandom responded to was less the comfort than the admission underneath it, that the group was stuck too and had no better advice than to keep going.",
+  "k": [
+   [
+    "눈치 없이 와버렸어",
+    "눈치 is the radar for reading a room, and 눈치 없다 is the ordinary complaint about someone who misses every cue. Spring arrives tactless rather than cruel, which is a much smaller and funnier accusation than English can make it. The grief and the joke live in the same word."
+   ],
+   [
+    "먼지 쌓인 되감기",
+    "되감기 is the rewind button on a cassette deck, obsolete hardware standing in for going back over memories. It also rhymes off the 감기 of the previous line, the cold the world handed him, so two unrelated meanings get stitched together by sound alone."
+   ],
+   [
+    "엇박자의 춤",
+    "엇박자 is the music term for landing off the beat, used in speech for being out of step with everything around you. Asking for a dance while still face down on the ground is the verse admitting it cannot get the timing right and intends to dance anyway."
+   ],
+   [
+    "하루가 돌아오겠지",
+    "-겠지 is a guess the speaker wants to be true, shaped like a statement. Swapping it for -ㄹ 거야 would turn the line into a promise, and the song is careful not to make one. Worth learning because -겠지 is how Korean expresses hope without claiming knowledge, and it runs through the whole chorus."
+   ]
+  ]
+ },
+ "lines": {},
+ "vocab": [
+  {
+   "w": "멈추다",
+   "en": "to stop, come to a halt",
+   "i": 0
+  },
+  {
+   "w": "예고",
+   "en": "advance notice, warning",
+   "note": "Also the word for a film trailer or a next-episode preview",
+   "i": 1
+  },
+  {
+   "w": "기다림",
+   "en": "waiting, the wait",
+   "note": "Noun from 기다리다 with -ㅁ, same pattern as 외로움",
+   "i": 2
+  },
+  {
+   "w": "눈치",
+   "en": "social radar, reading the room",
+   "note": "눈치 없다 means tactless, 눈치 보다 means to watch for someone's reaction",
+   "i": 3
+  },
+  {
+   "w": "발자국",
+   "en": "footprint, footstep",
+   "i": 4
+  },
+  {
+   "w": "넘어지다",
+   "en": "to trip, fall over",
+   "i": 5
+  },
+  {
+   "w": "흠뻑",
+   "en": "soaked through, thoroughly",
+   "i": 9
+  },
+  {
+   "w": "먹구름",
+   "en": "dark rain cloud",
+   "note": "먹 is ink, so literally an ink cloud",
+   "i": 11
+  },
+  {
+   "w": "겨우",
+   "en": "barely, only just",
+   "i": 13
+  },
+  {
+   "w": "몹시",
+   "en": "terribly, severely",
+   "i": 14
+  },
+  {
+   "w": "감기",
+   "en": "a cold, the flu",
+   "i": 15
+  },
+  {
+   "w": "쌓이다",
+   "en": "to pile up, accumulate",
+   "note": "Passive of 쌓다; used for dust, work and stress",
+   "i": 16
+  },
+  {
+   "w": "먼지",
+   "en": "dust",
+   "i": 16
+  },
+  {
+   "w": "다행히",
+   "en": "fortunately, luckily",
+   "note": "From 다행, a piece of luck, and extremely common in speech",
+   "i": 37
+  },
+  {
+   "w": "달아나다",
+   "en": "to run away, flee",
+   "i": 25
+  },
+  {
+   "w": "변하다",
+   "en": "to change, turn into",
+   "i": 35
+  },
+  {
+   "w": "잇다",
+   "en": "to connect, join, continue",
+   "note": "ㅅ-irregular, so the stem drops its ㅅ and gives 이어, as in 이어보자",
+   "i": 40
+  },
+  {
+   "w": "어둠",
+   "en": "darkness",
+   "i": 41
+  },
+  {
+   "w": "떠오르다",
+   "en": "to rise, surface, come to mind",
+   "note": "Used of the sun and of a thought arriving",
+   "i": 42
+  },
+  {
+   "w": "숨다",
+   "en": "to hide oneself",
+   "note": "Intransitive; 숨기다 is hiding something else",
+   "i": 41
+  }
+ ]
+}

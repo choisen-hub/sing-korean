@@ -1,0 +1,163 @@
+{
+ "id": "b21",
+ "hook": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "notes": {
+  "s": "A debut single that asks a Korean teenager what he wants, then refuses the answer.",
+  "t": "The group's debut single from June 2013, school uniforms and baggy everything. Its target is specific: the Korean exam track, the compulsory evening study block, the civil-service job a parent names as a dream. Critics at the time heard borrowed American posturing and the group spent years outrunning that reading, but the social argument underneath is the one they kept coming back to in 뱁새 and 고민보다 Go. The closing English line, addressed to youngsters without dreams, is the thesis stated plainly.",
+  "k": [
+   [
+    "얌마, 네 꿈은 뭐니?",
+    "얌마 is a flattened 이놈아 by way of 야 임마, the way you shout at a kid or a younger friend, and aiming it at anyone older starts a fight. 뭐니 and 그거니 use -니, a question ending adults point downward at children. So the hook is pitched as a teacher or parent interrogating a student, which is the voice the song mimics and then turns back on them."
+   ],
+   [
+    "시간낭비인 야자에 돌직구를 날려",
+    "야자 is 야간자율학습, the evening study block Korean high schoolers sit at school until ten or later, officially self-directed and attended under compulsion. 독서실, the paid study room in line 11, is the matching alibi you give a parent on the way out. 돌직구 is a stone fastball, slang for saying a thing straight with no cushioning, and the line throws one at the institution."
+   ],
+   [
+    "장래희망 넘버원 공무원?",
+    "장래희망 is the phrase printed on a school form where a child writes what they want to become. 공무원, civil servant, is the answer parents of this era wanted, because the entrance exam is impartial and the job never evaporates. Treating it as a dream rather than a job is what the song is attacking, and the charge is in the line before: 틀에 박힌 꿈, a dream stamped out of a mould."
+   ],
+   [
+    "네 삶의 주어가 되어봐",
+    "주어 is the grammatical subject, the word that performs the verb. Telling someone to become the subject of their own life puts a Korean classroom term to work, because for the whole song the listener has been the object, 억압만 받던, only ever on the receiving end of pressure. The -아 보다 ending softens the order into give it a try."
+   ]
+  ]
+ },
+ "lines": {
+  "0": "Hey you, what's your dream (what is it)",
+  "1": "Hey you, what's your dream (what is it)",
+  "2": "Hey you, what's your dream (what is it)",
+  "3": "Is that really all your dream is",
+  "7": "Nobody says a word even if I never dream at all",
+  "11": "Fine, Mom, I'm heading to the study room, I said",
+  "12": "What's the version of yourself you used to dream about",
+  "13": "Who do you see in your mirror right now, I gotta say",
+  "14": "Go your own way, even if you only live one day",
+  "15": "Do something, anything, pack your weakness away",
+  "18": "Grow up, please, you're all mouth, kid, glass mental, boy",
+  "33": "Grown-ups and parents inject a dream stamped out of a mould",
+  "34": "Future aspiration, number one, civil servant",
+  "36": "Throw a stone fastball at the evening study that wastes your time",
+  "37": "Rebel against this hell of a society, grant your dream a pardon",
+  "39": "A life that only ever took the pressure, try being the subject of your own sentence",
+  "72": "To all the youngsters without dreams"
+ },
+ "vocab": [
+  {
+   "w": "꿈",
+   "en": "dream",
+   "i": 0
+  },
+  {
+   "w": "꾸다",
+   "en": "to dream",
+   "note": "It takes 꿈 as its object and nothing else does: 꿈을 꾸다",
+   "i": 7
+  },
+  {
+   "w": "겨우",
+   "en": "barely, merely",
+   "note": "Lays contempt on a quantity, so 겨우 그거 is that is all?",
+   "i": 3
+  },
+  {
+   "w": "고작",
+   "en": "at most, only that much",
+   "note": "Interchangeable with 겨우 in this use",
+   "i": 31
+  },
+  {
+   "w": "까먹다",
+   "en": "forget; shell and eat",
+   "note": "Casual for 잊다; the literal sense is to peel and eat, which is why it covers polishing off a snack",
+   "i": 9
+  },
+  {
+   "w": "독서실",
+   "en": "paid study room",
+   "note": "A rented desk in a silent room, booked by the month by students and exam takers",
+   "i": 11
+  },
+  {
+   "w": "나약하다",
+   "en": "be feeble, be weak-willed",
+   "note": "유리멘탈 in line 18, glass mental, is the home-made English for the same idea",
+   "i": 15
+  },
+  {
+   "w": "담다",
+   "en": "put into, contain",
+   "note": "담아둬 here is pack it away and leave it there",
+   "i": 15
+  },
+  {
+   "w": "겁나다",
+   "en": "get scared",
+   "i": 17
+  },
+  {
+   "w": "철들다",
+   "en": "grow up, come to one's senses",
+   "note": "철 is discernment, and 철없다 is what you call a grown adult behaving like a child",
+   "i": 18
+  },
+  {
+   "w": "위선자",
+   "en": "hypocrite",
+   "i": 25
+  },
+  {
+   "w": "강요하다",
+   "en": "force, press something on someone",
+   "i": 27
+  },
+  {
+   "w": "지겹다",
+   "en": "be sick of, be tiresome",
+   "i": 32
+  },
+  {
+   "w": "틀",
+   "en": "a frame, a mould",
+   "note": "틀에 박히다 is to be stuck in a mould, hence stereotyped or rigid",
+   "i": 33
+  },
+  {
+   "w": "주입하다",
+   "en": "inject, drill into",
+   "note": "주입식 교육 is the standard phrase for rote, pour-it-in schooling",
+   "i": 33
+  },
+  {
+   "w": "장래희망",
+   "en": "future aspiration, what you want to be",
+   "i": 34
+  },
+  {
+   "w": "낭비",
+   "en": "waste",
+   "i": 36
+  },
+  {
+   "w": "반항하다",
+   "en": "rebel, defy",
+   "i": 37
+  },
+  {
+   "w": "억압",
+   "en": "oppression, repression",
+   "i": 39
+  },
+  {
+   "w": "꾸물대다",
+   "en": "dawdle, drag one's feet",
+   "note": "우물쭈물 beside it is the mimetic for hesitating and stalling",
+   "i": 63
+  }
+ ]
+}

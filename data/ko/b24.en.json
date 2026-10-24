@@ -1,0 +1,153 @@
+{
+ "id": "b24",
+ "hook": [
+  12,
+  13,
+  14,
+  15
+ ],
+ "notes": {
+  "s": "A door you build in your own head, and the shop behind it where the band talks you down.",
+  "t": "Fan song closing Love Yourself 轉 Tear in 2018. Magic Shop is a real psychodrama exercise: the therapist sets up an imaginary store where a client hands over something they fear and takes away something they need, and the group has also pointed to James Doty's memoir of the same name. The gratitude runs in both directions, which is unusual for a fan song, and Suga's verse is the part people quote alone, where he works out that wanting to be the best was never actually the want. The three-flower passage rewrites 하루만's morning glory as a way to finish well rather than a one-day deadline. You gave me the best of me became a standing fandom phrase and later an anniversary tagline.",
+  "k": [
+   [
+    "Magic Shop",
+    "Not a shop. It is a psychodrama technique, an imagined storefront where you trade a fear for something you need, so the chorus telling you to build a door in your own mind is that therapeutic exercise written out as an instruction."
+   ],
+   [
+    "필 땐 장미꽃처럼 / 흩날릴 땐 벚꽃처럼 / 질 땐 나팔꽃처럼",
+    "Three flowers assigned to three verbs: rose for blooming, cherry blossom for scattering, morning glory for closing. Korean has separate verbs for each stage of a flower's life, so the lines are doing something English has to paraphrase. The morning glory is the same flower 하루만 used as a deadline."
+   ],
+   [
+    "내가 뭐랬어?",
+    "뭐랬어 is 뭐라고 했어 squeezed down, what did I say. Said after being proved right, it is close to what did I tell you. The 거랬잖아 in the next line is 거라고 했잖아 getting the same treatment. Reported speech collapsing like this is everywhere in casual Korean."
+   ],
+   [
+    "은하수",
+    "Literally river of stars, the Korean word for the Milky Way. The song keeps trading it against the English galaxy in the same breath, so your galaxy and 너의 은하수 are one image being passed back and forth between the two languages."
+   ]
+  ]
+ },
+ "lines": {},
+ "vocab": [
+  {
+   "w": "망설이다",
+   "en": "to hesitate, waver",
+   "i": 0
+  },
+  {
+   "w": "진심",
+   "en": "true feelings, sincerity",
+   "note": "The word the whole Love Yourself era turns on; see 전하지 못한 진심",
+   "i": 0
+  },
+  {
+   "w": "흉터",
+   "en": "scar",
+   "note": "The mark left behind, where 상처 is the wound itself",
+   "i": 1
+  },
+  {
+   "w": "뻔하다",
+   "en": "obvious, predictable, hackneyed",
+   "note": "Carries mild contempt, so 뻔한 말 is a line you have heard too often to believe",
+   "i": 2
+  },
+  {
+   "w": "들려주다",
+   "en": "to tell, to let someone hear",
+   "i": 3
+  },
+  {
+   "w": "이기다",
+   "en": "to win, beat, overcome",
+   "i": 4
+  },
+  {
+   "w": "기적",
+   "en": "miracle",
+   "i": 6
+  },
+  {
+   "w": "다가오다",
+   "en": "to come closer, approach",
+   "i": 7
+  },
+  {
+   "w": "은하수",
+   "en": "the Milky Way",
+   "i": 9
+  },
+  {
+   "w": "수놓다",
+   "en": "to embroider",
+   "note": "Standard metaphor for stars stitched across a sky",
+   "i": 9
+  },
+  {
+   "w": "절망",
+   "en": "despair, hopelessness",
+   "i": 10
+  },
+  {
+   "w": "절벽",
+   "en": "cliff, precipice",
+   "i": 11
+  },
+  {
+   "w": "영영",
+   "en": "forever, for good, never again",
+   "note": "Only for permanent loss or disappearance, unlike neutral 영원히",
+   "i": 12
+  },
+  {
+   "w": "위로하다",
+   "en": "to comfort, console",
+   "i": 15
+  },
+  {
+   "w": "장미꽃",
+   "en": "rose",
+   "i": 24
+  },
+  {
+   "w": "벚꽃",
+   "en": "cherry blossom",
+   "i": 25
+  },
+  {
+   "w": "나팔꽃",
+   "en": "morning glory",
+   "note": "Literally trumpet flower, from the shape; blooms and closes within a day",
+   "i": 26
+  },
+  {
+   "w": "조급하다",
+   "en": "impatient, in too much of a hurry",
+   "i": 29
+  },
+  {
+   "w": "초조하다",
+   "en": "anxious, on edge, restless",
+   "note": "The jittery anxiety of waiting, distinct from 불안하다, generalized unease",
+   "i": 29
+  },
+  {
+   "w": "욕심",
+   "en": "greed, drive, wanting too much",
+   "note": "Not purely negative; 욕심이 있다 can be praise for ambition",
+   "i": 31
+  },
+  {
+   "w": "해답",
+   "en": "answer, solution",
+   "note": "The worked-out answer to a problem, where 정답 is the one correct answer",
+   "i": 50
+  },
+  {
+   "w": "찾아내다",
+   "en": "to find out, track down, discover",
+   "i": 54
+  }
+ ]
+}

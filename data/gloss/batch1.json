@@ -1,0 +1,892 @@
+[
+  {
+    "w": "내",
+    "en": "my",
+    "note": "Contraction of 나의; the separate noun 내 or 안 meaning inside exists too, but my dominates in lyrics"
+  },
+  {
+    "w": "너",
+    "en": "you",
+    "note": "Intimate second person, the default between friends and in songs"
+  },
+  {
+    "w": "나",
+    "en": "I, me",
+    "note": "Plain form; 저 is the polite equivalent you would use with a stranger"
+  },
+  {
+    "w": "날",
+    "en": "me, day",
+    "note": "Usually 나를 me squeezed into one syllable; the day sense shows up mostly in compounds like 봄날"
+  },
+  {
+    "w": "말",
+    "en": "words, speech",
+    "note": "Also horse, and the stem of 말다 to stop, but lyrics almost always mean what someone says"
+  },
+  {
+    "w": "더",
+    "en": "more"
+  },
+  {
+    "w": "둘",
+    "en": "two"
+  },
+  {
+    "w": "하나",
+    "en": "one"
+  },
+  {
+    "w": "꿈",
+    "en": "dream"
+  },
+  {
+    "w": "뭐",
+    "en": "what",
+    "note": "Casual form of 무엇; on its own it works as a shrugging whatever"
+  },
+  {
+    "w": "하루",
+    "en": "one day, a single day",
+    "note": "A day as it is lived through, where 날 is more a date on a calendar"
+  },
+  {
+    "w": "또",
+    "en": "again, also"
+  },
+  {
+    "w": "보다",
+    "en": "to see, to look",
+    "note": "Also tacked onto a verb for try doing something, and used after a noun as the comparison than"
+  },
+  {
+    "w": "싶다",
+    "en": "to want to",
+    "note": "Never stands alone; it attaches to a verb stem as -고 싶다"
+  },
+  {
+    "w": "많이",
+    "en": "a lot, much"
+  },
+  {
+    "w": "셋",
+    "en": "three"
+  },
+  {
+    "w": "손",
+    "en": "hand"
+  },
+  {
+    "w": "네",
+    "en": "your",
+    "note": "Contraction of 너의, sung as 니 so it is not mistaken for 내 my; 네 also means yes"
+  },
+  {
+    "w": "않다",
+    "en": "to not",
+    "note": "Negation auxiliary; it attaches to a verb as -지 않다 rather than standing alone"
+  },
+  {
+    "w": "속",
+    "en": "inside, heart",
+    "note": "Often the inner self in lyrics, as in 마음속; 안 is the more physical inside"
+  },
+  {
+    "w": "못",
+    "en": "cannot",
+    "note": "Adverb placed in front of a verb; the noun 못 meaning nail is a different word"
+  },
+  {
+    "w": "왜",
+    "en": "why"
+  },
+  {
+    "w": "쩔다",
+    "en": "to be dope, to be sick",
+    "note": "Slang, almost always in the form 쩔어, which is the title of the song Dope"
+  },
+  {
+    "w": "탕진",
+    "en": "blowing it all, squandering",
+    "note": "Spending everything you have, usually money"
+  },
+  {
+    "w": "안",
+    "en": "not",
+    "note": "Tagged a noun here, but in these songs it is the negation adverb that sits before a verb; the noun 안 means inside"
+  },
+  {
+    "w": "너무",
+    "en": "so, too",
+    "note": "Literally too much, but in songs it is just an intensifier"
+  },
+  {
+    "w": "모든",
+    "en": "every, all",
+    "note": "Goes directly in front of a noun"
+  },
+  {
+    "w": "같다",
+    "en": "to be like, to seem",
+    "note": "After a noun it means like a certain thing; after a verb it means it seems that way"
+  },
+  {
+    "w": "잼",
+    "en": "fun",
+    "note": "Slang clipping of 재미 glued onto a noun, so 탕진잼 is the thrill of blowing all your cash"
+  },
+  {
+    "w": "사랑",
+    "en": "love"
+  },
+  {
+    "w": "좀",
+    "en": "a little, kind of",
+    "note": "Mostly a softener; inside a request it comes close to please"
+  },
+  {
+    "w": "밤",
+    "en": "night",
+    "note": "Spelled the same as chestnut, which is not what songs mean"
+  },
+  {
+    "w": "함께",
+    "en": "together"
+  },
+  {
+    "w": "괜찮다",
+    "en": "to be okay, to be fine"
+  },
+  {
+    "w": "믿다",
+    "en": "to believe, to trust"
+  },
+  {
+    "w": "우리",
+    "en": "we, us, our",
+    "note": "Also used where English says my for anything shared, as in 우리 집 my home"
+  },
+  {
+    "w": "모두",
+    "en": "everyone, everything, all"
+  },
+  {
+    "w": "웃다",
+    "en": "to laugh, to smile"
+  },
+  {
+    "w": "잡다",
+    "en": "to grab, to hold, to catch"
+  },
+  {
+    "w": "좋다",
+    "en": "to be good, to like",
+    "note": "Also expresses liking something, not only how good it is"
+  },
+  {
+    "w": "나의",
+    "en": "my",
+    "note": "나 plus the possessive 의; more literary than the contracted 내"
+  },
+  {
+    "w": "다시",
+    "en": "again"
+  },
+  {
+    "w": "거야",
+    "en": "will, is going to",
+    "note": "Not a noun; this is the sentence ending -ㄹ 거야, marking the future or a confident assertion"
+  },
+  {
+    "w": "고민",
+    "en": "worrying, agonizing"
+  },
+  {
+    "w": "노력",
+    "en": "effort, trying hard"
+  },
+  {
+    "w": "숨",
+    "en": "breath"
+  },
+  {
+    "w": "알다",
+    "en": "to know"
+  },
+  {
+    "w": "눈",
+    "en": "eyes, snow",
+    "note": "Same spelling with a different pitch when spoken; eyes is the usual sense in lyrics"
+  },
+  {
+    "w": "잘",
+    "en": "well"
+  },
+  {
+    "w": "마",
+    "en": "don't",
+    "note": "Tagged a noun, but it is the negative command from 말다, the 마 of 하지 마 don't do it"
+  },
+  {
+    "w": "길",
+    "en": "road, path, way"
+  },
+  {
+    "w": "빛나다",
+    "en": "to shine, to glow"
+  },
+  {
+    "w": "뱁새",
+    "en": "crow tit",
+    "note": "The small short-legged bird from the proverb about a crow tit that splits its legs trying to stride like a stork, so here the underdog"
+  },
+  {
+    "w": "자꾸",
+    "en": "keep on, over and over"
+  },
+  {
+    "w": "전부",
+    "en": "all, everything"
+  },
+  {
+    "w": "이제",
+    "en": "now, from now on"
+  },
+  {
+    "w": "니",
+    "en": "you, your",
+    "note": "How 네 your is actually said and written in lyrics; context tells you whether it is you or your"
+  },
+  {
+    "w": "일",
+    "en": "thing, work, day",
+    "note": "Also the number one, so what follows it decides the sense"
+  },
+  {
+    "w": "전",
+    "en": "before",
+    "note": "Shows up as -기 전에 before doing something; the analyser also shaves it off 완전 totally"
+  },
+  {
+    "w": "많다",
+    "en": "to be many, to be a lot"
+  },
+  {
+    "w": "끝",
+    "en": "end"
+  },
+  {
+    "w": "계속",
+    "en": "nonstop, keep on"
+  },
+  {
+    "w": "맘",
+    "en": "heart, mind",
+    "note": "Contraction of 마음, used in songs for the syllable count"
+  },
+  {
+    "w": "노",
+    "en": "nope",
+    "note": "Not a word on its own here; the analyser kept the stutter on the first syllable of 노력 effort and 노랗다 to be yellow"
+  },
+  {
+    "w": "세상",
+    "en": "world"
+  },
+  {
+    "w": "두",
+    "en": "two",
+    "note": "The form of 둘 used in front of a noun"
+  },
+  {
+    "w": "잊어",
+    "en": "forget",
+    "note": "Not a name; it is 잊다 to forget, conjugated, used as a command or as I forget"
+  },
+  {
+    "w": "한",
+    "en": "one",
+    "note": "The form of 하나 used in front of a noun"
+  },
+  {
+    "w": "심장",
+    "en": "heart",
+    "note": "The organ that beats, where 마음 is the heart you feel with"
+  },
+  {
+    "w": "뛰다",
+    "en": "to run, to pound",
+    "note": "Used both for running and for a heart beating hard"
+  },
+  {
+    "w": "발",
+    "en": "foot, feet"
+  },
+  {
+    "w": "가다",
+    "en": "to go"
+  },
+  {
+    "w": "세대",
+    "en": "generation",
+    "note": "In N포세대 it labels a generation that has given up on N things such as jobs, marriage and children"
+  },
+  {
+    "w": "수가",
+    "en": "way, chance",
+    "note": "Not a noun by itself; 수 way or means plus the subject particle 가, from the pattern -ㄹ 수가 있다 to be able to"
+  },
+  {
+    "w": "황새",
+    "en": "stork",
+    "note": "The long-legged bird in the same proverb as 뱁새, standing for the ones born ahead"
+  },
+  {
+    "w": "겨울",
+    "en": "winter"
+  },
+  {
+    "w": "눈물",
+    "en": "tears"
+  },
+  {
+    "w": "곳",
+    "en": "place, spot"
+  },
+  {
+    "w": "자",
+    "en": "alright, here we go",
+    "note": "The interjection for getting attention before counting off; as a suffix in other words it means person"
+  },
+  {
+    "w": "조금",
+    "en": "a little, a bit"
+  },
+  {
+    "w": "운명",
+    "en": "fate, destiny"
+  },
+  {
+    "w": "땀",
+    "en": "sweat"
+  },
+  {
+    "w": "사람",
+    "en": "person, people"
+  },
+  {
+    "w": "소리",
+    "en": "sound, voice"
+  },
+  {
+    "w": "불",
+    "en": "fire, light",
+    "note": "Covers both a flame and a lamp being on"
+  },
+  {
+    "w": "벼",
+    "en": "rice plant",
+    "note": "Here it is only the stammered first syllable of 병 illness, not the crop"
+  },
+  {
+    "w": "시간",
+    "en": "time, hour"
+  },
+  {
+    "w": "꽃",
+    "en": "flower"
+  },
+  {
+    "w": "영원히",
+    "en": "forever"
+  },
+  {
+    "w": "말다",
+    "en": "to stop, to not do",
+    "note": "Mostly met as a command, 하지 마 don't, or 말아줘 please don't"
+  },
+  {
+    "w": "피",
+    "en": "blood"
+  },
+  {
+    "w": "오늘",
+    "en": "today"
+  },
+  {
+    "w": "살다",
+    "en": "to live"
+  },
+  {
+    "w": "행복",
+    "en": "happiness"
+  },
+  {
+    "w": "빛",
+    "en": "light, shine"
+  },
+  {
+    "w": "지금",
+    "en": "now, right now"
+  },
+  {
+    "w": "깊다",
+    "en": "to be deep"
+  },
+  {
+    "w": "서로",
+    "en": "each other"
+  },
+  {
+    "w": "병",
+    "en": "illness, disease",
+    "note": "Also means bottle, but the sickness sense is the one in play"
+  },
+  {
+    "w": "작다",
+    "en": "to be small"
+  },
+  {
+    "w": "그런",
+    "en": "that kind of, such"
+  },
+  {
+    "w": "참",
+    "en": "really, truly",
+    "note": "Tagged a noun, but it is the adverb really; the noun 참 means truth"
+  },
+  {
+    "w": "몸",
+    "en": "body"
+  },
+  {
+    "w": "여기",
+    "en": "here"
+  },
+  {
+    "w": "그냥",
+    "en": "just, for no reason"
+  },
+  {
+    "w": "들다",
+    "en": "to hold, to lift, to enter",
+    "note": "Very broad, and it anchors set phrases like 마음에 들다 to like and 철들다 to grow up"
+  },
+  {
+    "w": "싫다",
+    "en": "to hate, to not want"
+  },
+  {
+    "w": "내밀다",
+    "en": "to hold out, to stick out"
+  },
+  {
+    "w": "기억",
+    "en": "memory"
+  },
+  {
+    "w": "겁",
+    "en": "fear"
+  },
+  {
+    "w": "흔드다",
+    "en": "to shake, to shake up",
+    "note": "The dictionary form is 흔들다; the analyser dropped the ㄹ"
+  },
+  {
+    "w": "건데",
+    "en": "but it is, so what about it",
+    "note": "Not a noun; the ending -ㄴ 건데, which turns a statement into a question or a protest"
+  },
+  {
+    "w": "마음",
+    "en": "heart, mind"
+  },
+  {
+    "w": "만나다",
+    "en": "to meet"
+  },
+  {
+    "w": "단",
+    "en": "only, just a single",
+    "note": "Goes in front of a number for emphasis, as in only one day"
+  },
+  {
+    "w": "어떤",
+    "en": "what kind of, some"
+  },
+  {
+    "w": "어둠",
+    "en": "darkness"
+  },
+  {
+    "w": "지다",
+    "en": "to become, to get",
+    "note": "Not standalone; the -아/어지다 ending that turns an adjective into becoming that way, and separately a verb meaning to lose"
+  },
+  {
+    "w": "거부",
+    "en": "refusal, to refuse"
+  },
+  {
+    "w": "별",
+    "en": "star"
+  },
+  {
+    "w": "제발",
+    "en": "please",
+    "note": "The begging kind of please, not the polite request kind"
+  },
+  {
+    "w": "진짜",
+    "en": "really, for real"
+  },
+  {
+    "w": "싹",
+    "en": "clean, completely",
+    "note": "An adverb for wiping something out entirely; the homograph meaning sprout is not what this is"
+  },
+  {
+    "w": "놓치다",
+    "en": "to miss, to let slip"
+  },
+  {
+    "w": "얌",
+    "en": "hey",
+    "note": "Clipped from 얌마, a rough way to call someone out, roughly hey you"
+  },
+  {
+    "w": "빨리",
+    "en": "quickly, hurry"
+  },
+  {
+    "w": "순간",
+    "en": "moment, instant"
+  },
+  {
+    "w": "우연이",
+    "en": "coincidence",
+    "note": "우연 coincidence with the subject particle 이 attached, not a name"
+  },
+  {
+    "w": "원",
+    "en": "to want",
+    "note": "Here it is the stem the analyser cut out of 원하다 to want and out of words like 공무원 civil servant; 원 alone means circle, or the Korean won"
+  },
+  {
+    "w": "척",
+    "en": "pretense, acting like",
+    "note": "Used as -ㄴ 척하다, to put on an act of being something"
+  },
+  {
+    "w": "마지막",
+    "en": "last, final"
+  },
+  {
+    "w": "춤",
+    "en": "dance"
+  },
+  {
+    "w": "어차피",
+    "en": "anyway, either way",
+    "note": "Marks something as settled no matter what you do about it"
+  },
+  {
+    "w": "처음",
+    "en": "first time, beginning"
+  },
+  {
+    "w": "쉬다",
+    "en": "to rest, to breathe",
+    "note": "Two different verbs sharing a spelling; paired with 숨 it means to breathe"
+  },
+  {
+    "w": "혼자",
+    "en": "alone, by oneself"
+  },
+  {
+    "w": "필요",
+    "en": "need, necessity"
+  },
+  {
+    "w": "수저",
+    "en": "spoon",
+    "note": "Spoon and chopsticks as a set; in the 금수저 gold spoon and 흙수저 dirt spoon metaphor it is the class you were born into"
+  },
+  {
+    "w": "금",
+    "en": "gold",
+    "note": "Comes mainly from 금수저 gold spoon, meaning born rich; the analyser also shaves it off 지금 now"
+  },
+  {
+    "w": "조심",
+    "en": "care, to watch out"
+  },
+  {
+    "w": "이거",
+    "en": "this, this thing"
+  },
+  {
+    "w": "수많다",
+    "en": "to be countless"
+  },
+  {
+    "w": "괜찮아",
+    "en": "it's okay",
+    "note": "Not a name; 괜찮다 in its plain conversational form, used as a statement or as reassurance"
+  },
+  {
+    "w": "오래",
+    "en": "long, for a long time"
+  },
+  {
+    "w": "역시",
+    "en": "sure enough, as expected",
+    "note": "Tagged a noun, but it is the adverb you use when something turns out exactly as predicted"
+  },
+  {
+    "w": "이렇다",
+    "en": "to be like this"
+  },
+  {
+    "w": "아프다",
+    "en": "to hurt, to ache"
+  },
+  {
+    "w": "아직",
+    "en": "still, not yet"
+  },
+  {
+    "w": "아침",
+    "en": "morning"
+  },
+  {
+    "w": "우주",
+    "en": "universe, space"
+  },
+  {
+    "w": "모르다",
+    "en": "to not know"
+  },
+  {
+    "w": "꽉",
+    "en": "tight, firmly"
+  },
+  {
+    "w": "다른",
+    "en": "other, different"
+  },
+  {
+    "w": "어쩜",
+    "en": "maybe, how on earth",
+    "note": "Does double duty as perhaps and as an exclamation of disbelief"
+  },
+  {
+    "w": "늘",
+    "en": "always"
+  },
+  {
+    "w": "위로",
+    "en": "comfort, above",
+    "note": "Two words with one spelling: 위로 comfort, and 위 top plus -로 toward, meaning over or above"
+  },
+  {
+    "w": "생각",
+    "en": "thought, thinking"
+  },
+  {
+    "w": "매일",
+    "en": "every day"
+  },
+  {
+    "w": "거짓말",
+    "en": "lie"
+  },
+  {
+    "w": "어떻다",
+    "en": "to be how, to be a certain way",
+    "note": "Mostly met inside 어떻게 how and 어떡해 what do I do"
+  },
+  {
+    "w": "덮치기",
+    "en": "pouncing, swooping in",
+    "note": "덮치다 to pounce on, turned into a noun; it describes something bad crashing down on you"
+  },
+  {
+    "w": "별빛",
+    "en": "starlight"
+  },
+  {
+    "w": "몇",
+    "en": "how many, a few"
+  },
+  {
+    "w": "변한",
+    "en": "changed",
+    "note": "Not a noun; 변하다 to change in the form that modifies a following noun"
+  },
+  {
+    "w": "아마",
+    "en": "probably, maybe"
+  },
+  {
+    "w": "앞",
+    "en": "front, ahead"
+  },
+  {
+    "w": "덩",
+    "en": "deong",
+    "note": "One beat of 덩기덕 쿵더러러, the mouth-drumming for a janggu rhythm, with no meaning of its own"
+  },
+  {
+    "w": "기덕",
+    "en": "gideok",
+    "note": "The next beat of the same janggu pattern; sound only, no meaning"
+  },
+  {
+    "w": "쿵",
+    "en": "thud, boom",
+    "note": "A heavy low sound, and also one beat of that drum pattern"
+  },
+  {
+    "w": "더러러",
+    "en": "dereoreo",
+    "note": "The roll at the tail of the janggu pattern; sound only"
+  },
+  {
+    "w": "얼쑤",
+    "en": "eolssu",
+    "note": "The whoop of encouragement thrown in during folk music and dance"
+  },
+  {
+    "w": "멀리",
+    "en": "far, far away"
+  },
+  {
+    "w": "하늘",
+    "en": "sky"
+  },
+  {
+    "w": "버리다",
+    "en": "to throw away",
+    "note": "Also an auxiliary after a verb, where it means the action is finished and gone for good"
+  },
+  {
+    "w": "없이",
+    "en": "without"
+  },
+  {
+    "w": "가득",
+    "en": "full, filled"
+  },
+  {
+    "w": "속의",
+    "en": "inside of",
+    "note": "속 inside plus the possessive 의, so it describes the thing that is inside something else"
+  },
+  {
+    "w": "모습",
+    "en": "appearance, the way someone looks"
+  },
+  {
+    "w": "깨다",
+    "en": "to break, to wake up"
+  },
+  {
+    "w": "개",
+    "en": "unit, dog",
+    "note": "Mostly the counter that follows a number for objects; the animal sense turns up too"
+  },
+  {
+    "w": "추억",
+    "en": "memory",
+    "note": "A memory you look back on fondly, where 기억 is the neutral act of remembering"
+  },
+  {
+    "w": "칠",
+    "en": "seven, paint",
+    "note": "Neither sense is in play; the analyser sliced this off future forms like 다칠 will get hurt and 겹칠 will overlap"
+  },
+  {
+    "w": "혼잣말",
+    "en": "talking to oneself"
+  },
+  {
+    "w": "딴",
+    "en": "other, some other",
+    "note": "Casual contraction of 다른"
+  },
+  {
+    "w": "답",
+    "en": "answer"
+  },
+  {
+    "w": "포",
+    "en": "giving up",
+    "note": "The 포 of N포세대, from 포기 giving up, counting off what a generation has had to let go"
+  },
+  {
+    "w": "벌써",
+    "en": "already"
+  },
+  {
+    "w": "진심",
+    "en": "sincerity, true feelings"
+  },
+  {
+    "w": "고작",
+    "en": "merely, no more than",
+    "note": "Dismissive, along the lines of that is all you have got"
+  },
+  {
+    "w": "가장",
+    "en": "most",
+    "note": "Forms the superlative, the most of something"
+  },
+  {
+    "w": "거거",
+    "en": "fear",
+    "note": "Not a word; the stuttered first syllable of 겁 fear"
+  },
+  {
+    "w": "타령",
+    "en": "harping on, same old tune",
+    "note": "Literally a folk song form, but stuck after a noun it mocks someone for going on about that thing"
+  },
+  {
+    "w": "오그라들다",
+    "en": "to curl up, to shrivel",
+    "note": "With 손발 it means to cringe"
+  },
+  {
+    "w": "손발",
+    "en": "hands and feet",
+    "note": "손발이 오그라들다 is the idiom for cringing at something embarrassing"
+  },
+  {
+    "w": "노랗다",
+    "en": "to be yellow",
+    "note": "싹수가 노랗다, the sprout came up yellow, means there was never any hope for it"
+  },
+  {
+    "w": "싹수",
+    "en": "promise, potential",
+    "note": "Nearly always in that yellow sprout idiom, saying someone is hopeless from the start"
+  },
+  {
+    "w": "봄날",
+    "en": "spring day"
+  },
+  {
+    "w": "먼지",
+    "en": "dust"
+  },
+  {
+    "w": "닿다",
+    "en": "to reach, to touch"
+  },
+  {
+    "w": "보내다",
+    "en": "to send, to let go"
+  }
+]

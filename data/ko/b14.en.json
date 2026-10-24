@@ -1,0 +1,159 @@
+{
+ "id": "b14",
+ "hook": [
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15
+ ],
+ "notes": {
+  "s": "A plea for rescue from a cage that turns out to be on the inside.",
+  "t": "The single from 화양연화 Young Forever, May 2016, and the hinge of that era. It was shot in one continuous outdoor take with no cuts in the choreography, which the fandom read as the group finally out of the rooms and corridors that I NEED U and RUN kept them in. The 너 being asked for help is left open between a person, the audience and the self. Two years later the group released I'm Fine on 結 Answer, the same melody rewritten in reverse, and the pair have been performed back to back as one piece. Among Korean fans the outro rather than the chorus is the quoted part.",
+  "k": [
+   [
+    "나도 날 잡을 수 없어",
+    "잡다 is to grab or to hold, and holding yourself is the sense here, not catching someone. He is not asking to be saved from an attacker but for someone to take hold of a person who has lost his own grip, and 내 안에 갇혀서 one line earlier has already put the cage inside him. The title is answered by that admission rather than by the chorus."
+   ],
+   [
+    "제멋대로 널 부르잖아",
+    "제멋대로 means doing as one likes with no regard for anybody, normally a complaint about a person's behaviour. Turned on his own heartbeat it makes the body a defector, calling out for someone he has not agreed to call. The wilfulness and the irritation come together in the one word and English has to choose."
+   ],
+   [
+    "날개, 날 개, 날갤, 날 깨, 날 개어서",
+    "The outro is one sustained pun rather than a series of lines. The same syllables cycle through 날개 (a wing), 날 plus a verb (me, as object), 깨다 (to wake) and 개다 (to clear up, of weather, and also to fold). 날 개어서 is roughly the weather in me clearing. Rapped at tempo they are acoustically identical, which is the craft and the reason this section gets quoted in Korean instead of in translation."
+   ],
+   [
+    "구해줘 날, then 너란 구원이",
+    "Two different registers of saving inside one song. 구하다 is ordinary rescue, pulling someone out of water, while 구원 is theological salvation. The verse escalates from the first to the second, and that same 구원 vocabulary carries across the Love Yourself solos, most directly in Serendipity's 날 구원해 준."
+   ]
+  ]
+ },
+ "lines": {},
+ "vocab": [
+  {
+   "w": "숨쉬다",
+   "en": "to breathe",
+   "note": "숨 is breath and 쉬다 here is to draw it, unrelated to 쉬다 meaning to rest",
+   "i": 0
+  },
+  {
+   "w": "싫다",
+   "en": "to dislike, not want",
+   "note": "An adjective, so the thing disliked takes 이/가 rather than 을/를",
+   "i": 0
+  },
+  {
+   "w": "갇히다",
+   "en": "to be trapped, be shut in",
+   "note": "Passive of 가두다, to confine",
+   "i": 2
+  },
+  {
+   "w": "깜깜하다",
+   "en": "pitch dark",
+   "note": "The darkest and most colloquial of the cluster with 어둡다 and 까맣다",
+   "i": 4
+  },
+  {
+   "w": "위험하다",
+   "en": "dangerous, risky",
+   "i": 6
+  },
+  {
+   "w": "망가지다",
+   "en": "to break down, get wrecked",
+   "note": "Of objects and, as here, of people; 고장나다 is for machines specifically",
+   "i": 6
+  },
+  {
+   "w": "구하다",
+   "en": "to save, rescue",
+   "note": "Also to seek or obtain, a separate sense decided by context",
+   "i": 7
+  },
+  {
+   "w": "심장",
+   "en": "heart, the organ",
+   "note": "The physical pump; 마음 is the heart you feel with",
+   "i": 8
+  },
+  {
+   "w": "제멋대로",
+   "en": "as one pleases, wilfully",
+   "note": "Almost always a criticism",
+   "i": 9
+  },
+  {
+   "w": "내밀다",
+   "en": "to hold out, extend",
+   "note": "The standard verb for offering a hand, 손을 내밀다, which also means to offer help",
+   "i": 12
+  },
+  {
+   "w": "삼키다",
+   "en": "to swallow",
+   "note": "Also used for swallowing words or tears",
+   "i": 24
+  },
+  {
+   "w": "광기",
+   "en": "madness, frenzy",
+   "i": 27
+  },
+  {
+   "w": "구원",
+   "en": "salvation, redemption",
+   "note": "Religious; the escalated form of the plain 구하다 earlier in the song",
+   "i": 29
+  },
+  {
+   "w": "아픔",
+   "en": "pain, hurt",
+   "note": "From 아프다 with -ㅁ; 고통 is heavier and more sustained",
+   "i": 30
+  },
+  {
+   "w": "감싸다",
+   "en": "to wrap, shield, enfold",
+   "i": 31
+  },
+  {
+   "w": "유일하다",
+   "en": "to be the only one, be sole",
+   "i": 31
+  },
+  {
+   "w": "손길",
+   "en": "a touch, a reaching hand",
+   "note": "길 here is not road; the suffix makes it the reach or motion of the hand",
+   "i": 31
+  },
+  {
+   "w": "높이다",
+   "en": "to raise, turn up",
+   "note": "Causative of 높다, to be high",
+   "i": 35
+  },
+  {
+   "w": "날개",
+   "en": "wing",
+   "note": "The word the outro's whole pun chain is built on",
+   "i": 51
+  },
+  {
+   "w": "꼬깃하다",
+   "en": "crumpled, creased",
+   "i": 51
+  },
+  {
+   "w": "슬픔",
+   "en": "sadness, sorrow",
+   "note": "From 슬프다 with -ㅁ, matching 아픔 and 기쁨",
+   "i": 55
+  }
+ ]
+}

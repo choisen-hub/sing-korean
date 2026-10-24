@@ -1,0 +1,15 @@
+{
+  "name": "Sing Korean — learn Korean from the songs you already know",
+  "short_name": "Sing Korean",
+  "description": "Tap any word in a BTS lyric and see what it is made of. Real pronunciation, line by line English, and the words that cover most of every song.",
+  "lang": "en",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#120B22",
+  "theme_color": "#120B22",
+  "icons": [
+    { "src": "./icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

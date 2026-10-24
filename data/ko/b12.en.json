@@ -1,0 +1,155 @@
+{
+ "id": "b12",
+ "hook": [
+  8,
+  9,
+  10,
+  11
+ ],
+ "notes": {
+  "s": "V's solo: a voice buried under ice so that someone else could be loved.",
+  "t": "V's solo and the comeback trailer for Love Yourself 轉 Tear, May 2018, written by RM with Charlie J. Perry in a neo-soul register nothing else in the catalogue shares. 轉 is the turn in the 起承轉結 structure, and this is where the series breaks: the arranged happiness Serendipity claimed now has a price, and the price is his own voice. The frozen lake belongs to the same mirror imagery the era used for the I'm fine and Save me reversal, and 환상통 ties it to The Truth Untold on the same album. It is the track people reach for when arguing that BTS's B-sides outwrite the singles.",
+  "k": [
+   [
+    "나를 괴롭히는 환상통",
+    "환상통 is the clinical term for phantom limb pain, the pain felt in a limb that has been amputated. The diagnosis does the argument for him: what hurts is already gone, so the hurt is the evidence that something was removed. English phantom pain drifts toward the ghostly and loses the medical flatness."
+   ],
+   [
+    "얼어 붙은 호수에 또 금이 가",
+    "금이 가다 is the set phrase for a crack forming, and it is equally the idiom for a relationship beginning to break, as in 사이에 금이 갔다. The ice splitting and the bond splitting are therefore one clause, not a comparison. A lake freezing over a discarded self and then thawing in spring is the entire song in three images."
+   ],
+   [
+    "내 목소릴 널 위해 묻었잖아",
+    "목소리 is a literal voice and also a person's say or standing, since 목소리를 내다 is to speak up for yourself. Burying it for someone else means losing both the singing and any claim of his own, which is why the closing questions ask whether the pain was genuine rather than whether the love was."
+   ],
+   [
+    "날 버리지 말았어야 했는지",
+    "-았어야 했다 is the should-have-done form, regret aimed backwards, and -는지 then folds it into an indirect question with no main clause to answer it. He does not say he should not have been thrown away; he asks whether he should have been, and hands the question to the listener. The song ends on that unanswered, which is the structural point of 轉."
+   ]
+  ]
+ },
+ "lines": {},
+ "vocab": [
+  {
+   "w": "무언가",
+   "en": "something",
+   "note": "Slightly more literary than 뭔가, which is what people say",
+   "i": 0
+  },
+  {
+   "w": "깨지다",
+   "en": "to break, shatter",
+   "note": "Intransitive, something breaks; 깨다 is to break it, and also to wake up",
+   "i": 0
+  },
+  {
+   "w": "문득",
+   "en": "suddenly, out of nowhere",
+   "note": "For thoughts and realisations arriving unbidden, less for physical events",
+   "i": 1
+  },
+  {
+   "w": "낯설다",
+   "en": "unfamiliar, strange",
+   "note": "From 낯, the face; the opposite is 낯익다, familiar. The corpus spells this one 낮설음",
+   "i": 2
+  },
+  {
+   "w": "감싸다",
+   "en": "to wrap, shield, cover protectively",
+   "i": 5
+  },
+  {
+   "w": "목소리",
+   "en": "voice",
+   "note": "목소리를 내다 is to speak up, so the word carries having a say as well",
+   "i": 6
+  },
+  {
+   "w": "울리다",
+   "en": "to ring, resound",
+   "note": "Also to make someone cry, as the causative of 울다",
+   "i": 8
+  },
+  {
+   "w": "얼어붙다",
+   "en": "to freeze over, freeze solid",
+   "i": 9
+  },
+  {
+   "w": "호수",
+   "en": "lake",
+   "i": 9
+  },
+  {
+   "w": "금",
+   "en": "a crack, a line",
+   "note": "A homograph of 금, gold; 금이 가다 is the crack sense and is also said of relationships",
+   "i": 9
+  },
+  {
+   "w": "버리다",
+   "en": "to throw away, abandon",
+   "note": "Also an auxiliary verb after -아/어 meaning the action was done completely",
+   "i": 10
+  },
+  {
+   "w": "묻다",
+   "en": "to bury",
+   "note": "Three different verbs share this spelling: to bury, to ask, to get stained. They conjugate differently",
+   "i": 11
+  },
+  {
+   "w": "얼음",
+   "en": "ice",
+   "note": "From 얼다, to freeze, with -음",
+   "i": 13
+  },
+  {
+   "w": "괴롭히다",
+   "en": "to torment, harass, bully",
+   "note": "Causative of 괴롭다, to be distressed",
+   "i": 15
+  },
+  {
+   "w": "여전하다",
+   "en": "to be unchanged, be the same as ever",
+   "note": "여전히 is the much commoner adverb, still",
+   "i": 15
+  },
+  {
+   "w": "잃다",
+   "en": "to lose",
+   "note": "For losing something you had; 지다 is losing a contest",
+   "i": 16
+  },
+  {
+   "w": "얻다",
+   "en": "to gain, obtain",
+   "i": 17
+  },
+  {
+   "w": "뻗다",
+   "en": "to stretch out, extend",
+   "i": 21
+  },
+  {
+   "w": "녹다",
+   "en": "to melt, dissolve",
+   "note": "On its own; 녹이다 is to melt something, as in Blue & Grey",
+   "i": 23
+  },
+  {
+   "w": "가짜",
+   "en": "fake, a counterfeit",
+   "note": "진짜 is the opposite and far more frequent in speech",
+   "i": 24
+  },
+  {
+   "w": "고통",
+   "en": "pain, suffering",
+   "note": "Sustained suffering, where 아픔 is closer to a hurt",
+   "i": 26
+  }
+ ]
+}

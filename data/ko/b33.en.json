@@ -1,0 +1,183 @@
+{
+  "id": "b33",
+  "hook": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "notes": {
+    "s": "The small bird is told to try harder by the bird with longer legs.",
+    "t": "The rap line's angriest track from 2015, and the one Korean critics pointed to when they argued the group was actually writing about Korean society rather than gesturing at rebellion. The whole thing is built on a single proverb about a crow-tit and a stork, and it uses that bird to argue that effort cannot close a gap that was set at birth. Everything named in the verses was in the news that year: unpaid internships sold as passion, the generation told by newspapers how many life events it had given up, the gold spoon and dirt spoon argument about inherited wealth. The last chorus switches the taunt from of course, a stork to we are crow-tits, and turns it into an invitation to live together.",
+    "k": [
+      [
+        "황새 덕에 내 가랑인 탱탱",
+        "Everything hangs on the proverb 뱁새가 황새 따라가면 가랑이가 찢어진다: if the crow-tit chases the stork, its crotch tears open. Know your station or you will injure yourself trying to leave it, and Korean parents say it to children with a straight face. 덕에 means thanks to, normally in gratitude, so thanking the stork for the damage is where the sarcasm lives. 가랑이 is the fork of the legs and 탱탱 is stretched tight, so the body is already mid-tear in the first chorus."
+      ],
+      [
+        "금수저로 태어난 내 선생님",
+        "금수저, gold spoon, and its counterpart 흙수저, dirt spoon, came out of a mid-2010s Korean argument that your outcome is set by what your parents had. Being born with it is the whole of the sentence. Calling that person 선생님, teacher, is the sting: the one with the inheritance is also the one entitled to lecture you about working harder."
+      ],
+      [
+        "언론에선 맨날 몇 포 세대",
+        "Newspapers coined 삼포세대, the three-give-up generation, for young Koreans giving up dating, marriage and children, then inflated it to five, to seven, to N. 포 is clipped from 포기, giving up. Refusing to name the number, 몇 포, mocks the press habit of counting for them."
+      ],
+      [
+        "노-노랗구나 싹수가",
+        "싹수가 노랗다, the sprout has gone yellow, means something was never going to amount to anything. The stutter lands 노력, effort, and 노랗다, yellow, on the same syllable, so the lecture about effort and the verdict that you are hopeless come out of the same mouth in the same breath."
+      ]
+    ]
+  },
+  "lines": {
+    "0": "They call me a crow-tit",
+    "1": "This generation has taken a beating",
+    "2": "Quick, chase 'em",
+    "3": "Thanks to the stork, my legs are stretched to splitting",
+    "4": "They call me, woo, a crow-tit",
+    "5": "This generation has taken a beating",
+    "6": "Quick, chase 'em",
+    "7": "My teacher, born holding a gold spoon",
+    "8": "Go to the part-time job, get passion pay",
+    "9": "Go to school, get the teacher",
+    "10": "The bosses throw their weight around",
+    "11": "In the press it's the give-up generation, every single day",
+    "12": "Change the rules, change, change",
+    "13": "The storks want it, want it, maintain",
+    "14": "That's not how this is going to go",
+    "15": "This is not normal, this is not normal",
+    "16": "Ah, enough of the effort, effort song",
+    "17": "Ah, it makes my hands and feet curl up",
+    "18": "Ah, e-effort, ah, e-effort",
+    "19": "Ah, ye-yellow, the sprout of it",
+    "24": "(Of course, a stork) never disappoints",
+    "25": "(Of course, a stork) lives up to the name",
+    "26": "(Of course, a stork) go on, take the lot",
+    "36": "My legs are crow-tit legs, yours are stork legs",
+    "37": "They go, my legs are the million dollar ones",
+    "38": "Mine are short, so how are we in the same event",
+    "39": "They say, same grassland, so what's your problem",
+    "53": "My fault, you say? You're joking",
+    "54": "Fair, you say? Oh, are you crazy",
+    "55": "This is justice, you say? You must be kiddin' me",
+    "67": "(We're crow-tits) let's live together"
+  },
+  "vocab": [
+    {
+      "w": "세대",
+      "en": "generation",
+      "i": 1
+    },
+    {
+      "w": "태어나다",
+      "en": "to be born",
+      "i": 7
+    },
+    {
+      "w": "열정",
+      "en": "passion, enthusiasm",
+      "note": "열정페이, passion pay, is unpaid or barely paid work young people are told to take because the experience is the reward",
+      "i": 8
+    },
+    {
+      "w": "상사",
+      "en": "boss, one's superior at work",
+      "i": 10
+    },
+    {
+      "w": "언론",
+      "en": "the press, the media",
+      "i": 11
+    },
+    {
+      "w": "맨날",
+      "en": "every single day, constantly",
+      "note": "Colloquial 매일, usually with irritation attached",
+      "i": 11
+    },
+    {
+      "w": "바꾸다",
+      "en": "to change, to swap",
+      "note": "Transitive; 바뀌다 is for something changing by itself",
+      "i": 12
+    },
+    {
+      "w": "원하다",
+      "en": "to want",
+      "note": "Wants an object: 돈을 원해. For wanting to do something you need -고 싶다",
+      "i": 13
+    },
+    {
+      "w": "정상",
+      "en": "normal, normality",
+      "note": "A different 정상 means the summit of a mountain, and another means a head of state",
+      "i": 15
+    },
+    {
+      "w": "노력",
+      "en": "effort",
+      "note": "노력하다 to make an effort; the noun carries a whole Korean moral argument about deserving your outcome",
+      "i": 16
+    },
+    {
+      "w": "타령",
+      "en": "harping on, the same old tune",
+      "note": "Originally a folk song form; now 돈 타령 is someone who will not stop going on about money",
+      "i": 16
+    },
+    {
+      "w": "그만두다",
+      "en": "to quit, to stop doing",
+      "i": 16
+    },
+    {
+      "w": "오그라들다",
+      "en": "to shrivel, to curl up",
+      "note": "손발이 오그라들다, hands and feet curling, is how Korean says cringe",
+      "i": 17
+    },
+    {
+      "w": "싹수",
+      "en": "promise, early signs of how someone will turn out",
+      "note": "Almost only appears in 싹수가 노랗다 or 싹수가 있다",
+      "i": 19
+    },
+    {
+      "w": "실망",
+      "en": "disappointment",
+      "note": "실망시키다 to disappoint someone, 실망하다 to be disappointed",
+      "i": 24
+    },
+    {
+      "w": "짧다",
+      "en": "to be short",
+      "i": 38
+    },
+    {
+      "w": "종목",
+      "en": "event, discipline, listed item",
+      "note": "Used for sports events and for stocks on an exchange",
+      "i": 38
+    },
+    {
+      "w": "초원",
+      "en": "grassland, plain",
+      "i": 39
+    },
+    {
+      "w": "공평하다",
+      "en": "to be fair, even-handed",
+      "note": "공평 is fairness in how things are split; 공정 is fairness of process",
+      "i": 54
+    },
+    {
+      "w": "정의",
+      "en": "justice",
+      "note": "A homograph with 정의 meaning definition, written with different characters",
+      "i": 55
+    }
+  ]
+}

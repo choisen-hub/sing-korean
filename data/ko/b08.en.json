@@ -1,0 +1,146 @@
+{
+ "id": "b08",
+ "hook": [
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26
+ ],
+ "notes": {
+  "s": "V's burnout ballad, where depression gets named as a colour.",
+  "t": "V brought this one in, originally sketched for a solo mixtape, and finished it with RM, SUGA and j-hope. It sits on BE, an album sold as comfort, and declines to comfort anyone. The register is unusual for BTS: no chorus payoff, no resolution, and a vocabulary borrowed from clinical description rather than pop sadness. Korean fans flag it as the moment the group stopped gesturing at exhaustion and used the actual words for it.",
+  "k": [
+   [
+    "서슬 퍼런",
+    "서슬 is the edge of a blade, and 서슬이 푸르다 describes something chillingly menacing, the way a honed edge catches light. Blue in Korean is already carrying threat before this song attaches it to a mood, so the title colour arrives pre-loaded with cold and danger, not just melancholy."
+   ],
+   [
+    "파란색 물음표",
+    "파랗다 covers blue and also unripeness, the green of fruit that is not ready and of people who are not grown. A question mark that has been blue since childhood is therefore both a sad one and an unfinished one, and English has to pick one of those."
+   ],
+   [
+    "다가오는 회색 코뿔소",
+    "Not an animal image. The grey rhino is a risk-analysis term for a large, obvious, slow-moving danger that everyone can see and nobody acts on, coined by Michele Wucker and heavily used in Chinese and Korean financial press. The threat in the line is explicitly one he has been watching approach for a long time."
+   ],
+   [
+    "-인지 -인지, -ㄹ지",
+    "The second verse stacks indirect-question endings so that nothing is ever asserted: whether it is anxiety or depression, whether he is an animal of regret, whether he is what loneliness gave birth to. Korean can hold a whole paragraph in suspension this way. The refusal to land on a diagnosis is the content, not a hedge."
+   ]
+  ]
+ },
+ "lines": {},
+ "vocab": [
+  {
+   "w": "지치다",
+   "en": "to be worn out, be exhausted",
+   "i": 3
+  },
+  {
+   "w": "한숨",
+   "en": "a sigh",
+   "i": 3
+  },
+  {
+   "w": "감추다",
+   "en": "to hide, conceal",
+   "note": "Hiding a thing from view, where 숨기다 leans toward keeping something secret",
+   "i": 7
+  },
+  {
+   "w": "색깔",
+   "en": "colour",
+   "i": 7
+  },
+  {
+   "w": "치열하다",
+   "en": "fierce, cutthroat, hard-fought",
+   "note": "Standard for competition and effort, as in 치열한 경쟁",
+   "i": 10
+  },
+  {
+   "w": "우두커니",
+   "en": "blankly, standing there doing nothing",
+   "i": 11
+  },
+  {
+   "w": "집어삼키다",
+   "en": "to swallow whole, engulf",
+   "i": 12
+  },
+  {
+   "w": "불안",
+   "en": "anxiety, unease",
+   "i": 14
+  },
+  {
+   "w": "우울",
+   "en": "depression, gloom",
+   "note": "The root of 우울증, the clinical diagnosis, which is why naming it beside 불안 reads as deliberate",
+   "i": 14
+  },
+  {
+   "w": "외로움",
+   "en": "loneliness",
+   "note": "Noun built from 외롭다 with -ㅁ, the same machinery as 기다림 and 슬픔",
+   "i": 16
+  },
+  {
+   "w": "바라다",
+   "en": "to hope, wish for",
+   "note": "Correctly conjugates to 바라, but almost everyone says and writes 바래 as here",
+   "i": 18
+  },
+  {
+   "w": "잠식되다",
+   "en": "to be eroded, be encroached on",
+   "i": 18
+  },
+  {
+   "w": "출구",
+   "en": "exit, way out",
+   "i": 18
+  },
+  {
+   "w": "녹이다",
+   "en": "to melt something",
+   "note": "Transitive; 녹다 is for something melting on its own",
+   "i": 20
+  },
+  {
+   "w": "메아리",
+   "en": "echo",
+   "i": 22
+  },
+  {
+   "w": "욕심",
+   "en": "greed, wanting too much",
+   "note": "Usually a vice, but 큰 욕심일까 is closer to asking whether he is asking for too much",
+   "i": 26
+  },
+  {
+   "w": "무뎌지다",
+   "en": "to grow dull, go numb",
+   "note": "Used of blades and of feelings alike",
+   "i": 35
+  },
+  {
+   "w": "덩그러니",
+   "en": "all alone, left standing by itself",
+   "i": 38
+  },
+  {
+   "w": "확신",
+   "en": "conviction, certainty",
+   "i": 41
+  },
+  {
+   "w": "축배",
+   "en": "a toast, a celebratory drink",
+   "i": 50
+  }
+ ]
+}

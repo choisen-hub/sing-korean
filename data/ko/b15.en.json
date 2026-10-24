@@ -1,0 +1,148 @@
+{
+ "id": "b15",
+ "hook": [
+  13,
+  14,
+  15,
+  16
+ ],
+ "notes": {
+  "s": "A pep talk that says set the whole mess on fire and stop apologising for it.",
+  "t": "Title track of the 2016 repackage 화양연화 Young Forever, and the song that turned BTS concerts into a jumping ritual. It answers the anxiety of the earlier singles with noise instead of comfort. The spoon line landed in the exact year Korean twentysomethings were arguing online about inherited class, and it got heard as a direct reply to that argument. The dance break and the bow-wow-wow chant are what the fandom knows it for.",
+  "k": [
+   [
+    "그 말하는 넌 뭔 수저길래",
+    "수저 is a spoon, and in mid-2010s Korea it meant the one you were born holding. 금수저 is a gold spoon for inherited money, 흙수저 a dirt spoon for none. The ending -길래 asks what gives you the standing to say that, so the line is: what kind of spoon are you, exactly, to be talking."
+   ],
+   [
+    "수저수저 거려",
+    "-거리다 bolts onto a repeated root and means to keep doing that, usually to the speaker's annoyance. Spoon-spoon-ing means they will not shut up about spoons. Same machinery gives 비틀거리다 to keep staggering, which shows up as 비틀대며 in line 4, and 수군거리다 to keep whispering about someone."
+   ],
+   [
+    "불타오르네",
+    "The ending -네 is for noticing something as it happens, closer to look at it burn than to it burns. So the title is a bystander's remark, while the hook's 싹 다 불태워라 switches to -어라, the bluntest imperative Korean has. The song moves from watching to ordering inside two lines."
+   ],
+   [
+    "니 멋대로 살어",
+    "살어 and 말어 should be 살아 and 말아. Swapping the 아 for 어 is a southeastern regional colour that rap borrows for swagger, roughly what dropping a g does in English. 멋대로 means however you please, and it usually carries a shrug of disapproval that is deliberately absent here."
+   ]
+  ]
+ },
+ "lines": {
+  "9": "Live however you want, it's yours anyway",
+  "10": "Quit straining so hard, it's fine to lose",
+  "13": "Hands up, scream, burn it up",
+  "14": "Look at it burn",
+  "15": "Burn the whole thing down, bow-wow-wow",
+  "16": "Burn the whole thing down, bow-wow-wow",
+  "21": "We can just live, we're young",
+  "22": "And you, saying that, what kind of spoon are you",
+  "23": "Going on and on about spoons, I'm a person, so what",
+  "32": "(Fire) You of little courage, over here",
+  "34": "(Fire) Bare fists up, all night long",
+  "35": "(Fire) With a marching step",
+  "43": "I'll forgive you"
+ },
+ "vocab": [
+  {
+   "w": "불타오르다",
+   "en": "burst into flame, blaze up",
+   "i": 0
+  },
+  {
+   "w": "불태우다",
+   "en": "burn something, set ablaze",
+   "note": "Causative of 타다, to burn; the hook form 불태워라 is the blunt command",
+   "i": 15
+  },
+  {
+   "w": "비틀대다",
+   "en": "stagger, wobble",
+   "note": "Variant of 비틀거리다, and -대다 and -거리다 both mean to keep doing it",
+   "i": 4
+  },
+  {
+   "w": "만신창이",
+   "en": "a wreck, battered all over",
+   "note": "Originally a body covered in wounds, now used of anything ruined",
+   "i": 5
+  },
+  {
+   "w": "취하다",
+   "en": "get drunk",
+   "i": 5
+  },
+  {
+   "w": "욕하다",
+   "en": "curse, swear at",
+   "i": 6
+  },
+  {
+   "w": "멋대로",
+   "en": "as one pleases, any way you like",
+   "i": 9
+  },
+  {
+   "w": "애쓰다",
+   "en": "try hard, strain",
+   "note": "애 is the effort you burn on something, so 애쓰지 말어 is stop killing yourself over it",
+   "i": 10
+  },
+  {
+   "w": "지다",
+   "en": "lose, be defeated",
+   "note": "Same spelling as 지다 to set, of the sun, in line 4",
+   "i": 10
+  },
+  {
+   "w": "소리지르다",
+   "en": "shout, scream",
+   "i": 13
+  },
+  {
+   "w": "새벽",
+   "en": "dawn, the small hours",
+   "note": "Covers roughly midnight to sunrise, so it is night as much as morning",
+   "i": 20
+  },
+  {
+   "w": "젊다",
+   "en": "be young",
+   "i": 21
+  },
+  {
+   "w": "수저",
+   "en": "spoon, cutlery",
+   "note": "Blend of 숟가락 and 젓가락; the class metaphor is recent slang, not dictionary meaning",
+   "i": 22
+  },
+  {
+   "w": "겁",
+   "en": "fear, nerve",
+   "note": "겁 많다 to be easily scared, 겁나다 to get scared",
+   "i": 32
+  },
+  {
+   "w": "괴롭다",
+   "en": "be in anguish, be tormented",
+   "i": 33
+  },
+  {
+   "w": "맨주먹",
+   "en": "bare fist, nothing but your hands",
+   "note": "The prefix 맨- means bare: 맨발 barefoot, 맨손 empty-handed",
+   "i": 34
+  },
+  {
+   "w": "진군하다",
+   "en": "march, advance",
+   "note": "A troops-on-the-move word, deliberately oversized for a crowd of kids",
+   "i": 35
+  },
+  {
+   "w": "용서하다",
+   "en": "forgive",
+   "i": 43
+  }
+ ]
+}

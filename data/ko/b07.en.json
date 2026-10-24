@@ -1,0 +1,159 @@
+{
+ "id": "b07",
+ "hook": [
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21
+ ],
+ "notes": {
+  "s": "The pain of the life they chose, taken as the thing that keeps them breathing.",
+  "t": "Lead single of Map of the Soul: 7, February 2020, recorded with a full drumline and built like a marching band charging at you. It is the answer record to their 2013 single N.O, and it goes back over the blood and sweat imagery of the Wings era to say that this time the cage was entered voluntarily. The album's Jungian frame of persona and shadow runs through the verses, which keep looking down at a shadow that grows with every step. It entered the Hot 100 at number four, their highest at the time, and the Kinetic Manifesto Film version is the one most fans know.",
+  "k": [
+   [
+    "미치지 않으려면 미쳐야 해",
+    "The same verb twice, once negated, and the line turns on the grammar rather than on the words. -(으)려면 means if you intend to or if you want to, and -아/어야 해 means have to, so the shape is if you do not want X you have to X. Take the frame away from this song and it still works: 늦지 않으려면 뛰어야 해, if you do not want to be late you have to run."
+   ],
+   [
+    "제 발로 들어온 아름다운 감옥",
+    "제 발로 is on one's own feet, meaning of your own accord, and it almost always carries a hint that you will regret it or that nobody made you. The 제 here is the reflexive one's own, not the humble my that beginners learn in 제 이름, so 제 발로 in someone else's sentence still means their own feet."
+   ],
+   [
+    "이 두 쪽 세상",
+    "쪽 is a side, and also a page. Fans read the two-sided world as the persona and shadow split the album is named for, and as the two worlds of the stage and the person offstage. Either way the verb is 던지다, to throw, so he is not standing between the two halves, he is hurling himself into the gap."
+   ],
+   [
+    "내가 숨 쉬게 하소서",
+    "-하소서 is an archaic petitionary ending, the register of scripture, hymns and sageuk dramas addressing a king. Dropping it into a rap song about career pain reframes the previous line, 나의 고통이 있는 곳에, as a prayer asking to be allowed to breathe exactly where the pain is rather than away from it."
+   ]
+  ]
+ },
+ "lines": {
+  "14": "Hey, na-na-na",
+  "15": "To keep from going crazy I have to go crazy",
+  "16": "Hey, na-na-na",
+  "17": "I throw all of myself into this two-sided world",
+  "18": "Hey, na-na-na",
+  "19": "Can't hold me down",
+  "20": "'Cause you know I'm a fighter",
+  "21": "A beautiful prison I walked into on my own two feet"
+ },
+ "vocab": [
+  {
+   "w": "장단",
+   "en": "rhythm, beat",
+   "note": "The word for a traditional drum pattern. 장단에 맞추다, to keep to someone's rhythm, means to play along with their mood",
+   "i": 1
+  },
+  {
+   "w": "발자국",
+   "en": "footstep, footprint",
+   "i": 2
+  },
+  {
+   "w": "떼다",
+   "en": "to lift off, to take a step",
+   "note": "발을 떼다 is both a baby's first step and making a start on anything",
+   "i": 2
+  },
+  {
+   "w": "그림자",
+   "en": "shadow",
+   "i": 7
+  },
+  {
+   "w": "닮다",
+   "en": "to resemble",
+   "note": "Takes 을/를, so 날 닮은 is resembling me",
+   "i": 7
+  },
+  {
+   "w": "흔들리다",
+   "en": "to sway, to waver",
+   "note": "Passive of 흔들다. Used of objects shaking and of resolve wobbling",
+   "i": 8
+  },
+  {
+   "w": "발끝",
+   "en": "tiptoe, tip of the foot",
+   "note": "끝, end, attaches freely to body parts: 손끝 fingertip, 머리끝 the top of the head",
+   "i": 9
+  },
+  {
+   "w": "두렵다",
+   "en": "to be afraid, to dread",
+   "note": "Heavier and more inward than 무섭다, which is for something frightening in front of you",
+   "i": 10
+  },
+  {
+   "w": "서툴다",
+   "en": "to be clumsy, unskilled",
+   "i": 12
+  },
+  {
+   "w": "미치다",
+   "en": "to go crazy",
+   "note": "A formal homonym means to reach or extend to, as in 영향을 미치다, to exert influence",
+   "i": 15
+  },
+  {
+   "w": "던지다",
+   "en": "to throw",
+   "i": 17
+  },
+  {
+   "w": "살",
+   "en": "flesh",
+   "note": "피와 살 is the set phrase for what builds and sustains you. 살 is also the counter for years of age",
+   "i": 29
+  },
+  {
+   "w": "산소",
+   "en": "oxygen",
+   "i": 33
+  },
+  {
+   "w": "넘어지다",
+   "en": "to fall over, to trip",
+   "note": "For a person going down. Something dropping is 떨어지다",
+   "i": 35
+  },
+  {
+   "w": "설령",
+   "en": "even supposing, even if",
+   "note": "Signals the clause is hypothetical and pairs with an ending like -더라도 or the literary -ㄹ지언정 further on",
+   "i": 38
+  },
+  {
+   "w": "무릎",
+   "en": "knee",
+   "i": 38
+  },
+  {
+   "w": "파묻히다",
+   "en": "to be buried",
+   "note": "Passive of 파묻다, to dig in and bury. 묻히다 alone carries the same sense",
+   "i": 39
+  },
+  {
+   "w": "심연",
+   "en": "abyss",
+   "i": 68
+  },
+  {
+   "w": "잠기다",
+   "en": "to be submerged, to sink into",
+   "note": "An identical form means to be locked, as in 문이 잠기다",
+   "i": 68
+  },
+  {
+   "w": "기꺼이",
+   "en": "willingly, gladly",
+   "i": 68
+  }
+ ]
+}

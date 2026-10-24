@@ -1,0 +1,159 @@
+{
+ "id": "b05",
+ "hook": [
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22
+ ],
+ "notes": {
+  "s": "Self-love shouted back at critics, over pansori calls and samul nori drums.",
+  "t": "Lead single of the Answer repackage, August 2018, closing the Love Yourself series. The target is the Korean argument about whether an idol can be an artist, and the song's answer is to refuse the question and keep both words. Under the gqom-leaning beat sit pansori shouts, janggu patterns and a verse that name-checks their own Anpanman, and a Nicki Minaj version shipped alongside. It took the YouTube record for views in a day when it dropped. For ARMY it is the loud counterpart to Answer: Love Myself, the same conclusion said by yelling instead of by reflecting.",
+  "k": [
+   [
+    "얼쑤 좋다 / 지화자 좋다",
+    "These are 추임새, the shouts a drummer or an audience throws at a pansori singer mid-performance to push them on. They are closer to a whoop than to a sentence, so parsing them word by word gets you nowhere, and 좋다 here is the crowd saying nice rather than anyone saying something is good. Their presence is the song's argument that this is Korean traditional performance, not a borrowed form."
+   ],
+   [
+    "덩기덕 쿵더러러",
+    "Mouth notation for drum strokes, called 구음, used to teach janggu and samul nori patterns the way a drummer might say boom bap. 덩, 기덕, 쿵 and 더러러 each name a specific hit or roll. They are not words and have no meaning to translate."
+   ],
+   [
+    "떠들어대셔, 잘하셔",
+    "The -시- honorific infix, which exists to raise the person you are talking about, bent into a clipped -셔 ending and aimed at someone being insulted. Using respect language on someone you are mocking is a standard Korean sneer, and it means polite forms cannot be read as polite intent. The plain forms would be 떠들어대, 잘해."
+   ],
+   [
+    "뭘 어쩌고 저쩌고 떠들어대셔?",
+    "어쩌고 저쩌고 is blah blah, this and that, waving away someone's talk as not worth repeating. 떠들어대다 adds -대다 to 떠들다, and that suffix marks doing something repeatedly and annoyingly, so it is useful on any verb: 먹어대다 to keep stuffing yourself, 웃어대다 to not stop laughing."
+   ]
+  ]
+ },
+ "lines": {
+  "16": "What are you going on and on about?",
+  "17": "I do what I do, so you worry about yourself",
+  "18": "(Dirty, dirty) You can't stop me lovin' myself",
+  "19": "(Brrah, hoo, hoo) Eolssu, nice",
+  "20": "You can't stop me lovin' myself",
+  "21": "(Brrah, hoo, hoo) Jihwaja, nice",
+  "22": "You can't stop me lovin' myself"
+ },
+ "vocab": [
+  {
+   "w": "자유롭다",
+   "en": "to be free",
+   "note": "자유 freedom plus -롭다, which turns a noun into an adjective. Same mold as 평화롭다 peaceful and 여유롭다 relaxed",
+   "i": 5
+  },
+  {
+   "w": "손가락질",
+   "en": "finger-pointing, blame",
+   "note": "손가락 finger plus -질, a suffix that makes a noun into an action and usually a disparaging one",
+   "i": 8
+  },
+  {
+   "w": "전혀",
+   "en": "not at all",
+   "note": "Requires a negative later in the sentence. 전혀 좋다 is broken Korean",
+   "i": 9
+  },
+  {
+   "w": "신경쓰다",
+   "en": "to mind, to care about",
+   "note": "신경 is a nerve, so this is to spend nerves on something. The negative, 신경 안 써, is the everyday I don't care",
+   "i": 9
+  },
+  {
+   "w": "욕하다",
+   "en": "to badmouth, to curse at",
+   "note": "욕 covers both swearing and criticism, so 욕 먹다, to eat criticism, is to get flak",
+   "i": 10
+  },
+  {
+   "w": "이유",
+   "en": "reason",
+   "i": 11
+  },
+  {
+   "w": "떠들다",
+   "en": "to make noise, to chatter",
+   "i": 16
+  },
+  {
+   "w": "때로",
+   "en": "at times, sometimes",
+   "note": "때론 in the lyric is the contraction of 때로는",
+   "i": 33
+  },
+  {
+   "w": "속",
+   "en": "inside, one's insides",
+   "note": "속 is the inside of something with volume or depth, 안 is inside a boundary. 내 속 means what is going on in me",
+   "i": 41
+  },
+  {
+   "w": "사치",
+   "en": "luxury, extravagance",
+   "note": "Often used for something you cannot afford to do, as here with confusion",
+   "i": 36
+  },
+  {
+   "w": "헷갈리다",
+   "en": "to be confused, to get mixed up",
+   "note": "The lyric uses the noun form 헷갈림",
+   "i": 36
+  },
+  {
+   "w": "맞이하다",
+   "en": "to greet, to welcome in",
+   "note": "For days, seasons and guests. 새해를 맞이하다, to see in the new year",
+   "i": 43
+  },
+  {
+   "w": "어차피",
+   "en": "anyway, in any case",
+   "note": "Marks the outcome as already settled no matter what anyone does",
+   "i": 44
+  },
+  {
+   "w": "전부",
+   "en": "all, the whole lot",
+   "i": 44
+  },
+  {
+   "w": "고민",
+   "en": "worry, agonizing over a choice",
+   "note": "Not fear. It is the state of turning a decision over and over in your head",
+   "i": 45
+  },
+  {
+   "w": "달리다",
+   "en": "to run",
+   "note": "뛰다 is also to run and is the commoner word. 달리다 leans toward running at speed or running a course",
+   "i": 45
+  },
+  {
+   "w": "가끔",
+   "en": "sometimes, now and then",
+   "i": 63
+  },
+  {
+   "w": "멀리",
+   "en": "far away",
+   "note": "Adverb from 멀다. 멀리 돌아가다, to take the long way round",
+   "i": 63
+  },
+  {
+   "w": "행복하다",
+   "en": "to be happy",
+   "i": 65
+  },
+  {
+   "w": "순간",
+   "en": "moment, instant",
+   "i": 65
+  }
+ ]
+}

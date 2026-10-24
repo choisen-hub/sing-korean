@@ -1,0 +1,180 @@
+{
+  "id": "b30",
+  "hook": [
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25
+  ],
+  "notes": {
+    "s": "The day resets at midnight whether or not anything got better.",
+    "t": "A vocal-line song from Map of the Soul: 7 about an ordinary bad day, not a dramatic one: your body is heavy, everyone else looks like they are coping, and you cannot work out which part was your fault. Instead of resolving it, the song waits for the clock. The second hand and the minute hand stack up at twelve, the day is legally over, and that is the entire comfort on offer. ARMY took it up as the quiet counterweight to the album's louder tracks, and the English line about being happy is sung as a promise to yourself rather than a prediction.",
+    "k": [
+      [
+        "그런 날 있잖아",
+        "-잖아 hands something to the listener as already shared, so this opens in the middle of a conversation rather than introducing a topic. A learner can lift this straight into speech: 피곤하잖아, you're tired, you know."
+      ],
+      [
+        "초침과 분침이 겹칠 때",
+        "초침 is the second hand and 분침 the minute hand, literally second-needle and minute-needle. At midnight they line up on top of each other, and the title is that overlap rather than a time of night."
+      ],
+      [
+        "내 맘 같은 게 뭐 하나 없어",
+        "내 맘 같다 means to be the way my heart would have it. Negated with 뭐 하나 없어, not one thing, it is the standard way to say nothing is cooperating, and much less self-pitying in Korean than a word-for-word English version sounds."
+      ],
+      [
+        "좀 낫기를",
+        "Wishes get cut off after -기를 and the verb 바라다, to hope, is left unsaid. The effect is prayer rather than statement, which is why the preceding line has hands pressed together."
+      ]
+    ]
+  },
+  "lines": {
+    "0": "You know those days",
+    "1": "Days you're sad for no reason",
+    "2": "Your body is heavy",
+    "4": "and everyone except you looks busy and fierce",
+    "5": "My feet won't come off the ground",
+    "6": "and it already feels too late",
+    "7": "The whole world is being mean about it",
+    "9": "My heart creases up and my words keep going missing",
+    "10": "Why though, when I ran as hard as I could",
+    "12": "I come home, lie down on the bed",
+    "13": "and think it over, was it my fault",
+    "14": "A dizzy night, I glance at the clock",
+    "15": "almost twelve",
+    "16": "Will anything be different",
+    "17": "Probably not",
+    "18": "Still, this day is ending",
+    "19": "When the second hand and the minute hand overlap",
+    "20": "the world holds its breath for just an instant",
+    "21": "Zero o'clock",
+    "22": "(Ooh-ooh) And you gonna be happy",
+    "23": "(Ooh-ooh) And you gonna be happy",
+    "24": "Like that snow that just came to rest",
+    "25": "Let's breathe, the way we did at the start",
+    "30": "The beat slides off a little at a time",
+    "31": "An easy face won't come",
+    "32": "I keep forgetting words I know by heart",
+    "33": "Not one thing goes the way I want it",
+    "35": "Saying it to myself doesn't make it easy",
+    "37": "only my echo, with no answer in it",
+    "56": "Hands together, I pray",
+    "57": "that tomorrow I laugh a bit more, for me",
+    "58": "that it gets a bit better, for me",
+    "65": "today as well, I pat myself gently"
+  },
+  "vocab": [
+    {
+      "w": "이유",
+      "en": "reason, cause",
+      "i": 1
+    },
+    {
+      "w": "슬프다",
+      "en": "to be sad",
+      "i": 1
+    },
+    {
+      "w": "무겁다",
+      "en": "to be heavy",
+      "note": "Used of moods and atmospheres as well as objects",
+      "i": 2
+    },
+    {
+      "w": "치열하다",
+      "en": "to be fierce, cut-throat",
+      "note": "Standard word for brutal competition, as in 치열한 경쟁",
+      "i": 4
+    },
+    {
+      "w": "발걸음",
+      "en": "step, footstep",
+      "note": "발걸음이 떨어지지 않다, the step won't come off, means you can't bring yourself to go",
+      "i": 5
+    },
+    {
+      "w": "늦다",
+      "en": "to be late",
+      "i": 6
+    },
+    {
+      "w": "잘못",
+      "en": "fault, mistake, wrongdoing",
+      "i": 13
+    },
+    {
+      "w": "어지럽다",
+      "en": "dizzy, in disarray",
+      "i": 14
+    },
+    {
+      "w": "겹치다",
+      "en": "to overlap, to coincide",
+      "note": "Also used for scheduling clashes",
+      "i": 19
+    },
+    {
+      "w": "숨",
+      "en": "breath",
+      "i": 20
+    },
+    {
+      "w": "참다",
+      "en": "to hold in, to endure",
+      "note": "숨을 참다 hold your breath, 눈물을 참다 hold back tears",
+      "i": 20
+    },
+    {
+      "w": "쉬다",
+      "en": "to breathe",
+      "note": "숨을 쉬다 is to breathe; the identical 쉬다 meaning to rest is a separate word, context decides",
+      "i": 25
+    },
+    {
+      "w": "박자",
+      "en": "beat, time, rhythm",
+      "i": 30
+    },
+    {
+      "w": "표정",
+      "en": "facial expression",
+      "note": "표정을 짓다, to build an expression, is the normal verb pairing",
+      "i": 31
+    },
+    {
+      "w": "익숙하다",
+      "en": "to be familiar, to be used to",
+      "i": 32
+    },
+    {
+      "w": "잊다",
+      "en": "to forget",
+      "i": 32
+    },
+    {
+      "w": "메아리",
+      "en": "echo",
+      "i": 37
+    },
+    {
+      "w": "기도하다",
+      "en": "to pray",
+      "i": 56
+    },
+    {
+      "w": "낫다",
+      "en": "to get better, to recover, to be preferable",
+      "note": "Two senses: healing, and A가 B보다 낫다, A is better than B",
+      "i": 58
+    },
+    {
+      "w": "토닥이다",
+      "en": "to pat gently, to soothe with pats",
+      "note": "The soft repeated pat you give a crying child; nothing to do with congratulation",
+      "i": 65
+    }
+  ]
+}

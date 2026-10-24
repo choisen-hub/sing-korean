@@ -1,180 +1,246 @@
 {
-  "id": "b29",
-  "hook": [
-    24,
-    25,
-    26,
-    27,
-    28,
-    29,
-    30,
-    31
-  ],
-  "notes": {
-    "s": "Burnout named as an illness, then treated out loud instead of hidden.",
-    "t": "Written during the 2020 shutdown, when a group whose entire working life was touring suddenly had nothing on the calendar and discovered that rest felt worse than overwork. The verses are split between a rapper who cannot stop measuring himself by output and one who counts how many named disorders of the mind exist and concludes that almost nobody is exempt. The track is deliberately bright, an old-school boom-bap beat under lines about chewing yourself up for taking a day off. Fans latched onto the ending, where the stutter breaks the word for sickness apart and reassembles it as an order to drop the fear.",
-    "k": [
-      [
-        "나의 병 / 벼벼벼벼병",
-        "병 is the sickness in the title, and it is also the word for a bottle. The next line, 버려 겁, throws away 겁, fear. Stuttering 병 into 벼벼벼 and 겁 into 거거거 makes the two words rhyme into each other, so the sickness and the fear become the same object you can put down. The English title splits disease into dis-ease, loss of rest, which is exactly what the Korean argues."
-      ],
-      [
-        "이 유리 같은 병이 때리지 니 머리",
-        "Both readings of 병 fire at once. An illness as fragile as glass, and a glass bottle swung at your head. Korean lyrics lean on this kind of homophone far more than English pop does, and the line is unreadable without it."
-      ],
-      [
-        "I'm ill, 그래 내가 일 그 자체",
-        "일 means work and sounds close enough to ill to carry the pun across languages. The claim is not that he does work but that he is work, which is the whole diagnosis of the verse."
-      ],
-      [
-        "썩은 동아줄을 tap",
-        "The rotten rope comes from the folk tale where a brother and sister climb to the sky on a strong rope and the tiger chasing them is given the rotten one and falls. Reaching for the rotten rope means grabbing the help that was always going to give way."
-      ]
-    ]
-  },
-  "lines": {
-    "1": "Feels like I've missed something",
-    "2": "One mouthful of coffee to clear off the unease",
-    "7": "Like I should be doing something until my body comes apart",
-    "9": "My sin: a dog that bites into me for resting",
-    "10": "Even shouting don't do that, I'm still hanging my life on results",
-    "12": "Keep growling, tapping at a rotten rope",
-    "13": "It isn't safe, this is a sickness",
-    "16": "It's because I'm hurting, too much going on in my head",
-    "19": "I'm young too, an adult only in the body",
-    "20": "My life's walk has a limp in it",
-    "24": "Every day I comfort myself",
-    "25": "Everyone's the same kind of person, ain't so special",
-    "26": "Ay man keep one, two step",
-    "27": "Let's take it calmly and treat all of it",
-    "28": "My sickness",
-    "29": "My si-si-si-sickness",
-    "30": "Drop the fear",
-    "31": "The fe-fe-fe-fear",
-    "33": "The heart needs a school holiday too",
-    "34": "Just let work stay work",
-    "35": "I'm ill, that's right, I am work itself",
-    "36": "Rest, that friend, oh, I never liked him",
-    "37": "How much do you have to earn before you're happy",
-    "38": "This sickness, glass in your hand, cracks you over the head",
-    "39": "I can't tell if it's the world that's sick or me",
-    "40": "Take the glasses off and the dark doesn't blur",
-    "46": "Four hundred and more kinds of sickness of the mind alone",
-    "47": "and hardly a soul it doesn't apply to",
-    "52": "Faster than changing someone else is changing myself",
-    "83": "No night lasts forever"
-  },
-  "vocab": [
-    {
-      "w": "병",
-      "en": "illness, disease",
-      "note": "Separately also means bottle; the song keeps both in play",
-      "i": 28
-    },
-    {
-      "w": "불안하다",
-      "en": "anxious, uneasy",
-      "note": "The noun 불안 covers free-floating anxiety, not fear of one thing",
-      "i": 2
-    },
-    {
-      "w": "해소",
-      "en": "relief, clearing away",
-      "note": "Takes 하다; used for stress, hangovers, constipation, backlogs",
-      "i": 2
-    },
-    {
-      "w": "위로하다",
-      "en": "to comfort, to console",
-      "i": 24
-    },
-    {
-      "w": "치료하다",
-      "en": "to treat, to cure",
-      "i": 27
-    },
-    {
-      "w": "겁",
-      "en": "fear, fright",
-      "note": "겁이 많다, to have a lot of fear, is how Korean says someone is timid",
-      "i": 30
-    },
-    {
-      "w": "버리다",
-      "en": "to throw away, to discard",
-      "note": "Stuck after another verb it means do it off completely, often with regret",
-      "i": 30
-    },
-    {
-      "w": "방학",
-      "en": "school holiday, vacation between terms",
-      "note": "Only for schools; time off work is 휴가",
-      "i": 33
-    },
-    {
-      "w": "벌다",
-      "en": "to earn",
-      "i": 37
-    },
-    {
-      "w": "헷갈리다",
-      "en": "to be confused, to get mixed up",
-      "note": "The confusion sits in the speaker, so it takes no object",
-      "i": 39
-    },
-    {
-      "w": "어둠",
-      "en": "darkness",
-      "i": 40
-    },
-    {
-      "w": "절뚝거리다",
-      "en": "to limp",
-      "i": 20
-    },
-    {
-      "w": "아프다",
-      "en": "to hurt, to be ill",
-      "note": "Covers both physical pain and being unwell; an adjective, not a verb",
-      "i": 16
-    },
-    {
-      "w": "어리다",
-      "en": "to be young, to be childish",
-      "note": "Carries immaturity, where 젊다 is just young in years",
-      "i": 19
-    },
-    {
-      "w": "성과",
-      "en": "results, performance, achievement",
-      "note": "Workplace word, the output you get appraised on",
-      "i": 10
-    },
-    {
-      "w": "물어뜯다",
-      "en": "to bite at, to gnaw",
-      "i": 9
-    },
-    {
-      "w": "똑같다",
-      "en": "to be identical, exactly the same",
-      "i": 25
-    },
-    {
-      "w": "변화하다",
-      "en": "to change, to transform",
-      "i": 52
-    },
-    {
-      "w": "쉼",
-      "en": "rest",
-      "note": "Noun built from 쉬다; 쉼표 is a comma or a musical rest",
-      "i": 36
-    },
-    {
-      "w": "마냥",
-      "en": "endlessly, just, aimlessly",
-      "i": 7
-    }
+ "id": "b29",
+ "hook": [
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31
+ ],
+ "notes": {
+  "s": "Burnout named as an illness, then treated out loud instead of hidden.",
+  "t": "Written during the 2020 shutdown, when a group whose entire working life was touring suddenly had nothing on the calendar and discovered that rest felt worse than overwork. The verses are split between a rapper who cannot stop measuring himself by output and one who counts how many named disorders of the mind exist and concludes that almost nobody is exempt. The track is deliberately bright, an old-school boom-bap beat under lines about chewing yourself up for taking a day off. Fans latched onto the ending, where the stutter breaks the word for sickness apart and reassembles it as an order to drop the fear.",
+  "k": [
+   [
+    "나의 병 / 벼벼벼벼병",
+    "병 is the sickness in the title, and it is also the word for a bottle. The next line, 버려 겁, throws away 겁, fear. Stuttering 병 into 벼벼벼 and 겁 into 거거거 makes the two words rhyme into each other, so the sickness and the fear become the same object you can put down. The English title splits disease into dis-ease, loss of rest, which is exactly what the Korean argues."
+   ],
+   [
+    "이 유리 같은 병이 때리지 니 머리",
+    "Both readings of 병 fire at once. An illness as fragile as glass, and a glass bottle swung at your head. Korean lyrics lean on this kind of homophone far more than English pop does, and the line is unreadable without it."
+   ],
+   [
+    "I'm ill, 그래 내가 일 그 자체",
+    "일 means work and sounds close enough to ill to carry the pun across languages. The claim is not that he does work but that he is work, which is the whole diagnosis of the verse."
+   ],
+   [
+    "썩은 동아줄을 tap",
+    "The rotten rope comes from the folk tale where a brother and sister climb to the sky on a strong rope and the tiger chasing them is given the rotten one and falls. Reaching for the rotten rope means grabbing the help that was always going to give way."
+   ]
   ]
+ },
+ "lines": {
+  "0": "Mm, uh-oh",
+  "1": "Uh, it feels like I've missed something",
+  "2": "One sip of coffee to ease my anxiety",
+  "3": "An endless rest",
+  "4": "An unsettling happiness that came to me out of nowhere",
+  "5": "Twenty-four hours, that's a whole lot of time",
+  "6": "I can sleep all day long, and now it's no problem",
+  "7": "Feels like I ought to work till my body breaks",
+  "8": "Yet here I am, eating all three meals every day",
+  "9": "My sin, a dog that mauls me whenever I rest",
+  "10": "Don't do that, I shout, but every day I'm chained to results",
+  "11": "E'r'yday do my thang, damn if I fail",
+  "12": "I keep growling, tapping on a rotten lifeline",
+  "13": "I feel ill at ease, this is a disease",
+  "14": "The physical part is the stun that work gives me, ow!",
+  "15": "Maybe",
+  "16": "It's because I'm sick, because I think too much",
+  "17": "I hate that",
+  "18": "The childish me who can't keep things simple",
+  "19": "I'm still so young, only my body's grown",
+  "20": "I limp along through life",
+  "21": "One for the laugh",
+  "22": "Two for the show",
+  "23": "Just like I'm so fine",
+  "24": "Everyday I comfort myself",
+  "25": "We're all the same, ain't so special",
+  "26": "Ay man, keep one, two step",
+  "27": "Let's calmly find a cure for all of us",
+  "28": "My disease",
+  "29": "Dis-dis-dis-disease",
+  "30": "Throw out fear",
+  "31": "Fe-fe-fe-fe-fear",
+  "32": "RM, yeah",
+  "33": "My mind needs a vacation too",
+  "34": "Ah, just keep work as work",
+  "35": "I'm ill, yeah, I am work itself",
+  "36": "Rest is a friend, oh, I never liked him",
+  "37": "How much do I have to make to be happy?",
+  "38": "This glass bottle strikes you on the head",
+  "39": "I can't tell if it's the world or me that's sick",
+  "40": "Even with my glasses off, the darkness won't blur",
+  "41": "Whatever label they put on this time afterward",
+  "42": "I hope it never becomes all that you are",
+  "43": "The you that's truly you, you",
+  "44": "Everyone has so many illnesses, what confuses me",
+  "45": "Is that human beings are ugly by nature",
+  "46": "There are over four hundred kinds of mental illness",
+  "47": "And hardly anyone doesn't fall under one",
+  "48": "Yo, is it the world that's sick, or is it me?",
+  "49": "Is it simply a difference in how we see things?",
+  "50": "Is that all it is?",
+  "51": "I don't know, trying to change someone else",
+  "52": "Changing myself is quicker than that",
+  "53": "Maybe",
+  "54": "It's because I'm sick, because I think too much",
+  "55": "I hate that",
+  "56": "The childish me who can't keep things simple",
+  "57": "I'm still so young, only my body's grown",
+  "58": "I limp along through life",
+  "59": "One for the laugh",
+  "60": "Two for the show",
+  "61": "Just like I'm so fine",
+  "62": "Everyday I comfort myself",
+  "63": "We're all the same, ain't so special",
+  "64": "Ayy, man, keep one, two step",
+  "65": "Let's calmly find a cure for all of us",
+  "66": "My disease",
+  "67": "Dis-dis-dis-disease",
+  "68": "Throw out fear",
+  "69": "Fe-fe-fe-fe-fear",
+  "70": "Sick and tired",
+  "71": "But I don't wanna mess up",
+  "72": "'Cause life goes on",
+  "73": "Through the fire",
+  "74": "I'll keep walking, more like myself, woah",
+  "75": "Walk it, walk it, walk it",
+  "76": "When night falls, I close my eyes",
+  "77": "Walk it, walk it, walk it",
+  "78": "I'll believe again in the me I knew",
+  "79": "Now get up, one more time",
+  "80": "Morning has come again, I must live today",
+  "81": "Let's go, one more night",
+  "82": "I don't know what lies at the end, ayy",
+  "83": "Woo, no night lasts forever",
+  "84": "I've grown stronger",
+  "85": "The flames burst out",
+  "86": "I will never fade away",
+  "87": "Everyday I comfort myself",
+  "88": "We're all the same, ain't so special",
+  "89": "Ayy, man, keep one, two step",
+  "90": "Let's calmly find a cure for all of us",
+  "91": "My disease",
+  "92": "Dis-dis-dis-dis-dis-disease",
+  "93": "Throw out fear",
+  "94": "Fe-fe-fe-fe-fe-fear",
+  "95": "Throw out fear-fear-fear, throw it out"
+ },
+ "vocab": [
+  {
+   "w": "병",
+   "en": "illness, disease",
+   "note": "Separately also means bottle; the song keeps both in play",
+   "i": 28
+  },
+  {
+   "w": "불안하다",
+   "en": "anxious, uneasy",
+   "note": "The noun 불안 covers free-floating anxiety, not fear of one thing",
+   "i": 2
+  },
+  {
+   "w": "해소",
+   "en": "relief, clearing away",
+   "note": "Takes 하다; used for stress, hangovers, constipation, backlogs",
+   "i": 2
+  },
+  {
+   "w": "위로하다",
+   "en": "to comfort, to console",
+   "i": 24
+  },
+  {
+   "w": "치료하다",
+   "en": "to treat, to cure",
+   "i": 27
+  },
+  {
+   "w": "겁",
+   "en": "fear, fright",
+   "note": "겁이 많다, to have a lot of fear, is how Korean says someone is timid",
+   "i": 30
+  },
+  {
+   "w": "버리다",
+   "en": "to throw away, to discard",
+   "note": "Stuck after another verb it means do it off completely, often with regret",
+   "i": 30
+  },
+  {
+   "w": "방학",
+   "en": "school holiday, vacation between terms",
+   "note": "Only for schools; time off work is 휴가",
+   "i": 33
+  },
+  {
+   "w": "벌다",
+   "en": "to earn",
+   "i": 37
+  },
+  {
+   "w": "헷갈리다",
+   "en": "to be confused, to get mixed up",
+   "note": "The confusion sits in the speaker, so it takes no object",
+   "i": 39
+  },
+  {
+   "w": "어둠",
+   "en": "darkness",
+   "i": 40
+  },
+  {
+   "w": "절뚝거리다",
+   "en": "to limp",
+   "i": 20
+  },
+  {
+   "w": "아프다",
+   "en": "to hurt, to be ill",
+   "note": "Covers both physical pain and being unwell; an adjective, not a verb",
+   "i": 16
+  },
+  {
+   "w": "어리다",
+   "en": "to be young, to be childish",
+   "note": "Carries immaturity, where 젊다 is just young in years",
+   "i": 19
+  },
+  {
+   "w": "성과",
+   "en": "results, performance, achievement",
+   "note": "Workplace word, the output you get appraised on",
+   "i": 10
+  },
+  {
+   "w": "물어뜯다",
+   "en": "to bite at, to gnaw",
+   "i": 9
+  },
+  {
+   "w": "똑같다",
+   "en": "to be identical, exactly the same",
+   "i": 25
+  },
+  {
+   "w": "변화하다",
+   "en": "to change, to transform",
+   "i": 52
+  },
+  {
+   "w": "쉼",
+   "en": "rest",
+   "note": "Noun built from 쉬다; 쉼표 is a comma or a musical rest",
+   "i": 36
+  },
+  {
+   "w": "마냥",
+   "en": "endlessly, just, aimlessly",
+   "i": 7
+  }
+ ]
 }

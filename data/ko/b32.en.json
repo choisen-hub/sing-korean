@@ -1,182 +1,205 @@
 {
-  "id": "b32",
-  "hook": [
-    16,
-    17,
-    18,
-    19,
-    20,
-    21,
-    22
-  ],
-  "notes": {
-    "s": "A failure replayed so often it stops feeling familiar.",
-    "t": "A subunit track for Jin, J-Hope and Jungkook on Map of the Soul: Persona, and the album's darkest three minutes. The conceit is a video game: a run lost, a screen flashing game over, the wish that you could load a save instead of living with it. Underneath it is the specific fear of a performer who has made the same mistake before and cannot get numb to it. The title is the inverse of deja vu and names a real sensation, the moment something you have done a thousand times turns alien, and the Korean lyric uses the clinical Korean term for it outright.",
-    "k": [
-      [
-        "내 미시감에 무서워지고",
-        "미시감 is the standard Korean term for jamais vu, built as not-yet-seen-feeling against 기시감, already-seen-feeling, for deja vu. The English title is a translation of a word the Korean lyric says plainly, so Korean listeners get the thesis of the song and English listeners get a French loan they have to look up."
-      ],
-      [
-        "또 load하면 되겠지만",
-        "-(으)면 되다 means it's enough to do that, the pattern behind I could just reload. Pair it with -(으)면 안 되다, must not, and you have two of the most used constructions in spoken Korean."
-      ],
-      [
-        "괜찮지만 괜찮지 않아",
-        "The same word contrasted against itself with -지만. Korean does this far more readily than English, and it marks a feeling the speaker refuses to resolve rather than a contradiction he has missed."
-      ],
-      [
-        "시행착오와 오만 가지",
-        "오만 is fifty thousand, used as a vague huge number the way English says a million. Korean exaggeration counts in tens of thousands, so 오만 가지 is roughly a million different things."
-      ]
-    ]
-  },
-  "lines": {
-    "0": "Feels like I've lost again",
-    "1": "You look angry",
-    "2": "game over flickering in front of me",
-    "3": "If this were a game",
-    "4": "I could just load it again",
-    "8": "I'd honestly rather this were a game",
-    "9": "because it hurts this much",
-    "12": "I blame the me who couldn't be perfect",
-    "14": "I only wanted to do it well",
-    "15": "wanted to make you laugh, damn",
-    "16": "Please give me a remedy",
-    "17": "a remedy to make a heart that stopped beat again",
-    "18": "What am I supposed to do now",
-    "19": "Save me, give me another chance",
-    "20": "Please give me",
-    "21": "A remedy, a melody",
-    "22": "that memory that will be left to me alone",
-    "24": "If I shut it off here, will all of it get easier",
-    "25": "I'm fine, but I'm not fine",
-    "26": "I told myself out loud that I was used to it",
-    "27": "and it hurts like the first time anyway",
-    "28": "A poor gamer, true, I can't control myself",
-    "29": "Still hurting, trial and error and a million other things",
-    "31": "every word out of my mouth turns frightening in my jamais vu",
-    "32": "And I keep trying to run",
-    "33": "but you catch me, you still do",
-    "34": "My shadow grows and you and my life stay an equal sign",
-    "41": "Running again, going down again",
-    "42": "even if it repeats more times than I can count",
-    "43": "I'm going to run again",
-    "53": "I won't give up"
-  },
-  "vocab": [
-    {
-      "w": "지다",
-      "en": "to lose, to be defeated",
-      "note": "Also to carry on your back and, of the sun, to set; three unrelated verbs spelled alike",
-      "i": 0
-    },
-    {
-      "w": "아른대다",
-      "en": "to flicker, to hover faintly in sight",
-      "note": "Used for things half-seen or half-remembered",
-      "i": 2
-    },
-    {
-      "w": "차라리",
-      "en": "rather, if anything I'd prefer",
-      "note": "Marks the lesser of two bad options",
-      "i": 8
-    },
-    {
-      "w": "완벽하다",
-      "en": "to be perfect, flawless",
-      "i": 12
-    },
-    {
-      "w": "탓하다",
-      "en": "to blame",
-      "note": "The noun 탓 is the fault itself; -는 탓에 means because of, always for a bad outcome",
-      "i": 12
-    },
-    {
-      "w": "멈추다",
-      "en": "to stop, to halt",
-      "i": 17
-    },
-    {
-      "w": "심장",
-      "en": "heart, the organ",
-      "note": "The feeling heart is 마음; 심장 is the one that beats",
-      "i": 17
-    },
-    {
-      "w": "뛰다",
-      "en": "to beat, to run, to leap",
-      "note": "One verb for a pulse, a sprint and a jump",
-      "i": 17
-    },
-    {
-      "w": "살리다",
-      "en": "to save, to bring back to life",
-      "note": "Causative of 살다, to live; 죽이다 is the opposite",
-      "i": 19
-    },
-    {
-      "w": "기회",
-      "en": "chance, opportunity",
-      "i": 19
-    },
-    {
-      "w": "끄다",
-      "en": "to turn off, to switch off",
-      "note": "Opposite 켜다; works for lights, devices and fires",
-      "i": 24
-    },
-    {
-      "w": "익숙하다",
-      "en": "to be used to, to be familiar with",
-      "i": 26
-    },
-    {
-      "w": "혼잣말",
-      "en": "talking to oneself, muttering",
-      "i": 26
-    },
-    {
-      "w": "부족하다",
-      "en": "to be lacking, not enough",
-      "note": "Also used of people, 실력이 부족하다, not good enough yet",
-      "i": 28
-    },
-    {
-      "w": "시행착오",
-      "en": "trial and error",
-      "note": "Four-character compound, written and slightly formal",
-      "i": 29
-    },
-    {
-      "w": "미시감",
-      "en": "jamais vu",
-      "note": "Mirrors 기시감, deja vu; both are everyday enough to appear in a pop lyric",
-      "i": 31
-    },
-    {
-      "w": "도망가다",
-      "en": "to run away, to flee",
-      "i": 32
-    },
-    {
-      "w": "그림자",
-      "en": "shadow",
-      "i": 34
-    },
-    {
-      "w": "넘어지다",
-      "en": "to fall over, to trip",
-      "note": "For a person going down; 떨어지다 is for things dropping",
-      "i": 41
-    },
-    {
-      "w": "반복되다",
-      "en": "to be repeated, to recur",
-      "note": "반복하다 is to repeat something; the -되다 form happens to you",
-      "i": 42
-    }
+ "id": "b32",
+ "hook": [
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22
+ ],
+ "notes": {
+  "s": "A failure replayed so often it stops feeling familiar.",
+  "t": "A subunit track for Jin, J-Hope and Jungkook on Map of the Soul: Persona, and the album's darkest three minutes. The conceit is a video game: a run lost, a screen flashing game over, the wish that you could load a save instead of living with it. Underneath it is the specific fear of a performer who has made the same mistake before and cannot get numb to it. The title is the inverse of deja vu and names a real sensation, the moment something you have done a thousand times turns alien, and the Korean lyric uses the clinical Korean term for it outright.",
+  "k": [
+   [
+    "내 미시감에 무서워지고",
+    "미시감 is the standard Korean term for jamais vu, built as not-yet-seen-feeling against 기시감, already-seen-feeling, for deja vu. The English title is a translation of a word the Korean lyric says plainly, so Korean listeners get the thesis of the song and English listeners get a French loan they have to look up."
+   ],
+   [
+    "또 load하면 되겠지만",
+    "-(으)면 되다 means it's enough to do that, the pattern behind I could just reload. Pair it with -(으)면 안 되다, must not, and you have two of the most used constructions in spoken Korean."
+   ],
+   [
+    "괜찮지만 괜찮지 않아",
+    "The same word contrasted against itself with -지만. Korean does this far more readily than English, and it marks a feeling the speaker refuses to resolve rather than a contradiction he has missed."
+   ],
+   [
+    "시행착오와 오만 가지",
+    "오만 is fifty thousand, used as a vague huge number the way English says a million. Korean exaggeration counts in tens of thousands, so 오만 가지 is roughly a million different things."
+   ]
   ]
+ },
+ "lines": {
+  "0": "Feels like I've lost again",
+  "1": "You look so angry",
+  "2": "Game over flickers before my eyes, over, over, over",
+  "3": "If this were a game",
+  "4": "I could just load it again",
+  "5": "I guess I gotta deal with this, deal with this",
+  "6": "Real world",
+  "7": "Ayy, uh",
+  "8": "I wish this were a game instead",
+  "9": "Because it hurts so much",
+  "10": "I need to heal my medic",
+  "11": "But I'm another star",
+  "12": "I blame myself for not being perfect",
+  "13": "Brake in my head, brake in my step, always",
+  "14": "I only wanted to do well",
+  "15": "I only wanted to make you smile, damn",
+  "16": "Please give me a remedy",
+  "17": "A remedy to make my frozen heart beat again",
+  "18": "What am I supposed to do now?",
+  "19": "Save me, give me another chance",
+  "20": "Please give me",
+  "21": "A remedy, a melody",
+  "22": "That memory that will remain only for me",
+  "23": "If I just stop it here",
+  "24": "Would everything be easier if I switched it off?",
+  "25": "I'm okay, but I'm not okay",
+  "26": "I told myself I was used to it",
+  "27": "But it always hurts like the first time",
+  "28": "An inadequate gamer, that's right, I can't control myself",
+  "29": "It keeps hurting 'cause of trial and error and ten thousand things",
+  "30": "My song lyrics, every little gesture",
+  "31": "Every word I say scares me with déjà vu",
+  "32": "And again, I always try to run away",
+  "33": "But you hold me back, yes, even so",
+  "34": "Though my shadow keeps on growing, you and my life are an equal sign",
+  "35": "So my remedy is your remedy",
+  "36": "Please give me a remedy",
+  "37": "A remedy to make my frozen heart beat again",
+  "38": "What am I supposed to do now?",
+  "39": "Save me, give me another chance",
+  "40": "Please give me a",
+  "41": "I run again, I fall again",
+  "42": "Even if it repeats countless times",
+  "43": "I will run again",
+  "44": "So give me a remedy",
+  "45": "A remedy to make my frozen heart beat again",
+  "46": "What am I supposed to do now?",
+  "47": "Save me, give me another chance",
+  "48": "Please give me a remedy (Did I make it? I'm back)",
+  "49": "A remedy to make my frozen heart beat again (I'll focus and make sure I reach you, falling, stumbling)",
+  "50": "What am I supposed to do now? (The familiar pain crashes over me just the same)",
+  "51": "Save me (It isn't easy this time either)",
+  "52": "Give me another chance (You asking if I'll quit? No, no, never)",
+  "53": "I won't give up"
+ },
+ "vocab": [
+  {
+   "w": "지다",
+   "en": "to lose, to be defeated",
+   "note": "Also to carry on your back and, of the sun, to set; three unrelated verbs spelled alike",
+   "i": 0
+  },
+  {
+   "w": "아른대다",
+   "en": "to flicker, to hover faintly in sight",
+   "note": "Used for things half-seen or half-remembered",
+   "i": 2
+  },
+  {
+   "w": "차라리",
+   "en": "rather, if anything I'd prefer",
+   "note": "Marks the lesser of two bad options",
+   "i": 8
+  },
+  {
+   "w": "완벽하다",
+   "en": "to be perfect, flawless",
+   "i": 12
+  },
+  {
+   "w": "탓하다",
+   "en": "to blame",
+   "note": "The noun 탓 is the fault itself; -는 탓에 means because of, always for a bad outcome",
+   "i": 12
+  },
+  {
+   "w": "멈추다",
+   "en": "to stop, to halt",
+   "i": 17
+  },
+  {
+   "w": "심장",
+   "en": "heart, the organ",
+   "note": "The feeling heart is 마음; 심장 is the one that beats",
+   "i": 17
+  },
+  {
+   "w": "뛰다",
+   "en": "to beat, to run, to leap",
+   "note": "One verb for a pulse, a sprint and a jump",
+   "i": 17
+  },
+  {
+   "w": "살리다",
+   "en": "to save, to bring back to life",
+   "note": "Causative of 살다, to live; 죽이다 is the opposite",
+   "i": 19
+  },
+  {
+   "w": "기회",
+   "en": "chance, opportunity",
+   "i": 19
+  },
+  {
+   "w": "끄다",
+   "en": "to turn off, to switch off",
+   "note": "Opposite 켜다; works for lights, devices and fires",
+   "i": 24
+  },
+  {
+   "w": "익숙하다",
+   "en": "to be used to, to be familiar with",
+   "i": 26
+  },
+  {
+   "w": "혼잣말",
+   "en": "talking to oneself, muttering",
+   "i": 26
+  },
+  {
+   "w": "부족하다",
+   "en": "to be lacking, not enough",
+   "note": "Also used of people, 실력이 부족하다, not good enough yet",
+   "i": 28
+  },
+  {
+   "w": "시행착오",
+   "en": "trial and error",
+   "note": "Four-character compound, written and slightly formal",
+   "i": 29
+  },
+  {
+   "w": "미시감",
+   "en": "jamais vu",
+   "note": "Mirrors 기시감, deja vu; both are everyday enough to appear in a pop lyric",
+   "i": 31
+  },
+  {
+   "w": "도망가다",
+   "en": "to run away, to flee",
+   "i": 32
+  },
+  {
+   "w": "그림자",
+   "en": "shadow",
+   "i": 34
+  },
+  {
+   "w": "넘어지다",
+   "en": "to fall over, to trip",
+   "note": "For a person going down; 떨어지다 is for things dropping",
+   "i": 41
+  },
+  {
+   "w": "반복되다",
+   "en": "to be repeated, to recur",
+   "note": "반복하다 is to repeat something; the -되다 form happens to you",
+   "i": 42
+  }
+ ]
 }

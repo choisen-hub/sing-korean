@@ -1,37 +1,186 @@
 {
-  "id": "b11",
-  "hook": [22, 23, 24, 25, 26, 27],
-  "notes": {
-    "s": "Jimin's solo: being loved as something the universe arranged in advance.",
-    "t": "Jimin's solo and the comeback trailer for Love Yourself 承 Her, August 2017, later re-released in a longer version on 結 Answer. 承 is the continuation in the four-part 起承轉結 structure the series is built on, and this is the arc at its happiest, before Singularity cracks the same imagery open. Its two central images, a mould and a cat, are probably the most-quoted lines in BTS's catalogue among Korean-speaking fans, and they are also the two that fan translations tend to render flatly.",
-    "k": [
-      ["넌 내 푸른곰팡이", "푸른곰팡이 is penicillium, the blue mould Fleming found by accident on a neglected dish. Korean science classes use it as the standard example of a lucky accident, so the word is doing the title's work in one image. Calling someone your mould is not flattering on its face; it means you are the accident that saved my life, and 날 구원해 준 in the next line confirms the medical reading."],
-      ["난 네 삼색 고양이", "Calico cats are almost always female and have long been treated as lucky, and the Japanese beckoning cat is a calico. Set against the mould, the pair becomes lucky accident and lucky charm, each claiming the other. 고양이 is also Jimin's own long-standing fan nickname, which is why the line lands the way it does live."],
-      ["우린 시리도록 피어", "시리다 is the specific ache cold puts in teeth, fingers and eyes, and -도록 turns it into a measure, to the point of. So the blooming is painful and the pain is winter's, placed inside the series' warmest song. Keeping the cold loses the ache and keeping the ache loses the cold."],
-      ["설레는 만큼 많이 두려워, 너만큼 나도 많이 무서워", "-만큼 sets two things at equal size rather than ranking them. The verses pair the flutter with the fear and insist they match, which is the song's actual claim and not decoration. Substituting -보다 would make one outweigh the other and break the argument."]
-    ]
-  },
-  "lines": {},
-  "vocab": [
-    {"w": "우연", "en": "coincidence, chance", "note": "우연히 is the adverb, by chance; 우연이 아냐 denies it", "i": 0},
-    {"w": "느낌", "en": "feeling, sense, impression", "i": 1},
-    {"w": "기쁨", "en": "joy, gladness", "note": "From 기쁘다 with -ㅁ, the same build as 느낌 and 어긋남", "i": 3},
-    {"w": "부르다", "en": "to call, to summon", "note": "Also means to sing a song and, separately, to be full after eating", "i": 4},
-    {"w": "시리다", "en": "to ache with cold, be numbingly cold", "note": "For teeth, hands and eyes, not for weather, which is 춥다", "i": 7},
-    {"w": "피다", "en": "to bloom, to open", "i": 7},
-    {"w": "우주", "en": "universe, cosmos", "i": 8},
-    {"w": "섭리", "en": "providence, divine plan", "note": "A theology term for how a god governs events; not everyday Korean", "i": 8},
-    {"w": "설레다", "en": "to flutter with anticipation", "note": "The pre-excitement of a crush or a trip; English has no single verb for it", "i": 12},
-    {"w": "두렵다", "en": "to dread, be afraid", "note": "Heavier and more literary than 무섭다, which the song uses two lines later", "i": 12},
-    {"w": "질투하다", "en": "to be jealous, envy", "i": 13},
-    {"w": "무섭다", "en": "to be scary, be frightened", "i": 14},
-    {"w": "움직이다", "en": "to move, set in motion", "i": 17},
-    {"w": "어긋나다", "en": "to go awry, be out of alignment", "note": "For plans, bones and relationships that fail to meet properly", "i": 18},
-    {"w": "행복", "en": "happiness", "i": 19},
-    {"w": "예정되다", "en": "to be scheduled, be set in advance", "note": "예정 is diary vocabulary, as in 예정일 for a due date, so fate turns up sounding like an appointment", "i": 19},
-    {"w": "구원하다", "en": "to save, redeem", "note": "Religious salvation; 구하다 is physical rescue, which is what Save ME asks for", "i": 23},
-    {"w": "천사", "en": "angel", "i": 24},
-    {"w": "만나다", "en": "to meet", "note": "Takes 를 or 와, so 널 만나러 and 너와 만나러 are both fine", "i": 26},
-    {"w": "정해지다", "en": "to be decided, be settled", "note": "Passive of 정하다; 정해진 거 is a done deal", "i": 31}
+ "id": "b11",
+ "hook": [
+  22,
+  23,
+  24,
+  25,
+  26,
+  27
+ ],
+ "notes": {
+  "s": "Jimin's solo: being loved as something the universe arranged in advance.",
+  "t": "Jimin's solo and the comeback trailer for Love Yourself 承 Her, August 2017, later re-released in a longer version on 結 Answer. 承 is the continuation in the four-part 起承轉結 structure the series is built on, and this is the arc at its happiest, before Singularity cracks the same imagery open. Its two central images, a mould and a cat, are probably the most-quoted lines in BTS's catalogue among Korean-speaking fans, and they are also the two that fan translations tend to render flatly.",
+  "k": [
+   [
+    "넌 내 푸른곰팡이",
+    "푸른곰팡이 is penicillium, the blue mould Fleming found by accident on a neglected dish. Korean science classes use it as the standard example of a lucky accident, so the word is doing the title's work in one image. Calling someone your mould is not flattering on its face; it means you are the accident that saved my life, and 날 구원해 준 in the next line confirms the medical reading."
+   ],
+   [
+    "난 네 삼색 고양이",
+    "Calico cats are almost always female and have long been treated as lucky, and the Japanese beckoning cat is a calico. Set against the mould, the pair becomes lucky accident and lucky charm, each claiming the other. 고양이 is also Jimin's own long-standing fan nickname, which is why the line lands the way it does live."
+   ],
+   [
+    "우린 시리도록 피어",
+    "시리다 is the specific ache cold puts in teeth, fingers and eyes, and -도록 turns it into a measure, to the point of. So the blooming is painful and the pain is winter's, placed inside the series' warmest song. Keeping the cold loses the ache and keeping the ache loses the cold."
+   ],
+   [
+    "설레는 만큼 많이 두려워, 너만큼 나도 많이 무서워",
+    "-만큼 sets two things at equal size rather than ranking them. The verses pair the flutter with the fear and insist they match, which is the song's actual claim and not decoration. Substituting -보다 would make one outweigh the other and break the argument."
+   ]
   ]
+ },
+ "lines": {
+  "0": "None of this is a coincidence",
+  "1": "It's just, just what I feel",
+  "2": "The whole world is different from yesterday",
+  "3": "Just, just because of your joy",
+  "4": "When you called my name",
+  "5": "I became your flower",
+  "6": "As if we'd been waiting",
+  "7": "We bloom until it aches",
+  "8": "Perhaps it's the order of the universe",
+  "9": "That's simply how it was",
+  "10": "U know I know",
+  "11": "You are me and I am you",
+  "12": "I'm as afraid as I am thrilled",
+  "13": "Because fate keeps growing jealous of us",
+  "14": "I'm just as frightened as you are",
+  "15": "When you see me",
+  "16": "When you touch me",
+  "17": "The universe moved for us",
+  "18": "Nothing was even slightly out of place",
+  "19": "Your happiness and mine were meant to be",
+  "20": "Cuz you love me",
+  "21": "And I love you",
+  "22": "You're my blue mold",
+  "23": "The one who saved me",
+  "24": "My angel, my world",
+  "25": "I'm your calico cat",
+  "26": "Who came here to meet you",
+  "27": "Love me now touch me now",
+  "28": "Just let me love you",
+  "29": "Just let me love you",
+  "30": "From the moment the universe first began",
+  "31": "Everything had already been decided",
+  "32": "Just let me love you",
+  "33": "Let me love",
+  "34": "Let me love you",
+  "35": "Let me love",
+  "36": "Let me love you"
+ },
+ "vocab": [
+  {
+   "w": "우연",
+   "en": "coincidence, chance",
+   "note": "우연히 is the adverb, by chance; 우연이 아냐 denies it",
+   "i": 0
+  },
+  {
+   "w": "느낌",
+   "en": "feeling, sense, impression",
+   "i": 1
+  },
+  {
+   "w": "기쁨",
+   "en": "joy, gladness",
+   "note": "From 기쁘다 with -ㅁ, the same build as 느낌 and 어긋남",
+   "i": 3
+  },
+  {
+   "w": "부르다",
+   "en": "to call, to summon",
+   "note": "Also means to sing a song and, separately, to be full after eating",
+   "i": 4
+  },
+  {
+   "w": "시리다",
+   "en": "to ache with cold, be numbingly cold",
+   "note": "For teeth, hands and eyes, not for weather, which is 춥다",
+   "i": 7
+  },
+  {
+   "w": "피다",
+   "en": "to bloom, to open",
+   "i": 7
+  },
+  {
+   "w": "우주",
+   "en": "universe, cosmos",
+   "i": 8
+  },
+  {
+   "w": "섭리",
+   "en": "providence, divine plan",
+   "note": "A theology term for how a god governs events; not everyday Korean",
+   "i": 8
+  },
+  {
+   "w": "설레다",
+   "en": "to flutter with anticipation",
+   "note": "The pre-excitement of a crush or a trip; English has no single verb for it",
+   "i": 12
+  },
+  {
+   "w": "두렵다",
+   "en": "to dread, be afraid",
+   "note": "Heavier and more literary than 무섭다, which the song uses two lines later",
+   "i": 12
+  },
+  {
+   "w": "질투하다",
+   "en": "to be jealous, envy",
+   "i": 13
+  },
+  {
+   "w": "무섭다",
+   "en": "to be scary, be frightened",
+   "i": 14
+  },
+  {
+   "w": "움직이다",
+   "en": "to move, set in motion",
+   "i": 17
+  },
+  {
+   "w": "어긋나다",
+   "en": "to go awry, be out of alignment",
+   "note": "For plans, bones and relationships that fail to meet properly",
+   "i": 18
+  },
+  {
+   "w": "행복",
+   "en": "happiness",
+   "i": 19
+  },
+  {
+   "w": "예정되다",
+   "en": "to be scheduled, be set in advance",
+   "note": "예정 is diary vocabulary, as in 예정일 for a due date, so fate turns up sounding like an appointment",
+   "i": 19
+  },
+  {
+   "w": "구원하다",
+   "en": "to save, redeem",
+   "note": "Religious salvation; 구하다 is physical rescue, which is what Save ME asks for",
+   "i": 23
+  },
+  {
+   "w": "천사",
+   "en": "angel",
+   "i": 24
+  },
+  {
+   "w": "만나다",
+   "en": "to meet",
+   "note": "Takes 를 or 와, so 널 만나러 and 너와 만나러 are both fine",
+   "i": 26
+  },
+  {
+   "w": "정해지다",
+   "en": "to be decided, be settled",
+   "note": "Passive of 정하다; 정해진 거 is a done deal",
+   "i": 31
+  }
+ ]
 }

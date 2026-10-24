@@ -1,37 +1,181 @@
 {
-  "id": "b13",
-  "hook": [8, 9, 10, 11, 12],
-  "notes": {
-    "s": "Jin's solo: the person he was supposed to love turns out to be himself.",
-    "t": "Jin's solo and the comeback trailer for Love Yourself 結 Answer, August 2018, a straight rock ballad that lands the 結 resolution. Heard against the other three solos it works as a reply: Euphoria made someone else the cause and Serendipity made someone else the rescue, and this one withdraws the question from them. The series finishes its argument on Answer: Love Myself, but fans point here as the place the turn actually happens, because the self-erasure gets named first and refused second rather than skipped. It is also the track most often cited for the vocal rather than the concept.",
-    "k": [
-      ["뭐든 너에게 맞추고", "맞추다 is tuning one thing to another, the verb for setting a watch or adjusting seasoning. The line is not I pleased you; it is I reset my own settings to yours. That is why what follows treats it as a loss of shape rather than as an act of kindness, and why the storm is in his own chest."],
-      ["웃고 있는 가면", "가면 is a theatrical or carnival mask, and 가면을 쓰다 is the ordinary idiom for concealing your real self. The smiling-mask image runs straight into the persona thread the group built an entire later album around, so this is the hinge between Love Yourself and Map of the Soul."],
-      ["이제야 깨달아", "이제 is now, and the -야 particle adds not until. So the line carries a reproach at himself for how late the realisation is, which plain now I realise throws away. One particle is holding the emotional weight of the chorus."],
-      ["너무 아름다운 걸, 내가 곧 나인 걸", "-ㄴ 걸 contracts -ㄴ 것을 and works as a sentence ending for something just understood and half announced to yourself. It is why the chorus sounds like a discovery rather than a declaration, and it is everywhere in Korean ballads once you can hear it."]
-    ]
-  },
-  "lines": {},
-  "vocab": [
-    {"w": "이상하다", "en": "strange, odd, wrong", "i": 0},
-    {"w": "맞추다", "en": "to fit, adjust, tune to", "note": "시계를 맞추다 set a watch, 간을 맞추다 season to taste; the object is what gets adapted", "i": 2},
-    {"w": "폭풍", "en": "storm, tempest", "i": 5},
-    {"w": "감당하다", "en": "to handle, bear, cope with", "note": "Usually of a burden that may exceed you, so 감당할 수 없다 is very common", "i": 5},
-    {"w": "가면", "en": "mask", "note": "가면을 쓰다 is the idiom for hiding your true self", "i": 6},
-    {"w": "모습", "en": "appearance, form, the way one is", "note": "Wider than face or looks; 내 모습 is nearer to who I am", "i": 7},
-    {"w": "드러내다", "en": "to reveal, expose, show", "note": "Transitive; 드러나다 is for something coming to light on its own", "i": 7},
-    {"w": "빛나다", "en": "to shine, glow", "i": 9},
-    {"w": "소중하다", "en": "precious, dear, to be treasured", "i": 9},
-    {"w": "영혼", "en": "soul, spirit", "i": 9},
-    {"w": "깨닫다", "en": "to realise, come to understand", "note": "ㄷ-irregular, so the ㄷ becomes ㄹ before a vowel and gives 깨달아", "i": 10},
-    {"w": "부족하다", "en": "lacking, insufficient, not enough", "note": "Of supplies and of people; used about yourself it is modest rather than harsh", "i": 11},
-    {"w": "아름답다", "en": "beautiful", "note": "ㅂ-irregular, giving 아름다운 and 아름다워", "i": 11},
-    {"w": "숨기다", "en": "to hide something", "note": "Causative of 숨다, to hide oneself", "i": 14},
-    {"w": "두렵다", "en": "to fear, dread", "i": 15},
-    {"w": "뭉툭하다", "en": "blunt, stubby", "note": "Of a pencil tip or a nose; the opposite of 날카롭다", "i": 22},
-    {"w": "수줍다", "en": "shy, bashful", "i": 23},
-    {"w": "광채", "en": "brilliance, radiance", "i": 23},
-    {"w": "따위", "en": "that sort of thing, the likes of", "note": "Dismissive. Aimed at a person it is rude, so it is usually aimed at a thing", "i": 23},
-    {"w": "지금껏", "en": "up to now, all this time", "note": "-껏 attaches to time words meaning as far as, also 여태껏 and 아직껏", "i": 25}
+ "id": "b13",
+ "hook": [
+  8,
+  9,
+  10,
+  11,
+  12
+ ],
+ "notes": {
+  "s": "Jin's solo: the person he was supposed to love turns out to be himself.",
+  "t": "Jin's solo and the comeback trailer for Love Yourself 結 Answer, August 2018, a straight rock ballad that lands the 結 resolution. Heard against the other three solos it works as a reply: Euphoria made someone else the cause and Serendipity made someone else the rescue, and this one withdraws the question from them. The series finishes its argument on Answer: Love Myself, but fans point here as the place the turn actually happens, because the self-erasure gets named first and refused second rather than skipped. It is also the track most often cited for the vocal rather than the concept.",
+  "k": [
+   [
+    "뭐든 너에게 맞추고",
+    "맞추다 is tuning one thing to another, the verb for setting a watch or adjusting seasoning. The line is not I pleased you; it is I reset my own settings to yours. That is why what follows treats it as a loss of shape rather than as an act of kindness, and why the storm is in his own chest."
+   ],
+   [
+    "웃고 있는 가면",
+    "가면 is a theatrical or carnival mask, and 가면을 쓰다 is the ordinary idiom for concealing your real self. The smiling-mask image runs straight into the persona thread the group built an entire later album around, so this is the hinge between Love Yourself and Map of the Soul."
+   ],
+   [
+    "이제야 깨달아",
+    "이제 is now, and the -야 particle adds not until. So the line carries a reproach at himself for how late the realisation is, which plain now I realise throws away. One particle is holding the emotional weight of the chorus."
+   ],
+   [
+    "너무 아름다운 걸, 내가 곧 나인 걸",
+    "-ㄴ 걸 contracts -ㄴ 것을 and works as a sentence ending for something just understood and half announced to yourself. It is why the chorus sounds like a discovery rather than a declaration, and it is everywhere in Korean ballads once you can hear it."
+   ]
   ]
+ },
+ "lines": {
+  "0": "It's so strange",
+  "1": "I know I loved you so much",
+  "2": "I bent myself to fit you",
+  "3": "And wanted to live just for you",
+  "4": "But the more I did, the more",
+  "5": "The storm inside became too much to bear",
+  "6": "Beneath this smiling mask",
+  "7": "I reveal the real me at last",
+  "8": "I'm the one I should love in this world",
+  "9": "My shining self, my precious soul",
+  "10": "Now I finally know, so I love me",
+  "11": "Even with my flaws, I'm so beautiful",
+  "12": "I'm the one I should love",
+  "13": "Why did I",
+  "14": "Want to hide this precious self away?",
+  "15": "What was I so afraid of",
+  "16": "That I hid who I truly am?",
+  "17": "I'm the one I should love in this world",
+  "18": "My shining self, my precious soul",
+  "19": "Now I finally know, so I love me",
+  "20": "Even with my flaws, I'm so beautiful",
+  "21": "I'm the one I should love",
+  "22": "I may be a little rough around the edges",
+  "23": "My shy glow may not be easy to see",
+  "24": "But who I am right now is truly me",
+  "25": "These arms and legs, this heart and soul that carried me this far",
+  "26": "I want to love them in this world",
+  "27": "My shining self, my precious soul",
+  "28": "Now I finally know, so I love me",
+  "29": "Even with my flaws, I'm so beautiful",
+  "30": "I'm the one I should love",
+  "31": "I'm the one I should love",
+  "32": "I'm the one I should love"
+ },
+ "vocab": [
+  {
+   "w": "이상하다",
+   "en": "strange, odd, wrong",
+   "i": 0
+  },
+  {
+   "w": "맞추다",
+   "en": "to fit, adjust, tune to",
+   "note": "시계를 맞추다 set a watch, 간을 맞추다 season to taste; the object is what gets adapted",
+   "i": 2
+  },
+  {
+   "w": "폭풍",
+   "en": "storm, tempest",
+   "i": 5
+  },
+  {
+   "w": "감당하다",
+   "en": "to handle, bear, cope with",
+   "note": "Usually of a burden that may exceed you, so 감당할 수 없다 is very common",
+   "i": 5
+  },
+  {
+   "w": "가면",
+   "en": "mask",
+   "note": "가면을 쓰다 is the idiom for hiding your true self",
+   "i": 6
+  },
+  {
+   "w": "모습",
+   "en": "appearance, form, the way one is",
+   "note": "Wider than face or looks; 내 모습 is nearer to who I am",
+   "i": 7
+  },
+  {
+   "w": "드러내다",
+   "en": "to reveal, expose, show",
+   "note": "Transitive; 드러나다 is for something coming to light on its own",
+   "i": 7
+  },
+  {
+   "w": "빛나다",
+   "en": "to shine, glow",
+   "i": 9
+  },
+  {
+   "w": "소중하다",
+   "en": "precious, dear, to be treasured",
+   "i": 9
+  },
+  {
+   "w": "영혼",
+   "en": "soul, spirit",
+   "i": 9
+  },
+  {
+   "w": "깨닫다",
+   "en": "to realise, come to understand",
+   "note": "ㄷ-irregular, so the ㄷ becomes ㄹ before a vowel and gives 깨달아",
+   "i": 10
+  },
+  {
+   "w": "부족하다",
+   "en": "lacking, insufficient, not enough",
+   "note": "Of supplies and of people; used about yourself it is modest rather than harsh",
+   "i": 11
+  },
+  {
+   "w": "아름답다",
+   "en": "beautiful",
+   "note": "ㅂ-irregular, giving 아름다운 and 아름다워",
+   "i": 11
+  },
+  {
+   "w": "숨기다",
+   "en": "to hide something",
+   "note": "Causative of 숨다, to hide oneself",
+   "i": 14
+  },
+  {
+   "w": "두렵다",
+   "en": "to fear, dread",
+   "i": 15
+  },
+  {
+   "w": "뭉툭하다",
+   "en": "blunt, stubby",
+   "note": "Of a pencil tip or a nose; the opposite of 날카롭다",
+   "i": 22
+  },
+  {
+   "w": "수줍다",
+   "en": "shy, bashful",
+   "i": 23
+  },
+  {
+   "w": "광채",
+   "en": "brilliance, radiance",
+   "i": 23
+  },
+  {
+   "w": "따위",
+   "en": "that sort of thing, the likes of",
+   "note": "Dismissive. Aimed at a person it is rude, so it is usually aimed at a thing",
+   "i": 23
+  },
+  {
+   "w": "지금껏",
+   "en": "up to now, all this time",
+   "note": "-껏 attaches to time words meaning as far as, also 여태껏 and 아직껏",
+   "i": 25
+  }
+ ]
 }

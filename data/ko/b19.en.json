@@ -1,53 +1,235 @@
 {
-  "id": "b19",
-  "hook": [31, 32, 33, 34, 35],
-  "notes": {
-    "s": "A victory lap aimed squarely at everyone who said they would fail.",
-    "t": "The Steve Aoki remix of a Love Yourself 承 Her B-side gave the group their first Billboard Hot 100 entry that mattered, and the song works as the receipt for the class insults in 뱁새 and 불타오르네. Suga wrote the opening spoon line as a direct answer to being called a dirt spoon. The trash talk is dense with Korean-only references, including ticketing slang and a four-character idiom, so English versions read much flatter than the original. The mic-drop moment at the 2017 AMAs is where most non-Korean fans arrived.",
-    "k": [
-      ["우리 콘서트 절대 없어 포도", "포도 is a grape, and in Korean ticketing slang it is an insult. On the seat maps at Interpark an unsold seat shows as a purple dot, so a chart full of them looks like a bunch of grapes and a 포도밭, a vineyard, is a show nobody bought. Claiming your concerts never have grapes is claiming they sell out on sight. No amount of dictionary work gets you there."],
-      ["혹 배가 아프다면 고소해", "배가 아프다 is a stomach ache and also the standard idiom for envy, from the proverb about your cousin buying land. 고소해 then runs three ways: sue me, it tastes nutty, and the colloquial serves you right, which is delicious. Sue me is primary, with the gloating sense riding underneath. Korean insult writing stacks homophones like this deliberately."],
-      ["이거 완전 네 글자 / 사필귀정", "사필귀정 is 事必歸正, a four-character Sino-Korean idiom meaning everything eventually comes back around to what is right. 네 글자 means four characters, and Korean counts these idioms by syllable, which is why the category is called 사자성어, four-character phrase. Announcing the count before delivering the phrase is the setup to the punchline."],
-      ["Hater들은 벌써 학을 떼", "학을 떼다 means to be thoroughly done with something after a bad time of it. The 학 is 瘧, malaria, and the image is shaking the fever off, so it is far stronger than 싫어하다: they have been through it and never want to again. Spelled with 떼다, to detach, not 때다."]
-    ]
-  },
-  "lines": {
-    "0": "Yeah, who says my spoon is dirty",
-    "1": "I don't care, give me a mic and I beat down a few gold spoons",
-    "14": "Sorry, Mom, your son is doing too well",
-    "16": "Our concerts never have grapes",
-    "18": "If your stomach hurts about it, sue me",
-    "25": "The haters are already sick of it",
-    "31": "Trophies in my hands, ah, way too many",
-    "32": "Too heavy, my two hands aren't enough",
-    "33": "Mic drop, mic drop",
-    "34": "Watch your step",
-    "35": "Watch your mouths, all of you",
-    "41": "This one's four characters flat",
-    "42": "Right wins out in the end, ah",
-    "78": "No reason to see you again, this is the last goodbye",
-    "82": "Watch, you'll end up looking like that"
-  },
-  "vocab": [
-    {"w": "수저", "en": "spoon, cutlery", "note": "금수저 gold spoon and 흙수저 dirt spoon are the mid-2010s shorthand for the family you were born into", "i": 0},
-    {"w": "더럽다", "en": "be dirty, be filthy", "i": 0},
-    {"w": "패다", "en": "beat someone up", "note": "Rough slang, and separately the verb for chopping firewood", "i": 1},
-    {"w": "익다", "en": "ripen, be cooked", "note": "Applied to people it means mature, so half-cooked ones are the immature ones", "i": 2},
-    {"w": "씹다", "en": "chew; trash-talk someone", "note": "Also means to ignore a message on purpose, left on read", "i": 3},
-    {"w": "핵심", "en": "the core, the crux", "i": 4},
-    {"w": "섭외", "en": "booking, lining up a guest", "note": "Industry word for getting someone onto a show or a bill", "i": 5},
-    {"w": "매진", "en": "sold out", "i": 5},
-    {"w": "만끽", "en": "full enjoyment", "note": "만끽하다 is to savour something to the very limit", "i": 6},
-    {"w": "전진", "en": "advance, forward movement", "i": 10},
-    {"w": "효도", "en": "filial duty", "note": "효도하다 is doing right by your parents; the verse hands the job to a sibling to cover", "i": 15},
-    {"w": "가득하다", "en": "be full of, be packed with", "i": 22},
-    {"w": "성공", "en": "success", "i": 26},
-    {"w": "황금빛", "en": "golden, gold-coloured", "note": "The suffix -빛 means the colour or light of: 은빛 silver, 핏빛 blood red", "i": 26},
-    {"w": "황급히", "en": "hurriedly, in a panic", "i": 28},
-    {"w": "도망", "en": "fleeing, escape", "note": "도망가다 or 도망치다 to run away", "i": 28},
-    {"w": "모자라다", "en": "be short of, be lacking", "note": "모잘라 in the lyric is the colloquial squeeze of it", "i": 32},
-    {"w": "조심", "en": "care, caution", "note": "말 조심 watch your mouth, 발 조심 watch your step, 몸조심 take care of yourself", "i": 34},
-    {"w": "꼴", "en": "a state, a sorry sight", "note": "Always derogatory, so 그 꼴 나지 means you will end up looking like that", "i": 82},
-    {"w": "폼나다", "en": "look sharp, look cool", "note": "폼 is the English form; the whole word is 2010s slang", "i": 85}
+ "id": "b19",
+ "hook": [
+  31,
+  32,
+  33,
+  34,
+  35
+ ],
+ "notes": {
+  "s": "A victory lap aimed squarely at everyone who said they would fail.",
+  "t": "The Steve Aoki remix of a Love Yourself 承 Her B-side gave the group their first Billboard Hot 100 entry that mattered, and the song works as the receipt for the class insults in 뱁새 and 불타오르네. Suga wrote the opening spoon line as a direct answer to being called a dirt spoon. The trash talk is dense with Korean-only references, including ticketing slang and a four-character idiom, so English versions read much flatter than the original. The mic-drop moment at the 2017 AMAs is where most non-Korean fans arrived.",
+  "k": [
+   [
+    "우리 콘서트 절대 없어 포도",
+    "포도 is a grape, and in Korean ticketing slang it is an insult. On the seat maps at Interpark an unsold seat shows as a purple dot, so a chart full of them looks like a bunch of grapes and a 포도밭, a vineyard, is a show nobody bought. Claiming your concerts never have grapes is claiming they sell out on sight. No amount of dictionary work gets you there."
+   ],
+   [
+    "혹 배가 아프다면 고소해",
+    "배가 아프다 is a stomach ache and also the standard idiom for envy, from the proverb about your cousin buying land. 고소해 then runs three ways: sue me, it tastes nutty, and the colloquial serves you right, which is delicious. Sue me is primary, with the gloating sense riding underneath. Korean insult writing stacks homophones like this deliberately."
+   ],
+   [
+    "이거 완전 네 글자 / 사필귀정",
+    "사필귀정 is 事必歸正, a four-character Sino-Korean idiom meaning everything eventually comes back around to what is right. 네 글자 means four characters, and Korean counts these idioms by syllable, which is why the category is called 사자성어, four-character phrase. Announcing the count before delivering the phrase is the setup to the punchline."
+   ],
+   [
+    "Hater들은 벌써 학을 떼",
+    "학을 떼다 means to be thoroughly done with something after a bad time of it. The 학 is 瘧, malaria, and the image is shaking the fever off, so it is far stronger than 싫어하다: they have been through it and never want to again. Spelled with 떼다, to detach, not 때다."
+   ]
   ]
+ },
+ "lines": {
+  "0": "Yeah, who says my spoon is dirty?",
+  "1": "I don't care, when I grab the mic I beat down plenty of silver spoons",
+  "2": "I flare up, stacks of undercooked steaks",
+  "3": "I'll chew them up again and again at this star's dinner",
+  "4": "The heart of world business",
+  "5": "First choice for bookings, sold out",
+  "6": "Not many can savor the value of this class",
+  "7": "A foul stench among fine fragrances is cheating",
+  "8": "Mic mic bungee",
+  "9": "Mic mic bungee",
+  "10": "Bright light, moving forward",
+  "11": "You thought I'd fail, but I'm fine, sorry",
+  "12": "Sorry, Billboard",
+  "13": "Sorry, worldwide",
+  "14": "Sorry, Mom, your son's doing way too well",
+  "15": "I do the filial duty you never could",
+  "16": "At our concerts, not a single seat is left",
+  "17": "I do it, I do it, you're tasteless ratatouille",
+  "18": "If that makes your stomach hurt, then sue me",
+  "19": "Sue it",
+  "20": "Did you see my bag",
+  "21": "Did you see my bag",
+  "22": "My bag is filled with trophies",
+  "23": "How you think bout that",
+  "24": "How you think bout that",
+  "25": "The haters are already sick of the sight",
+  "26": "Already golden, golden, my success",
+  "27": "I'm so firin' firin', carrying the Olympic torch",
+  "28": "You run away in a hurry, hurry, whoosh, whoosh",
+  "29": "How you dare, how you dare",
+  "30": "How you dare",
+  "31": "Ah, there are too many trophies in my hands",
+  "32": "They're too heavy, my two hands aren't enough",
+  "33": "Mic drop, mic drop",
+  "34": "Watch your feet, feet",
+  "35": "Watch your words, words",
+  "36": "Lodi dodi, ah, I'm far too busy",
+  "37": "Too busy, my whole body isn't enough",
+  "38": "Mic drop, mic drop",
+  "39": "Watch your feet, feet",
+  "40": "Watch your words, words",
+  "41": "This is exactly four characters:",
+  "42": "Justice always prevails, ah",
+  "43": "Once upon a time",
+  "44": "An Aesop's fable, fly",
+  "45": "Look at your reality—serves you right",
+  "46": "Even if I died now, I'd be damn happy",
+  "47": "Which country are we going to this time?",
+  "48": "How many hours will we fly?",
+  "49": "Yeah, I'm on the mountain",
+  "50": "Yeah, I'm on the bay",
+  "51": "Collapsing from exhaustion onstage",
+  "52": "Mic drop, baam",
+  "53": "Did you see my bag",
+  "54": "Did you see my bag",
+  "55": "My bag is filled with trophies",
+  "56": "How you think bout that",
+  "57": "How you think bout that",
+  "58": "The haters are already sick of the sight",
+  "59": "Already golden, golden, my success",
+  "60": "I'm so firin' firin', carrying the Olympic torch",
+  "61": "You run away in a hurry, hurry, whoosh, whoosh",
+  "62": "How you dare, how you dare",
+  "63": "How you dare",
+  "64": "Ah, there are too many trophies in my hands",
+  "65": "They're too heavy, my two hands aren't enough",
+  "66": "Mic drop, mic drop",
+  "67": "Watch your feet, feet",
+  "68": "Watch your words, words",
+  "69": "Lodi dodi, ah, I'm far too busy",
+  "70": "Too busy, my whole body isn't enough",
+  "71": "Mic drop, mic drop",
+  "72": "Watch your feet, feet",
+  "73": "Watch your words, words",
+  "74": "Haters gon' hate",
+  "75": "Players gon' play",
+  "76": "Live a life, man",
+  "77": "Good luck",
+  "78": "We'll never meet again, this is my last goodbye",
+  "79": "There's nothing to say, don't even apologize",
+  "80": "We'll never meet again, this is my last goodbye",
+  "81": "There's nothing to say, don't even apologize",
+  "82": "Look closely, that's how you end up",
+  "83": "We burst and pop, just like cola",
+  "84": "Your eyes open wide in shock",
+  "85": "We look pretty, pretty fly, f-f-fly"
+ },
+ "vocab": [
+  {
+   "w": "수저",
+   "en": "spoon, cutlery",
+   "note": "금수저 gold spoon and 흙수저 dirt spoon are the mid-2010s shorthand for the family you were born into",
+   "i": 0
+  },
+  {
+   "w": "더럽다",
+   "en": "be dirty, be filthy",
+   "i": 0
+  },
+  {
+   "w": "패다",
+   "en": "beat someone up",
+   "note": "Rough slang, and separately the verb for chopping firewood",
+   "i": 1
+  },
+  {
+   "w": "익다",
+   "en": "ripen, be cooked",
+   "note": "Applied to people it means mature, so half-cooked ones are the immature ones",
+   "i": 2
+  },
+  {
+   "w": "씹다",
+   "en": "chew; trash-talk someone",
+   "note": "Also means to ignore a message on purpose, left on read",
+   "i": 3
+  },
+  {
+   "w": "핵심",
+   "en": "the core, the crux",
+   "i": 4
+  },
+  {
+   "w": "섭외",
+   "en": "booking, lining up a guest",
+   "note": "Industry word for getting someone onto a show or a bill",
+   "i": 5
+  },
+  {
+   "w": "매진",
+   "en": "sold out",
+   "i": 5
+  },
+  {
+   "w": "만끽",
+   "en": "full enjoyment",
+   "note": "만끽하다 is to savour something to the very limit",
+   "i": 6
+  },
+  {
+   "w": "전진",
+   "en": "advance, forward movement",
+   "i": 10
+  },
+  {
+   "w": "효도",
+   "en": "filial duty",
+   "note": "효도하다 is doing right by your parents; the verse hands the job to a sibling to cover",
+   "i": 15
+  },
+  {
+   "w": "가득하다",
+   "en": "be full of, be packed with",
+   "i": 22
+  },
+  {
+   "w": "성공",
+   "en": "success",
+   "i": 26
+  },
+  {
+   "w": "황금빛",
+   "en": "golden, gold-coloured",
+   "note": "The suffix -빛 means the colour or light of: 은빛 silver, 핏빛 blood red",
+   "i": 26
+  },
+  {
+   "w": "황급히",
+   "en": "hurriedly, in a panic",
+   "i": 28
+  },
+  {
+   "w": "도망",
+   "en": "fleeing, escape",
+   "note": "도망가다 or 도망치다 to run away",
+   "i": 28
+  },
+  {
+   "w": "모자라다",
+   "en": "be short of, be lacking",
+   "note": "모잘라 in the lyric is the colloquial squeeze of it",
+   "i": 32
+  },
+  {
+   "w": "조심",
+   "en": "care, caution",
+   "note": "말 조심 watch your mouth, 발 조심 watch your step, 몸조심 take care of yourself",
+   "i": 34
+  },
+  {
+   "w": "꼴",
+   "en": "a state, a sorry sight",
+   "note": "Always derogatory, so 그 꼴 나지 means you will end up looking like that",
+   "i": 82
+  },
+  {
+   "w": "폼나다",
+   "en": "look sharp, look cool",
+   "note": "폼 is the English form; the whole word is 2010s slang",
+   "i": 85
+  }
+ ]
 }

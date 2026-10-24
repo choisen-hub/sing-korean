@@ -1,37 +1,194 @@
 {
-  "id": "b10",
-  "hook": [8, 9, 10, 11, 12, 13, 14, 15],
-  "notes": {
-    "s": "Jungkook's solo: a happiness so complete he suspects it of being a dream.",
-    "t": "Jungkook's solo, released April 2018 as the theme for Love Yourself 起 Wonder, with no album to live on until 結 Answer collected it months later. Chronologically it opens the four-solo arc that fans read as one story: wonder here, then Serendipity, Singularity and Epiphany. The video revisits locations from the 화양연화 videos, which is why the storyline-tracking side of the fandom treats it as a reward track. It wins ARMY's best-B-side polls with some regularity.",
-    "k": [
-      ["어린 시절 내 꿈들의 재림", "재림 is the Second Coming, specifically the Christian one, and carries no casual sense in Korean. Childhood dreams returning get described with the vocabulary of prophesied divine return, which is the first instance of a habit the whole Love Yourself series has, borrowing salvation words for a love song. Serendipity's 구원 and Save ME's 구해줘 are the same move."],
-      ["내 안 깊은 곳의 A priori", "Left in Latin in the Korean lyric. A priori knowledge is what you hold before any experience of the world, so the claim is that she was in him before they ever met. That is the series' argument about fate stated as epistemology, and Serendipity restates it in plainer words."],
-      ["꿈은 사막의 푸른 신기루", "신기루 is a mirage. Four lines in, the song concedes that the dream may be an optical trick in a desert, and everything sung afterwards is sung with that concession standing. It turns the later plea not to wake up into something closer to fear than to bliss."],
-      ["갈라진대도, 흔들어도", "Two concessive endings back to back, both meaning even if. -ㄴ대도 contracts -ㄴ다고 해도, so it is even if they say it does, one step further removed than a plain -아도. Stacking concessives is the standard Korean way to build a no-matter-what chorus, and spotting the pattern makes a lot of other bridges readable."]
-    ]
-  },
-  "lines": {},
-  "vocab": [
-    {"w": "햇빛", "en": "sunlight", "i": 0},
-    {"w": "시절", "en": "days, period, era of a life", "note": "For life stages such as 학생 시절; not used for clock time", "i": 1},
-    {"w": "감정", "en": "emotion, feeling", "note": "The abstract category; 느낌 is a particular sensation", "i": 2},
-    {"w": "사막", "en": "desert", "i": 4},
-    {"w": "푸르다", "en": "blue, green, verdant", "note": "Covers both colours, so the sky and a forest are both 푸르다", "i": 4},
-    {"w": "신기루", "en": "mirage", "i": 4},
-    {"w": "막히다", "en": "to be blocked, be stopped up", "note": "숨이 막히다 is both breathtaking and suffocating; only context separates them", "i": 6},
-    {"w": "투명하다", "en": "transparent, clear", "i": 7},
-    {"w": "건너다", "en": "to cross, go over", "i": 9},
-    {"w": "수풀", "en": "thicket, undergrowth", "i": 9},
-    {"w": "너머", "en": "beyond, the far side of", "note": "A noun, so it follows what it is beyond, as in 산 너머", "i": 9},
-    {"w": "선명하다", "en": "vivid, distinct, sharply defined", "i": 10},
-    {"w": "헤매다", "en": "to wander, search without direction", "i": 20},
-    {"w": "운명", "en": "fate, destiny", "i": 21},
-    {"w": "흔하다", "en": "common, ordinary, everywhere", "note": "Often mildly dismissive, as it is here about the word 운명 itself", "i": 21},
-    {"w": "눈빛", "en": "the look in someone's eyes", "note": "Literally eye-light; the expression rather than the eyes", "i": 22},
-    {"w": "모래", "en": "sand", "i": 32},
-    {"w": "갈라지다", "en": "to split, crack apart", "i": 32},
-    {"w": "흔들다", "en": "to shake, rock", "note": "흔들리다 is the passive, to be shaken", "i": 33},
-    {"w": "깨어나다", "en": "to wake up, come to", "i": 35}
+ "id": "b10",
+ "hook": [
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15
+ ],
+ "notes": {
+  "s": "Jungkook's solo: a happiness so complete he suspects it of being a dream.",
+  "t": "Jungkook's solo, released April 2018 as the theme for Love Yourself 起 Wonder, with no album to live on until 結 Answer collected it months later. Chronologically it opens the four-solo arc that fans read as one story: wonder here, then Serendipity, Singularity and Epiphany. The video revisits locations from the 화양연화 videos, which is why the storyline-tracking side of the fandom treats it as a reward track. It wins ARMY's best-B-side polls with some regularity.",
+  "k": [
+   [
+    "어린 시절 내 꿈들의 재림",
+    "재림 is the Second Coming, specifically the Christian one, and carries no casual sense in Korean. Childhood dreams returning get described with the vocabulary of prophesied divine return, which is the first instance of a habit the whole Love Yourself series has, borrowing salvation words for a love song. Serendipity's 구원 and Save ME's 구해줘 are the same move."
+   ],
+   [
+    "내 안 깊은 곳의 A priori",
+    "Left in Latin in the Korean lyric. A priori knowledge is what you hold before any experience of the world, so the claim is that she was in him before they ever met. That is the series' argument about fate stated as epistemology, and Serendipity restates it in plainer words."
+   ],
+   [
+    "꿈은 사막의 푸른 신기루",
+    "신기루 is a mirage. Four lines in, the song concedes that the dream may be an optical trick in a desert, and everything sung afterwards is sung with that concession standing. It turns the later plea not to wake up into something closer to fear than to bliss."
+   ],
+   [
+    "갈라진대도, 흔들어도",
+    "Two concessive endings back to back, both meaning even if. -ㄴ대도 contracts -ㄴ다고 해도, so it is even if they say it does, one step further removed than a plain -아도. Stacking concessives is the standard Korean way to build a no-matter-what chorus, and spotting the pattern makes a lot of other bridges readable."
+   ]
   ]
+ },
+ "lines": {
+  "0": "You are the sunlight that rose again in my life",
+  "1": "The return of my childhood dreams",
+  "2": "I don't know what this feeling is",
+  "3": "Could I still be inside a dream?",
+  "4": "A dream is a blue mirage in the desert",
+  "5": "The a priori deep inside me",
+  "6": "I'm so happy I can hardly breathe",
+  "7": "Everything around me grows more transparent",
+  "8": "I hear the ocean in the distance",
+  "9": "Across the dream and beyond the woods",
+  "10": "I go toward that place coming into focus",
+  "11": "Take my hands now",
+  "12": "You are the cause of my euphoria",
+  "13": "Euphoria",
+  "14": "Take my hands now",
+  "15": "You are the cause of my euphoria",
+  "16": "Euphoria",
+  "17": "Close the door now",
+  "18": "When I'm with you I'm in utopia",
+  "19": "Did you, like me,",
+  "20": "Wander in search of a dream erased?",
+  "21": "This is different from clichés like destiny",
+  "22": "Your aching eyes are looking at the same place as mine",
+  "23": "Won't you please stay in dreams",
+  "24": "I hear the ocean in the distance",
+  "25": "Across the dream and beyond the woods",
+  "26": "I go toward that place coming into focus",
+  "27": "Take my hands now",
+  "28": "You are the cause of my euphoria",
+  "29": "Euphoria",
+  "30": "Take my hands now",
+  "31": "You are the cause of my euphoria",
+  "32": "Even if the sandy ground splits apart",
+  "33": "Even if someone shakes this world",
+  "34": "Please never let go of the hand you're holding",
+  "35": "Please don't wake from this dream",
+  "36": "I hear the ocean in the distance",
+  "37": "Across the dream and beyond the woods",
+  "38": "I go toward that place coming into focus",
+  "39": "Take my hands now",
+  "40": "You are the cause of my euphoria",
+  "41": "Euphoria",
+  "42": "Take my hands now",
+  "43": "You are the cause of my euphoria",
+  "44": "Euphoria",
+  "45": "Close the door now",
+  "46": "When I'm with you I'm in utopia"
+ },
+ "vocab": [
+  {
+   "w": "햇빛",
+   "en": "sunlight",
+   "i": 0
+  },
+  {
+   "w": "시절",
+   "en": "days, period, era of a life",
+   "note": "For life stages such as 학생 시절; not used for clock time",
+   "i": 1
+  },
+  {
+   "w": "감정",
+   "en": "emotion, feeling",
+   "note": "The abstract category; 느낌 is a particular sensation",
+   "i": 2
+  },
+  {
+   "w": "사막",
+   "en": "desert",
+   "i": 4
+  },
+  {
+   "w": "푸르다",
+   "en": "blue, green, verdant",
+   "note": "Covers both colours, so the sky and a forest are both 푸르다",
+   "i": 4
+  },
+  {
+   "w": "신기루",
+   "en": "mirage",
+   "i": 4
+  },
+  {
+   "w": "막히다",
+   "en": "to be blocked, be stopped up",
+   "note": "숨이 막히다 is both breathtaking and suffocating; only context separates them",
+   "i": 6
+  },
+  {
+   "w": "투명하다",
+   "en": "transparent, clear",
+   "i": 7
+  },
+  {
+   "w": "건너다",
+   "en": "to cross, go over",
+   "i": 9
+  },
+  {
+   "w": "수풀",
+   "en": "thicket, undergrowth",
+   "i": 9
+  },
+  {
+   "w": "너머",
+   "en": "beyond, the far side of",
+   "note": "A noun, so it follows what it is beyond, as in 산 너머",
+   "i": 9
+  },
+  {
+   "w": "선명하다",
+   "en": "vivid, distinct, sharply defined",
+   "i": 10
+  },
+  {
+   "w": "헤매다",
+   "en": "to wander, search without direction",
+   "i": 20
+  },
+  {
+   "w": "운명",
+   "en": "fate, destiny",
+   "i": 21
+  },
+  {
+   "w": "흔하다",
+   "en": "common, ordinary, everywhere",
+   "note": "Often mildly dismissive, as it is here about the word 운명 itself",
+   "i": 21
+  },
+  {
+   "w": "눈빛",
+   "en": "the look in someone's eyes",
+   "note": "Literally eye-light; the expression rather than the eyes",
+   "i": 22
+  },
+  {
+   "w": "모래",
+   "en": "sand",
+   "i": 32
+  },
+  {
+   "w": "갈라지다",
+   "en": "to split, crack apart",
+   "i": 32
+  },
+  {
+   "w": "흔들다",
+   "en": "to shake, rock",
+   "note": "흔들리다 is the passive, to be shaken",
+   "i": 33
+  },
+  {
+   "w": "깨어나다",
+   "en": "to wake up, come to",
+   "i": 35
+  }
+ ]
 }

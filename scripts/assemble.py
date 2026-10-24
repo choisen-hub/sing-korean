@@ -173,6 +173,20 @@ def main():
     with open(os.path.join(OUT, "index.json"), "w", encoding="utf-8") as f:
         json.dump(index, f, ensure_ascii=False, separators=(",", ":"))
 
+    # 검색 전용 경량 색인. 이것이 없으면 검색 한 번에 곡 파일 35개를
+    # 전부 내려받아야 해서 첫 검색이 1.5 MB를 긁는다.
+    search = []
+    for e in index:
+        doc = load_json(os.path.join(OUT, "song", f"{e['id']}.json"), {}) or {}
+        for it in doc.get("items") or []:
+            if it.get("gap"):
+                continue
+            search.append([e["id"], it["i"], it["ko"], it.get("r") or "", it.get("en") or ""])
+    with open(os.path.join(OUT, "lines.json"), "w", encoding="utf-8") as f:
+        json.dump(search, f, ensure_ascii=False, separators=(",", ":"))
+    print(f"search index {len(search):,} lines, "
+          f"{os.path.getsize(os.path.join(OUT, 'lines.json'))/1024:.0f} KB")
+
     # 빈도표에 손으로 쓴 뜻을 얹는다. 역변환 사전 값은 뒤로 밀린다.
     freq = load_json(os.path.join(DATA, "freq.json"), []) or []
     hit = 0

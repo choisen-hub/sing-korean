@@ -38,7 +38,7 @@ SHOTS = [
 ]
 
 
-def capture(name, route, scroll=0):
+def capture(name, route, scroll=0, js=""):
     html = f"""<!DOCTYPE html><html><head><meta charset="utf-8"><style>
     *{{margin:0;padding:0}} html,body{{background:#120B22}}
     iframe{{width:{PW}px;height:{PH}px;border:0;display:block}}
@@ -47,7 +47,13 @@ def capture(name, route, scroll=0):
     <script>
       const f=document.getElementById('f');
       f.addEventListener('load',()=>{{
-        setTimeout(()=>{{ try{{ f.contentWindow.scrollTo(0,{scroll}); }}catch(e){{}} }},700);
+        setTimeout(()=>{{
+          try{{
+            const d=f.contentDocument, w=f.contentWindow;
+            {js}
+            w.scrollTo(0,{scroll});
+          }}catch(e){{}}
+        }},1600);
       }});
     </script></body></html>"""
     with tempfile.NamedTemporaryFile("w", suffix=".html", delete=False, encoding="utf-8") as f:
@@ -60,7 +66,7 @@ def capture(name, route, scroll=0):
         f"--user-data-dir=/tmp/sk-cap-{name}",
         f"--force-device-scale-factor={SCALE}",
         f"--window-size={PW + 300},{PH + 300}",
-        "--virtual-time-budget=9000",
+        "--virtual-time-budget=16000",
         f"--screenshot={raw}", f"file://{wrapper}",
     ], capture_output=True)
     os.unlink(wrapper)

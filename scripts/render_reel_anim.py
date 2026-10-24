@@ -159,7 +159,9 @@ def build_html():
         f.write(html)
 
 
-def frame(args):
+def frame(args, _tries=3):
+    """한 프레임. Chrome이 간헐적으로 빈손으로 끝나므로 재시도한다.
+    프레임이 하나라도 비면 ffmpeg의 image2 입력이 거기서 끊긴다."""
     i, t = args
     out = os.path.join(OUTDIR, f"{i:04d}.png")
     raw = os.path.join(OUTDIR, f".r{i:04d}.png")
@@ -171,6 +173,8 @@ def frame(args):
         f"--screenshot={raw}", f"file://{HTML}?t={t:.3f}",
     ], capture_output=True)
     if not os.path.exists(raw):
+        if _tries > 1:
+            return frame(args, _tries - 1)
         return None
     Image.open(raw).convert("RGB").crop((0, 0, W, H)).save(out)
     os.unlink(raw)
@@ -194,6 +198,20 @@ def main():
             if done % 24 == 0:
                 print(f"  {done}/{n}")
     print(f"  {done}/{n} frames")
+
+    # 그래도 빠진 자리가 있으면 직전 프레임으로 메운다. 12 fps에서 한 장은
+    # 눈에 띄지 않고, 비워 두면 영상이 그 지점에서 잘린다.
+    filled = 0
+    last = None
+    for i in range(n):
+        p_i = os.path.join(OUTDIR, f"{i:04d}.png")
+        if os.path.exists(p_i):
+            last = p_i
+        elif last:
+            Image.open(last).save(p_i)
+            filled += 1
+    if filled:
+        print(f"  filled {filled} dropped frames from their neighbour")
 
     r = subprocess.run([
         "ffmpeg", "-y", "-framerate", str(fps), "-i", os.path.join(OUTDIR, "%04d.png"),

@@ -1,0 +1,11 @@
+{
+ "source": "pollinations.ai (free tier, model sana, no key)",
+ "prompt": "photorealistic portrait of a friendly Korean woman in her mid twenties, warm natural smile, looking straight at the camera, shoulder-up framing, soft indoor lighting, plain lilac wall behind her, casual knit sweater, shot on a 50mm lens, shallow depth of field, no text, no logos",
+ "seed": 73519,
+ "native_size": [
+  576,
+  1024
+ ],
+ "post": "bottom 12% cropped to remove the pollinations watermark, 6% off each side, upscaled to 1080 wide with Lanczos, slight sharpen and saturation",
+ "note": "fictional person, generated. Free tier rate limits to roughly one image per cooldown and ignores the requested resolution, returning 576x1024."
+}

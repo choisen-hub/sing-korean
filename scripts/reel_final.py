@@ -1,11 +1,19 @@
 # -*- coding: utf-8 -*-
-"""The whole reel: narration, a moving face, synced captions, and real music.
+"""The whole reel: narration, real app footage, synced captions and music.
 
-Order matters here. The narration is built first and its measured length sets
-each shot's duration, so captions and cuts land on the words instead of on a
-guessed grid. The puppet is then rendered once across the full timeline driven
-by that same audio, and each shot pulls its segment out of it. Rendering the
-face per shot would have let the mouth drift out of step at every boundary.
+An earlier version put an animated presenter in front, copying the reference
+format. It was wrong twice. A still photo with a stretched mouth sits squarely
+in the uncanny valley, and more importantly the reference needs a presenter
+because the presenter is the content there, a person reacting. What we have is
+a product doing something, so the product should carry the frame and a face
+pasted over it only reads as fake.
+
+What the reference still gives us is everything else: caption style, the mix of
+long explanation shots and sub-second punches, a label box naming the subject
+in the opening, and adding nothing the format does not already have.
+
+Narration is built first and its measured length sets each shot's duration, so
+cuts and captions land on the words rather than on a guessed grid.
 
   python3 scripts/reel_final.py
   python3 scripts/reel_final.py --fast     # 15 fps puppet, for checking timing
@@ -25,7 +33,7 @@ HOST = os.path.join(MEDIA, "presenter", "presenter.png")
 OUT = os.path.join(MEDIA, "sing-korean-final.mp4")
 
 W, H, FPS = 1080, 1920, 30
-SPLIT_TOP = 880
+TOPBAND = 640      # 자막이 앉을 조용한 띠. 앱 화면은 그 아래로 밀어 넣는다
 SPLIT_HOST_W = 780
 SPLIT_FACE_Y = 275
 VOICE = "Samantha"
@@ -36,45 +44,48 @@ sys.path.insert(0, HERE)
 
 # narration 이 그 컷의 길이를 정한다. layout 과 clip 은 reel_hosted 와 같은 뜻.
 SHOTS = [
-    dict(say="You have sung this line a hundred times.", layout="host",
-         html='<div class="label">보고 싶다<small>bogo sipta</small></div>'),
-    dict(say="Everyone tells you it means, I miss you.", layout="split",
-         clip="lyrics", seg=(1.05, 1.60),
+    dict(say="You have sung this line a hundred times.", layout="plate",
+         html='<div class="hero"><span class="ko">보고 싶다</span>'
+              '<span class="rom">bogo sipta</span></div>'),
+    dict(say="Everyone tells you it means, I miss you.", layout="clip",
+         clip="lyrics", seg=(1.05, 1.70),
          html='<div class="cap">Everyone says<br>it means</div>'),
-    dict(say="That is the translation.", layout="host",
+    dict(say="That is the translation.", layout="plate",
          html='<div class="cap"><s>I miss you</s></div>'),
-    dict(say="It is not what the words say.", layout="split",
-         clip="lyrics", seg=(0.33, 1.67), speed=2.2,
+    dict(say="It is not what the words say.", layout="clip",
+         clip="lyrics", seg=(0.33, 1.67), speed=2.0,
          html='<div class="cap">not what<br>the words say</div>'),
-    dict(say="Tap it, and it comes apart.", layout="split",
+    dict(say="Tap it, and it comes apart.", layout="clip",
          clip="lyrics", seg=(1.80, 3.27),
          html='<div class="cap">tap it</div>'),
     dict(say="Bo, to see. Go, and. Ship, want to.", layout="plate",
          html='<div class="cap"><span class="ko">보 + 고 + 싶</span><br>'
-              '<span style="font-size:72px">see &nbsp;+&nbsp; and &nbsp;+&nbsp; want to</span></div>'),
-    dict(say="So in Korean, I miss you is I want to see you.", layout="host",
+              '<span style="font-size:70px">see &nbsp;+&nbsp; and &nbsp;+&nbsp; want to</span></div>'),
+    dict(say="So I miss you is really I want to see you.", layout="plate",
          html='<div class="cap">I want<br>to see you</div>'),
     dict(say="Learn the pattern and you get the rest for free.", layout="plate",
          html='<div class="cap"><span class="ko">먹고 싶다</span>'
-              '<br><span style="font-size:64px">I want to eat</span><br>'
+              '<br><span style="font-size:62px">I want to eat</span><br><br>'
               '<span class="ko">가고 싶다</span>'
-              '<br><span style="font-size:64px">I want to go</span></div>'),
-    dict(say="Mark any word you do not know.", layout="split",
-         clip="words", seg=(2.40, 4.26),
+              '<br><span style="font-size:62px">I want to go</span></div>'),
+    dict(say="Mark any word you do not know.", layout="clip",
+         clip="words", seg=(2.30, 4.26),
          html='<div class="cap">mark what<br>you do not know</div>'),
-    dict(say="Then the quiz asks you only those.", layout="split",
+    dict(say="Then the quiz asks you only those.", layout="clip",
          clip="quiz", seg=(0.40, 2.00),
          html='<div class="cap">quizzed on<br>exactly those</div>'),
-    dict(say="Thirty five songs. Free. No signup.", layout="host",
-         html='<div class="url">sing-korean.vercel.app</div>'),
+    dict(say="Thirty five BTS songs. Free, no signup.", layout="plate",
+         html='<div class="cap" style="font-size:86px">35 BTS songs<br>'
+              'word by word</div><div class="url">sing-korean.vercel.app</div>'),
 ]
 
 CAPTION_CSS = """
 *{margin:0;padding:0;box-sizing:border-box}
 html,body{background:transparent;width:%(W)dpx;height:%(H)dpx;
   font-family:-apple-system,"Helvetica Neue","Apple SD Gothic Neo",sans-serif}
-.cap{position:absolute;left:66px;right:66px;top:170px;text-align:center;
-  font-weight:800;font-size:100px;line-height:1.16;letter-spacing:-.01em;
+.cap{position:absolute;left:60px;right:60px;top:130px;height:460px;
+  display:flex;flex-direction:column;justify-content:center;text-align:center;
+  font-weight:800;font-size:96px;line-height:1.14;letter-spacing:-.01em;
   color:#fff;-webkit-text-stroke:14px #000;paint-order:stroke fill}
 .cap .ko{font-size:126px}
 .cap s{text-decoration:none;position:relative;display:inline-block}
@@ -85,6 +96,11 @@ html,body{background:transparent;width:%(W)dpx;height:%(H)dpx;
   font-size:72px;line-height:1.2;color:#fff;-webkit-text-stroke:10px #000;
   paint-order:stroke fill}
 .label small{display:block;font-size:46px;margin-top:8px}
+.hero{position:absolute;left:0;right:0;top:46%%;transform:translateY(-50%%);
+  text-align:center;color:#fff;-webkit-text-stroke:16px #000;paint-order:stroke fill}
+.hero .ko{display:block;font-weight:800;font-size:172px;line-height:1.08}
+.hero .rom{display:block;font-weight:700;font-size:62px;margin-top:22px;
+  color:#D7BFFF;-webkit-text-stroke:12px #000;paint-order:stroke fill;font-style:italic}
 .url{position:absolute;left:0;right:0;bottom:160px;text-align:center;
   font-weight:800;font-size:58px;color:#fff;-webkit-text-stroke:12px #000;
   paint-order:stroke fill}
@@ -163,38 +179,39 @@ def plate(i, html):
     return png if os.path.exists(png) else None
 
 
-def shot(i, s, host, offset):
+def shot(i, s, offset):
+    """한 컷. 앱 녹화를 화면에 가득 채우거나, 배경 플레이트 위에 자막만 둔다."""
     out = os.path.join(TMP, f"s{i:02d}.mp4")
     cap = plate(i, s.get("html"))
     d = s["dur"]
     ins, filt = [], []
 
-    # 얼굴은 전체 퍼펫 영상에서 이 컷에 해당하는 구간을 떼어 쓴다
-    ins += ["-ss", f"{offset:.3f}", "-t", f"{d:.3f}", "-i", host]
-
-    if s["layout"] == "host":
-        # 퍼펫은 1914 처럼 1920 보다 짧을 수 있다. 덮도록 키운 뒤 잘라야
-        # 원본보다 큰 크롭으로 필터가 거부당하지 않는다.
-        filt.append(f"[0:v]scale={W}:{H}:force_original_aspect_ratio=increase,"
-                    f"crop={W}:{H},setsar=1,fps={FPS}[base]")
-    elif s["layout"] == "plate":
-        filt.append(f"color=c=#120B22:s={W}x{H}:d={d}:r={FPS}[base]")
-    else:
+    if s["layout"] == "clip":
         a, b = s["seg"]
         sp = s.get("speed", 1.0)
         ins += ["-ss", f"{a}", "-t", f"{b-a}", "-i", os.path.join(REC, f"{s['clip']}.mp4")]
-        filt.append(f"[0:v]scale={SPLIT_HOST_W}:-2,"
-                    f"crop={SPLIT_HOST_W}:min({SPLIT_TOP}\,ih):0:min({SPLIT_FACE_Y}\,ih-{SPLIT_TOP}),"
-                    f"pad={W}:{SPLIT_TOP}:(ow-iw)/2:0:color=#120B22,setsar=1,fps={FPS}[top]")
-        filt.append(f"[1:v]setpts=PTS/{sp},scale={W}:-2,"
-                    f"crop={W}:{H-SPLIT_TOP}:0:'min(max(ih-{H-SPLIT_TOP},0),ih*0.24)',"
-                    f"setsar=1,fps={FPS},tpad=stop_mode=clone:stop_duration=8[bot]")
-        filt.append(f"[top][bot]vstack=inputs=2,trim=duration={d},setpts=PTS-STARTPTS[base]")
+        # 녹화는 세로지만 비율이 달라서, 덮도록 키운 뒤 아래쪽을 보여 준다.
+        # 자막이 상단 1/3 을 쓰므로 화면 아래쪽에 본문이 오게 잡는다.
+        # 앱 화면 위에 자막을 바로 얹으면 가사 글자와 겹쳐 둘 다 안 읽힌다.
+        # 레퍼런스에서는 그 자리가 얼굴이라 조용했다. 여기서는 띠를 비워 둔다.
+        body = H - TOPBAND
+        filt.append(
+            f"[0:v]setpts=PTS/{sp},scale={W}:-2,"
+            f"crop={W}:min({body}\,ih):0:min(ih*0.30\,max(ih-{body}\,0)),"
+            f"pad={W}:{H}:0:{TOPBAND}:color=#160C2B,"
+            f"setsar=1,fps={FPS},tpad=stop_mode=clone:stop_duration=10,"
+            f"trim=duration={d},setpts=PTS-STARTPTS[base]"
+        )
+        capidx = 1
+    else:
+        filt.append(f"color=c=#160C2B:s={W}x{H}:d={d}:r={FPS}[bg]")
+        filt.append(f"[bg]gradients=s={W}x{H}:c0=#2A1850:c1=#160C2B:d={d}:r={FPS}[ignore];"
+                    if False else f"[bg]null[base]")
+        capidx = 0
 
     if cap:
         ins += ["-loop", "1", "-t", f"{d}", "-i", cap]
-        idx = 2 if s["layout"] == "split" else 1
-        filt.append(f"[base][{idx}:v]overlay=0:0:format=auto[v]")
+        filt.append(f"[base][{capidx}:v]overlay=0:0:format=auto[v]")
         last = "[v]"
     else:
         last = "[base]"
@@ -219,9 +236,6 @@ def main():
     voice, total = narration()
     print(f"  total {total:.1f}s")
 
-    print("face")
-    host = puppet(voice, total, FPS)
-
     print("music")
     bed = os.path.join(TMP, "bed.wav")
     run([sys.executable, os.path.join(HERE, "music.py"),
@@ -230,7 +244,7 @@ def main():
     print("shots")
     clips, off = [], 0.0
     for i, s in enumerate(SHOTS):
-        c = shot(i, s, host, off)
+        c = shot(i, s, off)
         if c:
             clips.append(c)
         off += s["dur"]
@@ -257,7 +271,7 @@ def main():
     if not os.path.exists(OUT) or os.path.getsize(OUT) < 2048:
         sys.exit("final mux failed")
     print(f"\n{OUT}\n  {dur_of(OUT):.1f}s, {os.path.getsize(OUT)/1024/1024:.1f} MB, {W}x{H}")
-    print("  narration, animated face, synced captions, sequenced music")
+    print("  app footage led, narration-timed cuts, sequenced music")
 
 
 if __name__ == "__main__":

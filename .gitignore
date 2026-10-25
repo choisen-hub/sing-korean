@@ -11,3 +11,4 @@ media/usage_frames/
 media/reel_anim/
 media/decode_frames/
 media/recordings/*/
+media/_*.html

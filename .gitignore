@@ -5,3 +5,9 @@ node_modules/
 .DS_Store
 media/_tmp/
 media/shots/.raw*
+media/reference/*/source.mp4
+media/reference/*/frames/
+media/usage_frames/
+media/reel_anim/
+media/decode_frames/
+media/recordings/*/

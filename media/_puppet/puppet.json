@@ -1,0 +1,17 @@
+{
+ "mouth": {
+  "x": 0.4,
+  "y": 0.705,
+  "w": 0.22,
+  "h": 0.075
+ },
+ "eyes": {
+  "x": 0.26,
+  "y": 0.485,
+  "w": 0.5,
+  "h": 0.075
+ },
+ "fps": 30,
+ "audio": "/Users/clairdelune/projects/kpop-korean/media/_final/voice.wav",
+ "seconds": 27.78
+}
